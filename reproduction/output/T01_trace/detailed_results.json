@@ -1,0 +1,341 @@
+{
+  "index": 20,
+  "image_id": 1159713,
+  "file_name": "1159713.jpg",
+  "s": 6,
+  "o": 24,
+  "p": 46,
+  "slot": 6,
+  "meta": [
+    1159713,
+    640,
+    428,
+    337,
+    35,
+    154,
+    5
+  ],
+  "geometry_topk_position": 1,
+  "geometry_strict_rank": 1,
+  "geometry_logit": 0.201171875,
+  "pair_logit": 0.21610042452812195,
+  "image_rank": 2,
+  "riding": {
+    "id": 46,
+    "phrase": "riding",
+    "cos_sem_FP32": 0.6590660810470581,
+    "cos_spa_FP32": 0.4225095212459564,
+    "alpha": 0.008120348677039146,
+    "mixed_cos_FP32": 0.6571451425552368,
+    "scale": 15.406719207763672,
+    "bias": -4.697089672088623,
+    "logit_FP32_reconstruction": 5.427361011505127,
+    "logit_actual_BF16": 5.443941593170166,
+    "fused_logit": 5.660041809082031,
+    "score": 0.996529757976532,
+    "within_pair_rank": 1
+  },
+  "metrics": {
+    "R@20": 0.4,
+    "mR@20": 0.3333333333333333,
+    "F1@20": 0.3636363636363636,
+    "R@20_rare": 0.3333333333333333,
+    "n_cls_rare": 3.0,
+    "wR@20": 0.26620731371083256,
+    "R@50": 0.4,
+    "mR@50": 0.3333333333333333,
+    "F1@50": 0.3636363636363636,
+    "R@50_rare": 0.3333333333333333,
+    "wR@50": 0.26620731371083256,
+    "R@100": 0.4,
+    "mR@100": 0.3333333333333333,
+    "F1@100": 0.3636363636363636,
+    "R@100_rare": 0.3333333333333333,
+    "wR@100": 0.26620731371083256
+  },
+  "checks": {
+    "raw_box_mapping_max_abs": 2.7852637751735188e-08,
+    "relations_raw_pack_target_equal": true,
+    "sampler_replay_indices_and_logits_equal": true,
+    "hook_vs_plain_forward_max_abs": 0.0,
+    "official_independent_metric_max_abs": 0.0,
+    "slot_multi_hot_count": 5,
+    "all_vocabulary_query_max_abs": 0.0
+  },
+  "tensor_shapes": {
+    "pool_output_0": [
+      1,
+      35,
+      384
+    ],
+    "pool_boxes_0": [
+      1,
+      35,
+      4
+    ],
+    "F_map": [
+      1,
+      28,
+      28,
+      384
+    ],
+    "geo_scores": [
+      1,
+      1225,
+      1
+    ],
+    "sampler_zs": [
+      1,
+      35,
+      256
+    ],
+    "sampler_zo": [
+      1,
+      35,
+      256
+    ],
+    "sub_boxes": [
+      1,
+      400,
+      4
+    ],
+    "obj_boxes": [
+      1,
+      400,
+      4
+    ],
+    "geo_encoded": [
+      1,
+      400,
+      512
+    ],
+    "pool_output_1": [
+      1,
+      800,
+      384
+    ],
+    "pool_boxes_1": [
+      1,
+      800,
+      4
+    ],
+    "pair_input": [
+      1,
+      400,
+      2048
+    ],
+    "pair_projected": [
+      1,
+      400,
+      512
+    ],
+    "box_tokens": [
+      1,
+      400,
+      4,
+      512
+    ],
+    "relation_context": [
+      1,
+      400,
+      512
+    ],
+    "deformable_context": [
+      1,
+      400,
+      512
+    ],
+    "interaction_context": [
+      1,
+      400,
+      512
+    ],
+    "semantic_projection": [
+      1,
+      400,
+      512
+    ],
+    "subject_projection": [
+      1,
+      400,
+      512
+    ],
+    "object_projection": [
+      1,
+      400,
+      512
+    ],
+    "q_sem": [
+      1,
+      400,
+      512
+    ],
+    "q_spa": [
+      1,
+      400,
+      512
+    ],
+    "W": [
+      56,
+      512
+    ],
+    "alpha": [
+      56
+    ],
+    "images": [
+      1,
+      3,
+      448,
+      448
+    ],
+    "boxes": [
+      1,
+      35,
+      4
+    ],
+    "logits": [
+      400,
+      56
+    ],
+    "pair_logits": [
+      400
+    ],
+    "sub_idx": [
+      1,
+      400
+    ],
+    "obj_idx": [
+      1,
+      400
+    ],
+    "valid_mask": [
+      1,
+      400
+    ],
+    "slot_multi_hot": [
+      1,
+      400,
+      56
+    ],
+    "main_pair_geometry_19": [
+      19
+    ],
+    "expanded_logits": [
+      400,
+      11
+    ],
+    "synonym_only_logits": [
+      400,
+      3
+    ],
+    "original_control_logits": [
+      400,
+      3
+    ]
+  },
+  "feature_stats": [
+    [
+      "subject",
+      [
+        384
+      ],
+      19.682559967041016,
+      -3.671879291534424,
+      5.360080242156982,
+      [
+        -0.044179998338222504,
+        -0.17993000149726868,
+        0.5138300061225891,
+        0.2088100016117096,
+        0.3782399892807007,
+        0.6720600128173828,
+        -0.23465000092983246,
+        0.08629000186920166
+      ]
+    ],
+    [
+      "object",
+      [
+        384
+      ],
+      21.47425651550293,
+      -3.8038699626922607,
+      3.8611433506011963,
+      [
+        2.9188599586486816,
+        0.127920001745224,
+        0.22526000440120697,
+        0.051010001450777054,
+        0.873740017414093,
+        0.8455399870872498,
+        -2.636080026626587,
+        -0.8242499828338623
+      ]
+    ],
+    [
+      "union",
+      [
+        384
+      ],
+      19.69586944580078,
+      -3.535071611404419,
+      5.452070713043213,
+      [
+        0.16242000460624695,
+        -0.030230000615119934,
+        0.17714999616146088,
+        0.29113999009132385,
+        0.3960399925708771,
+        0.7209600210189819,
+        -0.4820599853992462,
+        0.012149999849498272
+      ]
+    ],
+    [
+      "contact",
+      [
+        384
+      ],
+      20.600107192993164,
+      -3.567702293395996,
+      3.9462239742279053,
+      [
+        2.5187199115753174,
+        -0.1899999976158142,
+        0.9011899828910828,
+        0.02556999959051609,
+        0.3149299919605255,
+        0.8040599822998047,
+        -1.8127199411392212,
+        -0.7005599737167358
+      ]
+    ]
+  ],
+  "observed_dtypes": {
+    "pool_output_0": "torch.float32",
+    "pool_boxes_0": "torch.float32",
+    "F_map": "torch.float32",
+    "geo_scores": "torch.bfloat16",
+    "sampler_zs": "torch.bfloat16",
+    "sampler_zo": "torch.bfloat16",
+    "sub_boxes": "torch.float32",
+    "obj_boxes": "torch.float32",
+    "geo_encoded": "torch.float32",
+    "pool_output_1": "torch.float32",
+    "pool_boxes_1": "torch.float32",
+    "pair_input": "torch.float32",
+    "pair_projected": "torch.bfloat16",
+    "box_tokens": "torch.float32",
+    "relation_context": "torch.bfloat16",
+    "deformable_context": "torch.float32",
+    "interaction_context": "torch.float32",
+    "semantic_projection": "torch.bfloat16",
+    "subject_projection": "torch.bfloat16",
+    "object_projection": "torch.bfloat16",
+    "q_sem": "torch.float32",
+    "q_spa": "torch.bfloat16"
+  },
+  "data_source": "PSG public test; not an RA-4M generation record",
+  "training": "no training; build_slot_targets executed separately as a teaching mapping",
+  "vlm": "not available for this PSG sample; no generated text substituted for raw records"
+}

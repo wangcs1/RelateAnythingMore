@@ -1,0 +1,1219 @@
+{
+  "cases": [
+    {
+      "case_id": "riding_1",
+      "index": 20,
+      "file_name": "1159713.jpg",
+      "s": 6,
+      "o": 24,
+      "predicate": "riding",
+      "type": "semantic",
+      "positive": [
+        "riding",
+        "riding on",
+        "mounted on"
+      ],
+      "negative": [
+        "carrying a rider",
+        "being ridden by",
+        "eating"
+      ],
+      "neg_types": [
+        "role reversal, contextual rather than logical antonym",
+        "role reversal",
+        "unrelated"
+      ],
+      "slot": 6,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.33906153417060014,
+        "object": 0.4582750984581447,
+        "union": 0.35353065747989815,
+        "contact": 0.47139654543696696
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.8405348658561707,
+          "patch_fraction_inside_box": 0.09566326530612244,
+          "patches_inside": 75
+        },
+        "object": {
+          "attention_mass_inside_box": 0.8429362177848816,
+          "patch_fraction_inside_box": 0.07015306122448979,
+          "patches_inside": 55
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.375,
+        0.25
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.0216064453125,
+        0.01287841796875
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        2.193450927734375e-05,
+        2.574920654296875e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.12363618612289429,
+        0.18958261609077454
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.02027020789682865,
+        "object": 0.05227982997894287,
+        "union": 0.023264875635504723,
+        "contact": 0.048187289386987686
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "riding_2",
+      "index": 35,
+      "file_name": "150476.jpg",
+      "s": 2,
+      "o": 4,
+      "predicate": "riding",
+      "type": "semantic",
+      "positive": [
+        "riding",
+        "riding on",
+        "mounted on"
+      ],
+      "negative": [
+        "carrying a rider",
+        "being ridden by",
+        "eating"
+      ],
+      "neg_types": [
+        "role reversal, contextual rather than logical antonym",
+        "role reversal",
+        "unrelated"
+      ],
+      "slot": 5,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.35480435131318966,
+        "object": 0.31318247096554874,
+        "union": 0.3531647517829932,
+        "contact": 0.351330143262395
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.30188047885894775,
+          "patch_fraction_inside_box": 0.002551020408163265,
+          "patches_inside": 2
+        },
+        "object": {
+          "attention_mass_inside_box": 0.31971365213394165,
+          "patch_fraction_inside_box": 0.002551020408163265,
+          "patches_inside": 2
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.1171875,
+        0.1875
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.00518798828125,
+        0.00799560546875
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        1.1086463928222656e-05,
+        1.7881393432617188e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.09487617015838623,
+        0.10434836149215698
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.054570555686950684,
+        "object": 0.044883958995342255,
+        "union": 0.0453747883439064,
+        "contact": 0.055461958050727844
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "holding_1",
+      "index": 1,
+      "file_name": "107910.jpg",
+      "s": 0,
+      "o": 20,
+      "predicate": "holding",
+      "type": "semantic",
+      "positive": [
+        "holding",
+        "grasping",
+        "holding onto"
+      ],
+      "negative": [
+        "being held by",
+        "held by",
+        "riding"
+      ],
+      "neg_types": [
+        "role reversal",
+        "role reversal",
+        "unrelated"
+      ],
+      "slot": 128,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.4622359882747484,
+        "object": 0.43134722245331214,
+        "union": 0.411399387563372,
+        "contact": 0.4721099685311866
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.9052751064300537,
+          "patch_fraction_inside_box": 0.16581632653061223,
+          "patches_inside": 130
+        },
+        "object": {
+          "attention_mass_inside_box": 0.8906552791595459,
+          "patch_fraction_inside_box": 0.5051020408163265,
+          "patches_inside": 396
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.25,
+        0.25
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.014404296875,
+        0.0103759765625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        1.1920928955078125e-05,
+        1.71661376953125e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.10616615414619446,
+        0.1087709367275238
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.051929086446762085,
+        "object": 0.027218472212553024,
+        "union": 0.027696989476680756,
+        "contact": 0.04716005176305771
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "holding_2",
+      "index": 2,
+      "file_name": "107912.jpg",
+      "s": 0,
+      "o": 1,
+      "predicate": "holding",
+      "type": "semantic",
+      "positive": [
+        "holding",
+        "grasping",
+        "holding onto"
+      ],
+      "negative": [
+        "being held by",
+        "held by",
+        "riding"
+      ],
+      "neg_types": [
+        "role reversal",
+        "role reversal",
+        "unrelated"
+      ],
+      "slot": 0,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.36537619258150944,
+        "object": 0.40930802257164683,
+        "union": 0.4216283263967256,
+        "contact": 0.3497304685227486
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.6307588815689087,
+          "patch_fraction_inside_box": 0.017857142857142856,
+          "patches_inside": 14
+        },
+        "object": {
+          "attention_mass_inside_box": 0.910092830657959,
+          "patch_fraction_inside_box": 0.04081632653061224,
+          "patches_inside": 32
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.0625,
+        0.125
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.00390625,
+        0.00787353515625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        4.76837158203125e-06,
+        9.5367431640625e-06
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.06866052746772766,
+        0.08852127194404602
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.03241845965385437,
+        "object": 0.04506175220012665,
+        "union": 0.035921674221754074,
+        "contact": 0.03922898322343826
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "on_1",
+      "index": 0,
+      "file_name": "107907.jpg",
+      "s": 0,
+      "o": 6,
+      "predicate": "on",
+      "type": "spatial",
+      "positive": [
+        "on",
+        "on top of",
+        "resting on"
+      ],
+      "negative": [
+        "under",
+        "below",
+        "eating"
+      ],
+      "neg_types": [
+        "contextual opposite",
+        "contextual opposite",
+        "unrelated"
+      ],
+      "slot": 0,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.39177037859940145,
+        "object": 0.3958747615476326,
+        "union": 0.39587468999782877,
+        "contact": 0.39177037859940145
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.5175728797912598,
+          "patch_fraction_inside_box": 0.01020408163265306,
+          "patches_inside": 8
+        },
+        "object": {
+          "attention_mass_inside_box": 0.9250808954238892,
+          "patch_fraction_inside_box": 0.42857142857142855,
+          "patches_inside": 336
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.09375,
+        0.125
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.005523681640625,
+        0.006744384765625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        6.4373016357421875e-06,
+        1.1444091796875e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.05151337385177612,
+        0.08952492475509644
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.04431430995464325,
+        "object": 0.04191264510154724,
+        "union": 0.04191628098487854,
+        "contact": 0.041527848690748215
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "on_2",
+      "index": 1,
+      "file_name": "107910.jpg",
+      "s": 5,
+      "o": 24,
+      "predicate": "on",
+      "type": "spatial",
+      "positive": [
+        "on",
+        "on top of",
+        "resting on"
+      ],
+      "negative": [
+        "under",
+        "below",
+        "eating"
+      ],
+      "neg_types": [
+        "contextual opposite",
+        "contextual opposite",
+        "unrelated"
+      ],
+      "slot": 0,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.3831804668978135,
+        "object": 0.40842370277092405,
+        "union": 0.363111033116225,
+        "contact": 0.3729031961719571
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.874907910823822,
+          "patch_fraction_inside_box": 0.025510204081632654,
+          "patches_inside": 20
+        },
+        "object": {
+          "attention_mass_inside_box": 0.9271374344825745,
+          "patch_fraction_inside_box": 0.1377551020408163,
+          "patches_inside": 108
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.25,
+        0.25
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.014404296875,
+        0.0103759765625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        1.1920928955078125e-05,
+        1.71661376953125e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.10616615414619446,
+        0.1087709367275238
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.08156521618366241,
+        "object": 0.04707023873925209,
+        "union": 0.03363398090004921,
+        "contact": 0.08285483717918396
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "over_1",
+      "index": 0,
+      "file_name": "107907.jpg",
+      "s": 4,
+      "o": 6,
+      "predicate": "over",
+      "type": "spatial",
+      "positive": [
+        "over",
+        "above",
+        "higher than"
+      ],
+      "negative": [
+        "under",
+        "below",
+        "holding"
+      ],
+      "neg_types": [
+        "contextual opposite",
+        "contextual opposite",
+        "unrelated"
+      ],
+      "slot": 41,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.41701207615172914,
+        "object": 0.3958747615476326,
+        "union": 0.4103716104059237,
+        "contact": 0.4462103347575274
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.9399557113647461,
+          "patch_fraction_inside_box": 0.29464285714285715,
+          "patches_inside": 231
+        },
+        "object": {
+          "attention_mass_inside_box": 0.9250808954238892,
+          "patch_fraction_inside_box": 0.42857142857142855,
+          "patches_inside": 336
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.09375,
+        0.125
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.005523681640625,
+        0.006744384765625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        6.4373016357421875e-06,
+        1.1444091796875e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.05151337385177612,
+        0.08952492475509644
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.053128600120544434,
+        "object": 0.04191264510154724,
+        "union": 0.027762457728385925,
+        "contact": 0.038161635398864746
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "over_2",
+      "index": 2,
+      "file_name": "107912.jpg",
+      "s": 5,
+      "o": 4,
+      "predicate": "over",
+      "type": "spatial",
+      "positive": [
+        "over",
+        "above",
+        "higher than"
+      ],
+      "negative": [
+        "under",
+        "below",
+        "holding"
+      ],
+      "neg_types": [
+        "contextual opposite",
+        "contextual opposite",
+        "unrelated"
+      ],
+      "slot": 10,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.4408696785234199,
+        "object": 0.41798697800413,
+        "union": 0.449032759870122,
+        "contact": 0.44038689622192084
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.996665894985199,
+          "patch_fraction_inside_box": 0.4642857142857143,
+          "patches_inside": 364
+        },
+        "object": {
+          "attention_mass_inside_box": 0.900962769985199,
+          "patch_fraction_inside_box": 0.2857142857142857,
+          "patches_inside": 224
+        }
+      },
+      "attention_weight_sum_min": 0.9999998211860657,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.0625,
+        0.125
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.00390625,
+        0.00787353515625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        4.76837158203125e-06,
+        9.5367431640625e-06
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.06866052746772766,
+        0.08852127194404602
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.047498077154159546,
+        "object": 0.03435803949832916,
+        "union": 0.028643375262618065,
+        "contact": 0.05050031095743179
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "beside_1",
+      "index": 1,
+      "file_name": "107910.jpg",
+      "s": 1,
+      "o": 3,
+      "predicate": "beside",
+      "type": "spatial",
+      "positive": [
+        "beside",
+        "next to",
+        "alongside"
+      ],
+      "negative": [
+        "inside",
+        "enclosing",
+        "eating"
+      ],
+      "neg_types": [
+        "contextual incompatible, not strict antonym",
+        "contextual incompatible, not strict antonym",
+        "unrelated"
+      ],
+      "slot": 289,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.39645935922001463,
+        "object": 0.3058852495701754,
+        "union": 0.3998876322967356,
+        "contact": 0.41865682726780307
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.9520142078399658,
+          "patch_fraction_inside_box": 0.3979591836734694,
+          "patches_inside": 312
+        },
+        "object": {
+          "attention_mass_inside_box": 0.8991270661354065,
+          "patch_fraction_inside_box": 0.07653061224489796,
+          "patches_inside": 60
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.25,
+        0.25
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.014404296875,
+        0.0103759765625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        1.1920928955078125e-05,
+        1.71661376953125e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.10616615414619446,
+        0.1087709367275238
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.02267683669924736,
+        "object": 0.05449117347598076,
+        "union": 0.027061551809310913,
+        "contact": 0.04029104486107826
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "beside_2",
+      "index": 2,
+      "file_name": "107912.jpg",
+      "s": 0,
+      "o": 4,
+      "predicate": "beside",
+      "type": "spatial",
+      "positive": [
+        "beside",
+        "next to",
+        "alongside"
+      ],
+      "negative": [
+        "inside",
+        "enclosing",
+        "eating"
+      ],
+      "neg_types": [
+        "contextual incompatible, not strict antonym",
+        "contextual incompatible, not strict antonym",
+        "unrelated"
+      ],
+      "slot": 3,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.36537619258150944,
+        "object": 0.41798697800413,
+        "union": 0.4179870137790319,
+        "contact": 0.3653761568066075
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.6307588815689087,
+          "patch_fraction_inside_box": 0.017857142857142856,
+          "patches_inside": 14
+        },
+        "object": {
+          "attention_mass_inside_box": 0.900962769985199,
+          "patch_fraction_inside_box": 0.2857142857142857,
+          "patches_inside": 224
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.0625,
+        0.125
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.00390625,
+        0.00787353515625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        4.76837158203125e-06,
+        9.5367431640625e-06
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.06866052746772766,
+        0.08852127194404602
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.03241845965385437,
+        "object": 0.03435803949832916,
+        "union": 0.03876730799674988,
+        "contact": 0.03773573040962219
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "in_front_of_1",
+      "index": 0,
+      "file_name": "107907.jpg",
+      "s": 5,
+      "o": 7,
+      "predicate": "in front of",
+      "type": "spatial",
+      "positive": [
+        "in front of",
+        "ahead of",
+        "in the foreground of"
+      ],
+      "negative": [
+        "behind",
+        "in back of",
+        "holding"
+      ],
+      "neg_types": [
+        "contextual opposite",
+        "contextual opposite",
+        "unrelated"
+      ],
+      "slot": 27,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.4343729921084573,
+        "object": 0.4555636828662283,
+        "union": 0.3967123593264393,
+        "contact": 0.36998840026258817
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.9084244966506958,
+          "patch_fraction_inside_box": 0.17857142857142858,
+          "patches_inside": 140
+        },
+        "object": {
+          "attention_mass_inside_box": 0.8787841200828552,
+          "patch_fraction_inside_box": 0.16071428571428573,
+          "patches_inside": 126
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.09375,
+        0.125
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.005523681640625,
+        0.006744384765625
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        6.4373016357421875e-06,
+        1.1444091796875e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.05151337385177612,
+        0.08952492475509644
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.05092659592628479,
+        "object": 0.03435516357421875,
+        "union": 0.021652009338140488,
+        "contact": 0.04665258526802063
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    },
+    {
+      "case_id": "in_front_of_2",
+      "index": 5,
+      "file_name": "1159300.jpg",
+      "s": 8,
+      "o": 9,
+      "predicate": "in front of",
+      "type": "spatial",
+      "positive": [
+        "in front of",
+        "ahead of",
+        "in the foreground of"
+      ],
+      "negative": [
+        "behind",
+        "in back of",
+        "holding"
+      ],
+      "neg_types": [
+        "contextual opposite",
+        "contextual opposite",
+        "unrelated"
+      ],
+      "slot": 35,
+      "maps": [
+        "subject",
+        "object",
+        "union",
+        "contact"
+      ],
+      "entropy_normalized": {
+        "subject": 0.36605452049693904,
+        "object": 0.3899211739188172,
+        "union": 0.39213735754336415,
+        "contact": 0.37356911019641825
+      },
+      "box_mass": {
+        "subject": {
+          "attention_mass_inside_box": 0.897863507270813,
+          "patch_fraction_inside_box": 0.05357142857142857,
+          "patches_inside": 42
+        },
+        "object": {
+          "attention_mass_inside_box": 0.9306089282035828,
+          "patch_fraction_inside_box": 0.413265306122449,
+          "patches_inside": 324
+        }
+      },
+      "attention_weight_sum_min": 0.9999998807907104,
+      "attention_weight_sum_max": 1.0000001192092896,
+      "need_weights_vs_fast_output_max_abs": [
+        0.125,
+        0.25
+      ],
+      "need_weights_vs_fast_output_relative_max": [
+        0.006378173828125,
+        0.01141357421875
+      ],
+      "fp32_need_weights_vs_fast_output_max_abs": [
+        9.5367431640625e-06,
+        2.384185791015625e-05
+      ],
+      "bf16_vs_fp32_attention_max_abs": [
+        0.10377857089042664,
+        0.10621270537376404
+      ],
+      "bf16_vs_fp32_per_region_mean_head_L1": {
+        "subject": 0.04204890877008438,
+        "object": 0.023630686104297638,
+        "union": 0.02001800760626793,
+        "contact": 0.050551675260066986
+      },
+      "forward_repeat_logit_max_abs": 0.0,
+      "note": "Displayed weights recomputed in FP32 from captured actual q/k/v. BF16 versus FP32 attention and fast versus explicit MHA errors recorded; original BF16 model forward unchanged. Heads retained, averaged only for display; not bit-identical runtime attribution."
+    }
+  ],
+  "traces": [
+    {
+      "case_id": "riding_1",
+      "index": 20,
+      "file_name": "1159713.jpg",
+      "s": 6,
+      "o": 24,
+      "predicate": "riding",
+      "type": "semantic",
+      "positive": [
+        "riding",
+        "riding on",
+        "mounted on"
+      ],
+      "negative": [
+        "carrying a rider",
+        "being ridden by",
+        "eating"
+      ],
+      "neg_types": [
+        "role reversal, contextual rather than logical antonym",
+        "role reversal",
+        "unrelated"
+      ],
+      "sample_is_test_not_train": true,
+      "vlm_original": "not available: no claim of regenerated RA-4M annotation",
+      "training_mapping": "teaching schematic only; no training performed",
+      "gt_records": [
+        [
+          6,
+          24,
+          46
+        ],
+        [
+          10,
+          16,
+          46
+        ],
+        [
+          12,
+          13,
+          23
+        ],
+        [
+          16,
+          31,
+          48
+        ],
+        [
+          24,
+          31,
+          48
+        ]
+      ],
+      "predicate_index": 46,
+      "W_shape": [
+        56,
+        512
+      ],
+      "W_predicate": "riding",
+      "W_first16": [
+        -0.04216407611966133,
+        0.041818346828222275,
+        0.05339321494102478,
+        -0.021257251501083374,
+        -0.04325027018785477,
+        -0.05251592397689819,
+        0.026349777355790138,
+        0.013053737580776215,
+        -0.01259890478104353,
+        -0.037917159497737885,
+        0.06581725180149078,
+        0.002505731303244829,
+        -0.03899354487657547,
+        0.03364190831780434,
+        0.040879424661397934,
+        0.004099179059267044
+      ],
+      "query_shapes": {
+        "semantic": [
+          512
+        ],
+        "spatial": [
+          512
+        ]
+      },
+      "slot": 6,
+      "logits_shape": [
+        1,
+        400,
+        56
+      ],
+      "pair_logit": 0.21610042452812195,
+      "alpha": 0.008120348677039146,
+      "cos_sem": 0.6590660810470581,
+      "cos_spa": 0.4225095212459564,
+      "predicate_logit_BF16": 5.443941593170166,
+      "fused_score": 0.996529757976532,
+      "fixed_pair_best": "riding",
+      "GT_rank_in_pair": 1,
+      "boxes_cxcywh": [
+        [
+          0.41093748807907104,
+          0.1425233632326126,
+          0.04374999925494194,
+          0.14018692076206207
+        ],
+        [
+          0.24843749403953552,
+          0.42289718985557556,
+          0.14374999701976776,
+          0.43457943201065063
+        ],
+        [
+          0.6664062738418579,
+          0.11098130792379379,
+          0.02031249925494194,
+          0.03971962630748749
+        ],
+        [
+          0.5546875,
+          0.3995327055454254,
+          0.13124999403953552,
+          0.3177570104598999
+        ],
+        [
+          0.639843761920929,
+          0.3995327055454254,
+          0.15468749403953552,
+          0.35514017939567566
+        ],
+        [
+          0.8031250238418579,
+          0.33761683106422424,
+          0.109375,
+          0.24065420031547546
+        ],
+        [
+          0.4312500059604645,
+          0.586448609828949,
+          0.17812499403953552,
+          0.5560747385025024
+        ],
+        [
+          0.27421873807907104,
+          0.08060747385025024,
+          0.05781250074505806,
+          0.1612149477005005
+        ],
+        [
+          0.30546873807907104,
+          0.2102803736925125,
+          0.06406249850988388,
+          0.29439252614974976
+        ],
+        [
+          0.20000000298023224,
+          0.1425233632326126,
+          0.09062500298023224,
+          0.2850467264652252
+        ],
+        [
+          0.13515624403953552,
+          0.5490654110908508,
+          0.22968749701976776,
+          0.4532710313796997
+        ],
+        [
+          0.05937499925494194,
+          0.1927570104598999,
+          0.06562499701976776,
+          0.2640186846256256
+        ],
+        [
+          0.8453124761581421,
+          0.6857476830482483,
+          0.3031249940395355,
+          0.605140209197998
+        ],
+        [
+          0.500781238079071,
+          0.2675233781337738,
+          0.9984375238418579,
+          0.5350467562675476
+        ],
+        [
+          0.909375011920929,
+          0.3890186846256256,
+          0.046875,
+          0.17056074738502502
+        ],
+        [
+          0.9593750238418579,
+          0.4742990732192993,
+          0.08124999701976776,
+          0.257009357213974
+        ],
+        [
+          0.16249999403953552,
+          0.7850467562675476,
+          0.265625,
+          0.3925233781337738
+        ],
+        [
+          0.6343749761581421,
+          0.6238317489624023,
+          0.16562500596046448,
+          0.3925233781337738
+        ],
+        [
+          0.9429687261581421,
+          0.44158878922462463,
+          0.02968749962747097,
+          0.14953270554542542
+        ],
+        [
+          0.871874988079071,
+          0.47663551568984985,
+          0.03437500074505806,
+          0.15420560538768768
+        ],
+        [
+          0.555468738079071,
+          0.6074766516685486,
+          0.10468749701976776,
+          0.30841121077537537
+        ],
+        [
+          0.24609375,
+          0.5782710313796997,
+          0.0859375,
+          0.18457943201065063
+        ],
+        [
+          0.721875011920929,
+          0.5245327353477478,
+          0.09062500298023224,
+          0.23130841553211212
+        ],
+        [
+          0.7445312738418579,
+          0.2289719581604004,
+          0.05156249925494194,
+          0.0607476644217968
+        ],
+        [
+          0.44140625,
+          0.7675233483314514,
+          0.1953125,
+          0.39485982060432434
+        ],
+        [
+          0.2710937559604645,
+          0.6191588640213013,
+          0.15156249701976776,
+          0.24766355752944946
+        ],
+        [
+          0.18125000596046448,
+          0.16004672646522522,
+          0.15000000596046448,
+          0.10981308668851852
+        ],
+        [
+          0.34062498807907104,
+          0.23831775784492493,
+          0.02812499925494194,
+          0.07009346038103104
+        ],
+        [
+          0.04296875,
+          0.3563084006309509,
+          0.02968749962747097,
+          0.13317756354808807
+        ],
+        [
+          0.11406250298023224,
+          0.19509345293045044,
+          0.03437500074505806,
+          0.07710280269384384
+        ],
+        [
+          0.620312511920929,
+          0.09228971600532532,
+          0.22812500596046448,
+          0.14719626307487488
+        ],
+        [
+          0.5,
+          0.677570104598999,
+          1.0,
+          0.644859790802002
+        ],
+        [
+          0.15937499701976776,
+          0.11214952915906906,
+          0.3187499940395355,
+          0.08411215245723724
+        ],
+        [
+          0.3609375059604645,
+          0.05490654334425926,
+          0.721875011920929,
+          0.10981308668851852
+        ],
+        [
+          0.015625,
+          0.1927570104598999,
+          0.03125,
+          0.08644859492778778
+        ]
+      ]
+    }
+  ],
+  "protocol": "prehook observes actual MHA q/k/v; no changed forward; explicitly recomputed weights, heads retained; observational not causal"
+}

@@ -1,0 +1,29 @@
+# 本机环境与外部资源
+/.venv-eval/
+/models/
+/data/*
+!/data/PSG/
+/data/PSG/*
+!/data/PSG/test_coco.json
+!/data/PSG/packed/
+/data/PSG/packed/*
+!/data/PSG/packed/psg/
+/data/PSG/packed/psg/*
+!/data/PSG/packed/psg/test/
+
+# 历史归档与可重新生成的压缩包
+/reproduction/archive/
+/reproduction/delivery/*.zip
+
+# 中间文件与缓存
+/.work/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

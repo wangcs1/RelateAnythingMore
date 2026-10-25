@@ -1,0 +1,33 @@
+{
+  "created_before_execution": "2026-10-15",
+  "resolution": 448,
+  "batch_size": 8,
+  "seed": 42,
+  "subset_images": 300,
+  "subset_selection": "evenly spaced packed test indices, endpoint inclusive; no outcome-based selection",
+  "perturbation_seeds": [101, 202, 303],
+  "translation_levels": [0.02, 0.05, 0.10, 0.20],
+  "scale_levels": [0.02, 0.05, 0.10, 0.20],
+  "pair_weights": [0.0, 1.0],
+  "image_conditions": ["original", "blur", "grayscale", "mean_image", "permuted"],
+  "spatial_predicates": ["over", "in front of", "beside", "on", "in", "attached to", "hanging from", "painted on", "on back of", "leaning on", "enclosing"],
+  "spatial_definition": "explicit analyst partition of PSG predicates: static placement/containment/attachment. Action predicates such as sitting on, standing on, riding remain semantic; not official alpha routing ground truth.",
+  "e01_groups": {
+    "riding": {"type": "semantic", "positive": ["riding", "riding on", "mounted on"], "negative": ["carrying a rider", "being ridden by", "eating"], "neg_types": ["role reversal, contextual rather than logical antonym", "role reversal", "unrelated"]},
+    "holding": {"type": "semantic", "positive": ["holding", "grasping", "holding onto"], "negative": ["being held by", "held by", "riding"], "neg_types": ["role reversal", "role reversal", "unrelated"]},
+    "on": {"type": "spatial", "positive": ["on", "on top of", "resting on"], "negative": ["under", "below", "eating"], "neg_types": ["contextual opposite", "contextual opposite", "unrelated"]},
+    "over": {"type": "spatial", "positive": ["over", "above", "higher than"], "negative": ["under", "below", "holding"], "neg_types": ["contextual opposite", "contextual opposite", "unrelated"]},
+    "beside": {"type": "spatial", "positive": ["beside", "next to", "alongside"], "negative": ["inside", "enclosing", "eating"], "neg_types": ["contextual incompatible, not strict antonym", "contextual incompatible, not strict antonym", "unrelated"]},
+    "in front of": {"type": "spatial", "positive": ["in front of", "ahead of", "in the foreground of"], "negative": ["behind", "in back of", "holding"], "neg_types": ["contextual opposite", "contextual opposite", "unrelated"]}
+  },
+  "e01_samples_per_group": 4,
+  "e01_selection": "first four distinct test images per target predicate, lexicographically first GT pair; no dependence on predictions; manual contextual caveats required",
+  "visual_examples_per_condition": 6,
+  "decision_rules": {
+    "E01": "compare exact fixed-pair raw predicate and fused scores, ranks, max-positive minus max-negative margin, positive paraphrase spread; report all 24 selected cases and wording caveats; not proof of unseen semantics",
+    "E02": "report all seeds/levels with R,mR,F1, per-type GT pooled hits, selected-pair coverage and selected-pair predicate accuracy; distinguish pruning and classification; fixed identities, not SGDet",
+    "E03": "compare weight 0 vs 1 on identical full-test logits and pair sets, no recalibration or threshold tuning",
+    "E04": "compare original against each image intervention on same 300 indices/boxes/vocabulary; OOD intervention cannot by itself identify causal visual reasoning",
+    "V01": "record actual per-head query-to-patch weights; report recomputation precision discrepancy; attention is descriptive, not causal attribution"
+  }
+}

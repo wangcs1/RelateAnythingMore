@@ -1,0 +1,31 @@
+{
+  "reviewer": "assistant visual inspection; not independent human ground truth",
+  "scope": "24 fixed PSG final-GT pairs, original images and numbered region overlays; no RA-4M stage logs",
+  "categories": "supports GT at visible coarse level / coarse-region ambiguity / wording-context caveat; these are exploratory notes, not benchmark accuracy labels",
+  "cases": {
+    "riding_1": "自行车群中人骑车可见；mounted on可表达骑乘，但其常见安装义使文本探针不纯。拥挤小框可能含邻近骑手。",
+    "riding_2": "主体为车内乘客/司机小框，客体是大巴；riding符合乘车，mounted on不像骑马那样自然，不能把三短语视作完全等价。",
+    "riding_3": "街道骑车人与自行车，骑乘方向有图像支持；反向being ridden by应在自行车→人上比较，已补充反向槽诊断。",
+    "riding_4": "人处于小船内，riding可指乘船；mounted on在此语境不自然，carrying a rider也涉及舟→人的角色方向，非严格逻辑反义。",
+    "holding_1": "手与覆盖较大桌面/商品区域的客体框；手实际接触红色物体，但大客体框较粗，GT的holding不是全框内所有内容都被握住。不能严格认证grasping的等价性。",
+    "holding_2": "人拿着冲浪板可见，但抓握部位很小；holding onto与grasping描述强调不同。",
+    "holding_3": "人手持伞柄可见；客体伞框大、接触证据集中在柄，holding有支持。",
+    "holding_4": "网球场人物与器材很小；可按GT追踪，但手部细节证据不足，不应给出过强人工正确断言。",
+    "on_1": "椅子/小物体位于草坪地面上，on有支持；resting on通常合理，但它带有支撑/静止额外含义。",
+    "on_2": "商品位于桌面大框，on有支持；框重叠不是独立证明，需要结合物体底面/桌面外观。",
+    "on_3": "持冲浪板的人站在沙滩，on成立；resting on用在人身上暗示休息，不与站立on完全同义。",
+    "on_4": "椅子位于室内地面，on有支持；below/under是相对于该地面的大区域关系，需结合方向不能只看中心高度。",
+    "over_1": "树冠大框在草坪上方，over支持粗空间意义；higher than比较框整体高度，和遮盖over不完全等价。",
+    "over_2": "天空在海面上方，over/above有粗层次支持；两者大背景框的投影位置不等于三维深度。",
+    "over_3": "天空大背景框在火车上方，有支持；语言频率和背景区域形状可能同时贡献。",
+    "over_4": "教堂天花板在地面上方，over/above有支持；higher than是相对高度比较，不完整表达覆盖关系。",
+    "beside_1": "左右相邻人物/区域，beside支持；inside/enclosing是包含控制而非beside的严格反义。",
+    "beside_2": "人物与海面大区域相邻且有前后层次；next to可能强调距离近，不能仅凭两框相邻认证。",
+    "beside_3": "室内相邻设备/门旁物体，beside支持；对象框本身不能完全确定接触或距离。",
+    "beside_4": "两辆列车/车厢邻接，beside支持；alongside可描述并行，曲线铁路中语境有差异。",
+    "in_front_of_1": "花园前部区域和后部树木/边界，GT深度方向有粗证据；ahead of含运动或序列含义，不是静态深度的严格同义。",
+    "in_front_of_2": "前景人/建筑与后方对象，遮挡可支持前后；主体与客体大框和部分遮挡需谨慎判断。",
+    "in_front_of_3": "前景栏杆与后方车辆/背景对象有遮挡证据；in the foreground of较自然，ahead of不必等价。",
+    "in_front_of_4": "顶部大背景树/区域框与另一个顶部背景区域/伞相关框有明显重叠，GT具体深度难以独立确认；源记录间隔为正（约+1.0184）、原词排名1，不能将此例描述为负间隔或确定的方向识别失败。"
+  }
+}

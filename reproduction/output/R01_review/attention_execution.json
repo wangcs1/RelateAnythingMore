@@ -1,0 +1,261 @@
+{
+  "blocks": [
+    {
+      "block": 0,
+      "input_shapes": {
+        "query": [
+          1,
+          35,
+          384
+        ],
+        "key": [
+          1,
+          784,
+          384
+        ],
+        "value": [
+          1,
+          784,
+          384
+        ]
+      },
+      "input_keys": [
+        "query",
+        "key",
+        "value",
+        "attn_mask"
+      ],
+      "default_need_weights": true,
+      "actual_returned_weight_shape": [
+        1,
+        35,
+        784
+      ],
+      "captured_default_replay_max_abs": 0.0,
+      "default_vs_explicit_perhead_output_max_abs": 0.0,
+      "actual_vs_need_weights_false_max_abs": 0.375,
+      "actual_avg_weights_vs_explicit_head_mean_max_abs": 0.0
+    },
+    {
+      "block": 1,
+      "input_shapes": {
+        "query": [
+          1,
+          800,
+          384
+        ],
+        "key": [
+          1,
+          784,
+          384
+        ],
+        "value": [
+          1,
+          784,
+          384
+        ]
+      },
+      "input_keys": [
+        "query",
+        "key",
+        "value",
+        "attn_mask"
+      ],
+      "default_need_weights": true,
+      "actual_returned_weight_shape": [
+        1,
+        800,
+        784
+      ],
+      "captured_default_replay_max_abs": 0.0,
+      "default_vs_explicit_perhead_output_max_abs": 0.0,
+      "actual_vs_need_weights_false_max_abs": 0.25,
+      "actual_avg_weights_vs_explicit_head_mean_max_abs": 0.0
+    }
+  ],
+  "profiler_events": [
+    {
+      "name": "aten::transpose",
+      "count": 13
+    },
+    {
+      "name": "aten::as_strided",
+      "count": 20
+    },
+    {
+      "name": "aten::chunk",
+      "count": 2
+    },
+    {
+      "name": "aten::split",
+      "count": 2
+    },
+    {
+      "name": "aten::narrow",
+      "count": 6
+    },
+    {
+      "name": "aten::slice",
+      "count": 6
+    },
+    {
+      "name": "aten::linear",
+      "count": 8
+    },
+    {
+      "name": "aten::to",
+      "count": 13
+    },
+    {
+      "name": "aten::_to_copy",
+      "count": 13
+    },
+    {
+      "name": "aten::empty_strided",
+      "count": 13
+    },
+    {
+      "name": "aten::copy_",
+      "count": 14
+    },
+    {
+      "name": "Activity Buffer Request",
+      "count": 1
+    },
+    {
+      "name": "cudaLaunchKernel",
+      "count": 19
+    },
+    {
+      "name": "aten::view",
+      "count": 11
+    },
+    {
+      "name": "aten::t",
+      "count": 4
+    },
+    {
+      "name": "aten::addmm",
+      "count": 4
+    },
+    {
+      "name": "cudaDeviceGetAttribute",
+      "count": 6
+    },
+    {
+      "name": "cuLaunchKernel",
+      "count": 6
+    },
+    {
+      "name": "cudaMemsetAsync",
+      "count": 2
+    },
+    {
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "name": "aten::bmm",
+      "count": 3
+    },
+    {
+      "name": "aten::softmax",
+      "count": 1
+    },
+    {
+      "name": "aten::_softmax",
+      "count": 1
+    },
+    {
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "name": "aten::clone",
+      "count": 1
+    },
+    {
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "name": "aten::empty",
+      "count": 1
+    },
+    {
+      "name": "aten::_unsafe_view",
+      "count": 1
+    },
+    {
+      "name": "aten::mean",
+      "count": 1
+    },
+    {
+      "name": "cudaDeviceSynchronize",
+      "count": 1
+    },
+    {
+      "name": "_ZN2at6native29vectorized_elementwise_kernelILi4EZNS0_25bfloat16_copy_kernel_cudaERNS_18TensorIteratorBaseEEUlfE_St5arrayIPcLy2EEEEviT0_T1_",
+      "count": 12
+    },
+    {
+      "name": "_ZN7cutlass7Kernel2I68cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x1_tn_align2EEvNT_6ParamsE",
+      "count": 2
+    },
+    {
+      "name": "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Ei13__nv_bfloat16S1_fS1_Lb0ES1_S1_S1_Lb1ELb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvxPS3_PiSM_SM_SG_SG_SG_SG_SG_",
+      "count": 2
+    },
+    {
+      "name": "_ZN7cutlass7Kernel2I67cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_64x1_tn_align8EEvNT_6ParamsE",
+      "count": 2
+    },
+    {
+      "name": "_ZN2at6native29vectorized_elementwise_kernelILi4ENS0_13AUnaryFunctorIN3c108BFloat16ES4_S4_NS0_15binary_internal10MulFunctorIfEEEESt5arrayIPcLy2EEEEviT0_T1_",
+      "count": 1
+    },
+    {
+      "name": "_ZN7cutlass7Kernel2I67cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_32x1_tn_align8EEvNT_6ParamsE",
+      "count": 1
+    },
+    {
+      "name": "_ZN2at6native27unrolled_elementwise_kernelIZZZNS0_23direct_copy_kernel_cudaERNS_18TensorIteratorBaseEENKUlvE1_clEvENKUlvE5_clEvEUlfE_St5arrayIPcLy2EELi4E23TrivialOffsetCalculatorILi1EjESB_NS0_6memory12LoadWithCastILi1EEENSC_13StoreWithCastILi1EEEEEviT_T0_T2_T3_T4_T5_",
+      "count": 1
+    },
+    {
+      "name": "_ZN43_GLOBAL__N__bcfaaeff_10_SoftMax_cu_0af7be2120softmax_warp_forwardIfffLi10ELb0ELb0ELi32EEEvPT0_PKT_iiiPKbib",
+      "count": 1
+    },
+    {
+      "name": "_ZN7cutlass7Kernel2I68cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_nn_align8EEvNT_6ParamsE",
+      "count": 1
+    },
+    {
+      "name": "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_23direct_copy_kernel_cudaERNS_18TensorIteratorBaseEENKUlvE1_clEvENKUlvE10_clEvEUlN3c108BFloat16EE_EEvS4_RKT_EUliE_EEviT1_",
+      "count": 1
+    },
+    {
+      "name": "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIfNS0_7MeanOpsIffffEEjfLi4ELi4EEEEEvT1_",
+      "count": 1
+    }
+  ],
+  "operator_evidence": [
+    {
+      "name": "aten::bmm",
+      "count": 3
+    },
+    {
+      "name": "aten::softmax",
+      "count": 1
+    },
+    {
+      "name": "aten::_softmax",
+      "count": 1
+    },
+    {
+      "name": "_ZN43_GLOBAL__N__bcfaaeff_10_SoftMax_cu_0af7be2120softmax_warp_forwardIfffLi10ELb0ELb0ELi32EEEvPT0_PKT_iiiPKbib",
+      "count": 1
+    }
+  ],
+  "actual_contract": "Default need_weights=True, weights returned. Need_weights=False was a deliberate diagnostic alternative, not the original forward."
+}

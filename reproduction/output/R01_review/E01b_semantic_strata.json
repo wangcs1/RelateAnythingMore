@@ -1,0 +1,922 @@
+{
+  "protocol": "Post-hoc assistant semantic reannotation of the existing 24 cases after prior scores were available. Images, numbered boxes and previous context notes inspected; labels use image/context reasoning, not score thresholds. Not independent, blinded, or a new benchmark. Equivalent subset remains provisional until independent human review.",
+  "categories": {
+    "E": "contextually equivalent",
+    "N": "near meaning with extra/different emphasis",
+    "X": "not equivalent",
+    "U": "uncertain"
+  },
+  "reviewer": "assistant only; previous scores accessible; not independent blind review",
+  "post_hoc": true,
+  "annotation_sha256": "4dca070fd9aa88444b12cf8d04ad0beae7ecda68daebce8ad5dc9b3a3981d03d",
+  "summary": {
+    "E": {
+      "all_comparisons": 13,
+      "with_confirmed_controls": 12,
+      "independent_images": 9,
+      "win_rate": 0.9166666666666666,
+      "original_win_rate": 1.0,
+      "cluster_bootstrap_ci95": [
+        0.7,
+        1.0
+      ]
+    },
+    "N": {
+      "all_comparisons": 18,
+      "with_confirmed_controls": 16,
+      "independent_images": 9,
+      "win_rate": 0.4375,
+      "original_win_rate": 1.0,
+      "cluster_bootstrap_ci95": [
+        0.21392857142857155,
+        0.6428571428571429
+      ]
+    },
+    "X": {
+      "all_comparisons": 4,
+      "with_confirmed_controls": 2,
+      "independent_images": 2,
+      "win_rate": 0.5,
+      "original_win_rate": 1.0,
+      "cluster_bootstrap_ci95": [
+        0.0,
+        1.0
+      ]
+    },
+    "U": {
+      "all_comparisons": 13,
+      "with_confirmed_controls": 0,
+      "independent_images": 0,
+      "win_rate": null,
+      "original_win_rate": null,
+      "cluster_bootstrap_ci95": null
+    }
+  },
+  "comparisons": [
+    {
+      "case_id": "riding_1",
+      "image_index": 20,
+      "phrase": "riding on",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 5.4273600578308105,
+      "paraphrase_logit": 5.189479351043701,
+      "controls_max_logit": 1.7278642654418945,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Visible cyclist/bicycle; riding on preserves action. Mounted adds a lexical ambiguity. Passive/carrying expressions reverse roles."
+    },
+    {
+      "case_id": "riding_1",
+      "image_index": 20,
+      "phrase": "mounted on",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 5.4273600578308105,
+      "paraphrase_logit": -3.416362762451172,
+      "controls_max_logit": 1.7278642654418945,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Visible cyclist/bicycle; riding on preserves action. Mounted adds a lexical ambiguity. Passive/carrying expressions reverse roles."
+    },
+    {
+      "case_id": "riding_2",
+      "image_index": 35,
+      "phrase": "riding on",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 5.381165981292725,
+      "paraphrase_logit": 5.208790302276611,
+      "controls_max_logit": 1.3722248077392578,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Tiny occupant in bus; mounted on is not the bus occupancy relation. Small original regions prevent strict certification."
+    },
+    {
+      "case_id": "riding_2",
+      "image_index": 35,
+      "phrase": "mounted on",
+      "semantic_label": "X",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 5.381165981292725,
+      "paraphrase_logit": -3.036914825439453,
+      "controls_max_logit": 1.3722248077392578,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Tiny occupant in bus; mounted on is not the bus occupancy relation. Small original regions prevent strict certification."
+    },
+    {
+      "case_id": "riding_3",
+      "image_index": 49,
+      "phrase": "riding on",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 5.788471698760986,
+      "paraphrase_logit": 5.49151086807251,
+      "controls_max_logit": 2.0175442695617676,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Street cyclist too small for strict independent semantic and control confirmation."
+    },
+    {
+      "case_id": "riding_3",
+      "image_index": 49,
+      "phrase": "mounted on",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 5.788471698760986,
+      "paraphrase_logit": -3.330897092819214,
+      "controls_max_logit": 2.0175442695617676,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Street cyclist too small for strict independent semantic and control confirmation."
+    },
+    {
+      "case_id": "riding_4",
+      "image_index": 56,
+      "phrase": "riding on",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 2.598177909851074,
+      "paraphrase_logit": 2.751208782196045,
+      "controls_max_logit": 0.25485944747924805,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Boat occupancy differs from mounted on; eating cannot be firmly excluded at this scale."
+    },
+    {
+      "case_id": "riding_4",
+      "image_index": 56,
+      "phrase": "mounted on",
+      "semantic_label": "X",
+      "controls_labels": [
+        "F",
+        "F",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 2.598177909851074,
+      "paraphrase_logit": -4.189123153686523,
+      "controls_max_logit": 0.25485944747924805,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Boat occupancy differs from mounted on; eating cannot be firmly excluded at this scale."
+    },
+    {
+      "case_id": "holding_1",
+      "image_index": 1,
+      "phrase": "grasping",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 2.4441890716552734,
+      "paraphrase_logit": -0.5137743949890137,
+      "controls_max_logit": 0.2898898124694824,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Coarse object region and hand overlap do not establish equivalence to grasping all contents."
+    },
+    {
+      "case_id": "holding_1",
+      "image_index": 1,
+      "phrase": "holding onto",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 2.4441890716552734,
+      "paraphrase_logit": 0.34102964401245117,
+      "controls_max_logit": 0.2898898124694824,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Coarse object region and hand overlap do not establish equivalence to grasping all contents."
+    },
+    {
+      "case_id": "holding_2",
+      "image_index": 2,
+      "phrase": "grasping",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 4.2922749519348145,
+      "paraphrase_logit": -1.417949914932251,
+      "controls_max_logit": 2.4102282524108887,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Surfboard held visibly, but grasping/holding onto impose grip emphasis not established at displayed resolution."
+    },
+    {
+      "case_id": "holding_2",
+      "image_index": 2,
+      "phrase": "holding onto",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 4.2922749519348145,
+      "paraphrase_logit": 2.4406867027282715,
+      "controls_max_logit": 2.4102282524108887,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Surfboard held visibly, but grasping/holding onto impose grip emphasis not established at displayed resolution."
+    },
+    {
+      "case_id": "holding_3",
+      "image_index": 9,
+      "phrase": "grasping",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.3229241371154785,
+      "paraphrase_logit": -2.7673044204711914,
+      "controls_max_logit": 0.40636205673217773,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Umbrella handle visibly held; holding onto preserves relation, grasping adds grip emphasis."
+    },
+    {
+      "case_id": "holding_3",
+      "image_index": 9,
+      "phrase": "holding onto",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.3229241371154785,
+      "paraphrase_logit": 1.1475729942321777,
+      "controls_max_logit": 0.40636205673217773,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Umbrella handle visibly held; holding onto preserves relation, grasping adds grip emphasis."
+    },
+    {
+      "case_id": "holding_4",
+      "image_index": 10,
+      "phrase": "grasping",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 4.900218486785889,
+      "paraphrase_logit": -0.85994553565979,
+      "controls_max_logit": 2.9475317001342773,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Small tennis equipment and hand are uncertain."
+    },
+    {
+      "case_id": "holding_4",
+      "image_index": 10,
+      "phrase": "holding onto",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 4.900218486785889,
+      "paraphrase_logit": 3.317345142364502,
+      "controls_max_logit": 2.9475317001342773,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Small tennis equipment and hand are uncertain."
+    },
+    {
+      "case_id": "on_1",
+      "image_index": 0,
+      "phrase": "on top of",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.3225197792053223,
+      "paraphrase_logit": 1.789968490600586,
+      "controls_max_logit": -1.4010567665100098,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Chair on lawn; top placement matches, resting adds static support emphasis."
+    },
+    {
+      "case_id": "on_1",
+      "image_index": 0,
+      "phrase": "resting on",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.3225197792053223,
+      "paraphrase_logit": 1.338606834411621,
+      "controls_max_logit": -1.4010567665100098,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Chair on lawn; top placement matches, resting adds static support emphasis."
+    },
+    {
+      "case_id": "on_2",
+      "image_index": 1,
+      "phrase": "on top of",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 2.8193788528442383,
+      "paraphrase_logit": 1.9550738334655762,
+      "controls_max_logit": -3.5753095149993896,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Object on tabletop; top placement matches, resting adds state emphasis."
+    },
+    {
+      "case_id": "on_2",
+      "image_index": 1,
+      "phrase": "resting on",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 2.8193788528442383,
+      "paraphrase_logit": -0.3636302947998047,
+      "controls_max_logit": -3.5753095149993896,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Object on tabletop; top placement matches, resting adds state emphasis."
+    },
+    {
+      "case_id": "on_3",
+      "image_index": 2,
+      "phrase": "on top of",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.299593448638916,
+      "paraphrase_logit": 1.0503883361816406,
+      "controls_max_logit": -2.0706191062927246,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Person stands on sand; resting suggests a different human state."
+    },
+    {
+      "case_id": "on_3",
+      "image_index": 2,
+      "phrase": "resting on",
+      "semantic_label": "X",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.299593448638916,
+      "paraphrase_logit": -0.3858180046081543,
+      "controls_max_logit": -2.0706191062927246,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Person stands on sand; resting suggests a different human state."
+    },
+    {
+      "case_id": "on_4",
+      "image_index": 3,
+      "phrase": "on top of",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.3211894035339355,
+      "paraphrase_logit": 2.1657752990722656,
+      "controls_max_logit": -2.2423248291015625,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Chair on floor; top placement matches, resting adds state emphasis."
+    },
+    {
+      "case_id": "on_4",
+      "image_index": 3,
+      "phrase": "resting on",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.3211894035339355,
+      "paraphrase_logit": 2.5927863121032715,
+      "controls_max_logit": -2.2423248291015625,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Chair on floor; top placement matches, resting adds state emphasis."
+    },
+    {
+      "case_id": "over_1",
+      "image_index": 0,
+      "phrase": "above",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 0.937464714050293,
+      "paraphrase_logit": 1.294386386871338,
+      "controls_max_logit": -2.953795909881592,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Tree crown extends over grass; above/higher can omit coverage meaning."
+    },
+    {
+      "case_id": "over_1",
+      "image_index": 0,
+      "phrase": "higher than",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 0.937464714050293,
+      "paraphrase_logit": -7.651498794555664,
+      "controls_max_logit": -2.953795909881592,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Tree crown extends over grass; above/higher can omit coverage meaning."
+    },
+    {
+      "case_id": "over_2",
+      "image_index": 2,
+      "phrase": "above",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.4224400520324707,
+      "paraphrase_logit": 3.387641429901123,
+      "controls_max_logit": -1.4728386402130127,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Sky above sea; higher than adds a global height comparison."
+    },
+    {
+      "case_id": "over_2",
+      "image_index": 2,
+      "phrase": "higher than",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.4224400520324707,
+      "paraphrase_logit": -6.597320556640625,
+      "controls_max_logit": -1.4728386402130127,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Sky above sea; higher than adds a global height comparison."
+    },
+    {
+      "case_id": "over_3",
+      "image_index": 4,
+      "phrase": "above",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 2.53542423248291,
+      "paraphrase_logit": 2.480536460876465,
+      "controls_max_logit": -1.2471904754638672,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Sky above train; higher than differs in scope."
+    },
+    {
+      "case_id": "over_3",
+      "image_index": 4,
+      "phrase": "higher than",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 2.53542423248291,
+      "paraphrase_logit": -7.269033432006836,
+      "controls_max_logit": -1.2471904754638672,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Sky above train; higher than differs in scope."
+    },
+    {
+      "case_id": "over_4",
+      "image_index": 8,
+      "phrase": "above",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 0.5871009826660156,
+      "paraphrase_logit": 0.9032406806945801,
+      "controls_max_logit": -2.179011106491089,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Ceiling above floor; higher than is comparative rather than placement."
+    },
+    {
+      "case_id": "over_4",
+      "image_index": 8,
+      "phrase": "higher than",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 0.5871009826660156,
+      "paraphrase_logit": -7.232828140258789,
+      "controls_max_logit": -2.179011106491089,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Ceiling above floor; higher than is comparative rather than placement."
+    },
+    {
+      "case_id": "beside_1",
+      "image_index": 1,
+      "phrase": "next to",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": -0.3486804962158203,
+      "paraphrase_logit": -0.5547327995300293,
+      "controls_max_logit": -2.4083127975463867,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Adjacent people; eating by a person cannot be certified absent merely from these boxes."
+    },
+    {
+      "case_id": "beside_1",
+      "image_index": 1,
+      "phrase": "alongside",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": -0.3486804962158203,
+      "paraphrase_logit": -0.6319756507873535,
+      "controls_max_logit": -2.4083127975463867,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Adjacent people; eating by a person cannot be certified absent merely from these boxes."
+    },
+    {
+      "case_id": "beside_2",
+      "image_index": 2,
+      "phrase": "next to",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 2.2449145317077637,
+      "paraphrase_logit": 1.871737003326416,
+      "controls_max_logit": 0.5996890068054199,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Person/large sea region mixes distance and depth; adjacency uncertain."
+    },
+    {
+      "case_id": "beside_2",
+      "image_index": 2,
+      "phrase": "alongside",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 2.2449145317077637,
+      "paraphrase_logit": 1.4825239181518555,
+      "controls_max_logit": 0.5996890068054199,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Person/large sea region mixes distance and depth; adjacency uncertain."
+    },
+    {
+      "case_id": "beside_3",
+      "image_index": 3,
+      "phrase": "next to",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 0.4813995361328125,
+      "paraphrase_logit": 1.1036958694458008,
+      "controls_max_logit": 0.3121466636657715,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Adjacent appliances; next to preserves placement, alongside adds alignment emphasis."
+    },
+    {
+      "case_id": "beside_3",
+      "image_index": 3,
+      "phrase": "alongside",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 0.4813995361328125,
+      "paraphrase_logit": 0.39926767349243164,
+      "controls_max_logit": 0.3121466636657715,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Adjacent appliances; next to preserves placement, alongside adds alignment emphasis."
+    },
+    {
+      "case_id": "beside_4",
+      "image_index": 4,
+      "phrase": "next to",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.734243869781494,
+      "paraphrase_logit": 3.021320343017578,
+      "controls_max_logit": -0.5046353340148926,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Adjacent train regions; alongside adds parallel alignment."
+    },
+    {
+      "case_id": "beside_4",
+      "image_index": 4,
+      "phrase": "alongside",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 3.734243869781494,
+      "paraphrase_logit": 3.442944049835205,
+      "controls_max_logit": -0.5046353340148926,
+      "beats_controls": true,
+      "original_beats_controls": true,
+      "note": "Adjacent train regions; alongside adds parallel alignment."
+    },
+    {
+      "case_id": "in_front_of_1",
+      "image_index": 0,
+      "phrase": "ahead of",
+      "semantic_label": "X",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 0.7448310852050781,
+      "paraphrase_logit": -1.7730863094329834,
+      "controls_max_logit": -0.6206073760986328,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Ahead of implies order/motion; foreground is related but coarsely framed."
+    },
+    {
+      "case_id": "in_front_of_1",
+      "image_index": 0,
+      "phrase": "in the foreground of",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 0.7448310852050781,
+      "paraphrase_logit": -4.866403102874756,
+      "controls_max_logit": -0.6206073760986328,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Ahead of implies order/motion; foreground is related but coarsely framed."
+    },
+    {
+      "case_id": "in_front_of_2",
+      "image_index": 5,
+      "phrase": "ahead of",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 0.5626649856567383,
+      "paraphrase_logit": -0.1358332633972168,
+      "controls_max_logit": 3.463183879852295,
+      "beats_controls": false,
+      "original_beats_controls": false,
+      "note": "Overlapping foreground/background frames leave depth uncertain."
+    },
+    {
+      "case_id": "in_front_of_2",
+      "image_index": 5,
+      "phrase": "in the foreground of",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 0.5626649856567383,
+      "paraphrase_logit": -5.233494281768799,
+      "controls_max_logit": 3.463183879852295,
+      "beats_controls": false,
+      "original_beats_controls": false,
+      "note": "Overlapping foreground/background frames leave depth uncertain."
+    },
+    {
+      "case_id": "in_front_of_3",
+      "image_index": 7,
+      "phrase": "ahead of",
+      "semantic_label": "N",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 1.586501121520996,
+      "paraphrase_logit": -0.8779451847076416,
+      "controls_max_logit": 0.5458073616027832,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Front barrier and vehicle have visible occlusion; foreground preserves viewpoint relation."
+    },
+    {
+      "case_id": "in_front_of_3",
+      "image_index": 7,
+      "phrase": "in the foreground of",
+      "semantic_label": "E",
+      "controls_labels": [
+        "F",
+        "F",
+        "F"
+      ],
+      "all_controls_certified_false_by_assistant": true,
+      "original_logit": 1.586501121520996,
+      "paraphrase_logit": -5.994133472442627,
+      "controls_max_logit": 0.5458073616027832,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Front barrier and vehicle have visible occlusion; foreground preserves viewpoint relation."
+    },
+    {
+      "case_id": "in_front_of_4",
+      "image_index": 9,
+      "phrase": "ahead of",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 1.502573013305664,
+      "paraphrase_logit": -1.7093284130096436,
+      "controls_max_logit": 0.48415088653564453,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Crowded overlapping large regions; depth uncertain, regardless of positive model margin."
+    },
+    {
+      "case_id": "in_front_of_4",
+      "image_index": 9,
+      "phrase": "in the foreground of",
+      "semantic_label": "U",
+      "controls_labels": [
+        "U",
+        "U",
+        "U"
+      ],
+      "all_controls_certified_false_by_assistant": false,
+      "original_logit": 1.502573013305664,
+      "paraphrase_logit": -3.845029354095459,
+      "controls_max_logit": 0.48415088653564453,
+      "beats_controls": false,
+      "original_beats_controls": true,
+      "note": "Crowded overlapping large regions; depth uncertain, regardless of positive model margin."
+    }
+  ],
+  "strict_independently_validated_synonym_robustness": "not established; second human review not available"
+}
