@@ -9,7 +9,7 @@ RelateAnything 官方权重的 PSG 评测、控制实验、失败案例分析和
 - [汇报材料](reproduction/reports/PPT汇报材料_精华总结.md)
 - [实验脚本与运行说明](reproduction/README.md)
 - [个人规范检查报告](reproduction/reports/个人规范检查报告.md)
-- [可视化入口](reproduction/reports/index.html)，下载仓库后使用浏览器打开。
+- 本地可视化入口：`reproduction/reports/index.html`，由实验和报告脚本生成，使用浏览器打开。
 
 ## 获取代码
 
@@ -27,7 +27,7 @@ python reproduction/scripts/check_personal_rules.py
 python reproduction/scripts/verify_evidence.py
 ```
 
-以上命令使用 Python 标准库。前者检查规范并输出具体发现；退出码为零表示检查完成，合规状态见输出中的 `compliant`。后者校验文件摘要、32个条件的指标、报告链接和执行记录。
+以上命令使用 Python 标准库。前者检查规范并输出具体发现；退出码为零表示检查完成，合规状态见输出中的 `compliant`。后者校验完整本地证据目录中的文件摘要、32个条件的指标、报告链接和执行记录，需要恢复清单对应的 HTML 页面等全部文件。
 
 Git 保留公开测试标注及转换后的测试数组，便于复算与核验。完整原图、模型权重、`.venv-eval`、历史归档和证据 ZIP 保留在本机，获取方式和文件摘要见 `reproduction/manifests/`。GPU 重跑需要恢复锁定的外部资源及依赖，详细步骤见实验脚本说明。
 
