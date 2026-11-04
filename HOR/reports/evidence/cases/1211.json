@@ -1,0 +1,2123 @@
+{
+  "index": 1211,
+  "sample_position": 415,
+  "file_name": "2371415.jpg",
+  "image_sha256": "b36479fb1a1caddbdf286730e3eac7d43cec5ad175f0edb3e17b8519439afe77",
+  "image_size": [
+    500,
+    400
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        55.9999942779541,
+        388.0000114440918,
+        400.0
+      ]
+    },
+    {
+      "id": 1,
+      "label": "cell phone",
+      "category_id": 67,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        229.99998554587364,
+        87.00000047683716,
+        322.9999877512455,
+        312.99999952316284
+      ]
+    },
+    {
+      "id": 2,
+      "label": "window-blind",
+      "category_id": 114,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        349.00000877678394,
+        155.00000715255737,
+        395.0000088661909,
+        352.0000100135803
+      ]
+    },
+    {
+      "id": 3,
+      "label": "cabinet",
+      "category_id": 120,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        444.9999965727329,
+        124.00000095367432,
+        499.9999962747097,
+        350.9999990463257
+      ]
+    },
+    {
+      "id": 4,
+      "label": "wall",
+      "category_id": 131,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        500.0,
+        400.0
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 4,
+      "object_id": 0,
+      "predicate_id": 54,
+      "predicate": "enclosing"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          1.3996124267578125,
+          50.69340515136719,
+          386.161865234375,
+          400.0
+        ],
+        "detection_score": 0.9985623955726624,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "cell phone",
+        "category_id": 77,
+        "is_person": false,
+        "box_xyxy": [
+          222.54409790039062,
+          84.2159652709961,
+          326.0509338378906,
+          300.7569885253906
+        ],
+        "detection_score": 0.692121684551239,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.997248649597168,
+        "pair_logit": 1.9805970191955566,
+        "fused_logit": 4.977845668792725,
+        "score": 0.9931582808494568,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.7114241123199463,
+        "pair_logit": 1.9805970191955566,
+        "fused_logit": 1.2691729068756104,
+        "score": 0.7806010842323303,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.8902547359466553,
+        "pair_logit": -1.218550205230713,
+        "fused_logit": -3.108804941177368,
+        "score": 0.04274551570415497,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.153670310974121,
+        "pair_logit": -1.218550205230713,
+        "fused_logit": -5.372220516204834,
+        "score": 0.004622342996299267,
+        "rank": 4
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.997248649597168,
+        "pair_logit": 1.9805970191955566,
+        "fused_logit": 4.977845668792725,
+        "score": 0.9931582808494568
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.8902547359466553,
+        "pair_logit": -1.218550205230713,
+        "fused_logit": -3.108804941177368,
+        "score": 0.04274551570415497
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 1,
+            "object_label": "cell phone",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.7114241123199463,
+            "pair_logit": 1.9805970191955566,
+            "fused_logit": 1.2691729068756104,
+            "score": 0.7806010842323303,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "cell phone",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.997248649597168,
+            "pair_logit": 1.9805970191955566,
+            "fused_logit": 4.977845668792725,
+            "score": 0.9931582808494568,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "cell phone",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.8902547359466553,
+            "pair_logit": -1.218550205230713,
+            "fused_logit": -3.108804941177368,
+            "score": 0.04274551570415497,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "cell phone",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.153670310974121,
+            "pair_logit": -1.218550205230713,
+            "fused_logit": -5.372220516204834,
+            "score": 0.004622342996299267,
+            "rank": 4
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 2,
+    "human_pairs_scored": 2,
+    "expected_human_pairs": 2,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.0633009999874048
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          55.9999942779541,
+          388.0000114440918,
+          400.0
+        ]
+      },
+      {
+        "id": 1,
+        "label": "cell phone",
+        "category_id": 67,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          229.99998554587364,
+          87.00000047683716,
+          322.9999877512455,
+          312.99999952316284
+        ]
+      },
+      {
+        "id": 2,
+        "label": "window-blind",
+        "category_id": 114,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          349.00000877678394,
+          155.00000715255737,
+          395.0000088661909,
+          352.0000100135803
+        ]
+      },
+      {
+        "id": 3,
+        "label": "cabinet",
+        "category_id": 120,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          444.9999965727329,
+          124.00000095367432,
+          499.9999962747097,
+          350.9999990463257
+        ]
+      },
+      {
+        "id": 4,
+        "label": "wall",
+        "category_id": 131,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          500.0,
+          400.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.797154903411865,
+        "pair_logit": 1.9692800045013428,
+        "fused_logit": 6.766434907913208,
+        "score": 0.9988495111465454,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.514566421508789,
+        "pair_logit": 1.9692800045013428,
+        "fused_logit": 3.483846426010132,
+        "score": 0.9702246785163879,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "window-blind",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.2107419967651367,
+        "pair_logit": -0.2246413230895996,
+        "fused_logit": 2.986100673675537,
+        "score": 0.9519422054290771,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 4,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.503892421722412,
+        "pair_logit": 0.40477699041366577,
+        "fused_logit": 2.908669412136078,
+        "score": 0.9482733607292175,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.9365315437316895,
+        "pair_logit": -1.1482549905776978,
+        "fused_logit": 2.7882765531539917,
+        "score": 0.9420390129089355,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "window-blind",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.889786720275879,
+        "pair_logit": -0.2246413230895996,
+        "fused_logit": 2.6651453971862793,
+        "score": 0.9349383115768433,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "window-blind",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.8464102745056152,
+        "pair_logit": -0.22323060035705566,
+        "fused_logit": 2.6231796741485596,
+        "score": 0.932338535785675,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "cabinet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.375011920928955,
+        "pair_logit": 0.14951138198375702,
+        "fused_logit": 2.524523302912712,
+        "score": 0.9258432388305664,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 4,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.0200319290161133,
+        "pair_logit": 0.40477699041366577,
+        "fused_logit": 2.424808919429779,
+        "score": 0.9186996817588806,
+        "rank": 9
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall",
+        "predicate_id": 54,
+        "predicate": "enclosing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.693767547607422,
+        "pair_logit": -0.5841532945632935,
+        "fused_logit": 2.1096142530441284,
+        "score": 0.8918341398239136,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 3,
+        "object_label": "cabinet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.3178906440734863,
+        "pair_logit": 0.14951138198375702,
+        "fused_logit": 1.4674020260572433,
+        "score": 0.8126621842384338,
+        "rank": 11
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cabinet",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.155487060546875,
+        "pair_logit": -0.03877288103103638,
+        "fused_logit": -0.19425994157791138,
+        "score": 0.45158714056015015,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "window-blind",
+        "predicate_id": 24,
+        "predicate": "guiding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.39197635650634766,
+        "pair_logit": -0.22323060035705566,
+        "fused_logit": -0.6152069568634033,
+        "score": 0.35087233781814575,
+        "rank": 13
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall",
+        "predicate_id": 40,
+        "predicate": "opening",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.469937801361084,
+        "pair_logit": -0.5841532945632935,
+        "fused_logit": -1.0540910959243774,
+        "score": 0.2584402859210968,
+        "rank": 14
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.31490516662597656,
+        "pair_logit": -1.1482549905776978,
+        "fused_logit": -1.4631601572036743,
+        "score": 0.18798446655273438,
+        "rank": 15
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cabinet",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.8160219192504883,
+        "pair_logit": -0.03877288103103638,
+        "fused_logit": -2.8547948002815247,
+        "score": 0.054434001445770264,
+        "rank": 16
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.797154903411865,
+        "pair_logit": 1.9692800045013428,
+        "fused_logit": 6.766434907913208,
+        "score": 0.9988495111465454
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "window-blind",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.2107419967651367,
+        "pair_logit": -0.2246413230895996,
+        "fused_logit": 2.986100673675537,
+        "score": 0.9519422054290771
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 4,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.503892421722412,
+        "pair_logit": 0.40477699041366577,
+        "fused_logit": 2.908669412136078,
+        "score": 0.9482733607292175
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.9365315437316895,
+        "pair_logit": -1.1482549905776978,
+        "fused_logit": 2.7882765531539917,
+        "score": 0.9420390129089355
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "window-blind",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.8464102745056152,
+        "pair_logit": -0.22323060035705566,
+        "fused_logit": 2.6231796741485596,
+        "score": 0.932338535785675
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "cabinet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.375011920928955,
+        "pair_logit": 0.14951138198375702,
+        "fused_logit": 2.524523302912712,
+        "score": 0.9258432388305664
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall",
+        "predicate_id": 54,
+        "predicate": "enclosing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.693767547607422,
+        "pair_logit": -0.5841532945632935,
+        "fused_logit": 2.1096142530441284,
+        "score": 0.8918341398239136
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cabinet",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.155487060546875,
+        "pair_logit": -0.03877288103103638,
+        "fused_logit": -0.19425994157791138,
+        "score": 0.45158714056015015
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "cell phone",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.514566421508789,
+            "pair_logit": 1.9692800045013428,
+            "fused_logit": 3.483846426010132,
+            "score": 0.9702246785163879,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "cell phone",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.797154903411865,
+            "pair_logit": 1.9692800045013428,
+            "fused_logit": 6.766434907913208,
+            "score": 0.9988495111465454,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 4,
+            "object_label": "wall",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.0200319290161133,
+            "pair_logit": 0.40477699041366577,
+            "fused_logit": 2.424808919429779,
+            "score": 0.9186996817588806,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 4,
+            "object_label": "wall",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.503892421722412,
+            "pair_logit": 0.40477699041366577,
+            "fused_logit": 2.908669412136078,
+            "score": 0.9482733607292175,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 3,
+            "object_label": "cabinet",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.375011920928955,
+            "pair_logit": 0.14951138198375702,
+            "fused_logit": 2.524523302912712,
+            "score": 0.9258432388305664,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 3,
+            "object_label": "cabinet",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.3178906440734863,
+            "pair_logit": 0.14951138198375702,
+            "fused_logit": 1.4674020260572433,
+            "score": 0.8126621842384338,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "cabinet",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.155487060546875,
+            "pair_logit": -0.03877288103103638,
+            "fused_logit": -0.19425994157791138,
+            "score": 0.45158714056015015,
+            "rank": 12
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "cabinet",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.8160219192504883,
+            "pair_logit": -0.03877288103103638,
+            "fused_logit": -2.8547948002815247,
+            "score": 0.054434001445770264,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "window-blind",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.8464102745056152,
+            "pair_logit": -0.22323060035705566,
+            "fused_logit": 2.6231796741485596,
+            "score": 0.932338535785675,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "window-blind",
+            "predicate_id": 24,
+            "predicate": "guiding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.39197635650634766,
+            "pair_logit": -0.22323060035705566,
+            "fused_logit": -0.6152069568634033,
+            "score": 0.35087233781814575,
+            "rank": 13
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "window-blind",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.889786720275879,
+            "pair_logit": -0.2246413230895996,
+            "fused_logit": 2.6651453971862793,
+            "score": 0.9349383115768433,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 2,
+            "object_label": "window-blind",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.2107419967651367,
+            "pair_logit": -0.2246413230895996,
+            "fused_logit": 2.986100673675537,
+            "score": 0.9519422054290771,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "wall",
+            "predicate_id": 54,
+            "predicate": "enclosing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.693767547607422,
+            "pair_logit": -0.5841532945632935,
+            "fused_logit": 2.1096142530441284,
+            "score": 0.8918341398239136,
+            "rank": 10
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "wall",
+            "predicate_id": 40,
+            "predicate": "opening",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.469937801361084,
+            "pair_logit": -0.5841532945632935,
+            "fused_logit": -1.0540910959243774,
+            "score": 0.2584402859210968,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "cell phone",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.9365315437316895,
+            "pair_logit": -1.1482549905776978,
+            "fused_logit": 2.7882765531539917,
+            "score": 0.9420390129089355,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "cell phone",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.31490516662597656,
+            "pair_logit": -1.1482549905776978,
+            "fused_logit": -1.4631601572036743,
+            "score": 0.18798446655273438,
+            "rank": 15
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 8,
+    "expected_human_pairs": 8,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          55.9999942779541,
+          388.0000114440918,
+          400.0
+        ]
+      },
+      {
+        "id": 1,
+        "label": "cell phone",
+        "category_id": 67,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          229.99998554587364,
+          87.00000047683716,
+          322.9999877512455,
+          312.99999952316284
+        ]
+      },
+      {
+        "id": 2,
+        "label": "window-blind",
+        "category_id": 114,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          349.00000877678394,
+          155.00000715255737,
+          395.0000088661909,
+          352.0000100135803
+        ]
+      },
+      {
+        "id": 3,
+        "label": "cabinet",
+        "category_id": 120,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          444.9999965727329,
+          124.00000095367432,
+          499.9999962747097,
+          350.9999990463257
+        ]
+      },
+      {
+        "id": 4,
+        "label": "wall",
+        "category_id": 131,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          500.0,
+          400.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.803062915802002,
+        "pair_logit": 1.9692800045013428,
+        "fused_logit": 6.772342920303345,
+        "score": 0.9988563060760498,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.514566421508789,
+        "pair_logit": 1.9692800045013428,
+        "fused_logit": 3.483846426010132,
+        "score": 0.9702246785163879,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "window-blind",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.2107419967651367,
+        "pair_logit": -0.2246413230895996,
+        "fused_logit": 2.986100673675537,
+        "score": 0.9519422054290771,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 4,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.503194808959961,
+        "pair_logit": 0.40477699041366577,
+        "fused_logit": 2.9079717993736267,
+        "score": 0.9482391476631165,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.936500072479248,
+        "pair_logit": -1.1482549905776978,
+        "fused_logit": 2.7882450819015503,
+        "score": 0.9420373439788818,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "window-blind",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.889801502227783,
+        "pair_logit": -0.2246413230895996,
+        "fused_logit": 2.6651601791381836,
+        "score": 0.9349392652511597,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "window-blind",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.8464102745056152,
+        "pair_logit": -0.22323060035705566,
+        "fused_logit": 2.6231796741485596,
+        "score": 0.932338535785675,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "cabinet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.4050889015197754,
+        "pair_logit": 0.14951138198375702,
+        "fused_logit": 2.5546002835035324,
+        "score": 0.9278819561004639,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 4,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.990041732788086,
+        "pair_logit": 0.40477699041366577,
+        "fused_logit": 2.3948187232017517,
+        "score": 0.9164314270019531,
+        "rank": 9
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall",
+        "predicate_id": 54,
+        "predicate": "enclosing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.693767547607422,
+        "pair_logit": -0.5841532945632935,
+        "fused_logit": 2.1096142530441284,
+        "score": 0.8918341398239136,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 3,
+        "object_label": "cabinet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.3479819297790527,
+        "pair_logit": 0.14951138198375702,
+        "fused_logit": 1.4974933117628098,
+        "score": 0.8172003626823425,
+        "rank": 11
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cabinet",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.15554475784301758,
+        "pair_logit": -0.03877288103103638,
+        "fused_logit": -0.19431763887405396,
+        "score": 0.45157289505004883,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "window-blind",
+        "predicate_id": 24,
+        "predicate": "guiding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.39197635650634766,
+        "pair_logit": -0.22323060035705566,
+        "fused_logit": -0.6152069568634033,
+        "score": 0.35087233781814575,
+        "rank": 13
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall",
+        "predicate_id": 40,
+        "predicate": "opening",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.49944543838500977,
+        "pair_logit": -0.5841532945632935,
+        "fused_logit": -1.0835987329483032,
+        "score": 0.2528255879878998,
+        "rank": 14
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.29367637634277344,
+        "pair_logit": -1.1482549905776978,
+        "fused_logit": -1.4419313669204712,
+        "score": 0.19124643504619598,
+        "rank": 15
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cabinet",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.818237543106079,
+        "pair_logit": -0.03877288103103638,
+        "fused_logit": -2.8570104241371155,
+        "score": 0.0543200746178627,
+        "rank": 16
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.803062915802002,
+        "pair_logit": 1.9692800045013428,
+        "fused_logit": 6.772342920303345,
+        "score": 0.9988563060760498
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "window-blind",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.2107419967651367,
+        "pair_logit": -0.2246413230895996,
+        "fused_logit": 2.986100673675537,
+        "score": 0.9519422054290771
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 4,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.503194808959961,
+        "pair_logit": 0.40477699041366577,
+        "fused_logit": 2.9079717993736267,
+        "score": 0.9482391476631165
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "cell phone",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.936500072479248,
+        "pair_logit": -1.1482549905776978,
+        "fused_logit": 2.7882450819015503,
+        "score": 0.9420373439788818
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "window-blind",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.8464102745056152,
+        "pair_logit": -0.22323060035705566,
+        "fused_logit": 2.6231796741485596,
+        "score": 0.932338535785675
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "cabinet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4050889015197754,
+        "pair_logit": 0.14951138198375702,
+        "fused_logit": 2.5546002835035324,
+        "score": 0.9278819561004639
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall",
+        "predicate_id": 54,
+        "predicate": "enclosing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.693767547607422,
+        "pair_logit": -0.5841532945632935,
+        "fused_logit": 2.1096142530441284,
+        "score": 0.8918341398239136
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cabinet",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.15554475784301758,
+        "pair_logit": -0.03877288103103638,
+        "fused_logit": -0.19431763887405396,
+        "score": 0.45157289505004883
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "cell phone",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.514566421508789,
+            "pair_logit": 1.9692800045013428,
+            "fused_logit": 3.483846426010132,
+            "score": 0.9702246785163879,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "cell phone",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.803062915802002,
+            "pair_logit": 1.9692800045013428,
+            "fused_logit": 6.772342920303345,
+            "score": 0.9988563060760498,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 4,
+            "object_label": "wall",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.990041732788086,
+            "pair_logit": 0.40477699041366577,
+            "fused_logit": 2.3948187232017517,
+            "score": 0.9164314270019531,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 4,
+            "object_label": "wall",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.503194808959961,
+            "pair_logit": 0.40477699041366577,
+            "fused_logit": 2.9079717993736267,
+            "score": 0.9482391476631165,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 3,
+            "object_label": "cabinet",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.4050889015197754,
+            "pair_logit": 0.14951138198375702,
+            "fused_logit": 2.5546002835035324,
+            "score": 0.9278819561004639,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 3,
+            "object_label": "cabinet",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.3479819297790527,
+            "pair_logit": 0.14951138198375702,
+            "fused_logit": 1.4974933117628098,
+            "score": 0.8172003626823425,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "cabinet",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.15554475784301758,
+            "pair_logit": -0.03877288103103638,
+            "fused_logit": -0.19431763887405396,
+            "score": 0.45157289505004883,
+            "rank": 12
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "cabinet",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.818237543106079,
+            "pair_logit": -0.03877288103103638,
+            "fused_logit": -2.8570104241371155,
+            "score": 0.0543200746178627,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "window-blind",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.8464102745056152,
+            "pair_logit": -0.22323060035705566,
+            "fused_logit": 2.6231796741485596,
+            "score": 0.932338535785675,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "window-blind",
+            "predicate_id": 24,
+            "predicate": "guiding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.39197635650634766,
+            "pair_logit": -0.22323060035705566,
+            "fused_logit": -0.6152069568634033,
+            "score": 0.35087233781814575,
+            "rank": 13
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "window-blind",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.889801502227783,
+            "pair_logit": -0.2246413230895996,
+            "fused_logit": 2.6651601791381836,
+            "score": 0.9349392652511597,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 2,
+            "object_label": "window-blind",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.2107419967651367,
+            "pair_logit": -0.2246413230895996,
+            "fused_logit": 2.986100673675537,
+            "score": 0.9519422054290771,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "wall",
+            "predicate_id": 54,
+            "predicate": "enclosing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.693767547607422,
+            "pair_logit": -0.5841532945632935,
+            "fused_logit": 2.1096142530441284,
+            "score": 0.8918341398239136,
+            "rank": 10
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "wall",
+            "predicate_id": 40,
+            "predicate": "opening",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.49944543838500977,
+            "pair_logit": -0.5841532945632935,
+            "fused_logit": -1.0835987329483032,
+            "score": 0.2528255879878998,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "cell phone",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.936500072479248,
+            "pair_logit": -1.1482549905776978,
+            "fused_logit": 2.7882450819015503,
+            "score": 0.9420373439788818,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "cell phone",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.29367637634277344,
+            "pair_logit": -1.1482549905776978,
+            "fused_logit": -1.4419313669204712,
+            "score": 0.19124643504619598,
+            "rank": 15
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 8,
+    "expected_human_pairs": 8,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.13164119998691604
+}

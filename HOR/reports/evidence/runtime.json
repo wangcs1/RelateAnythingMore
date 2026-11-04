@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-25T10:58:57.381435+08:00",
+  "images": 500,
+  "total_seconds": 73.8082670000149,
+  "inference_and_artifact_seconds": 70.2878434000304,
+  "peak_GPU_allocated_GiB": 0.8770804405212402,
+  "GPU": "NVIDIA GeForce RTX 5070 Ti",
+  "python": "3.12.11",
+  "torch": "2.13.0+cu130",
+  "torchvision": "0.28.0+cu130",
+  "relation_dtype": "CUDA autocast BF16",
+  "detector_dtype": "CUDA FP32",
+  "verified_checkpoint_tensors": 416,
+  "official_commit": "06766fdf56752ca535fc9b971fca99ce563676d0",
+  "command": [
+    "D:\\relateAny\\.venv-eval\\Scripts\\python.exe",
+    "D:\\relateAny\\HOR\\run_500.py"
+  ],
+  "config_sha256": "ada85c1f10e7c040fd9e643fbc6fede5e6b352ae48e1198cce709520bdf369b5",
+  "sources_sha256": {
+    "evaluation.py": "a07cc97bc1d29b098376abc06387689c92317f7ed1ef22abc98789ec8d206961",
+    "infer.py": "9a5b2590c44377321016a53bbbb7aa6c873dd578db3f21812d94a593affb5807",
+    "pipeline.py": "d24cec3bc7259ec0b98a82fb66e20a42015b6e07d11b0a5de02d7f986c7d9f90",
+    "report.py": "bdba7fce415d8686a04891d433b7adb3370c73300aaa32fd56733dec0c8dec96",
+    "run_500.py": "114b8b32ed390cdb3d97ebeb1a89fe79f95432b279ac6d3b355b9ed92e5dd086",
+    "verify.py": "568bac42e748e3a05b677f0b2edbd8e2a42c450b42b7c1f1f3f04ed804d7f68b"
+  },
+  "resources_sha256": {
+    "HOR\\models\\fasterrcnn_resnet50_fpn_v2_coco-dd69338a.pth": "dd69338a24b8d7381807e247652bdc356325bcbaf1cd3e092e00e0a1a58706bf",
+    "models\\relsgg-vits16plus\\model.pth": "5d281bf0d89f2bbfd72ff5a14f9a40ce12534e790b0402e2ca970539c7bcc294",
+    "models\\relsgg-vits16plus\\text_student.pt": "e0317830b68ea51e6711fc90d4a35954d0528e5bd78a8d5afd966601ce4ed119",
+    "data\\PSG\\packed\\psg\\test\\rels.npy": "fc4a5b3239d137c07eac44049d9534effa20d1a01c443e38fdc152f6825e723d",
+    "data\\PSG\\packed\\psg\\test\\boxes.npy": "869291a8ef891d6a7dae06bf268049563a8fcba4b47545575d51d20707994288"
+  }
+}

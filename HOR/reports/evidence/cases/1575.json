@@ -1,0 +1,1303 @@
+{
+  "index": 1575,
+  "sample_position": 458,
+  "file_name": "2388803.jpg",
+  "image_sha256": "e7d7b2042253c96bbb74418afee60182f133ee7f3ccbc1b41159b0c42183602f",
+  "image_size": [
+    424,
+    640
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        57.99999928474426,
+        131.99999809265137,
+        329.9999907016754,
+        440.9999942779541
+      ]
+    },
+    {
+      "id": 1,
+      "label": "skateboard",
+      "category_id": 36,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        50.00000548362732,
+        272.0000171661377,
+        424.0000126361847,
+        541.0000133514404
+      ]
+    },
+    {
+      "id": 2,
+      "label": "pavement",
+      "category_id": 123,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        424.0,
+        640.0
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 20,
+      "predicate": "wearing"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 23,
+      "predicate": "looking at"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 30,
+      "predicate": "catching"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 36,
+      "predicate": "playing"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate_id": 18,
+      "predicate": "jumping over"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate_id": 20,
+      "predicate": "wearing"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          51.60049819946289,
+          133.90377807617188,
+          336.3353271484375,
+          439.6145324707031
+        ],
+        "detection_score": 0.9998201727867126,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "skateboard",
+        "category_id": 41,
+        "is_person": false,
+        "box_xyxy": [
+          61.36617660522461,
+          270.059326171875,
+          422.767822265625,
+          537.2625732421875
+        ],
+        "detection_score": 0.9996988773345947,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 18,
+        "predicate": "jumping over",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.422071933746338,
+        "pair_logit": 0.49579083919525146,
+        "fused_logit": 3.9178627729415894,
+        "score": 0.9805041551589966,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.101315975189209,
+        "pair_logit": 0.49579083919525146,
+        "fused_logit": -0.6055251359939575,
+        "score": 0.3530806601047516,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -6.579507350921631,
+        "pair_logit": -1.0567779541015625,
+        "fused_logit": -7.636285305023193,
+        "score": 0.0004823851049877703,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -7.30846643447876,
+        "pair_logit": -1.0567779541015625,
+        "fused_logit": -8.365244388580322,
+        "score": 0.0002327660477021709,
+        "rank": 4
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 18,
+        "predicate": "jumping over",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.422071933746338,
+        "pair_logit": 0.49579083919525146,
+        "fused_logit": 3.9178627729415894,
+        "score": 0.9805041551589966
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -6.579507350921631,
+        "pair_logit": -1.0567779541015625,
+        "fused_logit": -7.636285305023193,
+        "score": 0.0004823851049877703
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "skateboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.101315975189209,
+            "pair_logit": 0.49579083919525146,
+            "fused_logit": -0.6055251359939575,
+            "score": 0.3530806601047516,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 18,
+            "predicate": "jumping over",
+            "object_id": 1,
+            "object_label": "skateboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.422071933746338,
+            "pair_logit": 0.49579083919525146,
+            "fused_logit": 3.9178627729415894,
+            "score": 0.9805041551589966,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "skateboard",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -7.30846643447876,
+            "pair_logit": -1.0567779541015625,
+            "fused_logit": -8.365244388580322,
+            "score": 0.0002327660477021709,
+            "rank": 4
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "skateboard",
+            "predicate_id": 22,
+            "predicate": "carrying",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -6.579507350921631,
+            "pair_logit": -1.0567779541015625,
+            "fused_logit": -7.636285305023193,
+            "score": 0.0004823851049877703,
+            "rank": 3
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 2,
+    "human_pairs_scored": 2,
+    "expected_human_pairs": 2,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.0658893000218086
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          57.99999928474426,
+          131.99999809265137,
+          329.9999907016754,
+          440.9999942779541
+        ]
+      },
+      {
+        "id": 1,
+        "label": "skateboard",
+        "category_id": 36,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          50.00000548362732,
+          272.0000171661377,
+          424.0000126361847,
+          541.0000133514404
+        ]
+      },
+      {
+        "id": 2,
+        "label": "pavement",
+        "category_id": 123,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          424.0,
+          640.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.7133097648620605,
+        "pair_logit": 0.514376163482666,
+        "fused_logit": 4.227685928344727,
+        "score": 0.9856235980987549,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.1937670707702637,
+        "pair_logit": 0.514376163482666,
+        "fused_logit": 3.7081432342529297,
+        "score": 0.9760639667510986,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.664480209350586,
+        "pair_logit": -0.1312044858932495,
+        "fused_logit": 2.5332757234573364,
+        "score": 0.9264419078826904,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.4312620162963867,
+        "pair_logit": -0.1312044858932495,
+        "fused_logit": 1.3000575304031372,
+        "score": 0.7858446836471558,
+        "rank": 4
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pavement",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.31026601791381836,
+        "pair_logit": -0.7453520894050598,
+        "fused_logit": -0.43508607149124146,
+        "score": 0.39291250705718994,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.5901422500610352,
+        "pair_logit": -1.0629994869232178,
+        "fused_logit": -1.653141736984253,
+        "score": 0.16068479418754578,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pavement",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.1177875995635986,
+        "pair_logit": -0.7453520894050598,
+        "fused_logit": -1.8631396889686584,
+        "score": 0.13433751463890076,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.8462097644805908,
+        "pair_logit": -1.0629994869232178,
+        "fused_logit": -1.9092092514038086,
+        "score": 0.1290697157382965,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.7133097648620605,
+        "pair_logit": 0.514376163482666,
+        "fused_logit": 4.227685928344727,
+        "score": 0.9856235980987549
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.664480209350586,
+        "pair_logit": -0.1312044858932495,
+        "fused_logit": 2.5332757234573364,
+        "score": 0.9264419078826904
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pavement",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.31026601791381836,
+        "pair_logit": -0.7453520894050598,
+        "fused_logit": -0.43508607149124146,
+        "score": 0.39291250705718994
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.5901422500610352,
+        "pair_logit": -1.0629994869232178,
+        "fused_logit": -1.653141736984253,
+        "score": 0.16068479418754578
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "skateboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.1937670707702637,
+            "pair_logit": 0.514376163482666,
+            "fused_logit": 3.7081432342529297,
+            "score": 0.9760639667510986,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "skateboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.7133097648620605,
+            "pair_logit": 0.514376163482666,
+            "fused_logit": 4.227685928344727,
+            "score": 0.9856235980987549,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "pavement",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.664480209350586,
+            "pair_logit": -0.1312044858932495,
+            "fused_logit": 2.5332757234573364,
+            "score": 0.9264419078826904,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 2,
+            "object_label": "pavement",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.4312620162963867,
+            "pair_logit": -0.1312044858932495,
+            "fused_logit": 1.3000575304031372,
+            "score": 0.7858446836471558,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "pavement",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.31026601791381836,
+            "pair_logit": -0.7453520894050598,
+            "fused_logit": -0.43508607149124146,
+            "score": 0.39291250705718994,
+            "rank": 5
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "pavement",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.1177875995635986,
+            "pair_logit": -0.7453520894050598,
+            "fused_logit": -1.8631396889686584,
+            "score": 0.13433751463890076,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "skateboard",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.5901422500610352,
+            "pair_logit": -1.0629994869232178,
+            "fused_logit": -1.653141736984253,
+            "score": 0.16068479418754578,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "skateboard",
+            "predicate_id": 22,
+            "predicate": "carrying",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.8462097644805908,
+            "pair_logit": -1.0629994869232178,
+            "fused_logit": -1.9092092514038086,
+            "score": 0.1290697157382965,
+            "rank": 8
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          57.99999928474426,
+          131.99999809265137,
+          329.9999907016754,
+          440.9999942779541
+        ]
+      },
+      {
+        "id": 1,
+        "label": "skateboard",
+        "category_id": 36,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          50.00000548362732,
+          272.0000171661377,
+          424.0000126361847,
+          541.0000133514404
+        ]
+      },
+      {
+        "id": 2,
+        "label": "pavement",
+        "category_id": 123,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          424.0,
+          640.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.7133097648620605,
+        "pair_logit": 0.514376163482666,
+        "fused_logit": 4.227685928344727,
+        "score": 0.9856235980987549,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.1937670707702637,
+        "pair_logit": 0.514376163482666,
+        "fused_logit": 3.7081432342529297,
+        "score": 0.9760639667510986,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.617572784423828,
+        "pair_logit": -0.1312044858932495,
+        "fused_logit": 2.4863682985305786,
+        "score": 0.9231805801391602,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.4014148712158203,
+        "pair_logit": -0.1312044858932495,
+        "fused_logit": 1.2702103853225708,
+        "score": 0.7807787656784058,
+        "rank": 4
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pavement",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.28016042709350586,
+        "pair_logit": -0.7453520894050598,
+        "fused_logit": -0.46519166231155396,
+        "score": 0.38575491309165955,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.5928645133972168,
+        "pair_logit": -1.0629994869232178,
+        "fused_logit": -1.6558640003204346,
+        "score": 0.16031798720359802,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pavement",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.1222188472747803,
+        "pair_logit": -0.7453520894050598,
+        "fused_logit": -1.86757093667984,
+        "score": 0.13382303714752197,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.8462097644805908,
+        "pair_logit": -1.0629994869232178,
+        "fused_logit": -1.9092092514038086,
+        "score": 0.1290697157382965,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "skateboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.7133097648620605,
+        "pair_logit": 0.514376163482666,
+        "fused_logit": 4.227685928344727,
+        "score": 0.9856235980987549
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.617572784423828,
+        "pair_logit": -0.1312044858932495,
+        "fused_logit": 2.4863682985305786,
+        "score": 0.9231805801391602
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pavement",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.28016042709350586,
+        "pair_logit": -0.7453520894050598,
+        "fused_logit": -0.46519166231155396,
+        "score": 0.38575491309165955
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skateboard",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.5928645133972168,
+        "pair_logit": -1.0629994869232178,
+        "fused_logit": -1.6558640003204346,
+        "score": 0.16031798720359802
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "skateboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.1937670707702637,
+            "pair_logit": 0.514376163482666,
+            "fused_logit": 3.7081432342529297,
+            "score": 0.9760639667510986,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "skateboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.7133097648620605,
+            "pair_logit": 0.514376163482666,
+            "fused_logit": 4.227685928344727,
+            "score": 0.9856235980987549,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "pavement",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.617572784423828,
+            "pair_logit": -0.1312044858932495,
+            "fused_logit": 2.4863682985305786,
+            "score": 0.9231805801391602,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 2,
+            "object_label": "pavement",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.4014148712158203,
+            "pair_logit": -0.1312044858932495,
+            "fused_logit": 1.2702103853225708,
+            "score": 0.7807787656784058,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "pavement",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.28016042709350586,
+            "pair_logit": -0.7453520894050598,
+            "fused_logit": -0.46519166231155396,
+            "score": 0.38575491309165955,
+            "rank": 5
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "pavement",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.1222188472747803,
+            "pair_logit": -0.7453520894050598,
+            "fused_logit": -1.86757093667984,
+            "score": 0.13382303714752197,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "skateboard",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.5928645133972168,
+            "pair_logit": -1.0629994869232178,
+            "fused_logit": -1.6558640003204346,
+            "score": 0.16031798720359802,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "skateboard",
+            "predicate_id": 22,
+            "predicate": "carrying",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.8462097644805908,
+            "pair_logit": -1.0629994869232178,
+            "fused_logit": -1.9092092514038086,
+            "score": 0.1290697157382965,
+            "rank": 8
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.1345609999843873
+}

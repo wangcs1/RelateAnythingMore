@@ -1,0 +1,6887 @@
+{
+  "index": 1772,
+  "sample_position": 421,
+  "file_name": "2398484.jpg",
+  "image_sha256": "c3b94d44e9302362d39fc2a712631913633f1db45cd2b9ee1f9911b8a0d59ff3",
+  "image_size": [
+    640,
+    396
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        450.00000953674316,
+        177.99999153614044,
+        609.0000057220459,
+        393.9999979734421
+      ]
+    },
+    {
+      "id": 1,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        131.00000381469727,
+        57.99999976158142,
+        303.99999618530273,
+        309.999995470047
+      ]
+    },
+    {
+      "id": 2,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        379.99998569488525,
+        175.99999541044235,
+        531.9999837875366,
+        341.9999983906746
+      ]
+    },
+    {
+      "id": 3,
+      "label": "baseball bat",
+      "category_id": 34,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        105.9999942779541,
+        51.00000151991844,
+        191.99999809265137,
+        112.00000432133675
+      ]
+    },
+    {
+      "id": 4,
+      "label": "baseball glove",
+      "category_id": 35,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        362.0000147819519,
+        193.99999152123928,
+        411.0000157356262,
+        236.99999083578587
+      ]
+    },
+    {
+      "id": 5,
+      "label": "playingfield",
+      "category_id": 97,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        640.0,
+        396.0
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate_id": 7,
+      "predicate": "on back of"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 3,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 3,
+      "predicate_id": 51,
+      "predicate": "swinging"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 5,
+      "predicate_id": 14,
+      "predicate": "standing on"
+    },
+    {
+      "subject_id": 2,
+      "object_id": 0,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    },
+    {
+      "subject_id": 2,
+      "object_id": 4,
+      "predicate_id": 20,
+      "predicate": "wearing"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          130.8265380859375,
+          57.211551666259766,
+          307.8705749511719,
+          311.5274658203125
+        ],
+        "detection_score": 0.99980229139328,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          451.2840881347656,
+          178.49586486816406,
+          611.169189453125,
+          388.0672912597656
+        ],
+        "detection_score": 0.9991563558578491,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          366.39410400390625,
+          176.0764923095703,
+          518.1190185546875,
+          336.0186462402344
+        ],
+        "detection_score": 0.9984330534934998,
+        "source": "detector"
+      },
+      {
+        "id": 3,
+        "label": "baseball glove",
+        "category_id": 40,
+        "is_person": false,
+        "box_xyxy": [
+          362.255859375,
+          192.51531982421875,
+          412.44354248046875,
+          237.4552764892578
+        ],
+        "detection_score": 0.996819019317627,
+        "source": "detector"
+      },
+      {
+        "id": 4,
+        "label": "baseball bat",
+        "category_id": 39,
+        "is_person": false,
+        "box_xyxy": [
+          106.12594604492188,
+          50.82422637939453,
+          195.04580688476562,
+          113.6778335571289
+        ],
+        "detection_score": 0.993842601776123,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0,
+      1,
+      2
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 5.172560214996338,
+        "pair_logit": 0.5081238746643066,
+        "fused_logit": 5.6806840896606445,
+        "score": 0.9966004490852356,
+        "rank": 1
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.5085902214050293,
+        "pair_logit": 0.153166264295578,
+        "fused_logit": 3.6617564857006073,
+        "score": 0.9749559760093689,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.848479747772217,
+        "pair_logit": -0.43434691429138184,
+        "fused_logit": 3.414132833480835,
+        "score": 0.9681432843208313,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.350768566131592,
+        "pair_logit": -0.19419527053833008,
+        "fused_logit": 3.1565732955932617,
+        "score": 0.9591668844223022,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 3.404057025909424,
+        "pair_logit": -0.28341519832611084,
+        "fused_logit": 3.120641827583313,
+        "score": 0.9577361345291138,
+        "rank": 5
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 2.8742246627807617,
+        "pair_logit": -0.5930641889572144,
+        "fused_logit": 2.2811604738235474,
+        "score": 0.9073047041893005,
+        "rank": 6
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.5592732429504395,
+        "pair_logit": -0.4756709933280945,
+        "fused_logit": 2.083602249622345,
+        "score": 0.8892991542816162,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.422011375427246,
+        "pair_logit": -0.4346959590911865,
+        "fused_logit": 1.9873154163360596,
+        "score": 0.8794588446617126,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.1196279525756836,
+        "pair_logit": 0.5081238746643066,
+        "fused_logit": 1.6277518272399902,
+        "score": 0.8358613848686218,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.9981083869934082,
+        "pair_logit": -0.6406694650650024,
+        "fused_logit": 1.3574389219284058,
+        "score": 0.7953431010246277,
+        "rank": 10
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.635857105255127,
+        "pair_logit": -0.28341519832611084,
+        "fused_logit": 1.3524419069290161,
+        "score": 0.7945285439491272,
+        "rank": 11
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 2.143794059753418,
+        "pair_logit": -0.8803223371505737,
+        "fused_logit": 1.2634717226028442,
+        "score": 0.7796231508255005,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.9308710098266602,
+        "pair_logit": 0.153166264295578,
+        "fused_logit": 1.0840372741222382,
+        "score": 0.7472572326660156,
+        "rank": 13
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.9959688186645508,
+        "pair_logit": -1.0565789937973022,
+        "fused_logit": 0.9393898248672485,
+        "score": 0.7189763784408569,
+        "rank": 14
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.362548828125,
+        "pair_logit": -0.4346959590911865,
+        "fused_logit": 0.9278528690338135,
+        "score": 0.716639518737793,
+        "rank": 15
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.4788970947265625,
+        "pair_logit": -0.6406694650650024,
+        "fused_logit": 0.8382276296615601,
+        "score": 0.6980918645858765,
+        "rank": 16
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.8964300155639648,
+        "pair_logit": -0.19419527053833008,
+        "fused_logit": 0.7022347450256348,
+        "score": 0.6686830520629883,
+        "rank": 17
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.0551886558532715,
+        "pair_logit": -0.43434691429138184,
+        "fused_logit": 0.6208417415618896,
+        "score": 0.650409996509552,
+        "rank": 18
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.5078401565551758,
+        "pair_logit": -0.5930641889572144,
+        "fused_logit": -0.08522403240203857,
+        "score": 0.47870683670043945,
+        "rank": 19
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.24585247039794922,
+        "pair_logit": -0.4756709933280945,
+        "fused_logit": -0.22981852293014526,
+        "score": 0.442796915769577,
+        "rank": 20
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.5795798301696777,
+        "pair_logit": -0.8803223371505737,
+        "fused_logit": -0.300742506980896,
+        "score": 0.42537596821784973,
+        "rank": 21
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.6747007369995117,
+        "pair_logit": -1.0565789937973022,
+        "fused_logit": -0.3818782567977905,
+        "score": 0.40567395091056824,
+        "rank": 22
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.06294727325439453,
+        "pair_logit": -0.501427948474884,
+        "fused_logit": -0.4384806752204895,
+        "score": 0.39210304617881775,
+        "rank": 23
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.19690465927124023,
+        "pair_logit": -0.501427948474884,
+        "fused_logit": -0.6983326077461243,
+        "score": 0.33218201994895935,
+        "rank": 24
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.07140159606933594,
+        "pair_logit": -0.8346836566925049,
+        "fused_logit": -0.763282060623169,
+        "score": 0.31793412566185,
+        "rank": 25
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3660140037536621,
+        "pair_logit": -0.8273154497146606,
+        "fused_logit": -1.1933294534683228,
+        "score": 0.23266398906707764,
+        "rank": 26
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.09329986572265625,
+        "pair_logit": -1.125340223312378,
+        "fused_logit": -1.2186400890350342,
+        "score": 0.22817586362361908,
+        "rank": 27
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.4202265739440918,
+        "pair_logit": -0.9459629058837891,
+        "fused_logit": -1.3661894798278809,
+        "score": 0.2032361924648285,
+        "rank": 28
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.1878185272216797,
+        "pair_logit": -0.8273154497146606,
+        "fused_logit": -2.0151339769363403,
+        "score": 0.11762309074401855,
+        "rank": 29
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.2994377613067627,
+        "pair_logit": -0.9459629058837891,
+        "fused_logit": -2.2454006671905518,
+        "score": 0.09574693441390991,
+        "rank": 30
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.965517282485962,
+        "pair_logit": -0.8346836566925049,
+        "fused_logit": -3.800200939178467,
+        "score": 0.021876970306038857,
+        "rank": 31
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.764136552810669,
+        "pair_logit": -1.125340223312378,
+        "fused_logit": -3.889476776123047,
+        "score": 0.020045984536409378,
+        "rank": 32
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -3.6207094192504883,
+        "pair_logit": -1.4500732421875,
+        "fused_logit": -5.070782661437988,
+        "score": 0.0062383441254496574,
+        "rank": 33
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -3.5233466625213623,
+        "pair_logit": -1.7797267436981201,
+        "fused_logit": -5.303073406219482,
+        "score": 0.004951635375618935,
+        "rank": 34
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.1727752685546875,
+        "pair_logit": -1.4500732421875,
+        "fused_logit": -5.6228485107421875,
+        "score": 0.003601314499974251,
+        "rank": 35
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.143442630767822,
+        "pair_logit": -1.7797267436981201,
+        "fused_logit": -5.923169374465942,
+        "score": 0.002669558161869645,
+        "rank": 36
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 5.172560214996338,
+        "pair_logit": 0.5081238746643066,
+        "fused_logit": 5.6806840896606445,
+        "score": 0.9966004490852356
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.5085902214050293,
+        "pair_logit": 0.153166264295578,
+        "fused_logit": 3.6617564857006073,
+        "score": 0.9749559760093689
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.848479747772217,
+        "pair_logit": -0.43434691429138184,
+        "fused_logit": 3.414132833480835,
+        "score": 0.9681432843208313
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.350768566131592,
+        "pair_logit": -0.19419527053833008,
+        "fused_logit": 3.1565732955932617,
+        "score": 0.9591668844223022
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.404057025909424,
+        "pair_logit": -0.28341519832611084,
+        "fused_logit": 3.120641827583313,
+        "score": 0.9577361345291138
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.8742246627807617,
+        "pair_logit": -0.5930641889572144,
+        "fused_logit": 2.2811604738235474,
+        "score": 0.9073047041893005
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.5592732429504395,
+        "pair_logit": -0.4756709933280945,
+        "fused_logit": 2.083602249622345,
+        "score": 0.8892991542816162
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.422011375427246,
+        "pair_logit": -0.4346959590911865,
+        "fused_logit": 1.9873154163360596,
+        "score": 0.8794588446617126
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.9981083869934082,
+        "pair_logit": -0.6406694650650024,
+        "fused_logit": 1.3574389219284058,
+        "score": 0.7953431010246277
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.143794059753418,
+        "pair_logit": -0.8803223371505737,
+        "fused_logit": 1.2634717226028442,
+        "score": 0.7796231508255005
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.9959688186645508,
+        "pair_logit": -1.0565789937973022,
+        "fused_logit": 0.9393898248672485,
+        "score": 0.7189763784408569
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.06294727325439453,
+        "pair_logit": -0.501427948474884,
+        "fused_logit": -0.4384806752204895,
+        "score": 0.39210304617881775
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.07140159606933594,
+        "pair_logit": -0.8346836566925049,
+        "fused_logit": -0.763282060623169,
+        "score": 0.31793412566185
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.3660140037536621,
+        "pair_logit": -0.8273154497146606,
+        "fused_logit": -1.1933294534683228,
+        "score": 0.23266398906707764
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 4,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.09329986572265625,
+        "pair_logit": -1.125340223312378,
+        "fused_logit": -1.2186400890350342,
+        "score": 0.22817586362361908
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball glove",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.4202265739440918,
+        "pair_logit": -0.9459629058837891,
+        "fused_logit": -1.3661894798278809,
+        "score": 0.2032361924648285
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -3.6207094192504883,
+        "pair_logit": -1.4500732421875,
+        "fused_logit": -5.070782661437988,
+        "score": 0.0062383441254496574
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball bat",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -3.5233466625213623,
+        "pair_logit": -1.7797267436981201,
+        "fused_logit": -5.303073406219482,
+        "score": 0.004951635375618935
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball bat",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.1196279525756836,
+            "pair_logit": 0.5081238746643066,
+            "fused_logit": 1.6277518272399902,
+            "score": 0.8358613848686218,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 4,
+            "object_label": "baseball bat",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 5.172560214996338,
+            "pair_logit": 0.5081238746643066,
+            "fused_logit": 5.6806840896606445,
+            "score": 0.9966004490852356,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "baseball glove",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.9308710098266602,
+            "pair_logit": 0.153166264295578,
+            "fused_logit": 1.0840372741222382,
+            "score": 0.7472572326660156,
+            "rank": 13
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "baseball glove",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.5085902214050293,
+            "pair_logit": 0.153166264295578,
+            "fused_logit": 3.6617564857006073,
+            "score": 0.9749559760093689,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.350768566131592,
+            "pair_logit": -0.19419527053833008,
+            "fused_logit": 3.1565732955932617,
+            "score": 0.9591668844223022,
+            "rank": 4
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.8964300155639648,
+            "pair_logit": -0.19419527053833008,
+            "fused_logit": 0.7022347450256348,
+            "score": 0.6686830520629883,
+            "rank": 17
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.635857105255127,
+            "pair_logit": -0.28341519832611084,
+            "fused_logit": 1.3524419069290161,
+            "score": 0.7945285439491272,
+            "rank": 11
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 3.404057025909424,
+            "pair_logit": -0.28341519832611084,
+            "fused_logit": 3.120641827583313,
+            "score": 0.9577361345291138,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 3,
+            "object_label": "baseball glove",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.0551886558532715,
+            "pair_logit": -0.43434691429138184,
+            "fused_logit": 0.6208417415618896,
+            "score": 0.650409996509552,
+            "rank": 18
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 3,
+            "object_label": "baseball glove",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.848479747772217,
+            "pair_logit": -0.43434691429138184,
+            "fused_logit": 3.414132833480835,
+            "score": 0.9681432843208313,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 3,
+            "object_label": "baseball glove",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.362548828125,
+            "pair_logit": -0.4346959590911865,
+            "fused_logit": 0.9278528690338135,
+            "score": 0.716639518737793,
+            "rank": 15
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "baseball glove",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.422011375427246,
+            "pair_logit": -0.4346959590911865,
+            "fused_logit": 1.9873154163360596,
+            "score": 0.8794588446617126,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball glove",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.5592732429504395,
+            "pair_logit": -0.4756709933280945,
+            "fused_logit": 2.083602249622345,
+            "score": 0.8892991542816162,
+            "rank": 7
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball glove",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.24585247039794922,
+            "pair_logit": -0.4756709933280945,
+            "fused_logit": -0.22981852293014526,
+            "score": 0.442796915769577,
+            "rank": 20
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball bat",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.19690465927124023,
+            "pair_logit": -0.501427948474884,
+            "fused_logit": -0.6983326077461243,
+            "score": 0.33218201994895935,
+            "rank": 24
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.06294727325439453,
+            "pair_logit": -0.501427948474884,
+            "fused_logit": -0.4384806752204895,
+            "score": 0.39210304617881775,
+            "rank": 23
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 2.8742246627807617,
+            "pair_logit": -0.5930641889572144,
+            "fused_logit": 2.2811604738235474,
+            "score": 0.9073047041893005,
+            "rank": 6
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 30,
+            "predicate": "catching",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.5078401565551758,
+            "pair_logit": -0.5930641889572144,
+            "fused_logit": -0.08522403240203857,
+            "score": 0.47870683670043945,
+            "rank": 19
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.9981083869934082,
+            "pair_logit": -0.6406694650650024,
+            "fused_logit": 1.3574389219284058,
+            "score": 0.7953431010246277,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 30,
+            "predicate": "catching",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.4788970947265625,
+            "pair_logit": -0.6406694650650024,
+            "fused_logit": 0.8382276296615601,
+            "score": 0.6980918645858765,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball glove",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3660140037536621,
+            "pair_logit": -0.8273154497146606,
+            "fused_logit": -1.1933294534683228,
+            "score": 0.23266398906707764,
+            "rank": 26
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball glove",
+            "predicate_id": 30,
+            "predicate": "catching",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.1878185272216797,
+            "pair_logit": -0.8273154497146606,
+            "fused_logit": -2.0151339769363403,
+            "score": 0.11762309074401855,
+            "rank": 29
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball bat",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.965517282485962,
+            "pair_logit": -0.8346836566925049,
+            "fused_logit": -3.800200939178467,
+            "score": 0.021876970306038857,
+            "rank": 31
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 30,
+            "predicate": "catching",
+            "object_id": 4,
+            "object_label": "baseball bat",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.07140159606933594,
+            "pair_logit": -0.8346836566925049,
+            "fused_logit": -0.763282060623169,
+            "score": 0.31793412566185,
+            "rank": 25
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 2.143794059753418,
+            "pair_logit": -0.8803223371505737,
+            "fused_logit": 1.2634717226028442,
+            "score": 0.7796231508255005,
+            "rank": 12
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.5795798301696777,
+            "pair_logit": -0.8803223371505737,
+            "fused_logit": -0.300742506980896,
+            "score": 0.42537596821784973,
+            "rank": 21
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball glove",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.4202265739440918,
+            "pair_logit": -0.9459629058837891,
+            "fused_logit": -1.3661894798278809,
+            "score": 0.2032361924648285,
+            "rank": 28
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball glove",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.2994377613067627,
+            "pair_logit": -0.9459629058837891,
+            "fused_logit": -2.2454006671905518,
+            "score": 0.09574693441390991,
+            "rank": 30
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.9959688186645508,
+            "pair_logit": -1.0565789937973022,
+            "fused_logit": 0.9393898248672485,
+            "score": 0.7189763784408569,
+            "rank": 14
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.6747007369995117,
+            "pair_logit": -1.0565789937973022,
+            "fused_logit": -0.3818782567977905,
+            "score": 0.40567395091056824,
+            "rank": 22
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball bat",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.764136552810669,
+            "pair_logit": -1.125340223312378,
+            "fused_logit": -3.889476776123047,
+            "score": 0.020045984536409378,
+            "rank": 32
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 4,
+            "object_label": "baseball bat",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.09329986572265625,
+            "pair_logit": -1.125340223312378,
+            "fused_logit": -1.2186400890350342,
+            "score": 0.22817586362361908,
+            "rank": 27
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball bat",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -3.6207094192504883,
+            "pair_logit": -1.4500732421875,
+            "fused_logit": -5.070782661437988,
+            "score": 0.0062383441254496574,
+            "rank": 33
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.1727752685546875,
+            "pair_logit": -1.4500732421875,
+            "fused_logit": -5.6228485107421875,
+            "score": 0.003601314499974251,
+            "rank": 35
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball bat",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -3.5233466625213623,
+            "pair_logit": -1.7797267436981201,
+            "fused_logit": -5.303073406219482,
+            "score": 0.004951635375618935,
+            "rank": 34
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.143442630767822,
+            "pair_logit": -1.7797267436981201,
+            "fused_logit": -5.923169374465942,
+            "score": 0.002669558161869645,
+            "rank": 36
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 18,
+    "expected_human_pairs": 18,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.07126930000958964
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          450.00000953674316,
+          177.99999153614044,
+          609.0000057220459,
+          393.9999979734421
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          131.00000381469727,
+          57.99999976158142,
+          303.99999618530273,
+          309.999995470047
+        ]
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          379.99998569488525,
+          175.99999541044235,
+          531.9999837875366,
+          341.9999983906746
+        ]
+      },
+      {
+        "id": 3,
+        "label": "baseball bat",
+        "category_id": 34,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          105.9999942779541,
+          51.00000151991844,
+          191.99999809265137,
+          112.00000432133675
+        ]
+      },
+      {
+        "id": 4,
+        "label": "baseball glove",
+        "category_id": 35,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          362.0000147819519,
+          193.99999152123928,
+          411.0000157356262,
+          236.99999083578587
+        ]
+      },
+      {
+        "id": 5,
+        "label": "playingfield",
+        "category_id": 97,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          396.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1,
+      2
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 5.17255163192749,
+        "pair_logit": 0.4910370409488678,
+        "fused_logit": 5.663588672876358,
+        "score": 0.9965419173240662,
+        "rank": 1
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.32658052444458,
+        "pair_logit": 0.13369643688201904,
+        "fused_logit": 3.460276961326599,
+        "score": 0.9695361256599426,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.4207682609558105,
+        "pair_logit": -0.24625816941261292,
+        "fused_logit": 3.1745100915431976,
+        "score": 0.9598637223243713,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.3342299461364746,
+        "pair_logit": -0.22836488485336304,
+        "fused_logit": 3.1058650612831116,
+        "score": 0.9571340680122375,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.2400426864624023,
+        "pair_logit": -0.24625816941261292,
+        "fused_logit": 2.9937845170497894,
+        "score": 0.9522925615310669,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.006962299346924,
+        "pair_logit": -0.21466898918151855,
+        "fused_logit": 2.7922933101654053,
+        "score": 0.9422580003738403,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 3.062486171722412,
+        "pair_logit": -0.30017250776290894,
+        "fused_logit": 2.762313663959503,
+        "score": 0.9406049847602844,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.9457736015319824,
+        "pair_logit": -0.46546435356140137,
+        "fused_logit": 2.480309247970581,
+        "score": 0.9227498173713684,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.4497017860412598,
+        "pair_logit": -0.21466898918151855,
+        "fused_logit": 2.235032796859741,
+        "score": 0.9033516049385071,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.9110312461853027,
+        "pair_logit": -0.22836488485336304,
+        "fused_logit": 1.6826663613319397,
+        "score": 0.8432573080062866,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.8525090217590332,
+        "pair_logit": -0.22586700320243835,
+        "fused_logit": 1.6266420185565948,
+        "score": 0.8357090950012207,
+        "rank": 11
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.114478588104248,
+        "pair_logit": -0.5353705883026123,
+        "fused_logit": 1.5791079998016357,
+        "score": 0.829078197479248,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.4130125045776367,
+        "pair_logit": 0.13369643688201904,
+        "fused_logit": 1.5467089414596558,
+        "score": 0.8244379162788391,
+        "rank": 13
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8979196548461914,
+        "pair_logit": 0.4910370409488678,
+        "fused_logit": 1.3889566957950592,
+        "score": 0.80042564868927,
+        "rank": 14
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.8251938819885254,
+        "pair_logit": -0.6104145050048828,
+        "fused_logit": 1.2147793769836426,
+        "score": 0.7711434960365295,
+        "rank": 15
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.3443870544433594,
+        "pair_logit": -0.5361648797988892,
+        "fused_logit": 0.8082221746444702,
+        "score": 0.6917305588722229,
+        "rank": 16
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.8909406661987305,
+        "pair_logit": -0.490042507648468,
+        "fused_logit": 0.40089815855026245,
+        "score": 0.5989034175872803,
+        "rank": 17
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.8004140853881836,
+        "pair_logit": -0.5361648797988892,
+        "fused_logit": 0.26424920558929443,
+        "score": 0.5656805634498596,
+        "rank": 18
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.24359130859375,
+        "pair_logit": -0.22586700320243835,
+        "fused_logit": 0.017724305391311646,
+        "score": 0.5044309496879578,
+        "rank": 19
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.4555506706237793,
+        "pair_logit": -0.4521597623825073,
+        "fused_logit": 0.0033909082412719727,
+        "score": 0.5008477568626404,
+        "rank": 20
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.4597024917602539,
+        "pair_logit": -0.5353705883026123,
+        "fused_logit": -0.0756680965423584,
+        "score": 0.4810919463634491,
+        "rank": 21
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.19864749908447266,
+        "pair_logit": -0.30017250776290894,
+        "fused_logit": -0.10152500867843628,
+        "score": 0.47464048862457275,
+        "rank": 22
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.7126274108886719,
+        "pair_logit": -0.9323147535324097,
+        "fused_logit": -0.2196873426437378,
+        "score": 0.4452979862689972,
+        "rank": 23
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.7554612159729004,
+        "pair_logit": -1.0683257579803467,
+        "fused_logit": -0.3128645420074463,
+        "score": 0.42241570353507996,
+        "rank": 24
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.12704133987426758,
+        "pair_logit": -0.46546435356140137,
+        "fused_logit": -0.3384230136871338,
+        "score": 0.41619259119033813,
+        "rank": 25
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.5244264602661133,
+        "pair_logit": -0.9323147535324097,
+        "fused_logit": -0.4078882932662964,
+        "score": 0.39941856265068054,
+        "rank": 26
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.6534857749938965,
+        "pair_logit": -1.0683257579803467,
+        "fused_logit": -0.4148399829864502,
+        "score": 0.39775216579437256,
+        "rank": 27
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.019428253173828125,
+        "pair_logit": -0.490042507648468,
+        "fused_logit": -0.5094707608222961,
+        "score": 0.37531760334968567,
+        "rank": 28
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.26776695251464844,
+        "pair_logit": -0.8659866452217102,
+        "fused_logit": -0.5982196927070618,
+        "score": 0.3547511100769043,
+        "rank": 29
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.26280927658081055,
+        "pair_logit": -0.4521597623825073,
+        "fused_logit": -0.7149690389633179,
+        "score": 0.32850179076194763,
+        "rank": 30
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -0.23770380020141602,
+        "pair_logit": -0.6104145050048828,
+        "fused_logit": -0.8481183052062988,
+        "score": 0.2998277246952057,
+        "rank": 31
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.033144474029541016,
+        "pair_logit": -0.9809581637382507,
+        "fused_logit": -1.0141026377677917,
+        "score": 0.2661777138710022,
+        "rank": 32
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.33304929733276367,
+        "pair_logit": -0.8407275080680847,
+        "fused_logit": -1.1737768054008484,
+        "score": 0.23617297410964966,
+        "rank": 33
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.45187807083129883,
+        "pair_logit": -0.925990641117096,
+        "fused_logit": -1.3778687119483948,
+        "score": 0.20135152339935303,
+        "rank": 34
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.4468302726745605,
+        "pair_logit": -0.8407275080680847,
+        "fused_logit": -2.2875577807426453,
+        "score": 0.09215866774320602,
+        "rank": 35
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.382155179977417,
+        "pair_logit": -1.1880695819854736,
+        "fused_logit": -2.5702247619628906,
+        "score": 0.07107946276664734,
+        "rank": 36
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.8298077583312988,
+        "pair_logit": -0.925990641117096,
+        "fused_logit": -2.7557983994483948,
+        "score": 0.059760015457868576,
+        "rank": 37
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.5892221927642822,
+        "pair_logit": -1.389095425605774,
+        "fused_logit": -2.978317618370056,
+        "score": 0.04841507598757744,
+        "rank": 38
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.7352263927459717,
+        "pair_logit": -1.4171968698501587,
+        "fused_logit": -3.1524232625961304,
+        "score": 0.040995895862579346,
+        "rank": 39
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.3942084312438965,
+        "pair_logit": -0.8659866452217102,
+        "fused_logit": -3.2601950764656067,
+        "score": 0.03696226701140404,
+        "rank": 40
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.516416549682617,
+        "pair_logit": -1.1880695819854736,
+        "fused_logit": -3.704486131668091,
+        "score": 0.02402161993086338,
+        "rank": 41
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.8639416694641113,
+        "pair_logit": -0.9809581637382507,
+        "fused_logit": -3.844899833202362,
+        "score": 0.02094065211713314,
+        "rank": 42
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.4979429244995117,
+        "pair_logit": -1.456223964691162,
+        "fused_logit": -3.954166889190674,
+        "score": 0.018813887611031532,
+        "rank": 43
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.6487882137298584,
+        "pair_logit": -1.389095425605774,
+        "fused_logit": -4.037883639335632,
+        "score": 0.017329156398773193,
+        "rank": 44
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.75927734375,
+        "pair_logit": -1.4171968698501587,
+        "fused_logit": -4.176474213600159,
+        "score": 0.01512040663510561,
+        "rank": 45
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.5117108821868896,
+        "pair_logit": -1.6932346820831299,
+        "fused_logit": -4.2049455642700195,
+        "score": 0.01470221672207117,
+        "rank": 46
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.760099411010742,
+        "pair_logit": -1.456223964691162,
+        "fused_logit": -4.216323375701904,
+        "score": 0.014538303948938847,
+        "rank": 47
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.5405266284942627,
+        "pair_logit": -1.6932346820831299,
+        "fused_logit": -4.233761310577393,
+        "score": 0.014290574938058853,
+        "rank": 48
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 5.17255163192749,
+        "pair_logit": 0.4910370409488678,
+        "fused_logit": 5.663588672876358,
+        "score": 0.9965419173240662
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.32658052444458,
+        "pair_logit": 0.13369643688201904,
+        "fused_logit": 3.460276961326599,
+        "score": 0.9695361256599426
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.4207682609558105,
+        "pair_logit": -0.24625816941261292,
+        "fused_logit": 3.1745100915431976,
+        "score": 0.9598637223243713
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.3342299461364746,
+        "pair_logit": -0.22836488485336304,
+        "fused_logit": 3.1058650612831116,
+        "score": 0.9571340680122375
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.006962299346924,
+        "pair_logit": -0.21466898918151855,
+        "fused_logit": 2.7922933101654053,
+        "score": 0.9422580003738403
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.062486171722412,
+        "pair_logit": -0.30017250776290894,
+        "fused_logit": 2.762313663959503,
+        "score": 0.9406049847602844
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.9457736015319824,
+        "pair_logit": -0.46546435356140137,
+        "fused_logit": 2.480309247970581,
+        "score": 0.9227498173713684
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.8525090217590332,
+        "pair_logit": -0.22586700320243835,
+        "fused_logit": 1.6266420185565948,
+        "score": 0.8357090950012207
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.114478588104248,
+        "pair_logit": -0.5353705883026123,
+        "fused_logit": 1.5791079998016357,
+        "score": 0.829078197479248
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.8251938819885254,
+        "pair_logit": -0.6104145050048828,
+        "fused_logit": 1.2147793769836426,
+        "score": 0.7711434960365295
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.3443870544433594,
+        "pair_logit": -0.5361648797988892,
+        "fused_logit": 0.8082221746444702,
+        "score": 0.6917305588722229
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.8909406661987305,
+        "pair_logit": -0.490042507648468,
+        "fused_logit": 0.40089815855026245,
+        "score": 0.5989034175872803
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.4555506706237793,
+        "pair_logit": -0.4521597623825073,
+        "fused_logit": 0.0033909082412719727,
+        "score": 0.5008477568626404
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 0.7126274108886719,
+        "pair_logit": -0.9323147535324097,
+        "fused_logit": -0.2196873426437378,
+        "score": 0.4452979862689972
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 0.7554612159729004,
+        "pair_logit": -1.0683257579803467,
+        "fused_logit": -0.3128645420074463,
+        "score": 0.42241570353507996
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.26776695251464844,
+        "pair_logit": -0.8659866452217102,
+        "fused_logit": -0.5982196927070618,
+        "score": 0.3547511100769043
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.033144474029541016,
+        "pair_logit": -0.9809581637382507,
+        "fused_logit": -1.0141026377677917,
+        "score": 0.2661777138710022
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.33304929733276367,
+        "pair_logit": -0.8407275080680847,
+        "fused_logit": -1.1737768054008484,
+        "score": 0.23617297410964966
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.45187807083129883,
+        "pair_logit": -0.925990641117096,
+        "fused_logit": -1.3778687119483948,
+        "score": 0.20135152339935303
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.382155179977417,
+        "pair_logit": -1.1880695819854736,
+        "fused_logit": -2.5702247619628906,
+        "score": 0.07107946276664734
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.5892221927642822,
+        "pair_logit": -1.389095425605774,
+        "fused_logit": -2.978317618370056,
+        "score": 0.04841507598757744
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.7352263927459717,
+        "pair_logit": -1.4171968698501587,
+        "fused_logit": -3.1524232625961304,
+        "score": 0.040995895862579346
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.4979429244995117,
+        "pair_logit": -1.456223964691162,
+        "fused_logit": -3.954166889190674,
+        "score": 0.018813887611031532
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.5117108821868896,
+        "pair_logit": -1.6932346820831299,
+        "fused_logit": -4.2049455642700195,
+        "score": 0.01470221672207117
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8979196548461914,
+            "pair_logit": 0.4910370409488678,
+            "fused_logit": 1.3889566957950592,
+            "score": 0.80042564868927,
+            "rank": 14
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 5.17255163192749,
+            "pair_logit": 0.4910370409488678,
+            "fused_logit": 5.663588672876358,
+            "score": 0.9965419173240662,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.4130125045776367,
+            "pair_logit": 0.13369643688201904,
+            "fused_logit": 1.5467089414596558,
+            "score": 0.8244379162788391,
+            "rank": 13
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.32658052444458,
+            "pair_logit": 0.13369643688201904,
+            "fused_logit": 3.460276961326599,
+            "score": 0.9695361256599426,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.006962299346924,
+            "pair_logit": -0.21466898918151855,
+            "fused_logit": 2.7922933101654053,
+            "score": 0.9422580003738403,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.4497017860412598,
+            "pair_logit": -0.21466898918151855,
+            "fused_logit": 2.235032796859741,
+            "score": 0.9033516049385071,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.8525090217590332,
+            "pair_logit": -0.22586700320243835,
+            "fused_logit": 1.6266420185565948,
+            "score": 0.8357090950012207,
+            "rank": 11
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.24359130859375,
+            "pair_logit": -0.22586700320243835,
+            "fused_logit": 0.017724305391311646,
+            "score": 0.5044309496879578,
+            "rank": 19
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.3342299461364746,
+            "pair_logit": -0.22836488485336304,
+            "fused_logit": 3.1058650612831116,
+            "score": 0.9571340680122375,
+            "rank": 4
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.9110312461853027,
+            "pair_logit": -0.22836488485336304,
+            "fused_logit": 1.6826663613319397,
+            "score": 0.8432573080062866,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.4207682609558105,
+            "pair_logit": -0.24625816941261292,
+            "fused_logit": 3.1745100915431976,
+            "score": 0.9598637223243713,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.2400426864624023,
+            "pair_logit": -0.24625816941261292,
+            "fused_logit": 2.9937845170497894,
+            "score": 0.9522925615310669,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.19864749908447266,
+            "pair_logit": -0.30017250776290894,
+            "fused_logit": -0.10152500867843628,
+            "score": 0.47464048862457275,
+            "rank": 22
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 3.062486171722412,
+            "pair_logit": -0.30017250776290894,
+            "fused_logit": 2.762313663959503,
+            "score": 0.9406049847602844,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.26280927658081055,
+            "pair_logit": -0.4521597623825073,
+            "fused_logit": -0.7149690389633179,
+            "score": 0.32850179076194763,
+            "rank": 30
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 30,
+            "predicate": "catching",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.4555506706237793,
+            "pair_logit": -0.4521597623825073,
+            "fused_logit": 0.0033909082412719727,
+            "score": 0.5008477568626404,
+            "rank": 20
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.12704133987426758,
+            "pair_logit": -0.46546435356140137,
+            "fused_logit": -0.3384230136871338,
+            "score": 0.41619259119033813,
+            "rank": 25
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.9457736015319824,
+            "pair_logit": -0.46546435356140137,
+            "fused_logit": 2.480309247970581,
+            "score": 0.9227498173713684,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.019428253173828125,
+            "pair_logit": -0.490042507648468,
+            "fused_logit": -0.5094707608222961,
+            "score": 0.37531760334968567,
+            "rank": 28
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.8909406661987305,
+            "pair_logit": -0.490042507648468,
+            "fused_logit": 0.40089815855026245,
+            "score": 0.5989034175872803,
+            "rank": 17
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.114478588104248,
+            "pair_logit": -0.5353705883026123,
+            "fused_logit": 1.5791079998016357,
+            "score": 0.829078197479248,
+            "rank": 12
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.4597024917602539,
+            "pair_logit": -0.5353705883026123,
+            "fused_logit": -0.0756680965423584,
+            "score": 0.4810919463634491,
+            "rank": 21
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.8004140853881836,
+            "pair_logit": -0.5361648797988892,
+            "fused_logit": 0.26424920558929443,
+            "score": 0.5656805634498596,
+            "rank": 18
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.3443870544433594,
+            "pair_logit": -0.5361648797988892,
+            "fused_logit": 0.8082221746444702,
+            "score": 0.6917305588722229,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.8251938819885254,
+            "pair_logit": -0.6104145050048828,
+            "fused_logit": 1.2147793769836426,
+            "score": 0.7711434960365295,
+            "rank": 15
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -0.23770380020141602,
+            "pair_logit": -0.6104145050048828,
+            "fused_logit": -0.8481183052062988,
+            "score": 0.2998277246952057,
+            "rank": 31
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.33304929733276367,
+            "pair_logit": -0.8407275080680847,
+            "fused_logit": -1.1737768054008484,
+            "score": 0.23617297410964966,
+            "rank": 33
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.4468302726745605,
+            "pair_logit": -0.8407275080680847,
+            "fused_logit": -2.2875577807426453,
+            "score": 0.09215866774320602,
+            "rank": 35
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.3942084312438965,
+            "pair_logit": -0.8659866452217102,
+            "fused_logit": -3.2601950764656067,
+            "score": 0.03696226701140404,
+            "rank": 40
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.26776695251464844,
+            "pair_logit": -0.8659866452217102,
+            "fused_logit": -0.5982196927070618,
+            "score": 0.3547511100769043,
+            "rank": 29
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.45187807083129883,
+            "pair_logit": -0.925990641117096,
+            "fused_logit": -1.3778687119483948,
+            "score": 0.20135152339935303,
+            "rank": 34
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.8298077583312988,
+            "pair_logit": -0.925990641117096,
+            "fused_logit": -2.7557983994483948,
+            "score": 0.059760015457868576,
+            "rank": 37
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.7126274108886719,
+            "pair_logit": -0.9323147535324097,
+            "fused_logit": -0.2196873426437378,
+            "score": 0.4452979862689972,
+            "rank": 23
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.5244264602661133,
+            "pair_logit": -0.9323147535324097,
+            "fused_logit": -0.4078882932662964,
+            "score": 0.39941856265068054,
+            "rank": 26
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.8639416694641113,
+            "pair_logit": -0.9809581637382507,
+            "fused_logit": -3.844899833202362,
+            "score": 0.02094065211713314,
+            "rank": 42
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.033144474029541016,
+            "pair_logit": -0.9809581637382507,
+            "fused_logit": -1.0141026377677917,
+            "score": 0.2661777138710022,
+            "rank": 32
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.6534857749938965,
+            "pair_logit": -1.0683257579803467,
+            "fused_logit": -0.4148399829864502,
+            "score": 0.39775216579437256,
+            "rank": 27
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.7554612159729004,
+            "pair_logit": -1.0683257579803467,
+            "fused_logit": -0.3128645420074463,
+            "score": 0.42241570353507996,
+            "rank": 24
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.382155179977417,
+            "pair_logit": -1.1880695819854736,
+            "fused_logit": -2.5702247619628906,
+            "score": 0.07107946276664734,
+            "rank": 36
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.516416549682617,
+            "pair_logit": -1.1880695819854736,
+            "fused_logit": -3.704486131668091,
+            "score": 0.02402161993086338,
+            "rank": 41
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.5892221927642822,
+            "pair_logit": -1.389095425605774,
+            "fused_logit": -2.978317618370056,
+            "score": 0.04841507598757744,
+            "rank": 38
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.6487882137298584,
+            "pair_logit": -1.389095425605774,
+            "fused_logit": -4.037883639335632,
+            "score": 0.017329156398773193,
+            "rank": 44
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.7352263927459717,
+            "pair_logit": -1.4171968698501587,
+            "fused_logit": -3.1524232625961304,
+            "score": 0.040995895862579346,
+            "rank": 39
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.75927734375,
+            "pair_logit": -1.4171968698501587,
+            "fused_logit": -4.176474213600159,
+            "score": 0.01512040663510561,
+            "rank": 45
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.760099411010742,
+            "pair_logit": -1.456223964691162,
+            "fused_logit": -4.216323375701904,
+            "score": 0.014538303948938847,
+            "rank": 47
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.4979429244995117,
+            "pair_logit": -1.456223964691162,
+            "fused_logit": -3.954166889190674,
+            "score": 0.018813887611031532,
+            "rank": 43
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.5405266284942627,
+            "pair_logit": -1.6932346820831299,
+            "fused_logit": -4.233761310577393,
+            "score": 0.014290574938058853,
+            "rank": 48
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.5117108821868896,
+            "pair_logit": -1.6932346820831299,
+            "fused_logit": -4.2049455642700195,
+            "score": 0.01470221672207117,
+            "rank": 46
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 30,
+    "human_pairs_scored": 24,
+    "expected_human_pairs": 24,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          450.00000953674316,
+          177.99999153614044,
+          609.0000057220459,
+          393.9999979734421
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          131.00000381469727,
+          57.99999976158142,
+          303.99999618530273,
+          309.999995470047
+        ]
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          379.99998569488525,
+          175.99999541044235,
+          531.9999837875366,
+          341.9999983906746
+        ]
+      },
+      {
+        "id": 3,
+        "label": "baseball bat",
+        "category_id": 34,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          105.9999942779541,
+          51.00000151991844,
+          191.99999809265137,
+          112.00000432133675
+        ]
+      },
+      {
+        "id": 4,
+        "label": "baseball glove",
+        "category_id": 35,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          362.0000147819519,
+          193.99999152123928,
+          411.0000157356262,
+          236.99999083578587
+        ]
+      },
+      {
+        "id": 5,
+        "label": "playingfield",
+        "category_id": 97,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          396.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1,
+      2
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 5.17255163192749,
+        "pair_logit": 0.4910370409488678,
+        "fused_logit": 5.663588672876358,
+        "score": 0.9965419173240662,
+        "rank": 1
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.3750271797180176,
+        "pair_logit": 0.13369643688201904,
+        "fused_logit": 3.5087236166000366,
+        "score": 0.9709349274635315,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.4207682609558105,
+        "pair_logit": -0.24625816941261292,
+        "fused_logit": 3.1745100915431976,
+        "score": 0.9598637223243713,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.3342299461364746,
+        "pair_logit": -0.22836488485336304,
+        "fused_logit": 3.1058650612831116,
+        "score": 0.9571340680122375,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.2400426864624023,
+        "pair_logit": -0.24625816941261292,
+        "fused_logit": 2.9937845170497894,
+        "score": 0.9522925615310669,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.0124077796936035,
+        "pair_logit": -0.21466898918151855,
+        "fused_logit": 2.797738790512085,
+        "score": 0.9425534605979919,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 3.062486171722412,
+        "pair_logit": -0.30017250776290894,
+        "fused_logit": 2.762313663959503,
+        "score": 0.9406049847602844,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.945774555206299,
+        "pair_logit": -0.46546435356140137,
+        "fused_logit": 2.4803102016448975,
+        "score": 0.922749936580658,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.431643486022949,
+        "pair_logit": -0.21466898918151855,
+        "fused_logit": 2.2169744968414307,
+        "score": 0.9017634987831116,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.9110312461853027,
+        "pair_logit": -0.22836488485336304,
+        "fused_logit": 1.6826663613319397,
+        "score": 0.8432573080062866,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.8526248931884766,
+        "pair_logit": -0.22586700320243835,
+        "fused_logit": 1.6267578899860382,
+        "score": 0.8357250094413757,
+        "rank": 11
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.1035895347595215,
+        "pair_logit": -0.5353705883026123,
+        "fused_logit": 1.5682189464569092,
+        "score": 0.8275296092033386,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.4163308143615723,
+        "pair_logit": 0.13369643688201904,
+        "fused_logit": 1.5500272512435913,
+        "score": 0.824917733669281,
+        "rank": 13
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8979196548461914,
+        "pair_logit": 0.4910370409488678,
+        "fused_logit": 1.3889566957950592,
+        "score": 0.80042564868927,
+        "rank": 14
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.8251938819885254,
+        "pair_logit": -0.6104145050048828,
+        "fused_logit": 1.2147793769836426,
+        "score": 0.7711434960365295,
+        "rank": 15
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.3443870544433594,
+        "pair_logit": -0.5361648797988892,
+        "fused_logit": 0.8082221746444702,
+        "score": 0.6917305588722229,
+        "rank": 16
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.8909406661987305,
+        "pair_logit": -0.490042507648468,
+        "fused_logit": 0.40089815855026245,
+        "score": 0.5989034175872803,
+        "rank": 17
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.8004722595214844,
+        "pair_logit": -0.5361648797988892,
+        "fused_logit": 0.2643073797225952,
+        "score": 0.5656948685646057,
+        "rank": 18
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.4856419563293457,
+        "pair_logit": -0.4521597623825073,
+        "fused_logit": 0.03348219394683838,
+        "score": 0.5083697438240051,
+        "rank": 19
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.24359130859375,
+        "pair_logit": -0.22586700320243835,
+        "fused_logit": 0.017724305391311646,
+        "score": 0.5044309496879578,
+        "rank": 20
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.4597024917602539,
+        "pair_logit": -0.5353705883026123,
+        "fused_logit": -0.0756680965423584,
+        "score": 0.4810919463634491,
+        "rank": 21
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.19864749908447266,
+        "pair_logit": -0.30017250776290894,
+        "fused_logit": -0.10152500867843628,
+        "score": 0.47464048862457275,
+        "rank": 22
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.7125692367553711,
+        "pair_logit": -0.9323147535324097,
+        "fused_logit": -0.21974551677703857,
+        "score": 0.4452836513519287,
+        "rank": 23
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.15713262557983398,
+        "pair_logit": -0.46546435356140137,
+        "fused_logit": -0.3083317279815674,
+        "score": 0.4235219955444336,
+        "rank": 24
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.730217456817627,
+        "pair_logit": -1.0683257579803467,
+        "fused_logit": -0.3381083011627197,
+        "score": 0.41626909375190735,
+        "rank": 25
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.5496706962585449,
+        "pair_logit": -0.9323147535324097,
+        "fused_logit": -0.38264405727386475,
+        "score": 0.40548935532569885,
+        "rank": 26
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.6833453178405762,
+        "pair_logit": -1.0683257579803467,
+        "fused_logit": -0.3849804401397705,
+        "score": 0.40492627024650574,
+        "rank": 27
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.022747039794921875,
+        "pair_logit": -0.490042507648468,
+        "fused_logit": -0.5127895474433899,
+        "score": 0.3745398223400116,
+        "rank": 28
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.26776790618896484,
+        "pair_logit": -0.8659866452217102,
+        "fused_logit": -0.5982187390327454,
+        "score": 0.354751318693161,
+        "rank": 29
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.2360367774963379,
+        "pair_logit": -0.4521597623825073,
+        "fused_logit": -0.6881965398788452,
+        "score": 0.3344343602657318,
+        "rank": 30
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -0.2121272087097168,
+        "pair_logit": -0.6104145050048828,
+        "fused_logit": -0.8225417137145996,
+        "score": 0.30522438883781433,
+        "rank": 31
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.0030546188354492188,
+        "pair_logit": -0.9809581637382507,
+        "fused_logit": -0.9840127825737,
+        "score": 0.27209627628326416,
+        "rank": 32
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3079361915588379,
+        "pair_logit": -0.8407275080680847,
+        "fused_logit": -1.1486636996269226,
+        "score": 0.24073325097560883,
+        "rank": 33
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.45187807083129883,
+        "pair_logit": -0.925990641117096,
+        "fused_logit": -1.3778687119483948,
+        "score": 0.20135152339935303,
+        "rank": 34
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.4303076267242432,
+        "pair_logit": -0.8407275080680847,
+        "fused_logit": -2.271035134792328,
+        "score": 0.09355039149522781,
+        "rank": 35
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.3804957866668701,
+        "pair_logit": -1.1880695819854736,
+        "fused_logit": -2.5685653686523438,
+        "score": 0.07118910551071167,
+        "rank": 36
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.8026707172393799,
+        "pair_logit": -0.925990641117096,
+        "fused_logit": -2.728661358356476,
+        "score": 0.06130315363407135,
+        "rank": 37
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.5980451107025146,
+        "pair_logit": -1.389095425605774,
+        "fused_logit": -2.9871405363082886,
+        "score": 0.0480102077126503,
+        "rank": 38
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.7364709377288818,
+        "pair_logit": -1.4171968698501587,
+        "fused_logit": -3.1536678075790405,
+        "score": 0.040946997702121735,
+        "rank": 39
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.365776777267456,
+        "pair_logit": -0.8659866452217102,
+        "fused_logit": -3.2317634224891663,
+        "score": 0.03798775374889374,
+        "rank": 40
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.514939546585083,
+        "pair_logit": -1.1880695819854736,
+        "fused_logit": -3.7030091285705566,
+        "score": 0.024056272581219673,
+        "rank": 41
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.8530445098876953,
+        "pair_logit": -0.9809581637382507,
+        "fused_logit": -3.834002673625946,
+        "score": 0.021165238693356514,
+        "rank": 42
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.4825279712677,
+        "pair_logit": -1.456223964691162,
+        "fused_logit": -3.9387519359588623,
+        "score": 0.01910056546330452,
+        "rank": 43
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.6465725898742676,
+        "pair_logit": -1.389095425605774,
+        "fused_logit": -4.0356680154800415,
+        "score": 0.017366930842399597,
+        "rank": 44
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.7607545852661133,
+        "pair_logit": -1.4171968698501587,
+        "fused_logit": -4.177951455116272,
+        "score": 0.015098423697054386,
+        "rank": 45
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.495187997817993,
+        "pair_logit": -1.6932346820831299,
+        "fused_logit": -4.188422679901123,
+        "score": 0.014943499118089676,
+        "rank": 46
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.737678050994873,
+        "pair_logit": -1.456223964691162,
+        "fused_logit": -4.193902015686035,
+        "score": 0.014863056130707264,
+        "rank": 47
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.512509346008301,
+        "pair_logit": -1.6932346820831299,
+        "fused_logit": -4.205744028091431,
+        "score": 0.014690659008920193,
+        "rank": 48
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 5.17255163192749,
+        "pair_logit": 0.4910370409488678,
+        "fused_logit": 5.663588672876358,
+        "score": 0.9965419173240662
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.3750271797180176,
+        "pair_logit": 0.13369643688201904,
+        "fused_logit": 3.5087236166000366,
+        "score": 0.9709349274635315
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.4207682609558105,
+        "pair_logit": -0.24625816941261292,
+        "fused_logit": 3.1745100915431976,
+        "score": 0.9598637223243713
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.3342299461364746,
+        "pair_logit": -0.22836488485336304,
+        "fused_logit": 3.1058650612831116,
+        "score": 0.9571340680122375
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.0124077796936035,
+        "pair_logit": -0.21466898918151855,
+        "fused_logit": 2.797738790512085,
+        "score": 0.9425534605979919
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.062486171722412,
+        "pair_logit": -0.30017250776290894,
+        "fused_logit": 2.762313663959503,
+        "score": 0.9406049847602844
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.945774555206299,
+        "pair_logit": -0.46546435356140137,
+        "fused_logit": 2.4803102016448975,
+        "score": 0.922749936580658
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.8526248931884766,
+        "pair_logit": -0.22586700320243835,
+        "fused_logit": 1.6267578899860382,
+        "score": 0.8357250094413757
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.1035895347595215,
+        "pair_logit": -0.5353705883026123,
+        "fused_logit": 1.5682189464569092,
+        "score": 0.8275296092033386
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.8251938819885254,
+        "pair_logit": -0.6104145050048828,
+        "fused_logit": 1.2147793769836426,
+        "score": 0.7711434960365295
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.3443870544433594,
+        "pair_logit": -0.5361648797988892,
+        "fused_logit": 0.8082221746444702,
+        "score": 0.6917305588722229
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.8909406661987305,
+        "pair_logit": -0.490042507648468,
+        "fused_logit": 0.40089815855026245,
+        "score": 0.5989034175872803
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 4,
+        "object_label": "baseball glove",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.4856419563293457,
+        "pair_logit": -0.4521597623825073,
+        "fused_logit": 0.03348219394683838,
+        "score": 0.5083697438240051
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 0.7125692367553711,
+        "pair_logit": -0.9323147535324097,
+        "fused_logit": -0.21974551677703857,
+        "score": 0.4452836513519287
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 0.730217456817627,
+        "pair_logit": -1.0683257579803467,
+        "fused_logit": -0.3381083011627197,
+        "score": 0.41626909375190735
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.26776790618896484,
+        "pair_logit": -0.8659866452217102,
+        "fused_logit": -0.5982187390327454,
+        "score": 0.354751318693161
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 3,
+        "object_label": "baseball bat",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.0030546188354492188,
+        "pair_logit": -0.9809581637382507,
+        "fused_logit": -0.9840127825737,
+        "score": 0.27209627628326416
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.3079361915588379,
+        "pair_logit": -0.8407275080680847,
+        "fused_logit": -1.1486636996269226,
+        "score": 0.24073325097560883
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "baseball glove",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.45187807083129883,
+        "pair_logit": -0.925990641117096,
+        "fused_logit": -1.3778687119483948,
+        "score": 0.20135152339935303
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.3804957866668701,
+        "pair_logit": -1.1880695819854736,
+        "fused_logit": -2.5685653686523438,
+        "score": 0.07118910551071167
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.5980451107025146,
+        "pair_logit": -1.389095425605774,
+        "fused_logit": -2.9871405363082886,
+        "score": 0.0480102077126503
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.7364709377288818,
+        "pair_logit": -1.4171968698501587,
+        "fused_logit": -3.1536678075790405,
+        "score": 0.040946997702121735
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.4825279712677,
+        "pair_logit": -1.456223964691162,
+        "fused_logit": -3.9387519359588623,
+        "score": 0.01910056546330452
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "baseball bat",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.495187997817993,
+        "pair_logit": -1.6932346820831299,
+        "fused_logit": -4.188422679901123,
+        "score": 0.014943499118089676
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8979196548461914,
+            "pair_logit": 0.4910370409488678,
+            "fused_logit": 1.3889566957950592,
+            "score": 0.80042564868927,
+            "rank": 14
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 5.17255163192749,
+            "pair_logit": 0.4910370409488678,
+            "fused_logit": 5.663588672876358,
+            "score": 0.9965419173240662,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.4163308143615723,
+            "pair_logit": 0.13369643688201904,
+            "fused_logit": 1.5500272512435913,
+            "score": 0.824917733669281,
+            "rank": 13
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.3750271797180176,
+            "pair_logit": 0.13369643688201904,
+            "fused_logit": 3.5087236166000366,
+            "score": 0.9709349274635315,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.0124077796936035,
+            "pair_logit": -0.21466898918151855,
+            "fused_logit": 2.797738790512085,
+            "score": 0.9425534605979919,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.431643486022949,
+            "pair_logit": -0.21466898918151855,
+            "fused_logit": 2.2169744968414307,
+            "score": 0.9017634987831116,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.8526248931884766,
+            "pair_logit": -0.22586700320243835,
+            "fused_logit": 1.6267578899860382,
+            "score": 0.8357250094413757,
+            "rank": 11
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.24359130859375,
+            "pair_logit": -0.22586700320243835,
+            "fused_logit": 0.017724305391311646,
+            "score": 0.5044309496879578,
+            "rank": 20
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.3342299461364746,
+            "pair_logit": -0.22836488485336304,
+            "fused_logit": 3.1058650612831116,
+            "score": 0.9571340680122375,
+            "rank": 4
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.9110312461853027,
+            "pair_logit": -0.22836488485336304,
+            "fused_logit": 1.6826663613319397,
+            "score": 0.8432573080062866,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.4207682609558105,
+            "pair_logit": -0.24625816941261292,
+            "fused_logit": 3.1745100915431976,
+            "score": 0.9598637223243713,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 5,
+            "object_label": "playingfield",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.2400426864624023,
+            "pair_logit": -0.24625816941261292,
+            "fused_logit": 2.9937845170497894,
+            "score": 0.9522925615310669,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.19864749908447266,
+            "pair_logit": -0.30017250776290894,
+            "fused_logit": -0.10152500867843628,
+            "score": 0.47464048862457275,
+            "rank": 22
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 3.062486171722412,
+            "pair_logit": -0.30017250776290894,
+            "fused_logit": 2.762313663959503,
+            "score": 0.9406049847602844,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.2360367774963379,
+            "pair_logit": -0.4521597623825073,
+            "fused_logit": -0.6881965398788452,
+            "score": 0.3344343602657318,
+            "rank": 30
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 30,
+            "predicate": "catching",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.4856419563293457,
+            "pair_logit": -0.4521597623825073,
+            "fused_logit": 0.03348219394683838,
+            "score": 0.5083697438240051,
+            "rank": 19
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.15713262557983398,
+            "pair_logit": -0.46546435356140137,
+            "fused_logit": -0.3083317279815674,
+            "score": 0.4235219955444336,
+            "rank": 24
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 4,
+            "object_label": "baseball glove",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.945774555206299,
+            "pair_logit": -0.46546435356140137,
+            "fused_logit": 2.4803102016448975,
+            "score": 0.922749936580658,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.022747039794921875,
+            "pair_logit": -0.490042507648468,
+            "fused_logit": -0.5127895474433899,
+            "score": 0.3745398223400116,
+            "rank": 28
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.8909406661987305,
+            "pair_logit": -0.490042507648468,
+            "fused_logit": 0.40089815855026245,
+            "score": 0.5989034175872803,
+            "rank": 17
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.1035895347595215,
+            "pair_logit": -0.5353705883026123,
+            "fused_logit": 1.5682189464569092,
+            "score": 0.8275296092033386,
+            "rank": 12
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.4597024917602539,
+            "pair_logit": -0.5353705883026123,
+            "fused_logit": -0.0756680965423584,
+            "score": 0.4810919463634491,
+            "rank": 21
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.8004722595214844,
+            "pair_logit": -0.5361648797988892,
+            "fused_logit": 0.2643073797225952,
+            "score": 0.5656948685646057,
+            "rank": 18
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.3443870544433594,
+            "pair_logit": -0.5361648797988892,
+            "fused_logit": 0.8082221746444702,
+            "score": 0.6917305588722229,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.8251938819885254,
+            "pair_logit": -0.6104145050048828,
+            "fused_logit": 1.2147793769836426,
+            "score": 0.7711434960365295,
+            "rank": 15
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -0.2121272087097168,
+            "pair_logit": -0.6104145050048828,
+            "fused_logit": -0.8225417137145996,
+            "score": 0.30522438883781433,
+            "rank": 31
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3079361915588379,
+            "pair_logit": -0.8407275080680847,
+            "fused_logit": -1.1486636996269226,
+            "score": 0.24073325097560883,
+            "rank": 33
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.4303076267242432,
+            "pair_logit": -0.8407275080680847,
+            "fused_logit": -2.271035134792328,
+            "score": 0.09355039149522781,
+            "rank": 35
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.365776777267456,
+            "pair_logit": -0.8659866452217102,
+            "fused_logit": -3.2317634224891663,
+            "score": 0.03798775374889374,
+            "rank": 40
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.26776790618896484,
+            "pair_logit": -0.8659866452217102,
+            "fused_logit": -0.5982187390327454,
+            "score": 0.354751318693161,
+            "rank": 29
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.45187807083129883,
+            "pair_logit": -0.925990641117096,
+            "fused_logit": -1.3778687119483948,
+            "score": 0.20135152339935303,
+            "rank": 34
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "baseball glove",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.8026707172393799,
+            "pair_logit": -0.925990641117096,
+            "fused_logit": -2.728661358356476,
+            "score": 0.06130315363407135,
+            "rank": 37
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.7125692367553711,
+            "pair_logit": -0.9323147535324097,
+            "fused_logit": -0.21974551677703857,
+            "score": 0.4452836513519287,
+            "rank": 23
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.5496706962585449,
+            "pair_logit": -0.9323147535324097,
+            "fused_logit": -0.38264405727386475,
+            "score": 0.40548935532569885,
+            "rank": 26
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.8530445098876953,
+            "pair_logit": -0.9809581637382507,
+            "fused_logit": -3.834002673625946,
+            "score": 0.021165238693356514,
+            "rank": 42
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 3,
+            "object_label": "baseball bat",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.0030546188354492188,
+            "pair_logit": -0.9809581637382507,
+            "fused_logit": -0.9840127825737,
+            "score": 0.27209627628326416,
+            "rank": 32
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.6833453178405762,
+            "pair_logit": -1.0683257579803467,
+            "fused_logit": -0.3849804401397705,
+            "score": 0.40492627024650574,
+            "rank": 27
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.730217456817627,
+            "pair_logit": -1.0683257579803467,
+            "fused_logit": -0.3381083011627197,
+            "score": 0.41626909375190735,
+            "rank": 25
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.3804957866668701,
+            "pair_logit": -1.1880695819854736,
+            "fused_logit": -2.5685653686523438,
+            "score": 0.07118910551071167,
+            "rank": 36
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.514939546585083,
+            "pair_logit": -1.1880695819854736,
+            "fused_logit": -3.7030091285705566,
+            "score": 0.024056272581219673,
+            "rank": 41
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.5980451107025146,
+            "pair_logit": -1.389095425605774,
+            "fused_logit": -2.9871405363082886,
+            "score": 0.0480102077126503,
+            "rank": 38
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.6465725898742676,
+            "pair_logit": -1.389095425605774,
+            "fused_logit": -4.0356680154800415,
+            "score": 0.017366930842399597,
+            "rank": 44
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.7364709377288818,
+            "pair_logit": -1.4171968698501587,
+            "fused_logit": -3.1536678075790405,
+            "score": 0.040946997702121735,
+            "rank": 39
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "playingfield",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.7607545852661133,
+            "pair_logit": -1.4171968698501587,
+            "fused_logit": -4.177951455116272,
+            "score": 0.015098423697054386,
+            "rank": 45
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.737678050994873,
+            "pair_logit": -1.456223964691162,
+            "fused_logit": -4.193902015686035,
+            "score": 0.014863056130707264,
+            "rank": 47
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.4825279712677,
+            "pair_logit": -1.456223964691162,
+            "fused_logit": -3.9387519359588623,
+            "score": 0.01910056546330452,
+            "rank": 43
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.512509346008301,
+            "pair_logit": -1.6932346820831299,
+            "fused_logit": -4.205744028091431,
+            "score": 0.014690659008920193,
+            "rank": 48
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "baseball bat",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.495187997817993,
+            "pair_logit": -1.6932346820831299,
+            "fused_logit": -4.188422679901123,
+            "score": 0.014943499118089676,
+            "rank": 46
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 30,
+    "human_pairs_scored": 24,
+    "expected_human_pairs": 24,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.1433283999795094
+}

@@ -1,0 +1,3597 @@
+{
+  "index": 280,
+  "sample_position": 413,
+  "file_name": "2325881.jpg",
+  "image_sha256": "0e66a2748ad65ccd3cb04e5163b77def18ae135109bfe19935ff7d3183eba7b4",
+  "image_size": [
+    424,
+    640
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        16.00000023841858,
+        125.0,
+        368.0000054836273,
+        569.0000152587891
+      ]
+    },
+    {
+      "id": 1,
+      "label": "banana",
+      "category_id": 46,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        193.99999183416367,
+        280.9999990463257,
+        276.9999938607216,
+        439.0000009536743
+      ]
+    },
+    {
+      "id": 2,
+      "label": "chair",
+      "category_id": 56,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        38.000000566244125,
+        339.0000009536743,
+        79.00000038743019,
+        480.9999990463257
+      ]
+    },
+    {
+      "id": 3,
+      "label": "dining table",
+      "category_id": 60,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        2.9999945163726807,
+        537.9999923706055,
+        421.9999825954437,
+        632.9999923706055
+      ]
+    },
+    {
+      "id": 4,
+      "label": "wall-wood",
+      "category_id": 112,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        187.9999901652336,
+        0.0,
+        258.9999888539314,
+        143.99999618530273
+      ]
+    },
+    {
+      "id": 5,
+      "label": "tree",
+      "category_id": 116,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        424.0,
+        592.9999923706055
+      ]
+    },
+    {
+      "id": 6,
+      "label": "table",
+      "category_id": 121,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        576.9999837875366,
+        424.0,
+        639.9999856948853
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 26,
+      "predicate": "eating"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate_id": 16,
+      "predicate": "sitting on"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 4,
+      "predicate_id": 1,
+      "predicate": "in front of"
+    },
+    {
+      "subject_id": 3,
+      "object_id": 0,
+      "predicate_id": 1,
+      "predicate": "in front of"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          13.455008506774902,
+          119.81702423095703,
+          374.67193603515625,
+          570.612548828125
+        ],
+        "detection_score": 0.9996293783187866,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "dining table",
+        "category_id": 67,
+        "is_person": false,
+        "box_xyxy": [
+          0.3492681682109833,
+          534.3389282226562,
+          422.53375244140625,
+          634.1514282226562
+        ],
+        "detection_score": 0.7219222187995911,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "toothbrush",
+        "category_id": 90,
+        "is_person": false,
+        "box_xyxy": [
+          193.7687225341797,
+          281.94110107421875,
+          251.7824249267578,
+          480.1024169921875
+        ],
+        "detection_score": 0.6695181131362915,
+        "source": "detector"
+      },
+      {
+        "id": 3,
+        "label": "banana",
+        "category_id": 52,
+        "is_person": false,
+        "box_xyxy": [
+          193.87171936035156,
+          278.8733215332031,
+          254.7211151123047,
+          477.4617004394531
+        ],
+        "detection_score": 0.6123638153076172,
+        "source": "detector"
+      },
+      {
+        "id": 4,
+        "label": "toothbrush",
+        "category_id": 90,
+        "is_person": false,
+        "box_xyxy": [
+          224.34596252441406,
+          285.94805908203125,
+          249.9288330078125,
+          331.3944091796875
+        ],
+        "detection_score": 0.5934799909591675,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 2,
+        "object_label": "toothbrush",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.384354114532471,
+        "pair_logit": 1.0213878154754639,
+        "fused_logit": 5.405741930007935,
+        "score": 0.9955293536186218,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 3,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.384354114532471,
+        "pair_logit": 1.0195332765579224,
+        "fused_logit": 5.403887391090393,
+        "score": 0.995521068572998,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 1,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.098791599273682,
+        "pair_logit": 0.20381641387939453,
+        "fused_logit": 4.302608013153076,
+        "score": 0.9866474866867065,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 4,
+        "object_label": "toothbrush",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.129854679107666,
+        "pair_logit": -0.025083184242248535,
+        "fused_logit": 3.1047714948654175,
+        "score": 0.9570891857147217,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.1207923889160156,
+        "pair_logit": 0.20381641387939453,
+        "fused_logit": 2.32460880279541,
+        "score": 0.9108946919441223,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "dining table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.8639354705810547,
+        "pair_logit": -0.6126265525817871,
+        "fused_logit": 1.2513089179992676,
+        "score": 0.777526319026947,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.0039272308349609375,
+        "pair_logit": 1.0195332765579224,
+        "fused_logit": 1.0156060457229614,
+        "score": 0.7341158390045166,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "toothbrush",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.024062633514404297,
+        "pair_logit": 1.0213878154754639,
+        "fused_logit": 0.9973251819610596,
+        "score": 0.7305323481559753,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "toothbrush",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.03545236587524414,
+        "pair_logit": -0.025083184242248535,
+        "fused_logit": 0.010369181632995605,
+        "score": 0.5025922656059265,
+        "rank": 9
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "toothbrush",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8102731704711914,
+        "pair_logit": -0.9237470626831055,
+        "fused_logit": -0.11347389221191406,
+        "score": 0.4716619551181793,
+        "rank": 10
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "dining table",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.06147003173828125,
+        "pair_logit": -0.6126265525817871,
+        "fused_logit": -0.6740965843200684,
+        "score": 0.3375801742076874,
+        "rank": 11
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "banana",
+        "predicate_id": 6,
+        "predicate": "hanging from",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.5386261940002441,
+        "pair_logit": -2.3861513137817383,
+        "fused_logit": -1.8475251197814941,
+        "score": 0.13616374135017395,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "toothbrush",
+        "predicate_id": 6,
+        "predicate": "hanging from",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.44835567474365234,
+        "pair_logit": -2.4139270782470703,
+        "fused_logit": -1.965571403503418,
+        "score": 0.12286536395549774,
+        "rank": 13
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "toothbrush",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.253140687942505,
+        "pair_logit": -0.9237470626831055,
+        "fused_logit": -3.1768877506256104,
+        "score": 0.04004479944705963,
+        "rank": 14
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "banana",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.408829927444458,
+        "pair_logit": -2.3861513137817383,
+        "fused_logit": -3.7949812412261963,
+        "score": 0.021988943219184875,
+        "rank": 15
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "toothbrush",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.4448294639587402,
+        "pair_logit": -2.4139270782470703,
+        "fused_logit": -3.8587565422058105,
+        "score": 0.02065843902528286,
+        "rank": 16
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 2,
+        "object_label": "toothbrush",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.384354114532471,
+        "pair_logit": 1.0213878154754639,
+        "fused_logit": 5.405741930007935,
+        "score": 0.9955293536186218
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 3,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.384354114532471,
+        "pair_logit": 1.0195332765579224,
+        "fused_logit": 5.403887391090393,
+        "score": 0.995521068572998
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 1,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.098791599273682,
+        "pair_logit": 0.20381641387939453,
+        "fused_logit": 4.302608013153076,
+        "score": 0.9866474866867065
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 4,
+        "object_label": "toothbrush",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.129854679107666,
+        "pair_logit": -0.025083184242248535,
+        "fused_logit": 3.1047714948654175,
+        "score": 0.9570891857147217
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "dining table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.8639354705810547,
+        "pair_logit": -0.6126265525817871,
+        "fused_logit": 1.2513089179992676,
+        "score": 0.777526319026947
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "toothbrush",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.8102731704711914,
+        "pair_logit": -0.9237470626831055,
+        "fused_logit": -0.11347389221191406,
+        "score": 0.4716619551181793
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "banana",
+        "predicate_id": 6,
+        "predicate": "hanging from",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.5386261940002441,
+        "pair_logit": -2.3861513137817383,
+        "fused_logit": -1.8475251197814941,
+        "score": 0.13616374135017395
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "toothbrush",
+        "predicate_id": 6,
+        "predicate": "hanging from",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.44835567474365234,
+        "pair_logit": -2.4139270782470703,
+        "fused_logit": -1.965571403503418,
+        "score": 0.12286536395549774
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "toothbrush",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.024062633514404297,
+            "pair_logit": 1.0213878154754639,
+            "fused_logit": 0.9973251819610596,
+            "score": 0.7305323481559753,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 26,
+            "predicate": "eating",
+            "object_id": 2,
+            "object_label": "toothbrush",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.384354114532471,
+            "pair_logit": 1.0213878154754639,
+            "fused_logit": 5.405741930007935,
+            "score": 0.9955293536186218,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "banana",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.0039272308349609375,
+            "pair_logit": 1.0195332765579224,
+            "fused_logit": 1.0156060457229614,
+            "score": 0.7341158390045166,
+            "rank": 7
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 26,
+            "predicate": "eating",
+            "object_id": 3,
+            "object_label": "banana",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.384354114532471,
+            "pair_logit": 1.0195332765579224,
+            "fused_logit": 5.403887391090393,
+            "score": 0.995521068572998,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "dining table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.1207923889160156,
+            "pair_logit": 0.20381641387939453,
+            "fused_logit": 2.32460880279541,
+            "score": 0.9108946919441223,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 1,
+            "object_label": "dining table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.098791599273682,
+            "pair_logit": 0.20381641387939453,
+            "fused_logit": 4.302608013153076,
+            "score": 0.9866474866867065,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "toothbrush",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.03545236587524414,
+            "pair_logit": -0.025083184242248535,
+            "fused_logit": 0.010369181632995605,
+            "score": 0.5025922656059265,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 26,
+            "predicate": "eating",
+            "object_id": 4,
+            "object_label": "toothbrush",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.129854679107666,
+            "pair_logit": -0.025083184242248535,
+            "fused_logit": 3.1047714948654175,
+            "score": 0.9570891857147217,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "dining table",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.8639354705810547,
+            "pair_logit": -0.6126265525817871,
+            "fused_logit": 1.2513089179992676,
+            "score": 0.777526319026947,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "dining table",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.06147003173828125,
+            "pair_logit": -0.6126265525817871,
+            "fused_logit": -0.6740965843200684,
+            "score": 0.3375801742076874,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "toothbrush",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8102731704711914,
+            "pair_logit": -0.9237470626831055,
+            "fused_logit": -0.11347389221191406,
+            "score": 0.4716619551181793,
+            "rank": 10
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "toothbrush",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.253140687942505,
+            "pair_logit": -0.9237470626831055,
+            "fused_logit": -3.1768877506256104,
+            "score": 0.04004479944705963,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "banana",
+            "predicate_id": 6,
+            "predicate": "hanging from",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.5386261940002441,
+            "pair_logit": -2.3861513137817383,
+            "fused_logit": -1.8475251197814941,
+            "score": 0.13616374135017395,
+            "rank": 12
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "banana",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.408829927444458,
+            "pair_logit": -2.3861513137817383,
+            "fused_logit": -3.7949812412261963,
+            "score": 0.021988943219184875,
+            "rank": 15
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "toothbrush",
+            "predicate_id": 6,
+            "predicate": "hanging from",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.44835567474365234,
+            "pair_logit": -2.4139270782470703,
+            "fused_logit": -1.965571403503418,
+            "score": 0.12286536395549774,
+            "rank": 13
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "toothbrush",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.4448294639587402,
+            "pair_logit": -2.4139270782470703,
+            "fused_logit": -3.8587565422058105,
+            "score": 0.02065843902528286,
+            "rank": 16
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 8,
+    "expected_human_pairs": 8,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.07185920001938939
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          16.00000023841858,
+          125.0,
+          368.0000054836273,
+          569.0000152587891
+        ]
+      },
+      {
+        "id": 1,
+        "label": "banana",
+        "category_id": 46,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          193.99999183416367,
+          280.9999990463257,
+          276.9999938607216,
+          439.0000009536743
+        ]
+      },
+      {
+        "id": 2,
+        "label": "chair",
+        "category_id": 56,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          38.000000566244125,
+          339.0000009536743,
+          79.00000038743019,
+          480.9999990463257
+        ]
+      },
+      {
+        "id": 3,
+        "label": "dining table",
+        "category_id": 60,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          2.9999945163726807,
+          537.9999923706055,
+          421.9999825954437,
+          632.9999923706055
+        ]
+      },
+      {
+        "id": 4,
+        "label": "wall-wood",
+        "category_id": 112,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          187.9999901652336,
+          0.0,
+          258.9999888539314,
+          143.99999618530273
+        ]
+      },
+      {
+        "id": 5,
+        "label": "tree",
+        "category_id": 116,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          424.0,
+          592.9999923706055
+        ]
+      },
+      {
+        "id": 6,
+        "label": "table",
+        "category_id": 121,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          576.9999837875366,
+          424.0,
+          639.9999856948853
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 1,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.596119403839111,
+        "pair_logit": 0.9128158092498779,
+        "fused_logit": 5.508935213088989,
+        "score": 0.9959659576416016,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 3,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.454810619354248,
+        "pair_logit": 0.14187583327293396,
+        "fused_logit": 3.596686452627182,
+        "score": 0.97331702709198,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 6,
+        "object_label": "table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.391623020172119,
+        "pair_logit": 0.16242846846580505,
+        "fused_logit": 3.554051488637924,
+        "score": 0.9721871018409729,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 2,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.4587459564208984,
+        "pair_logit": 0.16315484046936035,
+        "fused_logit": 2.621900796890259,
+        "score": 0.9322578310966492,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.252047538757324,
+        "pair_logit": 0.14187583327293396,
+        "fused_logit": 2.393923372030258,
+        "score": 0.9163627028465271,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 6,
+        "object_label": "table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.0766549110412598,
+        "pair_logit": 0.16242846846580505,
+        "fused_logit": 2.239083379507065,
+        "score": 0.9037047028541565,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 5,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.355527400970459,
+        "pair_logit": -0.20466196537017822,
+        "fused_logit": 2.1508654356002808,
+        "score": 0.895749568939209,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.8470754623413086,
+        "pair_logit": 0.16315484046936035,
+        "fused_logit": 2.010230302810669,
+        "score": 0.881866991519928,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 5,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.9141616821289062,
+        "pair_logit": -0.20466196537017822,
+        "fused_logit": 1.709499716758728,
+        "score": 0.8467713594436646,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "chair",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.253784656524658,
+        "pair_logit": -0.6294358372688293,
+        "fused_logit": 1.6243488192558289,
+        "score": 0.835394024848938,
+        "rank": 10
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall-wood",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.6659479141235352,
+        "pair_logit": -0.15108120441436768,
+        "fused_logit": 1.5148667097091675,
+        "score": 0.8197813630104065,
+        "rank": 11
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.4899172782897949,
+        "pair_logit": 0.9128158092498779,
+        "fused_logit": 1.4027330875396729,
+        "score": 0.8026172518730164,
+        "rank": 12
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.7290797233581543,
+        "pair_logit": -0.3354702591896057,
+        "fused_logit": 1.3936094641685486,
+        "score": 0.8011678457260132,
+        "rank": 13
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 4,
+        "object_label": "wall-wood",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.701995849609375,
+        "pair_logit": -0.7990421056747437,
+        "fused_logit": 0.9029537439346313,
+        "score": 0.7115561366081238,
+        "rank": 14
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 4,
+        "object_label": "wall-wood",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.5824980735778809,
+        "pair_logit": -0.7990421056747437,
+        "fused_logit": 0.7834559679031372,
+        "score": 0.6864244341850281,
+        "rank": 15
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "dining table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.0093574523925781,
+        "pair_logit": -0.6317887306213379,
+        "fused_logit": 0.37756872177124023,
+        "score": 0.5932865738868713,
+        "rank": 16
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "tree",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.5955924987792969,
+        "pair_logit": -0.3354702591896057,
+        "fused_logit": 0.26012223958969116,
+        "score": 0.5646663308143616,
+        "rank": 17
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "banana",
+        "predicate_id": 6,
+        "predicate": "hanging from",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.4644269943237305,
+        "pair_logit": -2.2129874229431152,
+        "fused_logit": 0.25143957138061523,
+        "score": 0.5625308156013489,
+        "rank": 18
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.7082915306091309,
+        "pair_logit": -0.5685190558433533,
+        "fused_logit": 0.1397724747657776,
+        "score": 0.534886360168457,
+        "rank": 19
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall-wood",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.0748910903930664,
+        "pair_logit": -0.15108120441436768,
+        "fused_logit": -0.22597229480743408,
+        "score": 0.44374608993530273,
+        "rank": 20
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "chair",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.03479146957397461,
+        "pair_logit": -0.6294358372688293,
+        "fused_logit": -0.5946443676948547,
+        "score": 0.3555699288845062,
+        "rank": 21
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "banana",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.5258722305297852,
+        "pair_logit": -2.2129874229431152,
+        "fused_logit": -1.68711519241333,
+        "score": 0.15615560114383698,
+        "rank": 22
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "dining table",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.2835640907287598,
+        "pair_logit": -0.6317887306213379,
+        "fused_logit": -1.9153528213500977,
+        "score": 0.128380686044693,
+        "rank": 23
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "table",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.6528680324554443,
+        "pair_logit": -0.5685190558433533,
+        "fused_logit": -2.2213870882987976,
+        "score": 0.09784628450870514,
+        "rank": 24
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 1,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.596119403839111,
+        "pair_logit": 0.9128158092498779,
+        "fused_logit": 5.508935213088989,
+        "score": 0.9959659576416016
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 3,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.454810619354248,
+        "pair_logit": 0.14187583327293396,
+        "fused_logit": 3.596686452627182,
+        "score": 0.97331702709198
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 6,
+        "object_label": "table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.391623020172119,
+        "pair_logit": 0.16242846846580505,
+        "fused_logit": 3.554051488637924,
+        "score": 0.9721871018409729
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 2,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4587459564208984,
+        "pair_logit": 0.16315484046936035,
+        "fused_logit": 2.621900796890259,
+        "score": 0.9322578310966492
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 5,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.355527400970459,
+        "pair_logit": -0.20466196537017822,
+        "fused_logit": 2.1508654356002808,
+        "score": 0.895749568939209
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "chair",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.253784656524658,
+        "pair_logit": -0.6294358372688293,
+        "fused_logit": 1.6243488192558289,
+        "score": 0.835394024848938
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall-wood",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.6659479141235352,
+        "pair_logit": -0.15108120441436768,
+        "fused_logit": 1.5148667097091675,
+        "score": 0.8197813630104065
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.7290797233581543,
+        "pair_logit": -0.3354702591896057,
+        "fused_logit": 1.3936094641685486,
+        "score": 0.8011678457260132
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 4,
+        "object_label": "wall-wood",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.701995849609375,
+        "pair_logit": -0.7990421056747437,
+        "fused_logit": 0.9029537439346313,
+        "score": 0.7115561366081238
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "dining table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.0093574523925781,
+        "pair_logit": -0.6317887306213379,
+        "fused_logit": 0.37756872177124023,
+        "score": 0.5932865738868713
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "banana",
+        "predicate_id": 6,
+        "predicate": "hanging from",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4644269943237305,
+        "pair_logit": -2.2129874229431152,
+        "fused_logit": 0.25143957138061523,
+        "score": 0.5625308156013489
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.7082915306091309,
+        "pair_logit": -0.5685190558433533,
+        "fused_logit": 0.1397724747657776,
+        "score": 0.534886360168457
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "banana",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.4899172782897949,
+            "pair_logit": 0.9128158092498779,
+            "fused_logit": 1.4027330875396729,
+            "score": 0.8026172518730164,
+            "rank": 12
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 26,
+            "predicate": "eating",
+            "object_id": 1,
+            "object_label": "banana",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.596119403839111,
+            "pair_logit": 0.9128158092498779,
+            "fused_logit": 5.508935213088989,
+            "score": 0.9959659576416016,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "chair",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.8470754623413086,
+            "pair_logit": 0.16315484046936035,
+            "fused_logit": 2.010230302810669,
+            "score": 0.881866991519928,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 2,
+            "object_label": "chair",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.4587459564208984,
+            "pair_logit": 0.16315484046936035,
+            "fused_logit": 2.621900796890259,
+            "score": 0.9322578310966492,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 6,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 6,
+            "object_label": "table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.0766549110412598,
+            "pair_logit": 0.16242846846580505,
+            "fused_logit": 2.239083379507065,
+            "score": 0.9037047028541565,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 6,
+            "object_label": "table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.391623020172119,
+            "pair_logit": 0.16242846846580505,
+            "fused_logit": 3.554051488637924,
+            "score": 0.9721871018409729,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "dining table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.252047538757324,
+            "pair_logit": 0.14187583327293396,
+            "fused_logit": 2.393923372030258,
+            "score": 0.9163627028465271,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 3,
+            "object_label": "dining table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.454810619354248,
+            "pair_logit": 0.14187583327293396,
+            "fused_logit": 3.596686452627182,
+            "score": 0.97331702709198,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "wall-wood",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.6659479141235352,
+            "pair_logit": -0.15108120441436768,
+            "fused_logit": 1.5148667097091675,
+            "score": 0.8197813630104065,
+            "rank": 11
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "wall-wood",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.0748910903930664,
+            "pair_logit": -0.15108120441436768,
+            "fused_logit": -0.22597229480743408,
+            "score": 0.44374608993530273,
+            "rank": 20
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 5,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.9141616821289062,
+            "pair_logit": -0.20466196537017822,
+            "fused_logit": 1.709499716758728,
+            "score": 0.8467713594436646,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 5,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.355527400970459,
+            "pair_logit": -0.20466196537017822,
+            "fused_logit": 2.1508654356002808,
+            "score": 0.895749568939209,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "tree",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.7290797233581543,
+            "pair_logit": -0.3354702591896057,
+            "fused_logit": 1.3936094641685486,
+            "score": 0.8011678457260132,
+            "rank": 13
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "tree",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.5955924987792969,
+            "pair_logit": -0.3354702591896057,
+            "fused_logit": 0.26012223958969116,
+            "score": 0.5646663308143616,
+            "rank": 17
+          }
+        ]
+      },
+      {
+        "subject_id": 6,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 6,
+            "subject_label": "table",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.7082915306091309,
+            "pair_logit": -0.5685190558433533,
+            "fused_logit": 0.1397724747657776,
+            "score": 0.534886360168457,
+            "rank": 19
+          },
+          {
+            "subject_id": 6,
+            "subject_label": "table",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.6528680324554443,
+            "pair_logit": -0.5685190558433533,
+            "fused_logit": -2.2213870882987976,
+            "score": 0.09784628450870514,
+            "rank": 24
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "chair",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.253784656524658,
+            "pair_logit": -0.6294358372688293,
+            "fused_logit": 1.6243488192558289,
+            "score": 0.835394024848938,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "chair",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.03479146957397461,
+            "pair_logit": -0.6294358372688293,
+            "fused_logit": -0.5946443676948547,
+            "score": 0.3555699288845062,
+            "rank": 21
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "dining table",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.0093574523925781,
+            "pair_logit": -0.6317887306213379,
+            "fused_logit": 0.37756872177124023,
+            "score": 0.5932865738868713,
+            "rank": 16
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "dining table",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.2835640907287598,
+            "pair_logit": -0.6317887306213379,
+            "fused_logit": -1.9153528213500977,
+            "score": 0.128380686044693,
+            "rank": 23
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 4,
+            "object_label": "wall-wood",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.5824980735778809,
+            "pair_logit": -0.7990421056747437,
+            "fused_logit": 0.7834559679031372,
+            "score": 0.6864244341850281,
+            "rank": 15
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 4,
+            "object_label": "wall-wood",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.701995849609375,
+            "pair_logit": -0.7990421056747437,
+            "fused_logit": 0.9029537439346313,
+            "score": 0.7115561366081238,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "banana",
+            "predicate_id": 6,
+            "predicate": "hanging from",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.4644269943237305,
+            "pair_logit": -2.2129874229431152,
+            "fused_logit": 0.25143957138061523,
+            "score": 0.5625308156013489,
+            "rank": 18
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "banana",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.5258722305297852,
+            "pair_logit": -2.2129874229431152,
+            "fused_logit": -1.68711519241333,
+            "score": 0.15615560114383698,
+            "rank": 22
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 42,
+    "human_pairs_scored": 12,
+    "expected_human_pairs": 12,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          16.00000023841858,
+          125.0,
+          368.0000054836273,
+          569.0000152587891
+        ]
+      },
+      {
+        "id": 1,
+        "label": "banana",
+        "category_id": 46,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          193.99999183416367,
+          280.9999990463257,
+          276.9999938607216,
+          439.0000009536743
+        ]
+      },
+      {
+        "id": 2,
+        "label": "chair",
+        "category_id": 56,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          38.000000566244125,
+          339.0000009536743,
+          79.00000038743019,
+          480.9999990463257
+        ]
+      },
+      {
+        "id": 3,
+        "label": "dining table",
+        "category_id": 60,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          2.9999945163726807,
+          537.9999923706055,
+          421.9999825954437,
+          632.9999923706055
+        ]
+      },
+      {
+        "id": 4,
+        "label": "wall-wood",
+        "category_id": 112,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          187.9999901652336,
+          0.0,
+          258.9999888539314,
+          143.99999618530273
+        ]
+      },
+      {
+        "id": 5,
+        "label": "tree",
+        "category_id": 116,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          424.0,
+          592.9999923706055
+        ]
+      },
+      {
+        "id": 6,
+        "label": "table",
+        "category_id": 121,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          576.9999837875366,
+          424.0,
+          639.9999856948853
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 1,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.596119403839111,
+        "pair_logit": 0.9128158092498779,
+        "fused_logit": 5.508935213088989,
+        "score": 0.9959659576416016,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 3,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.454810619354248,
+        "pair_logit": 0.14187583327293396,
+        "fused_logit": 3.596686452627182,
+        "score": 0.97331702709198,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 6,
+        "object_label": "table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.4126858711242676,
+        "pair_logit": 0.16242846846580505,
+        "fused_logit": 3.5751143395900726,
+        "score": 0.9727510213851929,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.472896099090576,
+        "pair_logit": 0.16315484046936035,
+        "fused_logit": 2.6360509395599365,
+        "score": 0.933146059513092,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.301340103149414,
+        "pair_logit": 0.14187583327293396,
+        "fused_logit": 2.443215936422348,
+        "score": 0.9200639128684998,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 6,
+        "object_label": "table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.0766549110412598,
+        "pair_logit": 0.16242846846580505,
+        "fused_logit": 2.239083379507065,
+        "score": 0.9037047028541565,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 5,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.355527400970459,
+        "pair_logit": -0.20466196537017822,
+        "fused_logit": 2.1508654356002808,
+        "score": 0.895749568939209,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.8579654693603516,
+        "pair_logit": 0.16315484046936035,
+        "fused_logit": 2.021120309829712,
+        "score": 0.8829967975616455,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 5,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.9141616821289062,
+        "pair_logit": -0.20466196537017822,
+        "fused_logit": 1.709499716758728,
+        "score": 0.8467713594436646,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "chair",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.264674186706543,
+        "pair_logit": -0.6294358372688293,
+        "fused_logit": 1.6352383494377136,
+        "score": 0.8368859887123108,
+        "rank": 10
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall-wood",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.635857105255127,
+        "pair_logit": -0.15108120441436768,
+        "fused_logit": 1.4847759008407593,
+        "score": 0.8152928948402405,
+        "rank": 11
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.7590551376342773,
+        "pair_logit": -0.3354702591896057,
+        "fused_logit": 1.4235848784446716,
+        "score": 0.8058997988700867,
+        "rank": 12
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.49323606491088867,
+        "pair_logit": 0.9128158092498779,
+        "fused_logit": 1.4060518741607666,
+        "score": 0.8031424880027771,
+        "rank": 13
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 4,
+        "object_label": "wall-wood",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.701995849609375,
+        "pair_logit": -0.7990421056747437,
+        "fused_logit": 0.9029537439346313,
+        "score": 0.7115561366081238,
+        "rank": 14
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 4,
+        "object_label": "wall-wood",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.552464485168457,
+        "pair_logit": -0.7990421056747437,
+        "fused_logit": 0.7534223794937134,
+        "score": 0.679923951625824,
+        "rank": 15
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "dining table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.979954719543457,
+        "pair_logit": -0.6317887306213379,
+        "fused_logit": 0.34816598892211914,
+        "score": 0.5861727595329285,
+        "rank": 16
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "tree",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.5962896347045898,
+        "pair_logit": -0.3354702591896057,
+        "fused_logit": 0.26081937551498413,
+        "score": 0.5648376941680908,
+        "rank": 17
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "banana",
+        "predicate_id": 6,
+        "predicate": "hanging from",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.4644274711608887,
+        "pair_logit": -2.2129874229431152,
+        "fused_logit": 0.25144004821777344,
+        "score": 0.5625308752059937,
+        "rank": 18
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.7082147598266602,
+        "pair_logit": -0.5685190558433533,
+        "fused_logit": 0.13969570398330688,
+        "score": 0.5348672270774841,
+        "rank": 19
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall-wood",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.13437604904174805,
+        "pair_logit": -0.15108120441436768,
+        "fused_logit": -0.2854572534561157,
+        "score": 0.4291163682937622,
+        "rank": 20
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "chair",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.03479146957397461,
+        "pair_logit": -0.6294358372688293,
+        "fused_logit": -0.5946443676948547,
+        "score": 0.3555699288845062,
+        "rank": 21
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "banana",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.5500550270080566,
+        "pair_logit": -2.2129874229431152,
+        "fused_logit": -1.6629323959350586,
+        "score": 0.15936875343322754,
+        "rank": 22
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "dining table",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.285041093826294,
+        "pair_logit": -0.6317887306213379,
+        "fused_logit": -1.9168298244476318,
+        "score": 0.1282155066728592,
+        "rank": 23
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "table",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.678528070449829,
+        "pair_logit": -0.5685190558433533,
+        "fused_logit": -2.2470471262931824,
+        "score": 0.09560447186231613,
+        "rank": 24
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 1,
+        "object_label": "banana",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.596119403839111,
+        "pair_logit": 0.9128158092498779,
+        "fused_logit": 5.508935213088989,
+        "score": 0.9959659576416016
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 3,
+        "object_label": "dining table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.454810619354248,
+        "pair_logit": 0.14187583327293396,
+        "fused_logit": 3.596686452627182,
+        "score": 0.97331702709198
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 6,
+        "object_label": "table",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.4126858711242676,
+        "pair_logit": 0.16242846846580505,
+        "fused_logit": 3.5751143395900726,
+        "score": 0.9727510213851929
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.472896099090576,
+        "pair_logit": 0.16315484046936035,
+        "fused_logit": 2.6360509395599365,
+        "score": 0.933146059513092
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 5,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.355527400970459,
+        "pair_logit": -0.20466196537017822,
+        "fused_logit": 2.1508654356002808,
+        "score": 0.895749568939209
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "chair",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.264674186706543,
+        "pair_logit": -0.6294358372688293,
+        "fused_logit": 1.6352383494377136,
+        "score": 0.8368859887123108
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "wall-wood",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.635857105255127,
+        "pair_logit": -0.15108120441436768,
+        "fused_logit": 1.4847759008407593,
+        "score": 0.8152928948402405
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.7590551376342773,
+        "pair_logit": -0.3354702591896057,
+        "fused_logit": 1.4235848784446716,
+        "score": 0.8058997988700867
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 4,
+        "object_label": "wall-wood",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.701995849609375,
+        "pair_logit": -0.7990421056747437,
+        "fused_logit": 0.9029537439346313,
+        "score": 0.7115561366081238
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "dining table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.979954719543457,
+        "pair_logit": -0.6317887306213379,
+        "fused_logit": 0.34816598892211914,
+        "score": 0.5861727595329285
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "banana",
+        "predicate_id": 6,
+        "predicate": "hanging from",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4644274711608887,
+        "pair_logit": -2.2129874229431152,
+        "fused_logit": 0.25144004821777344,
+        "score": 0.5625308752059937
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "table",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.7082147598266602,
+        "pair_logit": -0.5685190558433533,
+        "fused_logit": 0.13969570398330688,
+        "score": 0.5348672270774841
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "banana",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.49323606491088867,
+            "pair_logit": 0.9128158092498779,
+            "fused_logit": 1.4060518741607666,
+            "score": 0.8031424880027771,
+            "rank": 13
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 26,
+            "predicate": "eating",
+            "object_id": 1,
+            "object_label": "banana",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.596119403839111,
+            "pair_logit": 0.9128158092498779,
+            "fused_logit": 5.508935213088989,
+            "score": 0.9959659576416016,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "chair",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.8579654693603516,
+            "pair_logit": 0.16315484046936035,
+            "fused_logit": 2.021120309829712,
+            "score": 0.8829967975616455,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "chair",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.472896099090576,
+            "pair_logit": 0.16315484046936035,
+            "fused_logit": 2.6360509395599365,
+            "score": 0.933146059513092,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 6,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 6,
+            "object_label": "table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.0766549110412598,
+            "pair_logit": 0.16242846846580505,
+            "fused_logit": 2.239083379507065,
+            "score": 0.9037047028541565,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 6,
+            "object_label": "table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.4126858711242676,
+            "pair_logit": 0.16242846846580505,
+            "fused_logit": 3.5751143395900726,
+            "score": 0.9727510213851929,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "dining table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.301340103149414,
+            "pair_logit": 0.14187583327293396,
+            "fused_logit": 2.443215936422348,
+            "score": 0.9200639128684998,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 3,
+            "object_label": "dining table",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.454810619354248,
+            "pair_logit": 0.14187583327293396,
+            "fused_logit": 3.596686452627182,
+            "score": 0.97331702709198,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "wall-wood",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.635857105255127,
+            "pair_logit": -0.15108120441436768,
+            "fused_logit": 1.4847759008407593,
+            "score": 0.8152928948402405,
+            "rank": 11
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "wall-wood",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.13437604904174805,
+            "pair_logit": -0.15108120441436768,
+            "fused_logit": -0.2854572534561157,
+            "score": 0.4291163682937622,
+            "rank": 20
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 5,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.9141616821289062,
+            "pair_logit": -0.20466196537017822,
+            "fused_logit": 1.709499716758728,
+            "score": 0.8467713594436646,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 5,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.355527400970459,
+            "pair_logit": -0.20466196537017822,
+            "fused_logit": 2.1508654356002808,
+            "score": 0.895749568939209,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "tree",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.7590551376342773,
+            "pair_logit": -0.3354702591896057,
+            "fused_logit": 1.4235848784446716,
+            "score": 0.8058997988700867,
+            "rank": 12
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "tree",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.5962896347045898,
+            "pair_logit": -0.3354702591896057,
+            "fused_logit": 0.26081937551498413,
+            "score": 0.5648376941680908,
+            "rank": 17
+          }
+        ]
+      },
+      {
+        "subject_id": 6,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 6,
+            "subject_label": "table",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.7082147598266602,
+            "pair_logit": -0.5685190558433533,
+            "fused_logit": 0.13969570398330688,
+            "score": 0.5348672270774841,
+            "rank": 19
+          },
+          {
+            "subject_id": 6,
+            "subject_label": "table",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.678528070449829,
+            "pair_logit": -0.5685190558433533,
+            "fused_logit": -2.2470471262931824,
+            "score": 0.09560447186231613,
+            "rank": 24
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "chair",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.264674186706543,
+            "pair_logit": -0.6294358372688293,
+            "fused_logit": 1.6352383494377136,
+            "score": 0.8368859887123108,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "chair",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.03479146957397461,
+            "pair_logit": -0.6294358372688293,
+            "fused_logit": -0.5946443676948547,
+            "score": 0.3555699288845062,
+            "rank": 21
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "dining table",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.979954719543457,
+            "pair_logit": -0.6317887306213379,
+            "fused_logit": 0.34816598892211914,
+            "score": 0.5861727595329285,
+            "rank": 16
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "dining table",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.285041093826294,
+            "pair_logit": -0.6317887306213379,
+            "fused_logit": -1.9168298244476318,
+            "score": 0.1282155066728592,
+            "rank": 23
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 4,
+            "object_label": "wall-wood",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.552464485168457,
+            "pair_logit": -0.7990421056747437,
+            "fused_logit": 0.7534223794937134,
+            "score": 0.679923951625824,
+            "rank": 15
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 4,
+            "object_label": "wall-wood",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.701995849609375,
+            "pair_logit": -0.7990421056747437,
+            "fused_logit": 0.9029537439346313,
+            "score": 0.7115561366081238,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "banana",
+            "predicate_id": 6,
+            "predicate": "hanging from",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.4644274711608887,
+            "pair_logit": -2.2129874229431152,
+            "fused_logit": 0.25144004821777344,
+            "score": 0.5625308752059937,
+            "rank": 18
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "banana",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.5500550270080566,
+            "pair_logit": -2.2129874229431152,
+            "fused_logit": -1.6629323959350586,
+            "score": 0.15936875343322754,
+            "rank": 22
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 42,
+    "human_pairs_scored": 12,
+    "expected_human_pairs": 12,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.14557130000321195
+}

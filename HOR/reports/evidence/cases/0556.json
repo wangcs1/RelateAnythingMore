@@ -1,0 +1,1285 @@
+{
+  "index": 556,
+  "sample_position": 344,
+  "file_name": "2339759.jpg",
+  "image_sha256": "93eaf6ecb0627ae04cd7c6414baf845353594ada97d80494f39300accf60427a",
+  "image_size": [
+    640,
+    427
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        122.00000286102295,
+        51.999999821186066,
+        255.00000476837158,
+        320.999995470047
+      ]
+    },
+    {
+      "id": 1,
+      "label": "tennis racket",
+      "category_id": 38,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        98.00000429153442,
+        77.9999997317791,
+        134.0000033378601,
+        172.0000003874302
+      ]
+    },
+    {
+      "id": 2,
+      "label": "playingfield",
+      "category_id": 97,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        640.0,
+        427.0
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 51,
+      "predicate": "swinging"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate_id": 19,
+      "predicate": "jumping from"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          122.218017578125,
+          50.74495315551758,
+          256.8974304199219,
+          322.15087890625
+        ],
+        "detection_score": 0.999721348285675,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "tennis racket",
+        "category_id": 43,
+        "is_person": false,
+        "box_xyxy": [
+          98.38316345214844,
+          78.81856536865234,
+          130.21603393554688,
+          164.80348205566406
+        ],
+        "detection_score": 0.9980273842811584,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.269834995269775,
+        "pair_logit": 0.643371045589447,
+        "fused_logit": 4.913206040859222,
+        "score": 0.9927046895027161,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.5829663276672363,
+        "pair_logit": 0.643371045589447,
+        "fused_logit": 0.06040471792221069,
+        "score": 0.5150966048240662,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.6696205139160156,
+        "pair_logit": -0.4676985740661621,
+        "fused_logit": -2.1373190879821777,
+        "score": 0.10552217066287994,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.770231008529663,
+        "pair_logit": -0.4676985740661621,
+        "fused_logit": -2.237929582595825,
+        "score": 0.09639573097229004,
+        "rank": 4
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.269834995269775,
+        "pair_logit": 0.643371045589447,
+        "fused_logit": 4.913206040859222,
+        "score": 0.9927046895027161
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.6696205139160156,
+        "pair_logit": -0.4676985740661621,
+        "fused_logit": -2.1373190879821777,
+        "score": 0.10552217066287994
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "tennis racket",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.5829663276672363,
+            "pair_logit": 0.643371045589447,
+            "fused_logit": 0.06040471792221069,
+            "score": 0.5150966048240662,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 1,
+            "object_label": "tennis racket",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.269834995269775,
+            "pair_logit": 0.643371045589447,
+            "fused_logit": 4.913206040859222,
+            "score": 0.9927046895027161,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "tennis racket",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.6696205139160156,
+            "pair_logit": -0.4676985740661621,
+            "fused_logit": -2.1373190879821777,
+            "score": 0.10552217066287994,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "tennis racket",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.770231008529663,
+            "pair_logit": -0.4676985740661621,
+            "fused_logit": -2.237929582595825,
+            "score": 0.09639573097229004,
+            "rank": 4
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 2,
+    "human_pairs_scored": 2,
+    "expected_human_pairs": 2,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06719319999683648
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          122.00000286102295,
+          51.999999821186066,
+          255.00000476837158,
+          320.999995470047
+        ]
+      },
+      {
+        "id": 1,
+        "label": "tennis racket",
+        "category_id": 38,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          98.00000429153442,
+          77.9999997317791,
+          134.0000033378601,
+          172.0000003874302
+        ]
+      },
+      {
+        "id": 2,
+        "label": "playingfield",
+        "category_id": 97,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          427.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.811464786529541,
+        "pair_logit": 0.6648542881011963,
+        "fused_logit": 5.476319074630737,
+        "score": 0.9958327412605286,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 2,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.4536986351013184,
+        "pair_logit": 0.09565168619155884,
+        "fused_logit": 3.549350321292877,
+        "score": 0.9720598459243774,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.1754627227783203,
+        "pair_logit": 0.09565168619155884,
+        "fused_logit": 3.271114408969879,
+        "score": 0.9634244441986084,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8835315704345703,
+        "pair_logit": 0.6648542881011963,
+        "fused_logit": 1.5483858585357666,
+        "score": 0.824680507183075,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.937110424041748,
+        "pair_logit": -0.462924599647522,
+        "fused_logit": 0.4741858243942261,
+        "score": 0.6163740158081055,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.6098370552062988,
+        "pair_logit": -0.462924599647522,
+        "fused_logit": 0.14691245555877686,
+        "score": 0.5366621613502502,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.9869823455810547,
+        "pair_logit": -0.8514516949653625,
+        "fused_logit": -1.8384340405464172,
+        "score": 0.1372366100549698,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "playingfield",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.770982027053833,
+        "pair_logit": -0.8514516949653625,
+        "fused_logit": -2.6224337220191956,
+        "score": 0.06770850718021393,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.811464786529541,
+        "pair_logit": 0.6648542881011963,
+        "fused_logit": 5.476319074630737,
+        "score": 0.9958327412605286
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 2,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.4536986351013184,
+        "pair_logit": 0.09565168619155884,
+        "fused_logit": 3.549350321292877,
+        "score": 0.9720598459243774
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.937110424041748,
+        "pair_logit": -0.462924599647522,
+        "fused_logit": 0.4741858243942261,
+        "score": 0.6163740158081055
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.9869823455810547,
+        "pair_logit": -0.8514516949653625,
+        "fused_logit": -1.8384340405464172,
+        "score": 0.1372366100549698
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "tennis racket",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8835315704345703,
+            "pair_logit": 0.6648542881011963,
+            "fused_logit": 1.5483858585357666,
+            "score": 0.824680507183075,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 1,
+            "object_label": "tennis racket",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.811464786529541,
+            "pair_logit": 0.6648542881011963,
+            "fused_logit": 5.476319074630737,
+            "score": 0.9958327412605286,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "playingfield",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.1754627227783203,
+            "pair_logit": 0.09565168619155884,
+            "fused_logit": 3.271114408969879,
+            "score": 0.9634244441986084,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 2,
+            "object_label": "playingfield",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.4536986351013184,
+            "pair_logit": 0.09565168619155884,
+            "fused_logit": 3.549350321292877,
+            "score": 0.9720598459243774,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "tennis racket",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.6098370552062988,
+            "pair_logit": -0.462924599647522,
+            "fused_logit": 0.14691245555877686,
+            "score": 0.5366621613502502,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "tennis racket",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.937110424041748,
+            "pair_logit": -0.462924599647522,
+            "fused_logit": 0.4741858243942261,
+            "score": 0.6163740158081055,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "playingfield",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.9869823455810547,
+            "pair_logit": -0.8514516949653625,
+            "fused_logit": -1.8384340405464172,
+            "score": 0.1372366100549698,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "playingfield",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.770982027053833,
+            "pair_logit": -0.8514516949653625,
+            "fused_logit": -2.6224337220191956,
+            "score": 0.06770850718021393,
+            "rank": 8
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          122.00000286102295,
+          51.999999821186066,
+          255.00000476837158,
+          320.999995470047
+        ]
+      },
+      {
+        "id": 1,
+        "label": "tennis racket",
+        "category_id": 38,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          98.00000429153442,
+          77.9999997317791,
+          134.0000033378601,
+          172.0000003874302
+        ]
+      },
+      {
+        "id": 2,
+        "label": "playingfield",
+        "category_id": 97,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          427.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.811464786529541,
+        "pair_logit": 0.6648542881011963,
+        "fused_logit": 5.476319074630737,
+        "score": 0.9958327412605286,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 2,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.4536986351013184,
+        "pair_logit": 0.09565168619155884,
+        "fused_logit": 3.549350321292877,
+        "score": 0.9720598459243774,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.1370596885681152,
+        "pair_logit": 0.09565168619155884,
+        "fused_logit": 3.232711374759674,
+        "score": 0.9620468616485596,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8835315704345703,
+        "pair_logit": 0.6648542881011963,
+        "fused_logit": 1.5483858585357666,
+        "score": 0.824680507183075,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.937110424041748,
+        "pair_logit": -0.462924599647522,
+        "fused_logit": 0.4741858243942261,
+        "score": 0.6163740158081055,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.6131558418273926,
+        "pair_logit": -0.462924599647522,
+        "fused_logit": 0.1502312421798706,
+        "score": 0.5374873280525208,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.9853229522705078,
+        "pair_logit": -0.8514516949653625,
+        "fused_logit": -1.8367746472358704,
+        "score": 0.13743320107460022,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "playingfield",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.756859540939331,
+        "pair_logit": -0.8514516949653625,
+        "fused_logit": -2.6083112359046936,
+        "score": 0.068605437874794,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 51,
+        "predicate": "swinging",
+        "object_id": 1,
+        "object_label": "tennis racket",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.811464786529541,
+        "pair_logit": 0.6648542881011963,
+        "fused_logit": 5.476319074630737,
+        "score": 0.9958327412605286
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 2,
+        "object_label": "playingfield",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.4536986351013184,
+        "pair_logit": 0.09565168619155884,
+        "fused_logit": 3.549350321292877,
+        "score": 0.9720598459243774
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "tennis racket",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.937110424041748,
+        "pair_logit": -0.462924599647522,
+        "fused_logit": 0.4741858243942261,
+        "score": 0.6163740158081055
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "playingfield",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.9853229522705078,
+        "pair_logit": -0.8514516949653625,
+        "fused_logit": -1.8367746472358704,
+        "score": 0.13743320107460022
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "tennis racket",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8835315704345703,
+            "pair_logit": 0.6648542881011963,
+            "fused_logit": 1.5483858585357666,
+            "score": 0.824680507183075,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 51,
+            "predicate": "swinging",
+            "object_id": 1,
+            "object_label": "tennis racket",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.811464786529541,
+            "pair_logit": 0.6648542881011963,
+            "fused_logit": 5.476319074630737,
+            "score": 0.9958327412605286,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "playingfield",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.1370596885681152,
+            "pair_logit": 0.09565168619155884,
+            "fused_logit": 3.232711374759674,
+            "score": 0.9620468616485596,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 2,
+            "object_label": "playingfield",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.4536986351013184,
+            "pair_logit": 0.09565168619155884,
+            "fused_logit": 3.549350321292877,
+            "score": 0.9720598459243774,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "tennis racket",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.6131558418273926,
+            "pair_logit": -0.462924599647522,
+            "fused_logit": 0.1502312421798706,
+            "score": 0.5374873280525208,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "tennis racket",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.937110424041748,
+            "pair_logit": -0.462924599647522,
+            "fused_logit": 0.4741858243942261,
+            "score": 0.6163740158081055,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "playingfield",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.9853229522705078,
+            "pair_logit": -0.8514516949653625,
+            "fused_logit": -1.8367746472358704,
+            "score": 0.13743320107460022,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "playingfield",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.756859540939331,
+            "pair_logit": -0.8514516949653625,
+            "fused_logit": -2.6083112359046936,
+            "score": 0.068605437874794,
+            "rank": 8
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.13655009999638423
+}

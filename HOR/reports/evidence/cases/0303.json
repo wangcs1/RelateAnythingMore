@@ -1,0 +1,1656 @@
+{
+  "index": 303,
+  "sample_position": 335,
+  "file_name": "2326982.jpg",
+  "image_sha256": "8749de195b3b7f7f5c59fcca6277e8418332ac925fd4b86c2c19de433e1c3682",
+  "image_size": [
+    612,
+    612
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        21.999998688697815,
+        398.9999853372574,
+        399.9999943971634,
+        588.9999922513962
+      ]
+    },
+    {
+      "id": 1,
+      "label": "donut",
+      "category_id": 54,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        97.00000333786011,
+        127.00000154972076,
+        428.00001096725464,
+        443.999991774559
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 0,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "donut",
+        "category_id": 60,
+        "is_person": false,
+        "box_xyxy": [
+          100.60648345947266,
+          128.08348083496094,
+          423.5871887207031,
+          438.4513244628906
+        ],
+        "detection_score": 0.9994341731071472,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          16.634197235107422,
+          397.10394287109375,
+          358.5942077636719,
+          590.5361328125
+        ],
+        "detection_score": 0.7849677205085754,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          17.230867385864258,
+          448.9210205078125,
+          180.9227294921875,
+          594.039794921875
+        ],
+        "detection_score": 0.649951159954071,
+        "source": "detector"
+      },
+      {
+        "id": 3,
+        "label": "remote",
+        "category_id": 75,
+        "is_person": false,
+        "box_xyxy": [
+          120.8710708618164,
+          492.9100646972656,
+          180.8911895751953,
+          573.6666870117188
+        ],
+        "detection_score": 0.43698588013648987,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      1,
+      2
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "donut",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.2017693519592285,
+        "pair_logit": 1.3455793857574463,
+        "fused_logit": 4.547348737716675,
+        "score": 0.9895159006118774,
+        "rank": 1
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "donut",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.8860855102539062,
+        "pair_logit": 0.4317197799682617,
+        "fused_logit": 3.317805290222168,
+        "score": 0.9650346636772156,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.5178756713867188,
+        "pair_logit": -0.5372364521026611,
+        "fused_logit": 1.9806392192840576,
+        "score": 0.8787492513656616,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "remote",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.8995318412780762,
+        "pair_logit": -0.4482702612876892,
+        "fused_logit": 1.451261579990387,
+        "score": 0.8101924657821655,
+        "rank": 4
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "remote",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.790975570678711,
+        "pair_logit": -0.5452894568443298,
+        "fused_logit": 1.245686113834381,
+        "score": 0.7765522003173828,
+        "rank": 5
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "remote",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.5781493186950684,
+        "pair_logit": -0.41503703594207764,
+        "fused_logit": 1.1631122827529907,
+        "score": 0.7618978023529053,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.4671258926391602,
+        "pair_logit": -0.5114644765853882,
+        "fused_logit": 0.955661416053772,
+        "score": 0.7222523093223572,
+        "rank": 7
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "remote",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.6923894882202148,
+        "pair_logit": -0.7997989058494568,
+        "fused_logit": 0.8925905823707581,
+        "score": 0.7094244360923767,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "donut",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.9786343574523926,
+        "pair_logit": 1.3455793857574463,
+        "fused_logit": 0.3669450283050537,
+        "score": 0.5907205939292908,
+        "rank": 9
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.18469762802124023,
+        "pair_logit": -0.5372364521026611,
+        "fused_logit": -0.7219340801239014,
+        "score": 0.3269672393798828,
+        "rank": 10
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "remote",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.024712085723876953,
+        "pair_logit": -0.7997989058494568,
+        "fused_logit": -0.8245109915733337,
+        "score": 0.3048069179058075,
+        "rank": 11
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "remote",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.47477293014526367,
+        "pair_logit": -0.5452894568443298,
+        "fused_logit": -1.0200623869895935,
+        "score": 0.26501524448394775,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -0.6270856857299805,
+        "pair_logit": -0.5114644765853882,
+        "fused_logit": -1.1385501623153687,
+        "score": 0.2425866574048996,
+        "rank": 13
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "donut",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.8077220916748047,
+        "pair_logit": 0.4317197799682617,
+        "fused_logit": -1.376002311706543,
+        "score": 0.20165181159973145,
+        "rank": 14
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 3,
+        "object_label": "remote",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.1969122886657715,
+        "pair_logit": -0.41503703594207764,
+        "fused_logit": -1.6119493246078491,
+        "score": 0.1663181483745575,
+        "rank": 15
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "donut",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.18808841705322266,
+        "pair_logit": -1.9714795351028442,
+        "fused_logit": -1.7833911180496216,
+        "score": 0.14388491213321686,
+        "rank": 16
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "remote",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.9765398502349854,
+        "pair_logit": -0.4482702612876892,
+        "fused_logit": -2.4248101115226746,
+        "score": 0.08130025863647461,
+        "rank": 17
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "donut",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.3382251262664795,
+        "pair_logit": -1.375152587890625,
+        "fused_logit": -2.7133777141571045,
+        "score": 0.06218856945633888,
+        "rank": 18
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "donut",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.8559989929199219,
+        "pair_logit": -1.9714795351028442,
+        "fused_logit": -2.827478528022766,
+        "score": 0.055857233703136444,
+        "rank": 19
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "donut",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.828871726989746,
+        "pair_logit": -1.375152587890625,
+        "fused_logit": -4.204024314880371,
+        "score": 0.014715569093823433,
+        "rank": 20
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "donut",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.2017693519592285,
+        "pair_logit": 1.3455793857574463,
+        "fused_logit": 4.547348737716675,
+        "score": 0.9895159006118774
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "donut",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.8860855102539062,
+        "pair_logit": 0.4317197799682617,
+        "fused_logit": 3.317805290222168,
+        "score": 0.9650346636772156
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.5178756713867188,
+        "pair_logit": -0.5372364521026611,
+        "fused_logit": 1.9806392192840576,
+        "score": 0.8787492513656616
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "remote",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.8995318412780762,
+        "pair_logit": -0.4482702612876892,
+        "fused_logit": 1.451261579990387,
+        "score": 0.8101924657821655
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "remote",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.790975570678711,
+        "pair_logit": -0.5452894568443298,
+        "fused_logit": 1.245686113834381,
+        "score": 0.7765522003173828
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "remote",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.5781493186950684,
+        "pair_logit": -0.41503703594207764,
+        "fused_logit": 1.1631122827529907,
+        "score": 0.7618978023529053
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.4671258926391602,
+        "pair_logit": -0.5114644765853882,
+        "fused_logit": 0.955661416053772,
+        "score": 0.7222523093223572
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "remote",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.6923894882202148,
+        "pair_logit": -0.7997989058494568,
+        "fused_logit": 0.8925905823707581,
+        "score": 0.7094244360923767
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "donut",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.18808841705322266,
+        "pair_logit": -1.9714795351028442,
+        "fused_logit": -1.7833911180496216,
+        "score": 0.14388491213321686
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "donut",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.3382251262664795,
+        "pair_logit": -1.375152587890625,
+        "fused_logit": -2.7133777141571045,
+        "score": 0.06218856945633888
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "donut",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.9786343574523926,
+            "pair_logit": 1.3455793857574463,
+            "fused_logit": 0.3669450283050537,
+            "score": 0.5907205939292908,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "donut",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.2017693519592285,
+            "pair_logit": 1.3455793857574463,
+            "fused_logit": 4.547348737716675,
+            "score": 0.9895159006118774,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "donut",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.8077220916748047,
+            "pair_logit": 0.4317197799682617,
+            "fused_logit": -1.376002311706543,
+            "score": 0.20165181159973145,
+            "rank": 14
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "donut",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.8860855102539062,
+            "pair_logit": 0.4317197799682617,
+            "fused_logit": 3.317805290222168,
+            "score": 0.9650346636772156,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 3,
+            "object_label": "remote",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.1969122886657715,
+            "pair_logit": -0.41503703594207764,
+            "fused_logit": -1.6119493246078491,
+            "score": 0.1663181483745575,
+            "rank": 15
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "remote",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.5781493186950684,
+            "pair_logit": -0.41503703594207764,
+            "fused_logit": 1.1631122827529907,
+            "score": 0.7618978023529053,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "remote",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.9765398502349854,
+            "pair_logit": -0.4482702612876892,
+            "fused_logit": -2.4248101115226746,
+            "score": 0.08130025863647461,
+            "rank": 17
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "remote",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.8995318412780762,
+            "pair_logit": -0.4482702612876892,
+            "fused_logit": 1.451261579990387,
+            "score": 0.8101924657821655,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.4671258926391602,
+            "pair_logit": -0.5114644765853882,
+            "fused_logit": 0.955661416053772,
+            "score": 0.7222523093223572,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -0.6270856857299805,
+            "pair_logit": -0.5114644765853882,
+            "fused_logit": -1.1385501623153687,
+            "score": 0.2425866574048996,
+            "rank": 13
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.18469762802124023,
+            "pair_logit": -0.5372364521026611,
+            "fused_logit": -0.7219340801239014,
+            "score": 0.3269672393798828,
+            "rank": 10
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.5178756713867188,
+            "pair_logit": -0.5372364521026611,
+            "fused_logit": 1.9806392192840576,
+            "score": 0.8787492513656616,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "remote",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.790975570678711,
+            "pair_logit": -0.5452894568443298,
+            "fused_logit": 1.245686113834381,
+            "score": 0.7765522003173828,
+            "rank": 5
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "remote",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.47477293014526367,
+            "pair_logit": -0.5452894568443298,
+            "fused_logit": -1.0200623869895935,
+            "score": 0.26501524448394775,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "remote",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.6923894882202148,
+            "pair_logit": -0.7997989058494568,
+            "fused_logit": 0.8925905823707581,
+            "score": 0.7094244360923767,
+            "rank": 8
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "remote",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.024712085723876953,
+            "pair_logit": -0.7997989058494568,
+            "fused_logit": -0.8245109915733337,
+            "score": 0.3048069179058075,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "donut",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.3382251262664795,
+            "pair_logit": -1.375152587890625,
+            "fused_logit": -2.7133777141571045,
+            "score": 0.06218856945633888,
+            "rank": 18
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "donut",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.828871726989746,
+            "pair_logit": -1.375152587890625,
+            "fused_logit": -4.204024314880371,
+            "score": 0.014715569093823433,
+            "rank": 20
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "donut",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.18808841705322266,
+            "pair_logit": -1.9714795351028442,
+            "fused_logit": -1.7833911180496216,
+            "score": 0.14388491213321686,
+            "rank": 16
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "donut",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.8559989929199219,
+            "pair_logit": -1.9714795351028442,
+            "fused_logit": -2.827478528022766,
+            "score": 0.055857233703136444,
+            "rank": 19
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 10,
+    "expected_human_pairs": 10,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.061330500000622123
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          21.999998688697815,
+          398.9999853372574,
+          399.9999943971634,
+          588.9999922513962
+        ]
+      },
+      {
+        "id": 1,
+        "label": "donut",
+        "category_id": 54,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          97.00000333786011,
+          127.00000154972076,
+          428.00001096725464,
+          443.999991774559
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "donut",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.934451103210449,
+        "pair_logit": 1.3420393466949463,
+        "fused_logit": 4.2764904499053955,
+        "score": 0.9862989783287048,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "donut",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.4119598865509033,
+        "pair_logit": 1.3420393466949463,
+        "fused_logit": -0.06992053985595703,
+        "score": 0.4825269877910614,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "donut",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -5.4068684577941895,
+        "pair_logit": -1.8508734703063965,
+        "fused_logit": -7.257741928100586,
+        "score": 0.0007042012875899673,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "donut",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -5.91985559463501,
+        "pair_logit": -1.8508734703063965,
+        "fused_logit": -7.770729064941406,
+        "score": 0.00042172762914560735,
+        "rank": 4
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "donut",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.934451103210449,
+        "pair_logit": 1.3420393466949463,
+        "fused_logit": 4.2764904499053955,
+        "score": 0.9862989783287048
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "donut",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -5.4068684577941895,
+        "pair_logit": -1.8508734703063965,
+        "fused_logit": -7.257741928100586,
+        "score": 0.0007042012875899673
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "donut",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.4119598865509033,
+            "pair_logit": 1.3420393466949463,
+            "fused_logit": -0.06992053985595703,
+            "score": 0.4825269877910614,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "donut",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.934451103210449,
+            "pair_logit": 1.3420393466949463,
+            "fused_logit": 4.2764904499053955,
+            "score": 0.9862989783287048,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "donut",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -5.4068684577941895,
+            "pair_logit": -1.8508734703063965,
+            "fused_logit": -7.257741928100586,
+            "score": 0.0007042012875899673,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "donut",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -5.91985559463501,
+            "pair_logit": -1.8508734703063965,
+            "fused_logit": -7.770729064941406,
+            "score": 0.00042172762914560735,
+            "rank": 4
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 2,
+    "human_pairs_scored": 2,
+    "expected_human_pairs": 2,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          21.999998688697815,
+          398.9999853372574,
+          399.9999943971634,
+          588.9999922513962
+        ]
+      },
+      {
+        "id": 1,
+        "label": "donut",
+        "category_id": 54,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          97.00000333786011,
+          127.00000154972076,
+          428.00001096725464,
+          443.999991774559
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "donut",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.934451103210449,
+        "pair_logit": 1.3420393466949463,
+        "fused_logit": 4.2764904499053955,
+        "score": 0.9862989783287048,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "donut",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.4119598865509033,
+        "pair_logit": 1.3420393466949463,
+        "fused_logit": -0.06992053985595703,
+        "score": 0.4825269877910614,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "donut",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -5.389277935028076,
+        "pair_logit": -1.8508734703063965,
+        "fused_logit": -7.240151405334473,
+        "score": 0.0007166891591623425,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "donut",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -5.915184020996094,
+        "pair_logit": -1.8508734703063965,
+        "fused_logit": -7.76605749130249,
+        "score": 0.0004237015382386744,
+        "rank": 4
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "donut",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.934451103210449,
+        "pair_logit": 1.3420393466949463,
+        "fused_logit": 4.2764904499053955,
+        "score": 0.9862989783287048
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "donut",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -5.389277935028076,
+        "pair_logit": -1.8508734703063965,
+        "fused_logit": -7.240151405334473,
+        "score": 0.0007166891591623425
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "donut",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.4119598865509033,
+            "pair_logit": 1.3420393466949463,
+            "fused_logit": -0.06992053985595703,
+            "score": 0.4825269877910614,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "donut",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.934451103210449,
+            "pair_logit": 1.3420393466949463,
+            "fused_logit": 4.2764904499053955,
+            "score": 0.9862989783287048,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "donut",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -5.389277935028076,
+            "pair_logit": -1.8508734703063965,
+            "fused_logit": -7.240151405334473,
+            "score": 0.0007166891591623425,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "donut",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -5.915184020996094,
+            "pair_logit": -1.8508734703063965,
+            "fused_logit": -7.76605749130249,
+            "score": 0.0004237015382386744,
+            "rank": 4
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 2,
+    "human_pairs_scored": 2,
+    "expected_human_pairs": 2,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.1271305000409484
+}

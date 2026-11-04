@@ -1,0 +1,2118 @@
+{
+  "index": 295,
+  "sample_position": 6,
+  "file_name": "2326503.jpg",
+  "image_sha256": "c4dfa517a468863f42cbd45b5a800b4462e1160f799f47cb84ca413fd8cfa53c",
+  "image_size": [
+    640,
+    304
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        316.00001335144043,
+        118.99999904632568,
+        472.0000171661377,
+        291.99999141693115
+      ]
+    },
+    {
+      "id": 1,
+      "label": "surfboard",
+      "category_id": 37,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        249.99999523162842,
+        113.00000381469727,
+        377.99999713897705,
+        304.0
+      ]
+    },
+    {
+      "id": 2,
+      "label": "sea",
+      "category_id": 103,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        74.00000762939453,
+        640.0,
+        304.0
+      ]
+    },
+    {
+      "id": 3,
+      "label": "sky",
+      "category_id": 119,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        640.0,
+        94.00000381469727
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 3,
+      "predicate": "on"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 36,
+      "predicate": "playing"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 46,
+      "predicate": "riding"
+    },
+    {
+      "subject_id": 3,
+      "object_id": 0,
+      "predicate_id": 0,
+      "predicate": "over"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          314.9211120605469,
+          123.30806732177734,
+          470.9476318359375,
+          293.8602600097656
+        ],
+        "detection_score": 0.9996563196182251,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "surfboard",
+        "category_id": 42,
+        "is_person": false,
+        "box_xyxy": [
+          242.35833740234375,
+          110.29631805419922,
+          385.7618408203125,
+          299.6126708984375
+        ],
+        "detection_score": 0.9980261921882629,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          378.70166015625,
+          120.12102508544922,
+          470.7173156738281,
+          236.5124969482422
+        ],
+        "detection_score": 0.5051536560058594,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0,
+      2
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.148209571838379,
+        "pair_logit": 2.507096529006958,
+        "fused_logit": 5.655306100845337,
+        "score": 0.996513307094574,
+        "rank": 1
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.2086362838745117,
+        "pair_logit": 1.5813175439834595,
+        "fused_logit": 4.789953827857971,
+        "score": 0.9917557239532471,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 55,
+        "predicate": "leaning on",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3996148109436035,
+        "pair_logit": 2.507096529006958,
+        "fused_logit": 2.1074817180633545,
+        "score": 0.8916282653808594,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 55,
+        "predicate": "leaning on",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.02078866958618164,
+        "pair_logit": 1.5813175439834595,
+        "fused_logit": 1.5605288743972778,
+        "score": 0.8264292478561401,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -1.0072739124298096,
+        "pair_logit": -1.8787612915039062,
+        "fused_logit": -2.886035203933716,
+        "score": 0.052848223596811295,
+        "rank": 5
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -1.3042230606079102,
+        "pair_logit": -1.768110752105713,
+        "fused_logit": -3.072333812713623,
+        "score": 0.04426299408078194,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -2.9344851970672607,
+        "pair_logit": -1.768110752105713,
+        "fused_logit": -4.702595949172974,
+        "score": 0.008990143425762653,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -4.748493194580078,
+        "pair_logit": -1.8787612915039062,
+        "fused_logit": -6.627254486083984,
+        "score": 0.001322042546235025,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -5.564301013946533,
+        "pair_logit": -3.4463188648223877,
+        "fused_logit": -9.010619878768921,
+        "score": 0.00012209120905026793,
+        "rank": 9
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -6.090242385864258,
+        "pair_logit": -3.4463188648223877,
+        "fused_logit": -9.536561250686646,
+        "score": 7.215938967419788e-05,
+        "rank": 10
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -6.0104193687438965,
+        "pair_logit": -3.8635003566741943,
+        "fused_logit": -9.87391972541809,
+        "score": 5.149782737134956e-05,
+        "rank": 11
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -6.082901954650879,
+        "pair_logit": -3.8635003566741943,
+        "fused_logit": -9.946402311325073,
+        "score": 4.789734884980135e-05,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.148209571838379,
+        "pair_logit": 2.507096529006958,
+        "fused_logit": 5.655306100845337,
+        "score": 0.996513307094574
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.2086362838745117,
+        "pair_logit": 1.5813175439834595,
+        "fused_logit": 4.789953827857971,
+        "score": 0.9917557239532471
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": -1.0072739124298096,
+        "pair_logit": -1.8787612915039062,
+        "fused_logit": -2.886035203933716,
+        "score": 0.052848223596811295
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": -1.3042230606079102,
+        "pair_logit": -1.768110752105713,
+        "fused_logit": -3.072333812713623,
+        "score": 0.04426299408078194
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -5.564301013946533,
+        "pair_logit": -3.4463188648223877,
+        "fused_logit": -9.010619878768921,
+        "score": 0.00012209120905026793
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -6.0104193687438965,
+        "pair_logit": -3.8635003566741943,
+        "fused_logit": -9.87391972541809,
+        "score": 5.149782737134956e-05
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 55,
+            "predicate": "leaning on",
+            "object_id": 1,
+            "object_label": "surfboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3996148109436035,
+            "pair_logit": 2.507096529006958,
+            "fused_logit": 2.1074817180633545,
+            "score": 0.8916282653808594,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "surfboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.148209571838379,
+            "pair_logit": 2.507096529006958,
+            "fused_logit": 5.655306100845337,
+            "score": 0.996513307094574,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 55,
+            "predicate": "leaning on",
+            "object_id": 1,
+            "object_label": "surfboard",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.02078866958618164,
+            "pair_logit": 1.5813175439834595,
+            "fused_logit": 1.5605288743972778,
+            "score": 0.8264292478561401,
+            "rank": 4
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "surfboard",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.2086362838745117,
+            "pair_logit": 1.5813175439834595,
+            "fused_logit": 4.789953827857971,
+            "score": 0.9917557239532471,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -1.3042230606079102,
+            "pair_logit": -1.768110752105713,
+            "fused_logit": -3.072333812713623,
+            "score": 0.04426299408078194,
+            "rank": 6
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -2.9344851970672607,
+            "pair_logit": -1.768110752105713,
+            "fused_logit": -4.702595949172974,
+            "score": 0.008990143425762653,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -4.748493194580078,
+            "pair_logit": -1.8787612915039062,
+            "fused_logit": -6.627254486083984,
+            "score": 0.001322042546235025,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -1.0072739124298096,
+            "pair_logit": -1.8787612915039062,
+            "fused_logit": -2.886035203933716,
+            "score": 0.052848223596811295,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "surfboard",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -5.564301013946533,
+            "pair_logit": -3.4463188648223877,
+            "fused_logit": -9.010619878768921,
+            "score": 0.00012209120905026793,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "surfboard",
+            "predicate_id": 22,
+            "predicate": "carrying",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -6.090242385864258,
+            "pair_logit": -3.4463188648223877,
+            "fused_logit": -9.536561250686646,
+            "score": 7.215938967419788e-05,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "surfboard",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -6.0104193687438965,
+            "pair_logit": -3.8635003566741943,
+            "fused_logit": -9.87391972541809,
+            "score": 5.149782737134956e-05,
+            "rank": 11
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "surfboard",
+            "predicate_id": 22,
+            "predicate": "carrying",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -6.082901954650879,
+            "pair_logit": -3.8635003566741943,
+            "fused_logit": -9.946402311325073,
+            "score": 4.789734884980135e-05,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.07312130002537742
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          316.00001335144043,
+          118.99999904632568,
+          472.0000171661377,
+          291.99999141693115
+        ]
+      },
+      {
+        "id": 1,
+        "label": "surfboard",
+        "category_id": 37,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          249.99999523162842,
+          113.00000381469727,
+          377.99999713897705,
+          304.0
+        ]
+      },
+      {
+        "id": 2,
+        "label": "sea",
+        "category_id": 103,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          74.00000762939453,
+          640.0,
+          304.0
+        ]
+      },
+      {
+        "id": 3,
+        "label": "sky",
+        "category_id": 119,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          94.00000381469727
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.308783054351807,
+        "pair_logit": 2.446841239929199,
+        "fused_logit": 6.755624294281006,
+        "score": 0.9988370537757874,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.4241862297058105,
+        "pair_logit": 2.446841239929199,
+        "fused_logit": 5.87102746963501,
+        "score": 0.9971879124641418,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "sea",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.389098644256592,
+        "pair_logit": -0.1163787692785263,
+        "fused_logit": 3.2727198749780655,
+        "score": 0.9634810090065002,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "sea",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.2842135429382324,
+        "pair_logit": -0.1163787692785263,
+        "fused_logit": 3.167834773659706,
+        "score": 0.9596058130264282,
+        "rank": 4
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sea",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.684540271759033,
+        "pair_logit": -1.1370108127593994,
+        "fused_logit": 1.5475294589996338,
+        "score": 0.8245566487312317,
+        "rank": 5
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "sky",
+        "predicate_id": 0,
+        "predicate": "over",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.4973459243774414,
+        "pair_logit": -1.043919563293457,
+        "fused_logit": 1.4534263610839844,
+        "score": 0.8105251789093018,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "sky",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.3347420692443848,
+        "pair_logit": -0.9419831037521362,
+        "fused_logit": 0.39275896549224854,
+        "score": 0.5969467163085938,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 3,
+        "object_label": "sky",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.13132429122924805,
+        "pair_logit": -0.9419831037521362,
+        "fused_logit": -0.8106588125228882,
+        "score": 0.3077501356601715,
+        "rank": 8
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sea",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.1680464744567871,
+        "pair_logit": -1.1370108127593994,
+        "fused_logit": -0.9689643383026123,
+        "score": 0.2750869691371918,
+        "rank": 9
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2459640502929688,
+        "pair_logit": -3.59537935256958,
+        "fused_logit": -1.3494153022766113,
+        "score": 0.20596598088741302,
+        "rank": 10
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "sky",
+        "predicate_id": 17,
+        "predicate": "flying over",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.5018887519836426,
+        "pair_logit": -1.043919563293457,
+        "fused_logit": -2.5458083152770996,
+        "score": 0.07270859181880951,
+        "rank": 11
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.5211653709411621,
+        "pair_logit": -3.59537935256958,
+        "fused_logit": -3.074213981628418,
+        "score": 0.04418352246284485,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.308783054351807,
+        "pair_logit": 2.446841239929199,
+        "fused_logit": 6.755624294281006,
+        "score": 0.9988370537757874
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "sea",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.389098644256592,
+        "pair_logit": -0.1163787692785263,
+        "fused_logit": 3.2727198749780655,
+        "score": 0.9634810090065002
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sea",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.684540271759033,
+        "pair_logit": -1.1370108127593994,
+        "fused_logit": 1.5475294589996338,
+        "score": 0.8245566487312317
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "sky",
+        "predicate_id": 0,
+        "predicate": "over",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4973459243774414,
+        "pair_logit": -1.043919563293457,
+        "fused_logit": 1.4534263610839844,
+        "score": 0.8105251789093018
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "sky",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.3347420692443848,
+        "pair_logit": -0.9419831037521362,
+        "fused_logit": 0.39275896549224854,
+        "score": 0.5969467163085938
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.2459640502929688,
+        "pair_logit": -3.59537935256958,
+        "fused_logit": -1.3494153022766113,
+        "score": 0.20596598088741302
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "surfboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.4241862297058105,
+            "pair_logit": 2.446841239929199,
+            "fused_logit": 5.87102746963501,
+            "score": 0.9971879124641418,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "surfboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.308783054351807,
+            "pair_logit": 2.446841239929199,
+            "fused_logit": 6.755624294281006,
+            "score": 0.9988370537757874,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "sea",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.389098644256592,
+            "pair_logit": -0.1163787692785263,
+            "fused_logit": 3.2727198749780655,
+            "score": 0.9634810090065002,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 2,
+            "object_label": "sea",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.2842135429382324,
+            "pair_logit": -0.1163787692785263,
+            "fused_logit": 3.167834773659706,
+            "score": 0.9596058130264282,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 3,
+            "object_label": "sky",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.3347420692443848,
+            "pair_logit": -0.9419831037521362,
+            "fused_logit": 0.39275896549224854,
+            "score": 0.5969467163085938,
+            "rank": 7
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 3,
+            "object_label": "sky",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.13132429122924805,
+            "pair_logit": -0.9419831037521362,
+            "fused_logit": -0.8106588125228882,
+            "score": 0.3077501356601715,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "sky",
+            "predicate_id": 0,
+            "predicate": "over",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.4973459243774414,
+            "pair_logit": -1.043919563293457,
+            "fused_logit": 1.4534263610839844,
+            "score": 0.8105251789093018,
+            "rank": 6
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "sky",
+            "predicate_id": 17,
+            "predicate": "flying over",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.5018887519836426,
+            "pair_logit": -1.043919563293457,
+            "fused_logit": -2.5458083152770996,
+            "score": 0.07270859181880951,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "sea",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.684540271759033,
+            "pair_logit": -1.1370108127593994,
+            "fused_logit": 1.5475294589996338,
+            "score": 0.8245566487312317,
+            "rank": 5
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "sea",
+            "predicate_id": 30,
+            "predicate": "catching",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.1680464744567871,
+            "pair_logit": -1.1370108127593994,
+            "fused_logit": -0.9689643383026123,
+            "score": 0.2750869691371918,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "surfboard",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.5211653709411621,
+            "pair_logit": -3.59537935256958,
+            "fused_logit": -3.074213981628418,
+            "score": 0.04418352246284485,
+            "rank": 12
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "surfboard",
+            "predicate_id": 22,
+            "predicate": "carrying",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2459640502929688,
+            "pair_logit": -3.59537935256958,
+            "fused_logit": -1.3494153022766113,
+            "score": 0.20596598088741302,
+            "rank": 10
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          316.00001335144043,
+          118.99999904632568,
+          472.0000171661377,
+          291.99999141693115
+        ]
+      },
+      {
+        "id": 1,
+        "label": "surfboard",
+        "category_id": 37,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          249.99999523162842,
+          113.00000381469727,
+          377.99999713897705,
+          304.0
+        ]
+      },
+      {
+        "id": 2,
+        "label": "sea",
+        "category_id": 103,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          74.00000762939453,
+          640.0,
+          304.0
+        ]
+      },
+      {
+        "id": 3,
+        "label": "sky",
+        "category_id": 119,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          94.00000381469727
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.308783054351807,
+        "pair_logit": 2.446841239929199,
+        "fused_logit": 6.755624294281006,
+        "score": 0.9988370537757874,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.4241862297058105,
+        "pair_logit": 2.446841239929199,
+        "fused_logit": 5.87102746963501,
+        "score": 0.9971879124641418,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "sea",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.389098644256592,
+        "pair_logit": -0.1163787692785263,
+        "fused_logit": 3.2727198749780655,
+        "score": 0.9634810090065002,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "sea",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.2842135429382324,
+        "pair_logit": -0.1163787692785263,
+        "fused_logit": 3.167834773659706,
+        "score": 0.9596058130264282,
+        "rank": 4
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sea",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.684540271759033,
+        "pair_logit": -1.1370108127593994,
+        "fused_logit": 1.5475294589996338,
+        "score": 0.8245566487312317,
+        "rank": 5
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "sky",
+        "predicate_id": 0,
+        "predicate": "over",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.4814815521240234,
+        "pair_logit": -1.043919563293457,
+        "fused_logit": 1.4375619888305664,
+        "score": 0.808076798915863,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "sky",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.334770679473877,
+        "pair_logit": -0.9419831037521362,
+        "fused_logit": 0.3927875757217407,
+        "score": 0.5969535708427429,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 3,
+        "object_label": "sky",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.13097524642944336,
+        "pair_logit": -0.9419831037521362,
+        "fused_logit": -0.8110078573226929,
+        "score": 0.3076757490634918,
+        "rank": 8
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sea",
+        "predicate_id": 30,
+        "predicate": "catching",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.16672897338867188,
+        "pair_logit": -1.1370108127593994,
+        "fused_logit": -0.9702818393707275,
+        "score": 0.274824321269989,
+        "rank": 9
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2737250328063965,
+        "pair_logit": -3.59537935256958,
+        "fused_logit": -1.3216543197631836,
+        "score": 0.2105431854724884,
+        "rank": 10
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "sky",
+        "predicate_id": 17,
+        "predicate": "flying over",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.546994924545288,
+        "pair_logit": -1.043919563293457,
+        "fused_logit": -2.590914487838745,
+        "score": 0.06972544640302658,
+        "rank": 11
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.5511407852172852,
+        "pair_logit": -3.59537935256958,
+        "fused_logit": -3.044238567352295,
+        "score": 0.04546686261892319,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "surfboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.308783054351807,
+        "pair_logit": 2.446841239929199,
+        "fused_logit": 6.755624294281006,
+        "score": 0.9988370537757874
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "sea",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.389098644256592,
+        "pair_logit": -0.1163787692785263,
+        "fused_logit": 3.2727198749780655,
+        "score": 0.9634810090065002
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sea",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.684540271759033,
+        "pair_logit": -1.1370108127593994,
+        "fused_logit": 1.5475294589996338,
+        "score": 0.8245566487312317
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "sky",
+        "predicate_id": 0,
+        "predicate": "over",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4814815521240234,
+        "pair_logit": -1.043919563293457,
+        "fused_logit": 1.4375619888305664,
+        "score": 0.808076798915863
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "sky",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.334770679473877,
+        "pair_logit": -0.9419831037521362,
+        "fused_logit": 0.3927875757217407,
+        "score": 0.5969535708427429
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "surfboard",
+        "predicate_id": 22,
+        "predicate": "carrying",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.2737250328063965,
+        "pair_logit": -3.59537935256958,
+        "fused_logit": -1.3216543197631836,
+        "score": 0.2105431854724884
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "surfboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.4241862297058105,
+            "pair_logit": 2.446841239929199,
+            "fused_logit": 5.87102746963501,
+            "score": 0.9971879124641418,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "surfboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.308783054351807,
+            "pair_logit": 2.446841239929199,
+            "fused_logit": 6.755624294281006,
+            "score": 0.9988370537757874,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "sea",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.389098644256592,
+            "pair_logit": -0.1163787692785263,
+            "fused_logit": 3.2727198749780655,
+            "score": 0.9634810090065002,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 2,
+            "object_label": "sea",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.2842135429382324,
+            "pair_logit": -0.1163787692785263,
+            "fused_logit": 3.167834773659706,
+            "score": 0.9596058130264282,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 3,
+            "object_label": "sky",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.334770679473877,
+            "pair_logit": -0.9419831037521362,
+            "fused_logit": 0.3927875757217407,
+            "score": 0.5969535708427429,
+            "rank": 7
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 3,
+            "object_label": "sky",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.13097524642944336,
+            "pair_logit": -0.9419831037521362,
+            "fused_logit": -0.8110078573226929,
+            "score": 0.3076757490634918,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "sky",
+            "predicate_id": 0,
+            "predicate": "over",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.4814815521240234,
+            "pair_logit": -1.043919563293457,
+            "fused_logit": 1.4375619888305664,
+            "score": 0.808076798915863,
+            "rank": 6
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "sky",
+            "predicate_id": 17,
+            "predicate": "flying over",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.546994924545288,
+            "pair_logit": -1.043919563293457,
+            "fused_logit": -2.590914487838745,
+            "score": 0.06972544640302658,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "sea",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.684540271759033,
+            "pair_logit": -1.1370108127593994,
+            "fused_logit": 1.5475294589996338,
+            "score": 0.8245566487312317,
+            "rank": 5
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "sea",
+            "predicate_id": 30,
+            "predicate": "catching",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.16672897338867188,
+            "pair_logit": -1.1370108127593994,
+            "fused_logit": -0.9702818393707275,
+            "score": 0.274824321269989,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "surfboard",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.5511407852172852,
+            "pair_logit": -3.59537935256958,
+            "fused_logit": -3.044238567352295,
+            "score": 0.04546686261892319,
+            "rank": 12
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "surfboard",
+            "predicate_id": 22,
+            "predicate": "carrying",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2737250328063965,
+            "pair_logit": -3.59537935256958,
+            "fused_logit": -1.3216543197631836,
+            "score": 0.2105431854724884,
+            "rank": 10
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.14063440001336858
+}

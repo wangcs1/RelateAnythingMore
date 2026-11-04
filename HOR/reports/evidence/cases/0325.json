@@ -1,0 +1,6026 @@
+{
+  "index": 325,
+  "sample_position": 184,
+  "file_name": "2328153.jpg",
+  "image_sha256": "d86467a75ad39f01f62aa5335f77430f3f769e40da2f76d2dee08544470ade53",
+  "image_size": [
+    478,
+    640
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        392.9999971687794,
+        256.00000381469727,
+        426.9999983012676,
+        371.00000381469727
+      ]
+    },
+    {
+      "id": 1,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        97.99999415129423,
+        43.00000190734863,
+        156.9999929741025,
+        226.99999809265137
+      ]
+    },
+    {
+      "id": 2,
+      "label": "elephant",
+      "category_id": 20,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        133.9999918937683,
+        172.99999237060547,
+        411.999981880188,
+        592.0000076293945
+      ]
+    },
+    {
+      "id": 3,
+      "label": "chair",
+      "category_id": 56,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        209.99998772144318,
+        108.99999618530273,
+        399.99999153614044,
+        238.99999618530273
+      ]
+    },
+    {
+      "id": 4,
+      "label": "grass",
+      "category_id": 125,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        303.0000114440918,
+        478.0,
+        475.0000190734863
+      ]
+    },
+    {
+      "id": 5,
+      "label": "dirt",
+      "category_id": 126,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        301.9999885559082,
+        478.0,
+        639.9999809265137
+      ]
+    },
+    {
+      "id": 6,
+      "label": "building",
+      "category_id": 129,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        204.99999886751175,
+        395.0
+      ]
+    },
+    {
+      "id": 7,
+      "label": "rock",
+      "category_id": 130,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        10.999998271465302,
+        18.000001907348633,
+        477.9999857544899,
+        326.99999809265137
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate_id": 23,
+      "predicate": "looking at"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 6,
+      "predicate_id": 14,
+      "predicate": "standing on"
+    },
+    {
+      "subject_id": 2,
+      "object_id": 0,
+      "predicate_id": 1,
+      "predicate": "in front of"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "elephant",
+        "category_id": 22,
+        "is_person": false,
+        "box_xyxy": [
+          134.0176239013672,
+          175.16049194335938,
+          412.2254638671875,
+          587.4263916015625
+        ],
+        "detection_score": 0.9997100234031677,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          92.87535095214844,
+          42.621238708496094,
+          158.99722290039062,
+          223.02261352539062
+        ],
+        "detection_score": 0.9980775117874146,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          396.04034423828125,
+          256.4299621582031,
+          425.1951599121094,
+          372.5375061035156
+        ],
+        "detection_score": 0.9944646954536438,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      1,
+      2
+    ],
+    "relations": [
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "elephant",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.707584857940674,
+        "pair_logit": 0.26747000217437744,
+        "fused_logit": 3.9750548601150513,
+        "score": 0.9815678000450134,
+        "rank": 1
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 0,
+        "object_label": "elephant",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.388270854949951,
+        "pair_logit": 0.26747000217437744,
+        "fused_logit": 3.6557408571243286,
+        "score": 0.9748086929321289,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.335507869720459,
+        "pair_logit": 0.19821757078170776,
+        "fused_logit": 3.5337254405021667,
+        "score": 0.9716323018074036,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 4.365718364715576,
+        "pair_logit": -1.109079360961914,
+        "fused_logit": 3.256639003753662,
+        "score": 0.9629110097885132,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "elephant",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.173655033111572,
+        "pair_logit": -1.109079360961914,
+        "fused_logit": 3.064575672149658,
+        "score": 0.9554076194763184,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.177615165710449,
+        "pair_logit": 0.19821757078170776,
+        "fused_logit": 2.375832736492157,
+        "score": 0.9149657487869263,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.3659634590148926,
+        "pair_logit": -0.5138388276100159,
+        "fused_logit": 1.8521246314048767,
+        "score": 0.8643763065338135,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "elephant",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.590818405151367,
+        "pair_logit": -0.9399290084838867,
+        "fused_logit": 1.6508893966674805,
+        "score": 0.8390112519264221,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.5894083976745605,
+        "pair_logit": -0.9399290084838867,
+        "fused_logit": 1.6494793891906738,
+        "score": 0.8388206958770752,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.0955438613891602,
+        "pair_logit": -0.5138388276100159,
+        "fused_logit": 0.5817050337791443,
+        "score": 0.6414596438407898,
+        "rank": 10
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.335191249847412,
+        "pair_logit": -0.8861247301101685,
+        "fused_logit": 0.44906651973724365,
+        "score": 0.6104172468185425,
+        "rank": 11
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -1.4161176681518555,
+        "pair_logit": -0.8861247301101685,
+        "fused_logit": -2.302242398262024,
+        "score": 0.09093742817640305,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "elephant",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.707584857940674,
+        "pair_logit": 0.26747000217437744,
+        "fused_logit": 3.9750548601150513,
+        "score": 0.9815678000450134
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.335507869720459,
+        "pair_logit": 0.19821757078170776,
+        "fused_logit": 3.5337254405021667,
+        "score": 0.9716323018074036
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.365718364715576,
+        "pair_logit": -1.109079360961914,
+        "fused_logit": 3.256639003753662,
+        "score": 0.9629110097885132
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.3659634590148926,
+        "pair_logit": -0.5138388276100159,
+        "fused_logit": 1.8521246314048767,
+        "score": 0.8643763065338135
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "elephant",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.590818405151367,
+        "pair_logit": -0.9399290084838867,
+        "fused_logit": 1.6508893966674805,
+        "score": 0.8390112519264221
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.335191249847412,
+        "pair_logit": -0.8861247301101685,
+        "fused_logit": 0.44906651973724365,
+        "score": 0.6104172468185425
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "elephant",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.707584857940674,
+            "pair_logit": 0.26747000217437744,
+            "fused_logit": 3.9750548601150513,
+            "score": 0.9815678000450134,
+            "rank": 1
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 0,
+            "object_label": "elephant",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.388270854949951,
+            "pair_logit": 0.26747000217437744,
+            "fused_logit": 3.6557408571243286,
+            "score": 0.9748086929321289,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "elephant",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.177615165710449,
+            "pair_logit": 0.19821757078170776,
+            "fused_logit": 2.375832736492157,
+            "score": 0.9149657487869263,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "elephant",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.335507869720459,
+            "pair_logit": 0.19821757078170776,
+            "fused_logit": 3.5337254405021667,
+            "score": 0.9716323018074036,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.0955438613891602,
+            "pair_logit": -0.5138388276100159,
+            "fused_logit": 0.5817050337791443,
+            "score": 0.6414596438407898,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.3659634590148926,
+            "pair_logit": -0.5138388276100159,
+            "fused_logit": 1.8521246314048767,
+            "score": 0.8643763065338135,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -1.4161176681518555,
+            "pair_logit": -0.8861247301101685,
+            "fused_logit": -2.302242398262024,
+            "score": 0.09093742817640305,
+            "rank": 12
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.335191249847412,
+            "pair_logit": -0.8861247301101685,
+            "fused_logit": 0.44906651973724365,
+            "score": 0.6104172468185425,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "elephant",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.5894083976745605,
+            "pair_logit": -0.9399290084838867,
+            "fused_logit": 1.6494793891906738,
+            "score": 0.8388206958770752,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "elephant",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.590818405151367,
+            "pair_logit": -0.9399290084838867,
+            "fused_logit": 1.6508893966674805,
+            "score": 0.8390112519264221,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "elephant",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 4.365718364715576,
+            "pair_logit": -1.109079360961914,
+            "fused_logit": 3.256639003753662,
+            "score": 0.9629110097885132,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "elephant",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.173655033111572,
+            "pair_logit": -1.109079360961914,
+            "fused_logit": 3.064575672149658,
+            "score": 0.9554076194763184,
+            "rank": 5
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.0688298000022769
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          392.9999971687794,
+          256.00000381469727,
+          426.9999983012676,
+          371.00000381469727
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          97.99999415129423,
+          43.00000190734863,
+          156.9999929741025,
+          226.99999809265137
+        ]
+      },
+      {
+        "id": 2,
+        "label": "elephant",
+        "category_id": 20,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          133.9999918937683,
+          172.99999237060547,
+          411.999981880188,
+          592.0000076293945
+        ]
+      },
+      {
+        "id": 3,
+        "label": "chair",
+        "category_id": 56,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          209.99998772144318,
+          108.99999618530273,
+          399.99999153614044,
+          238.99999618530273
+        ]
+      },
+      {
+        "id": 4,
+        "label": "grass",
+        "category_id": 125,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          303.0000114440918,
+          478.0,
+          475.0000190734863
+        ]
+      },
+      {
+        "id": 5,
+        "label": "dirt",
+        "category_id": 126,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          301.9999885559082,
+          478.0,
+          639.9999809265137
+        ]
+      },
+      {
+        "id": 6,
+        "label": "building",
+        "category_id": 129,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          204.99999886751175,
+          395.0
+        ]
+      },
+      {
+        "id": 7,
+        "label": "rock",
+        "category_id": 130,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          10.999998271465302,
+          18.000001907348633,
+          477.9999857544899,
+          326.99999809265137
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.177089214324951,
+        "pair_logit": 0.19609564542770386,
+        "fused_logit": 4.373184859752655,
+        "score": 0.9875460267066956,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.230881214141846,
+        "pair_logit": -0.09266245365142822,
+        "fused_logit": 4.1382187604904175,
+        "score": 0.9842991828918457,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.847647190093994,
+        "pair_logit": 0.1695093810558319,
+        "fused_logit": 4.017156571149826,
+        "score": 0.9823143482208252,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.99617338180542,
+        "pair_logit": -0.13550901412963867,
+        "fused_logit": 3.8606643676757812,
+        "score": 0.9793801307678223,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 55,
+        "predicate": "leaning on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.256617546081543,
+        "pair_logit": 0.19609564542770386,
+        "fused_logit": 3.452713191509247,
+        "score": 0.9693119525909424,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.8075475692749023,
+        "pair_logit": 0.23402094841003418,
+        "fused_logit": 3.0415685176849365,
+        "score": 0.9544171690940857,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.6322221755981445,
+        "pair_logit": 0.23402094841003418,
+        "fused_logit": 2.8662431240081787,
+        "score": 0.9461522698402405,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.605926990509033,
+        "pair_logit": -0.10281512141227722,
+        "fused_logit": 2.503111869096756,
+        "score": 0.9243597388267517,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.1502413749694824,
+        "pair_logit": 0.1695093810558319,
+        "fused_logit": 2.3197507560253143,
+        "score": 0.910499632358551,
+        "rank": 9
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.0967535972595215,
+        "pair_logit": -0.09266245365142822,
+        "fused_logit": 2.0040911436080933,
+        "score": 0.8812260031700134,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.096174716949463,
+        "pair_logit": -0.13550901412963867,
+        "fused_logit": 1.9606657028198242,
+        "score": 0.8766049742698669,
+        "rank": 11
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2057089805603027,
+        "pair_logit": -0.6019442081451416,
+        "fused_logit": 1.6037647724151611,
+        "score": 0.8325438499450684,
+        "rank": 12
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.4209856986999512,
+        "pair_logit": -0.10281512141227722,
+        "fused_logit": 1.318170577287674,
+        "score": 0.7888771295547485,
+        "rank": 13
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.4798932075500488,
+        "pair_logit": -0.6224765181541443,
+        "fused_logit": 0.8574166893959045,
+        "score": 0.7021206021308899,
+        "rank": 14
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 55,
+        "predicate": "leaning on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.241987705230713,
+        "pair_logit": -0.4197319746017456,
+        "fused_logit": 0.8222557306289673,
+        "score": 0.6947149634361267,
+        "rank": 15
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.1953954696655273,
+        "pair_logit": -0.4197319746017456,
+        "fused_logit": 0.7756634950637817,
+        "score": 0.6847447752952576,
+        "rank": 16
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.2135629653930664,
+        "pair_logit": -0.5284400582313538,
+        "fused_logit": 0.6851229071617126,
+        "score": 0.6648811101913452,
+        "rank": 17
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.3501391410827637,
+        "pair_logit": -0.69142085313797,
+        "fused_logit": 0.6587182879447937,
+        "score": 0.6589723825454712,
+        "rank": 18
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.1906180381774902,
+        "pair_logit": -0.6019442081451416,
+        "fused_logit": 0.5886738300323486,
+        "score": 0.6430608034133911,
+        "rank": 19
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.1789798736572266,
+        "pair_logit": -0.7635574340820312,
+        "fused_logit": 0.4154224395751953,
+        "score": 0.6023873686790466,
+        "rank": 20
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8291282653808594,
+        "pair_logit": -0.69142085313797,
+        "fused_logit": 0.1377074122428894,
+        "score": 0.5343725681304932,
+        "rank": 21
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.9173679351806641,
+        "pair_logit": -1.1231011152267456,
+        "fused_logit": -0.20573318004608154,
+        "score": 0.44874733686447144,
+        "rank": 22
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.32536745071411133,
+        "pair_logit": -0.6224765181541443,
+        "fused_logit": -0.29710906744003296,
+        "score": 0.42626434564590454,
+        "rank": 23
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.24627256393432617,
+        "pair_logit": -0.7635574340820312,
+        "fused_logit": -0.5172848701477051,
+        "score": 0.37348735332489014,
+        "rank": 24
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.13585662841796875,
+        "pair_logit": -0.8626272678375244,
+        "fused_logit": -0.7267706394195557,
+        "score": 0.3259038031101227,
+        "rank": 25
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.13623809814453125,
+        "pair_logit": -0.8901573419570923,
+        "fused_logit": -0.753919243812561,
+        "score": 0.31996792554855347,
+        "rank": 26
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.1350240707397461,
+        "pair_logit": -0.954633891582489,
+        "fused_logit": -0.8196098208427429,
+        "score": 0.3058464825153351,
+        "rank": 27
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.10047245025634766,
+        "pair_logit": -0.8708000183105469,
+        "fused_logit": -0.9712724685668945,
+        "score": 0.2746269404888153,
+        "rank": 28
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.13394689559936523,
+        "pair_logit": -0.9118483066558838,
+        "fused_logit": -1.045795202255249,
+        "score": 0.26003336906433105,
+        "rank": 29
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.28431081771850586,
+        "pair_logit": -0.9118483066558838,
+        "fused_logit": -1.1961591243743896,
+        "score": 0.23215918242931366,
+        "rank": 30
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -1.0077927112579346,
+        "pair_logit": -0.5284400582313538,
+        "fused_logit": -1.5362327694892883,
+        "score": 0.1770835965871811,
+        "rank": 31
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.8280258178710938,
+        "pair_logit": -0.8626272678375244,
+        "fused_logit": -1.6906530857086182,
+        "score": 0.15568996965885162,
+        "rank": 32
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.0625853538513184,
+        "pair_logit": -0.8708000183105469,
+        "fused_logit": -1.9333853721618652,
+        "score": 0.12637634575366974,
+        "rank": 33
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.0515468120574951,
+        "pair_logit": -1.1231011152267456,
+        "fused_logit": -2.1746479272842407,
+        "score": 0.10205034166574478,
+        "rank": 34
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.545069932937622,
+        "pair_logit": -0.954633891582489,
+        "fused_logit": -2.499703824520111,
+        "score": 0.07587894052267075,
+        "rank": 35
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.1882822513580322,
+        "pair_logit": -1.3279145956039429,
+        "fused_logit": -2.516196846961975,
+        "score": 0.07473050057888031,
+        "rank": 36
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.1887452602386475,
+        "pair_logit": -1.4484752416610718,
+        "fused_logit": -2.6372205018997192,
+        "score": 0.06678105890750885,
+        "rank": 37
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.979729175567627,
+        "pair_logit": -1.8310394287109375,
+        "fused_logit": -2.8107686042785645,
+        "score": 0.056745026260614395,
+        "rank": 38
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.4274945259094238,
+        "pair_logit": -1.4414358139038086,
+        "fused_logit": -2.8689303398132324,
+        "score": 0.05371099337935448,
+        "rank": 39
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.5475702285766602,
+        "pair_logit": -1.5193018913269043,
+        "fused_logit": -3.0668721199035645,
+        "score": 0.0444946214556694,
+        "rank": 40
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.2305445671081543,
+        "pair_logit": -0.8901573419570923,
+        "fused_logit": -3.1207019090652466,
+        "score": 0.04226135462522507,
+        "rank": 41
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.1045310497283936,
+        "pair_logit": -1.4484752416610718,
+        "fused_logit": -3.5530062913894653,
+        "score": 0.02784109301865101,
+        "rank": 42
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.6033849716186523,
+        "pair_logit": -1.6607725620269775,
+        "fused_logit": -4.26415753364563,
+        "score": 0.013868669047951698,
+        "rank": 43
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.1317131519317627,
+        "pair_logit": -1.3279145956039429,
+        "fused_logit": -4.459627747535706,
+        "score": 0.011434411630034447,
+        "rank": 44
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.920016050338745,
+        "pair_logit": -1.5870821475982666,
+        "fused_logit": -4.507098197937012,
+        "score": 0.010910078883171082,
+        "rank": 45
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.888336658477783,
+        "pair_logit": -1.7593028545379639,
+        "fused_logit": -4.647639513015747,
+        "score": 0.009493215940892696,
+        "rank": 46
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.209810733795166,
+        "pair_logit": -1.5193018913269043,
+        "fused_logit": -4.72911262512207,
+        "score": 0.008756945841014385,
+        "rank": 47
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.3177523612976074,
+        "pair_logit": -1.4414358139038086,
+        "fused_logit": -4.759188175201416,
+        "score": 0.008499701507389545,
+        "rank": 48
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.2598154544830322,
+        "pair_logit": -1.6607725620269775,
+        "fused_logit": -4.92058801651001,
+        "score": 0.007242010906338692,
+        "rank": 49
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.3269944190979004,
+        "pair_logit": -1.8310394287109375,
+        "fused_logit": -5.158033847808838,
+        "score": 0.005720091983675957,
+        "rank": 50
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.177089214324951,
+        "pair_logit": 0.19609564542770386,
+        "fused_logit": 4.373184859752655,
+        "score": 0.9875460267066956
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.230881214141846,
+        "pair_logit": -0.09266245365142822,
+        "fused_logit": 4.1382187604904175,
+        "score": 0.9842991828918457
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.847647190093994,
+        "pair_logit": 0.1695093810558319,
+        "fused_logit": 4.017156571149826,
+        "score": 0.9823143482208252
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.99617338180542,
+        "pair_logit": -0.13550901412963867,
+        "fused_logit": 3.8606643676757812,
+        "score": 0.9793801307678223
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.8075475692749023,
+        "pair_logit": 0.23402094841003418,
+        "fused_logit": 3.0415685176849365,
+        "score": 0.9544171690940857
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.605926990509033,
+        "pair_logit": -0.10281512141227722,
+        "fused_logit": 2.503111869096756,
+        "score": 0.9243597388267517
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.2057089805603027,
+        "pair_logit": -0.6019442081451416,
+        "fused_logit": 1.6037647724151611,
+        "score": 0.8325438499450684
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.4798932075500488,
+        "pair_logit": -0.6224765181541443,
+        "fused_logit": 0.8574166893959045,
+        "score": 0.7021206021308899
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 55,
+        "predicate": "leaning on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.241987705230713,
+        "pair_logit": -0.4197319746017456,
+        "fused_logit": 0.8222557306289673,
+        "score": 0.6947149634361267
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.2135629653930664,
+        "pair_logit": -0.5284400582313538,
+        "fused_logit": 0.6851229071617126,
+        "score": 0.6648811101913452
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.3501391410827637,
+        "pair_logit": -0.69142085313797,
+        "fused_logit": 0.6587182879447937,
+        "score": 0.6589723825454712
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.1789798736572266,
+        "pair_logit": -0.7635574340820312,
+        "fused_logit": 0.4154224395751953,
+        "score": 0.6023873686790466
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.9173679351806641,
+        "pair_logit": -1.1231011152267456,
+        "fused_logit": -0.20573318004608154,
+        "score": 0.44874733686447144
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 0.13585662841796875,
+        "pair_logit": -0.8626272678375244,
+        "fused_logit": -0.7267706394195557,
+        "score": 0.3259038031101227
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.13623809814453125,
+        "pair_logit": -0.8901573419570923,
+        "fused_logit": -0.753919243812561,
+        "score": 0.31996792554855347
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.1350240707397461,
+        "pair_logit": -0.954633891582489,
+        "fused_logit": -0.8196098208427429,
+        "score": 0.3058464825153351
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.10047245025634766,
+        "pair_logit": -0.8708000183105469,
+        "fused_logit": -0.9712724685668945,
+        "score": 0.2746269404888153
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.13394689559936523,
+        "pair_logit": -0.9118483066558838,
+        "fused_logit": -1.045795202255249,
+        "score": 0.26003336906433105
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.1882822513580322,
+        "pair_logit": -1.3279145956039429,
+        "fused_logit": -2.516196846961975,
+        "score": 0.07473050057888031
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.1887452602386475,
+        "pair_logit": -1.4484752416610718,
+        "fused_logit": -2.6372205018997192,
+        "score": 0.06678105890750885
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.979729175567627,
+        "pair_logit": -1.8310394287109375,
+        "fused_logit": -2.8107686042785645,
+        "score": 0.056745026260614395
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.4274945259094238,
+        "pair_logit": -1.4414358139038086,
+        "fused_logit": -2.8689303398132324,
+        "score": 0.05371099337935448
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.5475702285766602,
+        "pair_logit": -1.5193018913269043,
+        "fused_logit": -3.0668721199035645,
+        "score": 0.0444946214556694
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.6033849716186523,
+        "pair_logit": -1.6607725620269775,
+        "fused_logit": -4.26415753364563,
+        "score": 0.013868669047951698
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.920016050338745,
+        "pair_logit": -1.5870821475982666,
+        "fused_logit": -4.507098197937012,
+        "score": 0.010910078883171082
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.888336658477783,
+        "pair_logit": -1.7593028545379639,
+        "fused_logit": -4.647639513015747,
+        "score": 0.009493215940892696
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "elephant",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.6322221755981445,
+            "pair_logit": 0.23402094841003418,
+            "fused_logit": 2.8662431240081787,
+            "score": 0.9461522698402405,
+            "rank": 7
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 2,
+            "object_label": "elephant",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.8075475692749023,
+            "pair_logit": 0.23402094841003418,
+            "fused_logit": 3.0415685176849365,
+            "score": 0.9544171690940857,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 6,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 55,
+            "predicate": "leaning on",
+            "object_id": 6,
+            "object_label": "building",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.256617546081543,
+            "pair_logit": 0.19609564542770386,
+            "fused_logit": 3.452713191509247,
+            "score": 0.9693119525909424,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 6,
+            "object_label": "building",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.177089214324951,
+            "pair_logit": 0.19609564542770386,
+            "fused_logit": 4.373184859752655,
+            "score": 0.9875460267066956,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "elephant",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.1502413749694824,
+            "pair_logit": 0.1695093810558319,
+            "fused_logit": 2.3197507560253143,
+            "score": 0.910499632358551,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 2,
+            "object_label": "elephant",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.847647190093994,
+            "pair_logit": 0.1695093810558319,
+            "fused_logit": 4.017156571149826,
+            "score": 0.9823143482208252,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.0967535972595215,
+            "pair_logit": -0.09266245365142822,
+            "fused_logit": 2.0040911436080933,
+            "score": 0.8812260031700134,
+            "rank": 10
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 5,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.230881214141846,
+            "pair_logit": -0.09266245365142822,
+            "fused_logit": 4.1382187604904175,
+            "score": 0.9842991828918457,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 7,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 7,
+            "object_label": "rock",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.4209856986999512,
+            "pair_logit": -0.10281512141227722,
+            "fused_logit": 1.318170577287674,
+            "score": 0.7888771295547485,
+            "rank": 13
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 7,
+            "object_label": "rock",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.605926990509033,
+            "pair_logit": -0.10281512141227722,
+            "fused_logit": 2.503111869096756,
+            "score": 0.9243597388267517,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "grass",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.096174716949463,
+            "pair_logit": -0.13550901412963867,
+            "fused_logit": 1.9606657028198242,
+            "score": 0.8766049742698669,
+            "rank": 11
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 4,
+            "object_label": "grass",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.99617338180542,
+            "pair_logit": -0.13550901412963867,
+            "fused_logit": 3.8606643676757812,
+            "score": 0.9793801307678223,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 7,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 55,
+            "predicate": "leaning on",
+            "object_id": 7,
+            "object_label": "rock",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.241987705230713,
+            "pair_logit": -0.4197319746017456,
+            "fused_logit": 0.8222557306289673,
+            "score": 0.6947149634361267,
+            "rank": 15
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 7,
+            "object_label": "rock",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.1953954696655273,
+            "pair_logit": -0.4197319746017456,
+            "fused_logit": 0.7756634950637817,
+            "score": 0.6847447752952576,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -1.0077927112579346,
+            "pair_logit": -0.5284400582313538,
+            "fused_logit": -1.5362327694892883,
+            "score": 0.1770835965871811,
+            "rank": 31
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.2135629653930664,
+            "pair_logit": -0.5284400582313538,
+            "fused_logit": 0.6851229071617126,
+            "score": 0.6648811101913452,
+            "rank": 17
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 6,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 6,
+            "object_label": "building",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.1906180381774902,
+            "pair_logit": -0.6019442081451416,
+            "fused_logit": 0.5886738300323486,
+            "score": 0.6430608034133911,
+            "rank": 19
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 6,
+            "object_label": "building",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2057089805603027,
+            "pair_logit": -0.6019442081451416,
+            "fused_logit": 1.6037647724151611,
+            "score": 0.8325438499450684,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "dirt",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.32536745071411133,
+            "pair_logit": -0.6224765181541443,
+            "fused_logit": -0.29710906744003296,
+            "score": 0.42626434564590454,
+            "rank": 23
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 5,
+            "object_label": "dirt",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.4798932075500488,
+            "pair_logit": -0.6224765181541443,
+            "fused_logit": 0.8574166893959045,
+            "score": 0.7021206021308899,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "chair",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8291282653808594,
+            "pair_logit": -0.69142085313797,
+            "fused_logit": 0.1377074122428894,
+            "score": 0.5343725681304932,
+            "rank": 21
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 3,
+            "object_label": "chair",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.3501391410827637,
+            "pair_logit": -0.69142085313797,
+            "fused_logit": 0.6587182879447937,
+            "score": 0.6589723825454712,
+            "rank": 18
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "grass",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.24627256393432617,
+            "pair_logit": -0.7635574340820312,
+            "fused_logit": -0.5172848701477051,
+            "score": 0.37348735332489014,
+            "rank": 24
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 4,
+            "object_label": "grass",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.1789798736572266,
+            "pair_logit": -0.7635574340820312,
+            "fused_logit": 0.4154224395751953,
+            "score": 0.6023873686790466,
+            "rank": 20
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.8280258178710938,
+            "pair_logit": -0.8626272678375244,
+            "fused_logit": -1.6906530857086182,
+            "score": 0.15568996965885162,
+            "rank": 32
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.13585662841796875,
+            "pair_logit": -0.8626272678375244,
+            "fused_logit": -0.7267706394195557,
+            "score": 0.3259038031101227,
+            "rank": 25
+          }
+        ]
+      },
+      {
+        "subject_id": 6,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 6,
+            "subject_label": "building",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.10047245025634766,
+            "pair_logit": -0.8708000183105469,
+            "fused_logit": -0.9712724685668945,
+            "score": 0.2746269404888153,
+            "rank": 28
+          },
+          {
+            "subject_id": 6,
+            "subject_label": "building",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.0625853538513184,
+            "pair_logit": -0.8708000183105469,
+            "fused_logit": -1.9333853721618652,
+            "score": 0.12637634575366974,
+            "rank": 33
+          }
+        ]
+      },
+      {
+        "subject_id": 7,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 7,
+            "subject_label": "rock",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.13623809814453125,
+            "pair_logit": -0.8901573419570923,
+            "fused_logit": -0.753919243812561,
+            "score": 0.31996792554855347,
+            "rank": 26
+          },
+          {
+            "subject_id": 7,
+            "subject_label": "rock",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.2305445671081543,
+            "pair_logit": -0.8901573419570923,
+            "fused_logit": -3.1207019090652466,
+            "score": 0.04226135462522507,
+            "rank": 41
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 3,
+            "object_label": "chair",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.13394689559936523,
+            "pair_logit": -0.9118483066558838,
+            "fused_logit": -1.045795202255249,
+            "score": 0.26003336906433105,
+            "rank": 29
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 3,
+            "object_label": "chair",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.28431081771850586,
+            "pair_logit": -0.9118483066558838,
+            "fused_logit": -1.1961591243743896,
+            "score": 0.23215918242931366,
+            "rank": 30
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "elephant",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.1350240707397461,
+            "pair_logit": -0.954633891582489,
+            "fused_logit": -0.8196098208427429,
+            "score": 0.3058464825153351,
+            "rank": 27
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "elephant",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.545069932937622,
+            "pair_logit": -0.954633891582489,
+            "fused_logit": -2.499703824520111,
+            "score": 0.07587894052267075,
+            "rank": 35
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "elephant",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.9173679351806641,
+            "pair_logit": -1.1231011152267456,
+            "fused_logit": -0.20573318004608154,
+            "score": 0.44874733686447144,
+            "rank": 22
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "elephant",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.0515468120574951,
+            "pair_logit": -1.1231011152267456,
+            "fused_logit": -2.1746479272842407,
+            "score": 0.10205034166574478,
+            "rank": 34
+          }
+        ]
+      },
+      {
+        "subject_id": 7,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 7,
+            "subject_label": "rock",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.1882822513580322,
+            "pair_logit": -1.3279145956039429,
+            "fused_logit": -2.516196846961975,
+            "score": 0.07473050057888031,
+            "rank": 36
+          },
+          {
+            "subject_id": 7,
+            "subject_label": "rock",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.1317131519317627,
+            "pair_logit": -1.3279145956039429,
+            "fused_logit": -4.459627747535706,
+            "score": 0.011434411630034447,
+            "rank": 44
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "grass",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.4274945259094238,
+            "pair_logit": -1.4414358139038086,
+            "fused_logit": -2.8689303398132324,
+            "score": 0.05371099337935448,
+            "rank": 39
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "grass",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.3177523612976074,
+            "pair_logit": -1.4414358139038086,
+            "fused_logit": -4.759188175201416,
+            "score": 0.008499701507389545,
+            "rank": 48
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "chair",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.1887452602386475,
+            "pair_logit": -1.4484752416610718,
+            "fused_logit": -2.6372205018997192,
+            "score": 0.06678105890750885,
+            "rank": 37
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "chair",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.1045310497283936,
+            "pair_logit": -1.4484752416610718,
+            "fused_logit": -3.5530062913894653,
+            "score": 0.02784109301865101,
+            "rank": 42
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "grass",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.5475702285766602,
+            "pair_logit": -1.5193018913269043,
+            "fused_logit": -3.0668721199035645,
+            "score": 0.0444946214556694,
+            "rank": 40
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "grass",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.209810733795166,
+            "pair_logit": -1.5193018913269043,
+            "fused_logit": -4.72911262512207,
+            "score": 0.008756945841014385,
+            "rank": 47
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "dirt",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.920016050338745,
+            "pair_logit": -1.5870821475982666,
+            "fused_logit": -4.507098197937012,
+            "score": 0.010910078883171082,
+            "rank": 45
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "dirt",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.5709829330444336,
+            "pair_logit": -1.5870821475982666,
+            "fused_logit": -5.1580650806427,
+            "score": 0.005719915963709354
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "dirt",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.6033849716186523,
+            "pair_logit": -1.6607725620269775,
+            "fused_logit": -4.26415753364563,
+            "score": 0.013868669047951698,
+            "rank": 43
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "dirt",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.2598154544830322,
+            "pair_logit": -1.6607725620269775,
+            "fused_logit": -4.92058801651001,
+            "score": 0.007242010906338692,
+            "rank": 49
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "chair",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.888336658477783,
+            "pair_logit": -1.7593028545379639,
+            "fused_logit": -4.647639513015747,
+            "score": 0.009493215940892696,
+            "rank": 46
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "chair",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.137369632720947,
+            "pair_logit": -1.7593028545379639,
+            "fused_logit": -5.896672487258911,
+            "score": 0.0027410422917455435
+          }
+        ]
+      },
+      {
+        "subject_id": 6,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 6,
+            "subject_label": "building",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.979729175567627,
+            "pair_logit": -1.8310394287109375,
+            "fused_logit": -2.8107686042785645,
+            "score": 0.056745026260614395,
+            "rank": 38
+          },
+          {
+            "subject_id": 6,
+            "subject_label": "building",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.3269944190979004,
+            "pair_logit": -1.8310394287109375,
+            "fused_logit": -5.158033847808838,
+            "score": 0.005720091983675957,
+            "rank": 50
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 56,
+    "human_pairs_scored": 26,
+    "expected_human_pairs": 26,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          392.9999971687794,
+          256.00000381469727,
+          426.9999983012676,
+          371.00000381469727
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          97.99999415129423,
+          43.00000190734863,
+          156.9999929741025,
+          226.99999809265137
+        ]
+      },
+      {
+        "id": 2,
+        "label": "elephant",
+        "category_id": 20,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          133.9999918937683,
+          172.99999237060547,
+          411.999981880188,
+          592.0000076293945
+        ]
+      },
+      {
+        "id": 3,
+        "label": "chair",
+        "category_id": 56,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          209.99998772144318,
+          108.99999618530273,
+          399.99999153614044,
+          238.99999618530273
+        ]
+      },
+      {
+        "id": 4,
+        "label": "grass",
+        "category_id": 125,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          303.0000114440918,
+          478.0,
+          475.0000190734863
+        ]
+      },
+      {
+        "id": 5,
+        "label": "dirt",
+        "category_id": 126,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          301.9999885559082,
+          478.0,
+          639.9999809265137
+        ]
+      },
+      {
+        "id": 6,
+        "label": "building",
+        "category_id": 129,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          204.99999886751175,
+          395.0
+        ]
+      },
+      {
+        "id": 7,
+        "label": "rock",
+        "category_id": 130,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          10.999998271465302,
+          18.000001907348633,
+          477.9999857544899,
+          326.99999809265137
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.177089214324951,
+        "pair_logit": 0.19609564542770386,
+        "fused_logit": 4.373184859752655,
+        "score": 0.9875460267066956,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.227871417999268,
+        "pair_logit": -0.09266245365142822,
+        "fused_logit": 4.135208964347839,
+        "score": 0.9842526316642761,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.848344326019287,
+        "pair_logit": 0.1695093810558319,
+        "fused_logit": 4.017853707075119,
+        "score": 0.9823264479637146,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.99617338180542,
+        "pair_logit": -0.13550901412963867,
+        "fused_logit": 3.8606643676757812,
+        "score": 0.9793801307678223,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 55,
+        "predicate": "leaning on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.256617546081543,
+        "pair_logit": 0.19609564542770386,
+        "fused_logit": 3.452713191509247,
+        "score": 0.9693119525909424,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.8350038528442383,
+        "pair_logit": 0.23402094841003418,
+        "fused_logit": 3.0690248012542725,
+        "score": 0.9555968046188354,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.6621975898742676,
+        "pair_logit": 0.23402094841003418,
+        "fused_logit": 2.8962185382843018,
+        "score": 0.9476591944694519,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.6029162406921387,
+        "pair_logit": -0.10281512141227722,
+        "fused_logit": 2.5001011192798615,
+        "score": 0.9241489171981812,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.1502413749694824,
+        "pair_logit": 0.1695093810558319,
+        "fused_logit": 2.3197507560253143,
+        "score": 0.910499632358551,
+        "rank": 9
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.0967535972595215,
+        "pair_logit": -0.09266245365142822,
+        "fused_logit": 2.0040911436080933,
+        "score": 0.8812260031700134,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.096174716949463,
+        "pair_logit": -0.13550901412963867,
+        "fused_logit": 1.9606657028198242,
+        "score": 0.8766049742698669,
+        "rank": 11
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2057089805603027,
+        "pair_logit": -0.6019442081451416,
+        "fused_logit": 1.6037647724151611,
+        "score": 0.8325438499450684,
+        "rank": 12
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.4176669120788574,
+        "pair_logit": -0.10281512141227722,
+        "fused_logit": 1.3148517906665802,
+        "score": 0.7883238792419434,
+        "rank": 13
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.4798932075500488,
+        "pair_logit": -0.6224765181541443,
+        "fused_logit": 0.8574166893959045,
+        "score": 0.7021206021308899,
+        "rank": 14
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 55,
+        "predicate": "leaning on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.241987705230713,
+        "pair_logit": -0.4197319746017456,
+        "fused_logit": 0.8222557306289673,
+        "score": 0.6947149634361267,
+        "rank": 15
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.1953954696655273,
+        "pair_logit": -0.4197319746017456,
+        "fused_logit": 0.7756634950637817,
+        "score": 0.6847447752952576,
+        "rank": 16
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.2128658294677734,
+        "pair_logit": -0.5284400582313538,
+        "fused_logit": 0.6844257712364197,
+        "score": 0.6647257804870605,
+        "rank": 17
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.3273921012878418,
+        "pair_logit": -0.69142085313797,
+        "fused_logit": 0.6359712481498718,
+        "score": 0.6538421511650085,
+        "rank": 18
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.2205934524536133,
+        "pair_logit": -0.6019442081451416,
+        "fused_logit": 0.6186492443084717,
+        "score": 0.6499112844467163,
+        "rank": 19
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.1488885879516602,
+        "pair_logit": -0.7635574340820312,
+        "fused_logit": 0.3853311538696289,
+        "score": 0.5951582789421082,
+        "rank": 20
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8400177955627441,
+        "pair_logit": -0.69142085313797,
+        "fused_logit": 0.14859694242477417,
+        "score": 0.5370810627937317,
+        "rank": 21
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8872189521789551,
+        "pair_logit": -1.1231011152267456,
+        "fused_logit": -0.23588216304779053,
+        "score": 0.4413013756275177,
+        "rank": 22
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.32536745071411133,
+        "pair_logit": -0.6224765181541443,
+        "fused_logit": -0.29710906744003296,
+        "score": 0.42626434564590454,
+        "rank": 23
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.19970226287841797,
+        "pair_logit": -0.7635574340820312,
+        "fused_logit": -0.5638551712036133,
+        "score": 0.362655907869339,
+        "rank": 24
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.13515901565551758,
+        "pair_logit": -0.8626272678375244,
+        "fused_logit": -0.7274682521820068,
+        "score": 0.32575052976608276,
+        "rank": 25
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.13618040084838867,
+        "pair_logit": -0.8901573419570923,
+        "fused_logit": -0.7539769411087036,
+        "score": 0.31995534896850586,
+        "rank": 26
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.13505315780639648,
+        "pair_logit": -0.954633891582489,
+        "fused_logit": -0.8195807337760925,
+        "score": 0.30585265159606934,
+        "rank": 27
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.10047245025634766,
+        "pair_logit": -0.8708000183105469,
+        "fused_logit": -0.9712724685668945,
+        "score": 0.2746269404888153,
+        "rank": 28
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.10382604598999023,
+        "pair_logit": -0.9118483066558838,
+        "fused_logit": -1.015674352645874,
+        "score": 0.2658708393573761,
+        "rank": 29
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.28130006790161133,
+        "pair_logit": -0.9118483066558838,
+        "fused_logit": -1.1931483745574951,
+        "score": 0.23269633948802948,
+        "rank": 30
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -1.0077927112579346,
+        "pair_logit": -0.5284400582313538,
+        "fused_logit": -1.5362327694892883,
+        "score": 0.1770835965871811,
+        "rank": 31
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.8581314086914062,
+        "pair_logit": -0.8626272678375244,
+        "fused_logit": -1.7207586765289307,
+        "score": 0.15177346765995026,
+        "rank": 32
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.0838139057159424,
+        "pair_logit": -0.8708000183105469,
+        "fused_logit": -1.9546139240264893,
+        "score": 0.12405112385749817,
+        "rank": 33
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.0665924549102783,
+        "pair_logit": -1.1231011152267456,
+        "fused_logit": -2.189693570137024,
+        "score": 0.10067985206842422,
+        "rank": 34
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.545069932937622,
+        "pair_logit": -0.954633891582489,
+        "fused_logit": -2.499703824520111,
+        "score": 0.07587894052267075,
+        "rank": 35
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.173229694366455,
+        "pair_logit": -1.3279145956039429,
+        "fused_logit": -2.501144289970398,
+        "score": 0.07577799260616302,
+        "rank": 36
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.1737139225006104,
+        "pair_logit": -1.4484752416610718,
+        "fused_logit": -2.622189164161682,
+        "score": 0.06772395223379135,
+        "rank": 37
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.9947421550750732,
+        "pair_logit": -1.8310394287109375,
+        "fused_logit": -2.8257815837860107,
+        "score": 0.05594678595662117,
+        "rank": 38
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.4275670051574707,
+        "pair_logit": -1.4414358139038086,
+        "fused_logit": -2.8690028190612793,
+        "score": 0.0537073090672493,
+        "rank": 39
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.5476136207580566,
+        "pair_logit": -1.5193018913269043,
+        "fused_logit": -3.066915512084961,
+        "score": 0.044492773711681366,
+        "rank": 40
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.2305445671081543,
+        "pair_logit": -0.8901573419570923,
+        "fused_logit": -3.1207019090652466,
+        "score": 0.04226135462522507,
+        "rank": 41
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.1034231185913086,
+        "pair_logit": -1.4484752416610718,
+        "fused_logit": -3.5518983602523804,
+        "score": 0.027871090918779373,
+        "rank": 42
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.5930066108703613,
+        "pair_logit": -1.6607725620269775,
+        "fused_logit": -4.253779172897339,
+        "score": 0.014011317864060402,
+        "rank": 43
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.1094064712524414,
+        "pair_logit": -1.3279145956039429,
+        "fused_logit": -4.437321066856384,
+        "score": 0.01168932393193245,
+        "rank": 44
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.920016050338745,
+        "pair_logit": -1.5870821475982666,
+        "fused_logit": -4.507098197937012,
+        "score": 0.010910078883171082,
+        "rank": 45
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.8507227897644043,
+        "pair_logit": -1.7593028545379639,
+        "fused_logit": -4.610025644302368,
+        "score": 0.00985350739210844,
+        "rank": 46
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.216041088104248,
+        "pair_logit": -1.5193018913269043,
+        "fused_logit": -4.735342979431152,
+        "score": 0.008703029714524746,
+        "rank": 47
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.3186755180358887,
+        "pair_logit": -1.4414358139038086,
+        "fused_logit": -4.760111331939697,
+        "score": 0.008491924963891506,
+        "rank": 48
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.2477240562438965,
+        "pair_logit": -1.6607725620269775,
+        "fused_logit": -4.908496618270874,
+        "score": 0.007329460699111223,
+        "rank": 49
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.558891534805298,
+        "pair_logit": -1.5870821475982666,
+        "fused_logit": -5.1459736824035645,
+        "score": 0.0057890936732292175,
+        "rank": 50
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.177089214324951,
+        "pair_logit": 0.19609564542770386,
+        "fused_logit": 4.373184859752655,
+        "score": 0.9875460267066956
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.227871417999268,
+        "pair_logit": -0.09266245365142822,
+        "fused_logit": 4.135208964347839,
+        "score": 0.9842526316642761
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.848344326019287,
+        "pair_logit": 0.1695093810558319,
+        "fused_logit": 4.017853707075119,
+        "score": 0.9823264479637146
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.99617338180542,
+        "pair_logit": -0.13550901412963867,
+        "fused_logit": 3.8606643676757812,
+        "score": 0.9793801307678223
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "elephant",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.8350038528442383,
+        "pair_logit": 0.23402094841003418,
+        "fused_logit": 3.0690248012542725,
+        "score": 0.9555968046188354
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.6029162406921387,
+        "pair_logit": -0.10281512141227722,
+        "fused_logit": 2.5001011192798615,
+        "score": 0.9241489171981812
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 11,
+        "predicate": "walking on",
+        "object_id": 6,
+        "object_label": "building",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.2057089805603027,
+        "pair_logit": -0.6019442081451416,
+        "fused_logit": 1.6037647724151611,
+        "score": 0.8325438499450684
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 5,
+        "object_label": "dirt",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.4798932075500488,
+        "pair_logit": -0.6224765181541443,
+        "fused_logit": 0.8574166893959045,
+        "score": 0.7021206021308899
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 55,
+        "predicate": "leaning on",
+        "object_id": 7,
+        "object_label": "rock",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.241987705230713,
+        "pair_logit": -0.4197319746017456,
+        "fused_logit": 0.8222557306289673,
+        "score": 0.6947149634361267
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.2128658294677734,
+        "pair_logit": -0.5284400582313538,
+        "fused_logit": 0.6844257712364197,
+        "score": 0.6647257804870605
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.3273921012878418,
+        "pair_logit": -0.69142085313797,
+        "fused_logit": 0.6359712481498718,
+        "score": 0.6538421511650085
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 4,
+        "object_label": "grass",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.1488885879516602,
+        "pair_logit": -0.7635574340820312,
+        "fused_logit": 0.3853311538696289,
+        "score": 0.5951582789421082
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.8872189521789551,
+        "pair_logit": -1.1231011152267456,
+        "fused_logit": -0.23588216304779053,
+        "score": 0.4413013756275177
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 0.13515901565551758,
+        "pair_logit": -0.8626272678375244,
+        "fused_logit": -0.7274682521820068,
+        "score": 0.32575052976608276
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.13618040084838867,
+        "pair_logit": -0.8901573419570923,
+        "fused_logit": -0.7539769411087036,
+        "score": 0.31995534896850586
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "elephant",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.13505315780639648,
+        "pair_logit": -0.954633891582489,
+        "fused_logit": -0.8195807337760925,
+        "score": 0.30585265159606934
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.10047245025634766,
+        "pair_logit": -0.8708000183105469,
+        "fused_logit": -0.9712724685668945,
+        "score": 0.2746269404888153
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 3,
+        "object_label": "chair",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.10382604598999023,
+        "pair_logit": -0.9118483066558838,
+        "fused_logit": -1.015674352645874,
+        "score": 0.2658708393573761
+      },
+      {
+        "subject_id": 7,
+        "subject_label": "rock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.173229694366455,
+        "pair_logit": -1.3279145956039429,
+        "fused_logit": -2.501144289970398,
+        "score": 0.07577799260616302
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.1737139225006104,
+        "pair_logit": -1.4484752416610718,
+        "fused_logit": -2.622189164161682,
+        "score": 0.06772395223379135
+      },
+      {
+        "subject_id": 6,
+        "subject_label": "building",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.9947421550750732,
+        "pair_logit": -1.8310394287109375,
+        "fused_logit": -2.8257815837860107,
+        "score": 0.05594678595662117
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.4275670051574707,
+        "pair_logit": -1.4414358139038086,
+        "fused_logit": -2.8690028190612793,
+        "score": 0.0537073090672493
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.5476136207580566,
+        "pair_logit": -1.5193018913269043,
+        "fused_logit": -3.066915512084961,
+        "score": 0.044492773711681366
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.5930066108703613,
+        "pair_logit": -1.6607725620269775,
+        "fused_logit": -4.253779172897339,
+        "score": 0.014011317864060402
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.920016050338745,
+        "pair_logit": -1.5870821475982666,
+        "fused_logit": -4.507098197937012,
+        "score": 0.010910078883171082
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "chair",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.8507227897644043,
+        "pair_logit": -1.7593028545379639,
+        "fused_logit": -4.610025644302368,
+        "score": 0.00985350739210844
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "elephant",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.6621975898742676,
+            "pair_logit": 0.23402094841003418,
+            "fused_logit": 2.8962185382843018,
+            "score": 0.9476591944694519,
+            "rank": 7
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 2,
+            "object_label": "elephant",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.8350038528442383,
+            "pair_logit": 0.23402094841003418,
+            "fused_logit": 3.0690248012542725,
+            "score": 0.9555968046188354,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 6,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 55,
+            "predicate": "leaning on",
+            "object_id": 6,
+            "object_label": "building",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.256617546081543,
+            "pair_logit": 0.19609564542770386,
+            "fused_logit": 3.452713191509247,
+            "score": 0.9693119525909424,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 6,
+            "object_label": "building",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.177089214324951,
+            "pair_logit": 0.19609564542770386,
+            "fused_logit": 4.373184859752655,
+            "score": 0.9875460267066956,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "elephant",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.1502413749694824,
+            "pair_logit": 0.1695093810558319,
+            "fused_logit": 2.3197507560253143,
+            "score": 0.910499632358551,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 2,
+            "object_label": "elephant",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.848344326019287,
+            "pair_logit": 0.1695093810558319,
+            "fused_logit": 4.017853707075119,
+            "score": 0.9823264479637146,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.0967535972595215,
+            "pair_logit": -0.09266245365142822,
+            "fused_logit": 2.0040911436080933,
+            "score": 0.8812260031700134,
+            "rank": 10
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 5,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.227871417999268,
+            "pair_logit": -0.09266245365142822,
+            "fused_logit": 4.135208964347839,
+            "score": 0.9842526316642761,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 7,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 7,
+            "object_label": "rock",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.4176669120788574,
+            "pair_logit": -0.10281512141227722,
+            "fused_logit": 1.3148517906665802,
+            "score": 0.7883238792419434,
+            "rank": 13
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 7,
+            "object_label": "rock",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.6029162406921387,
+            "pair_logit": -0.10281512141227722,
+            "fused_logit": 2.5001011192798615,
+            "score": 0.9241489171981812,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "grass",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.096174716949463,
+            "pair_logit": -0.13550901412963867,
+            "fused_logit": 1.9606657028198242,
+            "score": 0.8766049742698669,
+            "rank": 11
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 4,
+            "object_label": "grass",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.99617338180542,
+            "pair_logit": -0.13550901412963867,
+            "fused_logit": 3.8606643676757812,
+            "score": 0.9793801307678223,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 7,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 55,
+            "predicate": "leaning on",
+            "object_id": 7,
+            "object_label": "rock",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.241987705230713,
+            "pair_logit": -0.4197319746017456,
+            "fused_logit": 0.8222557306289673,
+            "score": 0.6947149634361267,
+            "rank": 15
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 7,
+            "object_label": "rock",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.1953954696655273,
+            "pair_logit": -0.4197319746017456,
+            "fused_logit": 0.7756634950637817,
+            "score": 0.6847447752952576,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -1.0077927112579346,
+            "pair_logit": -0.5284400582313538,
+            "fused_logit": -1.5362327694892883,
+            "score": 0.1770835965871811,
+            "rank": 31
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.2128658294677734,
+            "pair_logit": -0.5284400582313538,
+            "fused_logit": 0.6844257712364197,
+            "score": 0.6647257804870605,
+            "rank": 17
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 6,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 6,
+            "object_label": "building",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.2205934524536133,
+            "pair_logit": -0.6019442081451416,
+            "fused_logit": 0.6186492443084717,
+            "score": 0.6499112844467163,
+            "rank": 19
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 6,
+            "object_label": "building",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2057089805603027,
+            "pair_logit": -0.6019442081451416,
+            "fused_logit": 1.6037647724151611,
+            "score": 0.8325438499450684,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "dirt",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.32536745071411133,
+            "pair_logit": -0.6224765181541443,
+            "fused_logit": -0.29710906744003296,
+            "score": 0.42626434564590454,
+            "rank": 23
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 5,
+            "object_label": "dirt",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.4798932075500488,
+            "pair_logit": -0.6224765181541443,
+            "fused_logit": 0.8574166893959045,
+            "score": 0.7021206021308899,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "chair",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8400177955627441,
+            "pair_logit": -0.69142085313797,
+            "fused_logit": 0.14859694242477417,
+            "score": 0.5370810627937317,
+            "rank": 21
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 3,
+            "object_label": "chair",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.3273921012878418,
+            "pair_logit": -0.69142085313797,
+            "fused_logit": 0.6359712481498718,
+            "score": 0.6538421511650085,
+            "rank": 18
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "grass",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.19970226287841797,
+            "pair_logit": -0.7635574340820312,
+            "fused_logit": -0.5638551712036133,
+            "score": 0.362655907869339,
+            "rank": 24
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 4,
+            "object_label": "grass",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.1488885879516602,
+            "pair_logit": -0.7635574340820312,
+            "fused_logit": 0.3853311538696289,
+            "score": 0.5951582789421082,
+            "rank": 20
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.8581314086914062,
+            "pair_logit": -0.8626272678375244,
+            "fused_logit": -1.7207586765289307,
+            "score": 0.15177346765995026,
+            "rank": 32
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.13515901565551758,
+            "pair_logit": -0.8626272678375244,
+            "fused_logit": -0.7274682521820068,
+            "score": 0.32575052976608276,
+            "rank": 25
+          }
+        ]
+      },
+      {
+        "subject_id": 6,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 6,
+            "subject_label": "building",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.10047245025634766,
+            "pair_logit": -0.8708000183105469,
+            "fused_logit": -0.9712724685668945,
+            "score": 0.2746269404888153,
+            "rank": 28
+          },
+          {
+            "subject_id": 6,
+            "subject_label": "building",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.0838139057159424,
+            "pair_logit": -0.8708000183105469,
+            "fused_logit": -1.9546139240264893,
+            "score": 0.12405112385749817,
+            "rank": 33
+          }
+        ]
+      },
+      {
+        "subject_id": 7,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 7,
+            "subject_label": "rock",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.13618040084838867,
+            "pair_logit": -0.8901573419570923,
+            "fused_logit": -0.7539769411087036,
+            "score": 0.31995534896850586,
+            "rank": 26
+          },
+          {
+            "subject_id": 7,
+            "subject_label": "rock",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.2305445671081543,
+            "pair_logit": -0.8901573419570923,
+            "fused_logit": -3.1207019090652466,
+            "score": 0.04226135462522507,
+            "rank": 41
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 3,
+            "object_label": "chair",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.10382604598999023,
+            "pair_logit": -0.9118483066558838,
+            "fused_logit": -1.015674352645874,
+            "score": 0.2658708393573761,
+            "rank": 29
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 3,
+            "object_label": "chair",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.28130006790161133,
+            "pair_logit": -0.9118483066558838,
+            "fused_logit": -1.1931483745574951,
+            "score": 0.23269633948802948,
+            "rank": 30
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "elephant",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.13505315780639648,
+            "pair_logit": -0.954633891582489,
+            "fused_logit": -0.8195807337760925,
+            "score": 0.30585265159606934,
+            "rank": 27
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "elephant",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.545069932937622,
+            "pair_logit": -0.954633891582489,
+            "fused_logit": -2.499703824520111,
+            "score": 0.07587894052267075,
+            "rank": 35
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "elephant",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8872189521789551,
+            "pair_logit": -1.1231011152267456,
+            "fused_logit": -0.23588216304779053,
+            "score": 0.4413013756275177,
+            "rank": 22
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "elephant",
+            "predicate_id": 11,
+            "predicate": "walking on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.0665924549102783,
+            "pair_logit": -1.1231011152267456,
+            "fused_logit": -2.189693570137024,
+            "score": 0.10067985206842422,
+            "rank": 34
+          }
+        ]
+      },
+      {
+        "subject_id": 7,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 7,
+            "subject_label": "rock",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.173229694366455,
+            "pair_logit": -1.3279145956039429,
+            "fused_logit": -2.501144289970398,
+            "score": 0.07577799260616302,
+            "rank": 36
+          },
+          {
+            "subject_id": 7,
+            "subject_label": "rock",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.1094064712524414,
+            "pair_logit": -1.3279145956039429,
+            "fused_logit": -4.437321066856384,
+            "score": 0.01168932393193245,
+            "rank": 44
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "grass",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.4275670051574707,
+            "pair_logit": -1.4414358139038086,
+            "fused_logit": -2.8690028190612793,
+            "score": 0.0537073090672493,
+            "rank": 39
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "grass",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.3186755180358887,
+            "pair_logit": -1.4414358139038086,
+            "fused_logit": -4.760111331939697,
+            "score": 0.008491924963891506,
+            "rank": 48
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "chair",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.1737139225006104,
+            "pair_logit": -1.4484752416610718,
+            "fused_logit": -2.622189164161682,
+            "score": 0.06772395223379135,
+            "rank": 37
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "chair",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.1034231185913086,
+            "pair_logit": -1.4484752416610718,
+            "fused_logit": -3.5518983602523804,
+            "score": 0.027871090918779373,
+            "rank": 42
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "grass",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.5476136207580566,
+            "pair_logit": -1.5193018913269043,
+            "fused_logit": -3.066915512084961,
+            "score": 0.044492773711681366,
+            "rank": 40
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "grass",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.216041088104248,
+            "pair_logit": -1.5193018913269043,
+            "fused_logit": -4.735342979431152,
+            "score": 0.008703029714524746,
+            "rank": 47
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "dirt",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.920016050338745,
+            "pair_logit": -1.5870821475982666,
+            "fused_logit": -4.507098197937012,
+            "score": 0.010910078883171082,
+            "rank": 45
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "dirt",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.558891534805298,
+            "pair_logit": -1.5870821475982666,
+            "fused_logit": -5.1459736824035645,
+            "score": 0.0057890936732292175,
+            "rank": 50
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "dirt",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.5930066108703613,
+            "pair_logit": -1.6607725620269775,
+            "fused_logit": -4.253779172897339,
+            "score": 0.014011317864060402,
+            "rank": 43
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "dirt",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.2477240562438965,
+            "pair_logit": -1.6607725620269775,
+            "fused_logit": -4.908496618270874,
+            "score": 0.007329460699111223,
+            "rank": 49
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "chair",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.8507227897644043,
+            "pair_logit": -1.7593028545379639,
+            "fused_logit": -4.610025644302368,
+            "score": 0.00985350739210844,
+            "rank": 46
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "chair",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.119232654571533,
+            "pair_logit": -1.7593028545379639,
+            "fused_logit": -5.878535509109497,
+            "score": 0.002791070146486163
+          }
+        ]
+      },
+      {
+        "subject_id": 6,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 6,
+            "subject_label": "building",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.9947421550750732,
+            "pair_logit": -1.8310394287109375,
+            "fused_logit": -2.8257815837860107,
+            "score": 0.05594678595662117,
+            "rank": 38
+          },
+          {
+            "subject_id": 6,
+            "subject_label": "building",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.3405628204345703,
+            "pair_logit": -1.8310394287109375,
+            "fused_logit": -5.171602249145508,
+            "score": 0.005643438547849655
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 56,
+    "human_pairs_scored": 26,
+    "expected_human_pairs": 26,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.14357529999688268
+}

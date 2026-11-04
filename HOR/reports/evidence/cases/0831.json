@@ -1,0 +1,784 @@
+{
+  "index": 831,
+  "sample_position": 85,
+  "file_name": "2353239.jpg",
+  "image_sha256": "ce1eebf8d7adb017644d8586befb0f075edc3fcd186d4155c0716d058ca22aae",
+  "image_size": [
+    478,
+    640
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "clock",
+      "category_id": 74,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        318.999985486269,
+        65.99999904632568,
+        429.99998876452446,
+        189.00000095367432
+      ]
+    },
+    {
+      "id": 1,
+      "label": "clock",
+      "category_id": 74,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        212.00000213831663,
+        86.00000381469727,
+        271.0000009611249,
+        215.0
+      ]
+    },
+    {
+      "id": 2,
+      "label": "roof",
+      "category_id": 101,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        303.9999904334545,
+        0.0,
+        477.99999287724495,
+        48.00000190734863
+      ]
+    },
+    {
+      "id": 3,
+      "label": "sky",
+      "category_id": 119,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        87.99998617172241,
+        0.0,
+        478.0,
+        310.0
+      ]
+    },
+    {
+      "id": 4,
+      "label": "building",
+      "category_id": 129,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        478.0,
+        640.0
+      ]
+    }
+  ],
+  "ground_truth_relations": [],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "clock",
+        "category_id": 85,
+        "is_person": false,
+        "box_xyxy": [
+          215.82943725585938,
+          86.74567413330078,
+          269.2958679199219,
+          212.4510955810547
+        ],
+        "detection_score": 0.9987167119979858,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "clock",
+        "category_id": 85,
+        "is_person": false,
+        "box_xyxy": [
+          317.494873046875,
+          63.140899658203125,
+          428.9233703613281,
+          192.70175170898438
+        ],
+        "detection_score": 0.9984140396118164,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          48.98351287841797,
+          121.13894653320312,
+          105.8666000366211,
+          285.7005920410156
+        ],
+        "detection_score": 0.8182665705680847,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      2
+    ],
+    "relations": [
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "clock",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.658843994140625,
+        "pair_logit": -1.3517420291900635,
+        "fused_logit": 1.3071019649505615,
+        "score": 0.7870277762413025,
+        "rank": 1
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "clock",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.5379581451416016,
+        "pair_logit": -1.4667073488235474,
+        "fused_logit": 1.0712507963180542,
+        "score": 0.7448347210884094,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "clock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.1181840896606445,
+        "pair_logit": -1.448561191558838,
+        "fused_logit": 0.6696228981018066,
+        "score": 0.6614186763763428,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "clock",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.8692951202392578,
+        "pair_logit": -1.3517420291900635,
+        "fused_logit": 0.5175530910491943,
+        "score": 0.6265754103660583,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "clock",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.4241180419921875,
+        "pair_logit": -1.529160976409912,
+        "fused_logit": -0.10504293441772461,
+        "score": 0.4737633764743805,
+        "rank": 5
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "clock",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.2758374214172363,
+        "pair_logit": -1.4667073488235474,
+        "fused_logit": -0.19086992740631104,
+        "score": 0.45242688059806824,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "clock",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.9886302947998047,
+        "pair_logit": -1.448561191558838,
+        "fused_logit": -0.4599308967590332,
+        "score": 0.38700222969055176,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "clock",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.15862607955932617,
+        "pair_logit": -1.529160976409912,
+        "fused_logit": -1.370534896850586,
+        "score": 0.20253343880176544,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "clock",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.658843994140625,
+        "pair_logit": -1.3517420291900635,
+        "fused_logit": 1.3071019649505615,
+        "score": 0.7870277762413025
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "clock",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.5379581451416016,
+        "pair_logit": -1.4667073488235474,
+        "fused_logit": 1.0712507963180542,
+        "score": 0.7448347210884094
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "clock",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.1181840896606445,
+        "pair_logit": -1.448561191558838,
+        "fused_logit": 0.6696228981018066,
+        "score": 0.6614186763763428
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "clock",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.4241180419921875,
+        "pair_logit": -1.529160976409912,
+        "fused_logit": -0.10504293441772461,
+        "score": 0.4737633764743805
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "clock",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.658843994140625,
+            "pair_logit": -1.3517420291900635,
+            "fused_logit": 1.3071019649505615,
+            "score": 0.7870277762413025,
+            "rank": 1
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "clock",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.8692951202392578,
+            "pair_logit": -1.3517420291900635,
+            "fused_logit": 0.5175530910491943,
+            "score": 0.6265754103660583,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "clock",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.1181840896606445,
+            "pair_logit": -1.448561191558838,
+            "fused_logit": 0.6696228981018066,
+            "score": 0.6614186763763428,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "clock",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.9886302947998047,
+            "pair_logit": -1.448561191558838,
+            "fused_logit": -0.4599308967590332,
+            "score": 0.38700222969055176,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "clock",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.5379581451416016,
+            "pair_logit": -1.4667073488235474,
+            "fused_logit": 1.0712507963180542,
+            "score": 0.7448347210884094,
+            "rank": 2
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "clock",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.2758374214172363,
+            "pair_logit": -1.4667073488235474,
+            "fused_logit": -0.19086992740631104,
+            "score": 0.45242688059806824,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "clock",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.4241180419921875,
+            "pair_logit": -1.529160976409912,
+            "fused_logit": -0.10504293441772461,
+            "score": 0.4737633764743805,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "clock",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.15862607955932617,
+            "pair_logit": -1.529160976409912,
+            "fused_logit": -1.370534896850586,
+            "score": 0.20253343880176544,
+            "rank": 8
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06367100001079962
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "clock",
+        "category_id": 74,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          318.999985486269,
+          65.99999904632568,
+          429.99998876452446,
+          189.00000095367432
+        ]
+      },
+      {
+        "id": 1,
+        "label": "clock",
+        "category_id": 74,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          212.00000213831663,
+          86.00000381469727,
+          271.0000009611249,
+          215.0
+        ]
+      },
+      {
+        "id": 2,
+        "label": "roof",
+        "category_id": 101,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          303.9999904334545,
+          0.0,
+          477.99999287724495,
+          48.00000190734863
+        ]
+      },
+      {
+        "id": 3,
+        "label": "sky",
+        "category_id": 119,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          87.99998617172241,
+          0.0,
+          478.0,
+          310.0
+        ]
+      },
+      {
+        "id": 4,
+        "label": "building",
+        "category_id": 129,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          478.0,
+          640.0
+        ]
+      }
+    ],
+    "human_ids": [],
+    "relations": [],
+    "single_predicate_top50": [],
+    "all_human_pairs": [],
+    "status": "no_person",
+    "candidate_pairs": 0,
+    "human_pairs_scored": 0,
+    "expected_human_pairs": 0,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "clock",
+        "category_id": 74,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          318.999985486269,
+          65.99999904632568,
+          429.99998876452446,
+          189.00000095367432
+        ]
+      },
+      {
+        "id": 1,
+        "label": "clock",
+        "category_id": 74,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          212.00000213831663,
+          86.00000381469727,
+          271.0000009611249,
+          215.0
+        ]
+      },
+      {
+        "id": 2,
+        "label": "roof",
+        "category_id": 101,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          303.9999904334545,
+          0.0,
+          477.99999287724495,
+          48.00000190734863
+        ]
+      },
+      {
+        "id": 3,
+        "label": "sky",
+        "category_id": 119,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          87.99998617172241,
+          0.0,
+          478.0,
+          310.0
+        ]
+      },
+      {
+        "id": 4,
+        "label": "building",
+        "category_id": 129,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          478.0,
+          640.0
+        ]
+      }
+    ],
+    "human_ids": [],
+    "relations": [],
+    "single_predicate_top50": [],
+    "all_human_pairs": [],
+    "status": "no_person",
+    "candidate_pairs": 0,
+    "human_pairs_scored": 0,
+    "expected_human_pairs": 0,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.06795779999811202
+}

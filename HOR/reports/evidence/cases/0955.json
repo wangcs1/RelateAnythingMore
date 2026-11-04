@@ -1,0 +1,2549 @@
+{
+  "index": 955,
+  "sample_position": 166,
+  "file_name": "2358756.jpg",
+  "image_sha256": "a1b87d38128e4507b46e9cb99ab1fe96b062f3838af2be0618e6e3fc5abdd5e5",
+  "image_size": [
+    640,
+    480
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        319.0000009536743,
+        178.99998664855957,
+        405.9999990463257,
+        313.99998664855957
+      ]
+    },
+    {
+      "id": 1,
+      "label": "frisbee",
+      "category_id": 29,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        326.0000002384186,
+        249.99999806284904,
+        348.9999997615814,
+        263.9999981224537
+      ]
+    },
+    {
+      "id": 2,
+      "label": "frisbee",
+      "category_id": 29,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        381.0000002384186,
+        249.00000929832458,
+        398.9999997615814,
+        271.00000977516174
+      ]
+    },
+    {
+      "id": 3,
+      "label": "tree",
+      "category_id": 116,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        640.0,
+        324.99999046325684
+      ]
+    },
+    {
+      "id": 4,
+      "label": "dirt",
+      "category_id": 126,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        195.99999904632568,
+        640.0,
+        479.99998569488525
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 43,
+      "predicate": "throwing"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 3,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 4,
+      "predicate_id": 14,
+      "predicate": "standing on"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          323.1282958984375,
+          180.8299560546875,
+          409.2001953125,
+          312.92535400390625
+        ],
+        "detection_score": 0.9998334646224976,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "frisbee",
+        "category_id": 34,
+        "is_person": false,
+        "box_xyxy": [
+          326.9180908203125,
+          249.9344482421875,
+          349.6602478027344,
+          263.4662170410156
+        ],
+        "detection_score": 0.9993268251419067,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "frisbee",
+        "category_id": 34,
+        "is_person": false,
+        "box_xyxy": [
+          381.8211364746094,
+          249.19406127929688,
+          398.8298034667969,
+          271.07891845703125
+        ],
+        "detection_score": 0.9969823956489563,
+        "source": "detector"
+      },
+      {
+        "id": 3,
+        "label": "backpack",
+        "category_id": 27,
+        "is_person": false,
+        "box_xyxy": [
+          355.9794616699219,
+          191.78668212890625,
+          404.157958984375,
+          229.67933654785156
+        ],
+        "detection_score": 0.5411937236785889,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.438674449920654,
+        "pair_logit": 0.693327009677887,
+        "fused_logit": 5.132001459598541,
+        "score": 0.99413001537323,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 3,
+        "object_label": "backpack",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.546769618988037,
+        "pair_logit": 0.4040430784225464,
+        "fused_logit": 4.9508126974105835,
+        "score": 0.9929720759391785,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.295660495758057,
+        "pair_logit": 0.4687816798686981,
+        "fused_logit": 4.764442175626755,
+        "score": 0.9915444850921631,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "backpack",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.116403102874756,
+        "pair_logit": 0.4040430784225464,
+        "fused_logit": 2.5204461812973022,
+        "score": 0.9255627989768982,
+        "rank": 4
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "backpack",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.698578357696533,
+        "pair_logit": -0.3422391712665558,
+        "fused_logit": 2.3563391864299774,
+        "score": 0.913436770439148,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.3145432472229004,
+        "pair_logit": 0.4687816798686981,
+        "fused_logit": 1.7833249270915985,
+        "score": 0.8561068773269653,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.062346935272217,
+        "pair_logit": -0.2906860411167145,
+        "fused_logit": 1.7716608941555023,
+        "score": 0.854664146900177,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.5755105018615723,
+        "pair_logit": 0.693327009677887,
+        "fused_logit": 1.2688375115394592,
+        "score": 0.7805436253547668,
+        "rank": 8
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "backpack",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.24824142456054688,
+        "pair_logit": -0.3422391712665558,
+        "fused_logit": -0.5904805958271027,
+        "score": 0.35652458667755127,
+        "rank": 9
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.06678104400634766,
+        "pair_logit": -0.7239075303077698,
+        "fused_logit": -0.7906885743141174,
+        "score": 0.31202083826065063,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.3082003593444824,
+        "pair_logit": -0.2906860411167145,
+        "fused_logit": -1.598886400461197,
+        "score": 0.1681373119354248,
+        "rank": 11
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.9910047054290771,
+        "pair_logit": -0.7239075303077698,
+        "fused_logit": -1.714912235736847,
+        "score": 0.15252766013145447,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.438674449920654,
+        "pair_logit": 0.693327009677887,
+        "fused_logit": 5.132001459598541,
+        "score": 0.99413001537323
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 3,
+        "object_label": "backpack",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.546769618988037,
+        "pair_logit": 0.4040430784225464,
+        "fused_logit": 4.9508126974105835,
+        "score": 0.9929720759391785
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.295660495758057,
+        "pair_logit": 0.4687816798686981,
+        "fused_logit": 4.764442175626755,
+        "score": 0.9915444850921631
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "backpack",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.698578357696533,
+        "pair_logit": -0.3422391712665558,
+        "fused_logit": 2.3563391864299774,
+        "score": 0.913436770439148
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.062346935272217,
+        "pair_logit": -0.2906860411167145,
+        "fused_logit": 1.7716608941555023,
+        "score": 0.854664146900177
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.06678104400634766,
+        "pair_logit": -0.7239075303077698,
+        "fused_logit": -0.7906885743141174,
+        "score": 0.31202083826065063
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.5755105018615723,
+            "pair_logit": 0.693327009677887,
+            "fused_logit": 1.2688375115394592,
+            "score": 0.7805436253547668,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.438674449920654,
+            "pair_logit": 0.693327009677887,
+            "fused_logit": 5.132001459598541,
+            "score": 0.99413001537323,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.3145432472229004,
+            "pair_logit": 0.4687816798686981,
+            "fused_logit": 1.7833249270915985,
+            "score": 0.8561068773269653,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.295660495758057,
+            "pair_logit": 0.4687816798686981,
+            "fused_logit": 4.764442175626755,
+            "score": 0.9915444850921631,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "backpack",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.116403102874756,
+            "pair_logit": 0.4040430784225464,
+            "fused_logit": 2.5204461812973022,
+            "score": 0.9255627989768982,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 3,
+            "object_label": "backpack",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.546769618988037,
+            "pair_logit": 0.4040430784225464,
+            "fused_logit": 4.9508126974105835,
+            "score": 0.9929720759391785,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "frisbee",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.062346935272217,
+            "pair_logit": -0.2906860411167145,
+            "fused_logit": 1.7716608941555023,
+            "score": 0.854664146900177,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "frisbee",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.3082003593444824,
+            "pair_logit": -0.2906860411167145,
+            "fused_logit": -1.598886400461197,
+            "score": 0.1681373119354248,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "backpack",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.698578357696533,
+            "pair_logit": -0.3422391712665558,
+            "fused_logit": 2.3563391864299774,
+            "score": 0.913436770439148,
+            "rank": 5
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "backpack",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.24824142456054688,
+            "pair_logit": -0.3422391712665558,
+            "fused_logit": -0.5904805958271027,
+            "score": 0.35652458667755127,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "frisbee",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.06678104400634766,
+            "pair_logit": -0.7239075303077698,
+            "fused_logit": -0.7906885743141174,
+            "score": 0.31202083826065063,
+            "rank": 10
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "frisbee",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.9910047054290771,
+            "pair_logit": -0.7239075303077698,
+            "fused_logit": -1.714912235736847,
+            "score": 0.15252766013145447,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06611690000863746
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          319.0000009536743,
+          178.99998664855957,
+          405.9999990463257,
+          313.99998664855957
+        ]
+      },
+      {
+        "id": 1,
+        "label": "frisbee",
+        "category_id": 29,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          326.0000002384186,
+          249.99999806284904,
+          348.9999997615814,
+          263.9999981224537
+        ]
+      },
+      {
+        "id": 2,
+        "label": "frisbee",
+        "category_id": 29,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          381.0000002384186,
+          249.00000929832458,
+          398.9999997615814,
+          271.00000977516174
+        ]
+      },
+      {
+        "id": 3,
+        "label": "tree",
+        "category_id": 116,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          324.99999046325684
+        ]
+      },
+      {
+        "id": 4,
+        "label": "dirt",
+        "category_id": 126,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          195.99999904632568,
+          640.0,
+          479.99998569488525
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 43,
+        "predicate": "throwing",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.607400417327881,
+        "pair_logit": 0.8161293268203735,
+        "fused_logit": 5.423529744148254,
+        "score": 0.9956077933311462,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.192899227142334,
+        "pair_logit": 0.5238478183746338,
+        "fused_logit": 4.716747045516968,
+        "score": 0.9911350011825562,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 32,
+        "predicate": "playing with",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.5976901054382324,
+        "pair_logit": -0.17672541737556458,
+        "fused_logit": 3.420964688062668,
+        "score": 0.9683533906936646,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 3,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.9371190071105957,
+        "pair_logit": -0.014748618006706238,
+        "fused_logit": 2.9223703891038895,
+        "score": 0.9489412903785706,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.0086426734924316,
+        "pair_logit": -0.17672541737556458,
+        "fused_logit": 2.831917256116867,
+        "score": 0.9443764686584473,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.555812358856201,
+        "pair_logit": -0.014748618006706238,
+        "fused_logit": 2.541063740849495,
+        "score": 0.9269708395004272,
+        "rank": 6
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.6039810180664062,
+        "pair_logit": -0.4575316309928894,
+        "fused_logit": 2.146449387073517,
+        "score": 0.8953364491462708,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.331170082092285,
+        "pair_logit": -0.27608102560043335,
+        "fused_logit": 2.055089056491852,
+        "score": 0.8864608407020569,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.2441816329956055,
+        "pair_logit": 0.5238478183746338,
+        "fused_logit": 1.7680294513702393,
+        "score": 0.8542124629020691,
+        "rank": 9
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.5525727272033691,
+        "pair_logit": 0.8161293268203735,
+        "fused_logit": 1.3687020540237427,
+        "score": 0.7971704006195068,
+        "rank": 10
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8852925300598145,
+        "pair_logit": -0.6987018585205078,
+        "fused_logit": 0.18659067153930664,
+        "score": 0.5465127825737,
+        "rank": 11
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "tree",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.19569015502929688,
+        "pair_logit": -0.4575316309928894,
+        "fused_logit": -0.26184147596359253,
+        "score": 0.4349110722541809,
+        "rank": 12
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.20454072952270508,
+        "pair_logit": -0.6987018585205078,
+        "fused_logit": -0.49416112899780273,
+        "score": 0.3789138197898865,
+        "rank": 13
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.9628298282623291,
+        "pair_logit": -0.27608102560043335,
+        "fused_logit": -1.2389108538627625,
+        "score": 0.2246256172657013,
+        "rank": 14
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3468904495239258,
+        "pair_logit": -1.1960995197296143,
+        "fused_logit": -1.54298996925354,
+        "score": 0.17610102891921997,
+        "rank": 15
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.4758236408233643,
+        "pair_logit": -1.1960995197296143,
+        "fused_logit": -2.6719231605529785,
+        "score": 0.06465057283639908,
+        "rank": 16
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 43,
+        "predicate": "throwing",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.607400417327881,
+        "pair_logit": 0.8161293268203735,
+        "fused_logit": 5.423529744148254,
+        "score": 0.9956077933311462
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.192899227142334,
+        "pair_logit": 0.5238478183746338,
+        "fused_logit": 4.716747045516968,
+        "score": 0.9911350011825562
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 32,
+        "predicate": "playing with",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.5976901054382324,
+        "pair_logit": -0.17672541737556458,
+        "fused_logit": 3.420964688062668,
+        "score": 0.9683533906936646
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 3,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.9371190071105957,
+        "pair_logit": -0.014748618006706238,
+        "fused_logit": 2.9223703891038895,
+        "score": 0.9489412903785706
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.6039810180664062,
+        "pair_logit": -0.4575316309928894,
+        "fused_logit": 2.146449387073517,
+        "score": 0.8953364491462708
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.331170082092285,
+        "pair_logit": -0.27608102560043335,
+        "fused_logit": 2.055089056491852,
+        "score": 0.8864608407020569
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.8852925300598145,
+        "pair_logit": -0.6987018585205078,
+        "fused_logit": 0.18659067153930664,
+        "score": 0.5465127825737
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.3468904495239258,
+        "pair_logit": -1.1960995197296143,
+        "fused_logit": -1.54298996925354,
+        "score": 0.17610102891921997
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.5525727272033691,
+            "pair_logit": 0.8161293268203735,
+            "fused_logit": 1.3687020540237427,
+            "score": 0.7971704006195068,
+            "rank": 10
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 43,
+            "predicate": "throwing",
+            "object_id": 1,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.607400417327881,
+            "pair_logit": 0.8161293268203735,
+            "fused_logit": 5.423529744148254,
+            "score": 0.9956077933311462,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.2441816329956055,
+            "pair_logit": 0.5238478183746338,
+            "fused_logit": 1.7680294513702393,
+            "score": 0.8542124629020691,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.192899227142334,
+            "pair_logit": 0.5238478183746338,
+            "fused_logit": 4.716747045516968,
+            "score": 0.9911350011825562,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.555812358856201,
+            "pair_logit": -0.014748618006706238,
+            "fused_logit": 2.541063740849495,
+            "score": 0.9269708395004272,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 3,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.9371190071105957,
+            "pair_logit": -0.014748618006706238,
+            "fused_logit": 2.9223703891038895,
+            "score": 0.9489412903785706,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.0086426734924316,
+            "pair_logit": -0.17672541737556458,
+            "fused_logit": 2.831917256116867,
+            "score": 0.9443764686584473,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 32,
+            "predicate": "playing with",
+            "object_id": 4,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.5976901054382324,
+            "pair_logit": -0.17672541737556458,
+            "fused_logit": 3.420964688062668,
+            "score": 0.9683533906936646,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "frisbee",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.331170082092285,
+            "pair_logit": -0.27608102560043335,
+            "fused_logit": 2.055089056491852,
+            "score": 0.8864608407020569,
+            "rank": 8
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "frisbee",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.9628298282623291,
+            "pair_logit": -0.27608102560043335,
+            "fused_logit": -1.2389108538627625,
+            "score": 0.2246256172657013,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "tree",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.6039810180664062,
+            "pair_logit": -0.4575316309928894,
+            "fused_logit": 2.146449387073517,
+            "score": 0.8953364491462708,
+            "rank": 7
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "tree",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.19569015502929688,
+            "pair_logit": -0.4575316309928894,
+            "fused_logit": -0.26184147596359253,
+            "score": 0.4349110722541809,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "frisbee",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8852925300598145,
+            "pair_logit": -0.6987018585205078,
+            "fused_logit": 0.18659067153930664,
+            "score": 0.5465127825737,
+            "rank": 11
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "frisbee",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.20454072952270508,
+            "pair_logit": -0.6987018585205078,
+            "fused_logit": -0.49416112899780273,
+            "score": 0.3789138197898865,
+            "rank": 13
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "dirt",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3468904495239258,
+            "pair_logit": -1.1960995197296143,
+            "fused_logit": -1.54298996925354,
+            "score": 0.17610102891921997,
+            "rank": 15
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "dirt",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.4758236408233643,
+            "pair_logit": -1.1960995197296143,
+            "fused_logit": -2.6719231605529785,
+            "score": 0.06465057283639908,
+            "rank": 16
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 8,
+    "expected_human_pairs": 8,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          319.0000009536743,
+          178.99998664855957,
+          405.9999990463257,
+          313.99998664855957
+        ]
+      },
+      {
+        "id": 1,
+        "label": "frisbee",
+        "category_id": 29,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          326.0000002384186,
+          249.99999806284904,
+          348.9999997615814,
+          263.9999981224537
+        ]
+      },
+      {
+        "id": 2,
+        "label": "frisbee",
+        "category_id": 29,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          381.0000002384186,
+          249.00000929832458,
+          398.9999997615814,
+          271.00000977516174
+        ]
+      },
+      {
+        "id": 3,
+        "label": "tree",
+        "category_id": 116,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          324.99999046325684
+        ]
+      },
+      {
+        "id": 4,
+        "label": "dirt",
+        "category_id": 126,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          195.99999904632568,
+          640.0,
+          479.99998569488525
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 43,
+        "predicate": "throwing",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.607400417327881,
+        "pair_logit": 0.8161293268203735,
+        "fused_logit": 5.423529744148254,
+        "score": 0.9956077933311462,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.192899227142334,
+        "pair_logit": 0.5238478183746338,
+        "fused_logit": 4.716747045516968,
+        "score": 0.9911350011825562,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 32,
+        "predicate": "playing with",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.5976901054382324,
+        "pair_logit": -0.17672541737556458,
+        "fused_logit": 3.420964688062668,
+        "score": 0.9683533906936646,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 3,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.9419665336608887,
+        "pair_logit": -0.014748618006706238,
+        "fused_logit": 2.9272179156541824,
+        "score": 0.9491755962371826,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.019533157348633,
+        "pair_logit": -0.17672541737556458,
+        "fused_logit": 2.8428077399730682,
+        "score": 0.9449456930160522,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.508904457092285,
+        "pair_logit": -0.014748618006706238,
+        "fused_logit": 2.494155839085579,
+        "score": 0.9237310886383057,
+        "rank": 6
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.6039810180664062,
+        "pair_logit": -0.4575316309928894,
+        "fused_logit": 2.146449387073517,
+        "score": 0.8953364491462708,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.331170082092285,
+        "pair_logit": -0.27608102560043335,
+        "fused_logit": 2.055089056491852,
+        "score": 0.8864608407020569,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.250819206237793,
+        "pair_logit": 0.5238478183746338,
+        "fused_logit": 1.7746670246124268,
+        "score": 0.8550370931625366,
+        "rank": 9
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.5525727272033691,
+        "pair_logit": 0.8161293268203735,
+        "fused_logit": 1.3687020540237427,
+        "score": 0.7971704006195068,
+        "rank": 10
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.9087462425231934,
+        "pair_logit": -0.6987018585205078,
+        "fused_logit": 0.21004438400268555,
+        "score": 0.5523188710212708,
+        "rank": 11
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "tree",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.2250838279724121,
+        "pair_logit": -0.4575316309928894,
+        "fused_logit": -0.2324478030204773,
+        "score": 0.4421483278274536,
+        "rank": 12
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.20749521255493164,
+        "pair_logit": -0.6987018585205078,
+        "fused_logit": -0.49120664596557617,
+        "score": 0.3796093761920929,
+        "rank": 13
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.9749414920806885,
+        "pair_logit": -0.27608102560043335,
+        "fused_logit": -1.2510225176811218,
+        "score": 0.22252318263053894,
+        "rank": 14
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3468904495239258,
+        "pair_logit": -1.1960995197296143,
+        "fused_logit": -1.54298996925354,
+        "score": 0.17610102891921997,
+        "rank": 15
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.4893922805786133,
+        "pair_logit": -1.1960995197296143,
+        "fused_logit": -2.6854918003082275,
+        "score": 0.06383489817380905,
+        "rank": 16
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 43,
+        "predicate": "throwing",
+        "object_id": 1,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.607400417327881,
+        "pair_logit": 0.8161293268203735,
+        "fused_logit": 5.423529744148254,
+        "score": 0.9956077933311462
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "frisbee",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.192899227142334,
+        "pair_logit": 0.5238478183746338,
+        "fused_logit": 4.716747045516968,
+        "score": 0.9911350011825562
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 32,
+        "predicate": "playing with",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.5976901054382324,
+        "pair_logit": -0.17672541737556458,
+        "fused_logit": 3.420964688062668,
+        "score": 0.9683533906936646
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 3,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.9419665336608887,
+        "pair_logit": -0.014748618006706238,
+        "fused_logit": 2.9272179156541824,
+        "score": 0.9491755962371826
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.6039810180664062,
+        "pair_logit": -0.4575316309928894,
+        "fused_logit": 2.146449387073517,
+        "score": 0.8953364491462708
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "frisbee",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.331170082092285,
+        "pair_logit": -0.27608102560043335,
+        "fused_logit": 2.055089056491852,
+        "score": 0.8864608407020569
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "frisbee",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.9087462425231934,
+        "pair_logit": -0.6987018585205078,
+        "fused_logit": 0.21004438400268555,
+        "score": 0.5523188710212708
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.3468904495239258,
+        "pair_logit": -1.1960995197296143,
+        "fused_logit": -1.54298996925354,
+        "score": 0.17610102891921997
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.5525727272033691,
+            "pair_logit": 0.8161293268203735,
+            "fused_logit": 1.3687020540237427,
+            "score": 0.7971704006195068,
+            "rank": 10
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 43,
+            "predicate": "throwing",
+            "object_id": 1,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.607400417327881,
+            "pair_logit": 0.8161293268203735,
+            "fused_logit": 5.423529744148254,
+            "score": 0.9956077933311462,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.250819206237793,
+            "pair_logit": 0.5238478183746338,
+            "fused_logit": 1.7746670246124268,
+            "score": 0.8550370931625366,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "frisbee",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.192899227142334,
+            "pair_logit": 0.5238478183746338,
+            "fused_logit": 4.716747045516968,
+            "score": 0.9911350011825562,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.508904457092285,
+            "pair_logit": -0.014748618006706238,
+            "fused_logit": 2.494155839085579,
+            "score": 0.9237310886383057,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 3,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.9419665336608887,
+            "pair_logit": -0.014748618006706238,
+            "fused_logit": 2.9272179156541824,
+            "score": 0.9491755962371826,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.019533157348633,
+            "pair_logit": -0.17672541737556458,
+            "fused_logit": 2.8428077399730682,
+            "score": 0.9449456930160522,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 32,
+            "predicate": "playing with",
+            "object_id": 4,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.5976901054382324,
+            "pair_logit": -0.17672541737556458,
+            "fused_logit": 3.420964688062668,
+            "score": 0.9683533906936646,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "frisbee",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.331170082092285,
+            "pair_logit": -0.27608102560043335,
+            "fused_logit": 2.055089056491852,
+            "score": 0.8864608407020569,
+            "rank": 8
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "frisbee",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.9749414920806885,
+            "pair_logit": -0.27608102560043335,
+            "fused_logit": -1.2510225176811218,
+            "score": 0.22252318263053894,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "tree",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.6039810180664062,
+            "pair_logit": -0.4575316309928894,
+            "fused_logit": 2.146449387073517,
+            "score": 0.8953364491462708,
+            "rank": 7
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "tree",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.2250838279724121,
+            "pair_logit": -0.4575316309928894,
+            "fused_logit": -0.2324478030204773,
+            "score": 0.4421483278274536,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "frisbee",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.9087462425231934,
+            "pair_logit": -0.6987018585205078,
+            "fused_logit": 0.21004438400268555,
+            "score": 0.5523188710212708,
+            "rank": 11
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "frisbee",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.20749521255493164,
+            "pair_logit": -0.6987018585205078,
+            "fused_logit": -0.49120664596557617,
+            "score": 0.3796093761920929,
+            "rank": 13
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "dirt",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3468904495239258,
+            "pair_logit": -1.1960995197296143,
+            "fused_logit": -1.54298996925354,
+            "score": 0.17610102891921997,
+            "rank": 15
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "dirt",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.4893922805786133,
+            "pair_logit": -1.1960995197296143,
+            "fused_logit": -2.6854918003082275,
+            "score": 0.06383489817380905,
+            "rank": 16
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 8,
+    "expected_human_pairs": 8,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.1347605000482872
+}

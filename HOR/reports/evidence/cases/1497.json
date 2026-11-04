@@ -1,0 +1,4301 @@
+{
+  "index": 1497,
+  "sample_position": 82,
+  "file_name": "2385717.jpg",
+  "image_sha256": "29a1a65910552343cdd8ab90b70aefd463859b9598fd0abb012c242788f367c0",
+  "image_size": [
+    480,
+    640
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.9999990463256836,
+        103.0000114440918,
+        447.00000286102295,
+        640.0000190734863
+      ]
+    },
+    {
+      "id": 1,
+      "label": "scissors",
+      "category_id": 76,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        94.99999523162842,
+        306.9999885559082,
+        479.0000009536743,
+        483.99999618530273
+      ]
+    },
+    {
+      "id": 2,
+      "label": "tree",
+      "category_id": 116,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        480.0,
+        557.9999923706055
+      ]
+    },
+    {
+      "id": 3,
+      "label": "pavement",
+      "category_id": 123,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        518.0000162124634,
+        480.0,
+        640.0000143051147
+      ]
+    },
+    {
+      "id": 4,
+      "label": "dirt",
+      "category_id": 126,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        480.0,
+        542.0000076293945
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 3,
+      "predicate_id": 0,
+      "predicate": "over"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "scissors",
+        "category_id": 87,
+        "is_person": false,
+        "box_xyxy": [
+          103.63603210449219,
+          306.1339416503906,
+          474.9482116699219,
+          488.09124755859375
+        ],
+        "detection_score": 0.9979846477508545,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          4.055914402008057,
+          112.96730041503906,
+          455.49200439453125,
+          625.8970947265625
+        ],
+        "detection_score": 0.9914119243621826,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          0.0,
+          370.94500732421875,
+          453.6216735839844,
+          627.76953125
+        ],
+        "detection_score": 0.9353535771369934,
+        "source": "detector"
+      },
+      {
+        "id": 3,
+        "label": "scissors",
+        "category_id": 87,
+        "is_person": false,
+        "box_xyxy": [
+          70.51815032958984,
+          122.0375747680664,
+          463.1390075683594,
+          515.9902954101562
+        ],
+        "detection_score": 0.8422587513923645,
+        "source": "detector"
+      },
+      {
+        "id": 4,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          26.224018096923828,
+          101.47427368164062,
+          354.5571594238281,
+          407.0617980957031
+        ],
+        "detection_score": 0.6944379806518555,
+        "source": "detector"
+      },
+      {
+        "id": 5,
+        "label": "scissors",
+        "category_id": 87,
+        "is_person": false,
+        "box_xyxy": [
+          102.3324203491211,
+          320.2976989746094,
+          299.21343994140625,
+          406.10906982421875
+        ],
+        "detection_score": 0.4933219254016876,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      1,
+      2,
+      4
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.7201972007751465,
+        "pair_logit": -0.25887659192085266,
+        "fused_logit": 3.461320608854294,
+        "score": 0.9695669412612915,
+        "rank": 1
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.4493579864501953,
+        "pair_logit": 0.06325966119766235,
+        "fused_logit": 2.5126176476478577,
+        "score": 0.9250216484069824,
+        "rank": 2
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.484203815460205,
+        "pair_logit": -0.19727206230163574,
+        "fused_logit": 2.2869317531585693,
+        "score": 0.9077889323234558,
+        "rank": 3
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          4,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 2.582789897918701,
+        "pair_logit": -0.2983545958995819,
+        "fused_logit": 2.2844353020191193,
+        "score": 0.9075797200202942,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.6647515296936035,
+        "pair_logit": -0.5868908762931824,
+        "fused_logit": 2.077860653400421,
+        "score": 0.8887326717376709,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.395928382873535,
+        "pair_logit": -0.4180721938610077,
+        "fused_logit": 1.9778561890125275,
+        "score": 0.878452479839325,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.6165719032287598,
+        "pair_logit": -0.6632776260375977,
+        "fused_logit": 1.953294277191162,
+        "score": 0.8758054375648499,
+        "rank": 7
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.3423495292663574,
+        "pair_logit": -0.5395426750183105,
+        "fused_logit": 1.8028068542480469,
+        "score": 0.8584902882575989,
+        "rank": 8
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.328993320465088,
+        "pair_logit": -0.5974602699279785,
+        "fused_logit": 1.7315330505371094,
+        "score": 0.8496084213256836,
+        "rank": 9
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.4082493782043457,
+        "pair_logit": -0.701434850692749,
+        "fused_logit": 1.7068145275115967,
+        "score": 0.8464226722717285,
+        "rank": 10
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.1604366302490234,
+        "pair_logit": -0.5290852785110474,
+        "fused_logit": 1.631351351737976,
+        "score": 0.836354672908783,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.842817783355713,
+        "pair_logit": -0.35714221000671387,
+        "fused_logit": 1.485675573348999,
+        "score": 0.8154283165931702,
+        "rank": 12
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.7342109680175781,
+        "pair_logit": -0.3805201053619385,
+        "fused_logit": 1.3536908626556396,
+        "score": 0.794732391834259,
+        "rank": 13
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.7505455017089844,
+        "pair_logit": -0.4137446880340576,
+        "fused_logit": 1.3368008136749268,
+        "score": 0.7919633388519287,
+        "rank": 14
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.8217029571533203,
+        "pair_logit": -0.7444047927856445,
+        "fused_logit": 1.0772981643676758,
+        "score": 0.7459823489189148,
+        "rank": 15
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          4,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.7668790817260742,
+        "pair_logit": -0.7043713331222534,
+        "fused_logit": 1.0625077486038208,
+        "score": 0.7431694865226746,
+        "rank": 16
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.8766446113586426,
+        "pair_logit": -1.0045099258422852,
+        "fused_logit": 0.8721346855163574,
+        "score": 0.7051897048950195,
+        "rank": 17
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.1511726379394531,
+        "pair_logit": -0.28339678049087524,
+        "fused_logit": 0.8677758574485779,
+        "score": 0.7042826414108276,
+        "rank": 18
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.7838325500488281,
+        "pair_logit": -0.03227514028549194,
+        "fused_logit": 0.7515574097633362,
+        "score": 0.679517924785614,
+        "rank": 19
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.6837396621704102,
+        "pair_logit": 0.06325966119766235,
+        "fused_logit": 0.7469993233680725,
+        "score": 0.6785244941711426,
+        "rank": 20
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.2564482688903809,
+        "pair_logit": -0.5868908762931824,
+        "fused_logit": 0.6695573925971985,
+        "score": 0.6614040732383728,
+        "rank": 21
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.505239486694336,
+        "pair_logit": -0.9948671460151672,
+        "fused_logit": 0.5103723406791687,
+        "score": 0.6248937249183655,
+        "rank": 22
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          4
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 0.5528340339660645,
+        "pair_logit": -0.13880634307861328,
+        "fused_logit": 0.41402769088745117,
+        "score": 0.6020532846450806,
+        "rank": 23
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.3075380325317383,
+        "pair_logit": -0.03227514028549194,
+        "fused_logit": 0.27526289224624634,
+        "score": 0.5683844685554504,
+        "rank": 24
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.6418967247009277,
+        "pair_logit": -0.3805201053619385,
+        "fused_logit": 0.26137661933898926,
+        "score": 0.5649746656417847,
+        "rank": 25
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.9437341690063477,
+        "pair_logit": -0.7444047927856445,
+        "fused_logit": 0.19932937622070312,
+        "score": 0.54966801404953,
+        "rank": 26
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.5951323509216309,
+        "pair_logit": -0.4180721938610077,
+        "fused_logit": 0.17706015706062317,
+        "score": 0.5441497564315796,
+        "rank": 27
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.30760955810546875,
+        "pair_logit": -0.25887659192085266,
+        "fused_logit": 0.04873296618461609,
+        "score": 0.5121808052062988,
+        "rank": 28
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.007174015045166,
+        "pair_logit": -0.9658430814743042,
+        "fused_logit": 0.041330933570861816,
+        "score": 0.5103312730789185,
+        "rank": 29
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.2955784797668457,
+        "pair_logit": -0.5395426750183105,
+        "fused_logit": -0.24396419525146484,
+        "score": 0.439309686422348,
+        "rank": 30
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.3368101119995117,
+        "pair_logit": -0.6632776260375977,
+        "fused_logit": -0.32646751403808594,
+        "score": 0.41910040378570557,
+        "rank": 31
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 13,
+        "predicate": "crossing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          4,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 0.13978242874145508,
+        "pair_logit": -0.7043713331222534,
+        "fused_logit": -0.5645889043807983,
+        "score": 0.362486332654953,
+        "rank": 32
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          4
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -0.43932199478149414,
+        "pair_logit": -0.13880634307861328,
+        "fused_logit": -0.5781283378601074,
+        "score": 0.3593633770942688,
+        "rank": 33
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.39754152297973633,
+        "pair_logit": -0.28339678049087524,
+        "fused_logit": -0.6809383034706116,
+        "score": 0.33605191111564636,
+        "rank": 34
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.6063008308410645,
+        "pair_logit": -0.19727206230163574,
+        "fused_logit": -0.8035728931427002,
+        "score": 0.3092617690563202,
+        "rank": 35
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          4
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.3292255401611328,
+        "pair_logit": -0.6396656036376953,
+        "fused_logit": -0.9688911437988281,
+        "score": 0.27510157227516174,
+        "rank": 36
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.09139156341552734,
+        "pair_logit": -1.0806033611297607,
+        "fused_logit": -0.9892117977142334,
+        "score": 0.2710677981376648,
+        "rank": 37
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.02613544464111328,
+        "pair_logit": -1.0806033611297607,
+        "fused_logit": -1.0544679164886475,
+        "score": 0.2583680748939514,
+        "rank": 38
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          4
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -0.41999006271362305,
+        "pair_logit": -0.6396656036376953,
+        "fused_logit": -1.0596556663513184,
+        "score": 0.2573752701282501,
+        "rank": 39
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5825629234313965,
+        "pair_logit": -0.5290852785110474,
+        "fused_logit": -1.1116482019424438,
+        "score": 0.24756373465061188,
+        "rank": 40
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.5266866683959961,
+        "pair_logit": -0.5974602699279785,
+        "fused_logit": -1.1241469383239746,
+        "score": 0.2452428787946701,
+        "rank": 41
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 13,
+        "predicate": "crossing",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -0.8901913166046143,
+        "pair_logit": -0.35714221000671387,
+        "fused_logit": -1.2473335266113281,
+        "score": 0.22316205501556396,
+        "rank": 42
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.8539330959320068,
+        "pair_logit": -0.4137446880340576,
+        "fused_logit": -1.2676777839660645,
+        "score": 0.21965502202510834,
+        "rank": 43
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5771393775939941,
+        "pair_logit": -0.701434850692749,
+        "fused_logit": -1.2785742282867432,
+        "score": 0.21779301762580872,
+        "rank": 44
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          4,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -1.015108346939087,
+        "pair_logit": -0.2983545958995819,
+        "fused_logit": -1.3134629428386688,
+        "score": 0.21190793812274933,
+        "rank": 45
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.6077785491943359,
+        "pair_logit": -0.9948671460151672,
+        "fused_logit": -1.6026456952095032,
+        "score": 0.16761218011379242,
+        "rank": 46
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.9224972724914551,
+        "pair_logit": -1.0045099258422852,
+        "fused_logit": -1.9270071983337402,
+        "score": 0.1270822137594223,
+        "rank": 47
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.338120937347412,
+        "pair_logit": -0.9658430814743042,
+        "fused_logit": -2.3039640188217163,
+        "score": 0.09079518914222717,
+        "rank": 48
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.7201972007751465,
+        "pair_logit": -0.25887659192085266,
+        "fused_logit": 3.461320608854294,
+        "score": 0.9695669412612915
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4493579864501953,
+        "pair_logit": 0.06325966119766235,
+        "fused_logit": 2.5126176476478577,
+        "score": 0.9250216484069824
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.484203815460205,
+        "pair_logit": -0.19727206230163574,
+        "fused_logit": 2.2869317531585693,
+        "score": 0.9077889323234558
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          4,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.582789897918701,
+        "pair_logit": -0.2983545958995819,
+        "fused_logit": 2.2844353020191193,
+        "score": 0.9075797200202942
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.6647515296936035,
+        "pair_logit": -0.5868908762931824,
+        "fused_logit": 2.077860653400421,
+        "score": 0.8887326717376709
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.395928382873535,
+        "pair_logit": -0.4180721938610077,
+        "fused_logit": 1.9778561890125275,
+        "score": 0.878452479839325
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.6165719032287598,
+        "pair_logit": -0.6632776260375977,
+        "fused_logit": 1.953294277191162,
+        "score": 0.8758054375648499
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.3423495292663574,
+        "pair_logit": -0.5395426750183105,
+        "fused_logit": 1.8028068542480469,
+        "score": 0.8584902882575989
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.328993320465088,
+        "pair_logit": -0.5974602699279785,
+        "fused_logit": 1.7315330505371094,
+        "score": 0.8496084213256836
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "scissors",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4082493782043457,
+        "pair_logit": -0.701434850692749,
+        "fused_logit": 1.7068145275115967,
+        "score": 0.8464226722717285
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.1604366302490234,
+        "pair_logit": -0.5290852785110474,
+        "fused_logit": 1.631351351737976,
+        "score": 0.836354672908783
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.842817783355713,
+        "pair_logit": -0.35714221000671387,
+        "fused_logit": 1.485675573348999,
+        "score": 0.8154283165931702
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.7342109680175781,
+        "pair_logit": -0.3805201053619385,
+        "fused_logit": 1.3536908626556396,
+        "score": 0.794732391834259
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.7505455017089844,
+        "pair_logit": -0.4137446880340576,
+        "fused_logit": 1.3368008136749268,
+        "score": 0.7919633388519287
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.8217029571533203,
+        "pair_logit": -0.7444047927856445,
+        "fused_logit": 1.0772981643676758,
+        "score": 0.7459823489189148
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          4,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.7668790817260742,
+        "pair_logit": -0.7043713331222534,
+        "fused_logit": 1.0625077486038208,
+        "score": 0.7431694865226746
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.8766446113586426,
+        "pair_logit": -1.0045099258422852,
+        "fused_logit": 0.8721346855163574,
+        "score": 0.7051897048950195
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.1511726379394531,
+        "pair_logit": -0.28339678049087524,
+        "fused_logit": 0.8677758574485779,
+        "score": 0.7042826414108276
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 0.7838325500488281,
+        "pair_logit": -0.03227514028549194,
+        "fused_logit": 0.7515574097633362,
+        "score": 0.679517924785614
+      },
+      {
+        "subject_id": 5,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.505239486694336,
+        "pair_logit": -0.9948671460151672,
+        "fused_logit": 0.5103723406791687,
+        "score": 0.6248937249183655
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          4
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 0.5528340339660645,
+        "pair_logit": -0.13880634307861328,
+        "fused_logit": 0.41402769088745117,
+        "score": 0.6020532846450806
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.007174015045166,
+        "pair_logit": -0.9658430814743042,
+        "fused_logit": 0.041330933570861816,
+        "score": 0.5103312730789185
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          4
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": -0.3292255401611328,
+        "pair_logit": -0.6396656036376953,
+        "fused_logit": -0.9688911437988281,
+        "score": 0.27510157227516174
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 5,
+        "object_label": "scissors",
+        "person_ids": [
+          4
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.09139156341552734,
+        "pair_logit": -1.0806033611297607,
+        "fused_logit": -0.9892117977142334,
+        "score": 0.2710677981376648
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "scissors",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.6837396621704102,
+            "pair_logit": 0.06325966119766235,
+            "fused_logit": 0.7469993233680725,
+            "score": 0.6785244941711426,
+            "rank": 20
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "scissors",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.4493579864501953,
+            "pair_logit": 0.06325966119766235,
+            "fused_logit": 2.5126176476478577,
+            "score": 0.9250216484069824,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.7838325500488281,
+            "pair_logit": -0.03227514028549194,
+            "fused_logit": 0.7515574097633362,
+            "score": 0.679517924785614,
+            "rank": 19
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.3075380325317383,
+            "pair_logit": -0.03227514028549194,
+            "fused_logit": 0.27526289224624634,
+            "score": 0.5683844685554504,
+            "rank": 24
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              4
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 0.5528340339660645,
+            "pair_logit": -0.13880634307861328,
+            "fused_logit": 0.41402769088745117,
+            "score": 0.6020532846450806,
+            "rank": 23
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              4
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -0.43932199478149414,
+            "pair_logit": -0.13880634307861328,
+            "fused_logit": -0.5781283378601074,
+            "score": 0.3593633770942688,
+            "rank": 33
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.484203815460205,
+            "pair_logit": -0.19727206230163574,
+            "fused_logit": 2.2869317531585693,
+            "score": 0.9077889323234558,
+            "rank": 3
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.6063008308410645,
+            "pair_logit": -0.19727206230163574,
+            "fused_logit": -0.8035728931427002,
+            "score": 0.3092617690563202,
+            "rank": 35
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "scissors",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.30760955810546875,
+            "pair_logit": -0.25887659192085266,
+            "fused_logit": 0.04873296618461609,
+            "score": 0.5121808052062988,
+            "rank": 28
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "scissors",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.7201972007751465,
+            "pair_logit": -0.25887659192085266,
+            "fused_logit": 3.461320608854294,
+            "score": 0.9695669412612915,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "scissors",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.39754152297973633,
+            "pair_logit": -0.28339678049087524,
+            "fused_logit": -0.6809383034706116,
+            "score": 0.33605191111564636,
+            "rank": 34
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "scissors",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.1511726379394531,
+            "pair_logit": -0.28339678049087524,
+            "fused_logit": 0.8677758574485779,
+            "score": 0.7042826414108276,
+            "rank": 18
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              4,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 2.582789897918701,
+            "pair_logit": -0.2983545958995819,
+            "fused_logit": 2.2844353020191193,
+            "score": 0.9075797200202942,
+            "rank": 4
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              4,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -1.015108346939087,
+            "pair_logit": -0.2983545958995819,
+            "fused_logit": -1.3134629428386688,
+            "score": 0.21190793812274933,
+            "rank": 45
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.842817783355713,
+            "pair_logit": -0.35714221000671387,
+            "fused_logit": 1.485675573348999,
+            "score": 0.8154283165931702,
+            "rank": 12
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 13,
+            "predicate": "crossing",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -0.8901913166046143,
+            "pair_logit": -0.35714221000671387,
+            "fused_logit": -1.2473335266113281,
+            "score": 0.22316205501556396,
+            "rank": 42
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "scissors",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.7342109680175781,
+            "pair_logit": -0.3805201053619385,
+            "fused_logit": 1.3536908626556396,
+            "score": 0.794732391834259,
+            "rank": 13
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "scissors",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.6418967247009277,
+            "pair_logit": -0.3805201053619385,
+            "fused_logit": 0.26137661933898926,
+            "score": 0.5649746656417847,
+            "rank": 25
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.7505455017089844,
+            "pair_logit": -0.4137446880340576,
+            "fused_logit": 1.3368008136749268,
+            "score": 0.7919633388519287,
+            "rank": 14
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "scissors",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.8539330959320068,
+            "pair_logit": -0.4137446880340576,
+            "fused_logit": -1.2676777839660645,
+            "score": 0.21965502202510834,
+            "rank": 43
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.395928382873535,
+            "pair_logit": -0.4180721938610077,
+            "fused_logit": 1.9778561890125275,
+            "score": 0.878452479839325,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.5951323509216309,
+            "pair_logit": -0.4180721938610077,
+            "fused_logit": 0.17706015706062317,
+            "score": 0.5441497564315796,
+            "rank": 27
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "scissors",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.1604366302490234,
+            "pair_logit": -0.5290852785110474,
+            "fused_logit": 1.631351351737976,
+            "score": 0.836354672908783,
+            "rank": 11
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "scissors",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5825629234313965,
+            "pair_logit": -0.5290852785110474,
+            "fused_logit": -1.1116482019424438,
+            "score": 0.24756373465061188,
+            "rank": 40
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.3423495292663574,
+            "pair_logit": -0.5395426750183105,
+            "fused_logit": 1.8028068542480469,
+            "score": 0.8584902882575989,
+            "rank": 8
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.2955784797668457,
+            "pair_logit": -0.5395426750183105,
+            "fused_logit": -0.24396419525146484,
+            "score": 0.439309686422348,
+            "rank": 30
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.6647515296936035,
+            "pair_logit": -0.5868908762931824,
+            "fused_logit": 2.077860653400421,
+            "score": 0.8887326717376709,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.2564482688903809,
+            "pair_logit": -0.5868908762931824,
+            "fused_logit": 0.6695573925971985,
+            "score": 0.6614040732383728,
+            "rank": 21
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "scissors",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.5266866683959961,
+            "pair_logit": -0.5974602699279785,
+            "fused_logit": -1.1241469383239746,
+            "score": 0.2452428787946701,
+            "rank": 41
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "scissors",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.328993320465088,
+            "pair_logit": -0.5974602699279785,
+            "fused_logit": 1.7315330505371094,
+            "score": 0.8496084213256836,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              4
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.3292255401611328,
+            "pair_logit": -0.6396656036376953,
+            "fused_logit": -0.9688911437988281,
+            "score": 0.27510157227516174,
+            "rank": 36
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              4
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -0.41999006271362305,
+            "pair_logit": -0.6396656036376953,
+            "fused_logit": -1.0596556663513184,
+            "score": 0.2573752701282501,
+            "rank": 39
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 5,
+            "object_label": "scissors",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.3368101119995117,
+            "pair_logit": -0.6632776260375977,
+            "fused_logit": -0.32646751403808594,
+            "score": 0.41910040378570557,
+            "rank": 31
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 5,
+            "object_label": "scissors",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.6165719032287598,
+            "pair_logit": -0.6632776260375977,
+            "fused_logit": 1.953294277191162,
+            "score": 0.8758054375648499,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "scissors",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.4082493782043457,
+            "pair_logit": -0.701434850692749,
+            "fused_logit": 1.7068145275115967,
+            "score": 0.8464226722717285,
+            "rank": 10
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5771393775939941,
+            "pair_logit": -0.701434850692749,
+            "fused_logit": -1.2785742282867432,
+            "score": 0.21779301762580872,
+            "rank": 44
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              4,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.7668790817260742,
+            "pair_logit": -0.7043713331222534,
+            "fused_logit": 1.0625077486038208,
+            "score": 0.7431694865226746,
+            "rank": 16
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 13,
+            "predicate": "crossing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              4,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 0.13978242874145508,
+            "pair_logit": -0.7043713331222534,
+            "fused_logit": -0.5645889043807983,
+            "score": 0.362486332654953,
+            "rank": 32
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "scissors",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.9437341690063477,
+            "pair_logit": -0.7444047927856445,
+            "fused_logit": 0.19932937622070312,
+            "score": 0.54966801404953,
+            "rank": 26
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "scissors",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.8217029571533203,
+            "pair_logit": -0.7444047927856445,
+            "fused_logit": 1.0772981643676758,
+            "score": 0.7459823489189148,
+            "rank": 15
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 5,
+            "object_label": "scissors",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.338120937347412,
+            "pair_logit": -0.9658430814743042,
+            "fused_logit": -2.3039640188217163,
+            "score": 0.09079518914222717,
+            "rank": 48
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 5,
+            "object_label": "scissors",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.007174015045166,
+            "pair_logit": -0.9658430814743042,
+            "fused_logit": 0.041330933570861816,
+            "score": 0.5103312730789185,
+            "rank": 29
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.505239486694336,
+            "pair_logit": -0.9948671460151672,
+            "fused_logit": 0.5103723406791687,
+            "score": 0.6248937249183655,
+            "rank": 22
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.6077785491943359,
+            "pair_logit": -0.9948671460151672,
+            "fused_logit": -1.6026456952095032,
+            "score": 0.16761218011379242,
+            "rank": 46
+          }
+        ]
+      },
+      {
+        "subject_id": 5,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 5,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.8766446113586426,
+            "pair_logit": -1.0045099258422852,
+            "fused_logit": 0.8721346855163574,
+            "score": 0.7051897048950195,
+            "rank": 17
+          },
+          {
+            "subject_id": 5,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 4,
+            "object_label": "person",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.9224972724914551,
+            "pair_logit": -1.0045099258422852,
+            "fused_logit": -1.9270071983337402,
+            "score": 0.1270822137594223,
+            "rank": 47
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 5,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 5,
+            "object_label": "scissors",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.02613544464111328,
+            "pair_logit": -1.0806033611297607,
+            "fused_logit": -1.0544679164886475,
+            "score": 0.2583680748939514,
+            "rank": 38
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 5,
+            "object_label": "scissors",
+            "person_ids": [
+              4
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.09139156341552734,
+            "pair_logit": -1.0806033611297607,
+            "fused_logit": -0.9892117977142334,
+            "score": 0.2710677981376648,
+            "rank": 37
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 30,
+    "human_pairs_scored": 24,
+    "expected_human_pairs": 24,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06828280002810061
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.9999990463256836,
+          103.0000114440918,
+          447.00000286102295,
+          640.0000190734863
+        ]
+      },
+      {
+        "id": 1,
+        "label": "scissors",
+        "category_id": 76,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          94.99999523162842,
+          306.9999885559082,
+          479.0000009536743,
+          483.99999618530273
+        ]
+      },
+      {
+        "id": 2,
+        "label": "tree",
+        "category_id": 116,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          480.0,
+          557.9999923706055
+        ]
+      },
+      {
+        "id": 3,
+        "label": "pavement",
+        "category_id": 123,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          518.0000162124634,
+          480.0,
+          640.0000143051147
+        ]
+      },
+      {
+        "id": 4,
+        "label": "dirt",
+        "category_id": 126,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          480.0,
+          542.0000076293945
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "scissors",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.541732311248779,
+        "pair_logit": -0.01060931384563446,
+        "fused_logit": 4.531122997403145,
+        "score": 0.9893462061882019,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.0785574913024902,
+        "pair_logit": -0.323097288608551,
+        "fused_logit": 2.755460202693939,
+        "score": 0.9402209520339966,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.171987533569336,
+        "pair_logit": -0.43789297342300415,
+        "fused_logit": 2.734094560146332,
+        "score": 0.9390087127685547,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 3,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.5361628532409668,
+        "pair_logit": -0.323097288608551,
+        "fused_logit": 1.2130655646324158,
+        "score": 0.7708409428596497,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "scissors",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.1864876747131348,
+        "pair_logit": -0.01060931384563446,
+        "fused_logit": 1.1758783608675003,
+        "score": 0.7642059326171875,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.167604923248291,
+        "pair_logit": -0.43789297342300415,
+        "fused_logit": 0.7297119498252869,
+        "score": 0.6747420430183411,
+        "rank": 6
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pavement",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.127485752105713,
+        "pair_logit": -0.4491361379623413,
+        "fused_logit": 0.6783496141433716,
+        "score": 0.6633702516555786,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.065861701965332,
+        "pair_logit": -0.5835683941841125,
+        "fused_logit": 0.4822933077812195,
+        "score": 0.6182892322540283,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.9314498901367188,
+        "pair_logit": -0.6157993078231812,
+        "fused_logit": 0.3156505823135376,
+        "score": 0.5782638788223267,
+        "rank": 9
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.9084563255310059,
+        "pair_logit": -0.6157993078231812,
+        "fused_logit": 0.2926570177078247,
+        "score": 0.5726464986801147,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.8152279853820801,
+        "pair_logit": -0.5835683941841125,
+        "fused_logit": 0.23165959119796753,
+        "score": 0.5576572418212891,
+        "rank": 11
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.04795980453491211,
+        "pair_logit": -0.25322425365448,
+        "fused_logit": -0.20526444911956787,
+        "score": 0.44886329770088196,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.01239633560180664,
+        "pair_logit": -0.2701425552368164,
+        "fused_logit": -0.28253889083862305,
+        "score": 0.42983147501945496,
+        "rank": 13
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pavement",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.9427695274353027,
+        "pair_logit": -0.4491361379623413,
+        "fused_logit": -1.391905665397644,
+        "score": 0.1991037130355835,
+        "rank": 14
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.5213627815246582,
+        "pair_logit": -0.25322425365448,
+        "fused_logit": -1.7745870351791382,
+        "score": 0.1449728012084961,
+        "rank": 15
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tree",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.6844241619110107,
+        "pair_logit": -0.2701425552368164,
+        "fused_logit": -1.9545667171478271,
+        "score": 0.12405624985694885,
+        "rank": 16
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "scissors",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.541732311248779,
+        "pair_logit": -0.01060931384563446,
+        "fused_logit": 4.531122997403145,
+        "score": 0.9893462061882019
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.0785574913024902,
+        "pair_logit": -0.323097288608551,
+        "fused_logit": 2.755460202693939,
+        "score": 0.9402209520339966
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.171987533569336,
+        "pair_logit": -0.43789297342300415,
+        "fused_logit": 2.734094560146332,
+        "score": 0.9390087127685547
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pavement",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.127485752105713,
+        "pair_logit": -0.4491361379623413,
+        "fused_logit": 0.6783496141433716,
+        "score": 0.6633702516555786
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.065861701965332,
+        "pair_logit": -0.5835683941841125,
+        "fused_logit": 0.4822933077812195,
+        "score": 0.6182892322540283
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.9314498901367188,
+        "pair_logit": -0.6157993078231812,
+        "fused_logit": 0.3156505823135376,
+        "score": 0.5782638788223267
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.04795980453491211,
+        "pair_logit": -0.25322425365448,
+        "fused_logit": -0.20526444911956787,
+        "score": 0.44886329770088196
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.01239633560180664,
+        "pair_logit": -0.2701425552368164,
+        "fused_logit": -0.28253889083862305,
+        "score": 0.42983147501945496
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "scissors",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.1864876747131348,
+            "pair_logit": -0.01060931384563446,
+            "fused_logit": 1.1758783608675003,
+            "score": 0.7642059326171875,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "scissors",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.541732311248779,
+            "pair_logit": -0.01060931384563446,
+            "fused_logit": 4.531122997403145,
+            "score": 0.9893462061882019,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "dirt",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.04795980453491211,
+            "pair_logit": -0.25322425365448,
+            "fused_logit": -0.20526444911956787,
+            "score": 0.44886329770088196,
+            "rank": 12
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "dirt",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.5213627815246582,
+            "pair_logit": -0.25322425365448,
+            "fused_logit": -1.7745870351791382,
+            "score": 0.1449728012084961,
+            "rank": 15
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "tree",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.01239633560180664,
+            "pair_logit": -0.2701425552368164,
+            "fused_logit": -0.28253889083862305,
+            "score": 0.42983147501945496,
+            "rank": 13
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "tree",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.6844241619110107,
+            "pair_logit": -0.2701425552368164,
+            "fused_logit": -1.9545667171478271,
+            "score": 0.12405624985694885,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "pavement",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.0785574913024902,
+            "pair_logit": -0.323097288608551,
+            "fused_logit": 2.755460202693939,
+            "score": 0.9402209520339966,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 3,
+            "object_label": "pavement",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.5361628532409668,
+            "pair_logit": -0.323097288608551,
+            "fused_logit": 1.2130655646324158,
+            "score": 0.7708409428596497,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.171987533569336,
+            "pair_logit": -0.43789297342300415,
+            "fused_logit": 2.734094560146332,
+            "score": 0.9390087127685547,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.167604923248291,
+            "pair_logit": -0.43789297342300415,
+            "fused_logit": 0.7297119498252869,
+            "score": 0.6747420430183411,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "pavement",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.127485752105713,
+            "pair_logit": -0.4491361379623413,
+            "fused_logit": 0.6783496141433716,
+            "score": 0.6633702516555786,
+            "rank": 7
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "pavement",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.9427695274353027,
+            "pair_logit": -0.4491361379623413,
+            "fused_logit": -1.391905665397644,
+            "score": 0.1991037130355835,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.065861701965332,
+            "pair_logit": -0.5835683941841125,
+            "fused_logit": 0.4822933077812195,
+            "score": 0.6182892322540283,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.8152279853820801,
+            "pair_logit": -0.5835683941841125,
+            "fused_logit": 0.23165959119796753,
+            "score": 0.5576572418212891,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.9314498901367188,
+            "pair_logit": -0.6157993078231812,
+            "fused_logit": 0.3156505823135376,
+            "score": 0.5782638788223267,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 4,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.9084563255310059,
+            "pair_logit": -0.6157993078231812,
+            "fused_logit": 0.2926570177078247,
+            "score": 0.5726464986801147,
+            "rank": 10
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 8,
+    "expected_human_pairs": 8,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.9999990463256836,
+          103.0000114440918,
+          447.00000286102295,
+          640.0000190734863
+        ]
+      },
+      {
+        "id": 1,
+        "label": "scissors",
+        "category_id": 76,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          94.99999523162842,
+          306.9999885559082,
+          479.0000009536743,
+          483.99999618530273
+        ]
+      },
+      {
+        "id": 2,
+        "label": "tree",
+        "category_id": 116,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          480.0,
+          557.9999923706055
+        ]
+      },
+      {
+        "id": 3,
+        "label": "pavement",
+        "category_id": 123,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          518.0000162124634,
+          480.0,
+          640.0000143051147
+        ]
+      },
+      {
+        "id": 4,
+        "label": "dirt",
+        "category_id": 126,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          480.0,
+          542.0000076293945
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "scissors",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.541732311248779,
+        "pair_logit": -0.01060931384563446,
+        "fused_logit": 4.531122997403145,
+        "score": 0.9893462061882019,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.0785574913024902,
+        "pair_logit": -0.323097288608551,
+        "fused_logit": 2.755460202693939,
+        "score": 0.9402209520339966,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.182878017425537,
+        "pair_logit": -0.43789297342300415,
+        "fused_logit": 2.744985044002533,
+        "score": 0.9396294951438904,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 3,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.5302953720092773,
+        "pair_logit": -0.323097288608551,
+        "fused_logit": 1.2071980834007263,
+        "score": 0.7698028087615967,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "scissors",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.17559814453125,
+        "pair_logit": -0.01060931384563446,
+        "fused_logit": 1.1649888306856155,
+        "score": 0.7622380256652832,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "scissors",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.167604923248291,
+        "pair_logit": -0.43789297342300415,
+        "fused_logit": 0.7297119498252869,
+        "score": 0.6747420430183411,
+        "rank": 6
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pavement",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.127485752105713,
+        "pair_logit": -0.4491361379623413,
+        "fused_logit": 0.6783496141433716,
+        "score": 0.6633702516555786,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.0959529876708984,
+        "pair_logit": -0.5835683941841125,
+        "fused_logit": 0.5123845934867859,
+        "score": 0.6253653168678284,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.9506516456604004,
+        "pair_logit": -0.6157993078231812,
+        "fused_logit": 0.33485233783721924,
+        "score": 0.5829395651817322,
+        "rank": 9
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.9114103317260742,
+        "pair_logit": -0.6157993078231812,
+        "fused_logit": 0.29561102390289307,
+        "score": 0.5733692646026611,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.8152279853820801,
+        "pair_logit": -0.5835683941841125,
+        "fused_logit": 0.23165959119796753,
+        "score": 0.5576572418212891,
+        "rank": 11
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.07805109024047852,
+        "pair_logit": -0.25322425365448,
+        "fused_logit": -0.17517316341400146,
+        "score": 0.45631834864616394,
+        "rank": 12
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.04248762130737305,
+        "pair_logit": -0.2701425552368164,
+        "fused_logit": -0.31263017654418945,
+        "score": 0.42247289419174194,
+        "rank": 13
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pavement",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.9398150444030762,
+        "pair_logit": -0.4491361379623413,
+        "fused_logit": -1.3889511823654175,
+        "score": 0.1995752453804016,
+        "rank": 14
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.5066657066345215,
+        "pair_logit": -0.25322425365448,
+        "fused_logit": -1.7598899602890015,
+        "score": 0.14680412411689758,
+        "rank": 15
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tree",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.699469804763794,
+        "pair_logit": -0.2701425552368164,
+        "fused_logit": -1.9696123600006104,
+        "score": 0.12243053317070007,
+        "rank": 16
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "scissors",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.541732311248779,
+        "pair_logit": -0.01060931384563446,
+        "fused_logit": 4.531122997403145,
+        "score": 0.9893462061882019
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "pavement",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.0785574913024902,
+        "pair_logit": -0.323097288608551,
+        "fused_logit": 2.755460202693939,
+        "score": 0.9402209520339966
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "scissors",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.182878017425537,
+        "pair_logit": -0.43789297342300415,
+        "fused_logit": 2.744985044002533,
+        "score": 0.9396294951438904
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pavement",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.127485752105713,
+        "pair_logit": -0.4491361379623413,
+        "fused_logit": 0.6783496141433716,
+        "score": 0.6633702516555786
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "tree",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.0959529876708984,
+        "pair_logit": -0.5835683941841125,
+        "fused_logit": 0.5123845934867859,
+        "score": 0.6253653168678284
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "dirt",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.9506516456604004,
+        "pair_logit": -0.6157993078231812,
+        "fused_logit": 0.33485233783721924,
+        "score": 0.5829395651817322
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "dirt",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.07805109024047852,
+        "pair_logit": -0.25322425365448,
+        "fused_logit": -0.17517316341400146,
+        "score": 0.45631834864616394
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tree",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.04248762130737305,
+        "pair_logit": -0.2701425552368164,
+        "fused_logit": -0.31263017654418945,
+        "score": 0.42247289419174194
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "scissors",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.17559814453125,
+            "pair_logit": -0.01060931384563446,
+            "fused_logit": 1.1649888306856155,
+            "score": 0.7622380256652832,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "scissors",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.541732311248779,
+            "pair_logit": -0.01060931384563446,
+            "fused_logit": 4.531122997403145,
+            "score": 0.9893462061882019,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "dirt",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.07805109024047852,
+            "pair_logit": -0.25322425365448,
+            "fused_logit": -0.17517316341400146,
+            "score": 0.45631834864616394,
+            "rank": 12
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "dirt",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.5066657066345215,
+            "pair_logit": -0.25322425365448,
+            "fused_logit": -1.7598899602890015,
+            "score": 0.14680412411689758,
+            "rank": 15
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "tree",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.04248762130737305,
+            "pair_logit": -0.2701425552368164,
+            "fused_logit": -0.31263017654418945,
+            "score": 0.42247289419174194,
+            "rank": 13
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "tree",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.699469804763794,
+            "pair_logit": -0.2701425552368164,
+            "fused_logit": -1.9696123600006104,
+            "score": 0.12243053317070007,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "pavement",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.0785574913024902,
+            "pair_logit": -0.323097288608551,
+            "fused_logit": 2.755460202693939,
+            "score": 0.9402209520339966,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 3,
+            "object_label": "pavement",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.5302953720092773,
+            "pair_logit": -0.323097288608551,
+            "fused_logit": 1.2071980834007263,
+            "score": 0.7698028087615967,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "scissors",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.182878017425537,
+            "pair_logit": -0.43789297342300415,
+            "fused_logit": 2.744985044002533,
+            "score": 0.9396294951438904,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "scissors",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.167604923248291,
+            "pair_logit": -0.43789297342300415,
+            "fused_logit": 0.7297119498252869,
+            "score": 0.6747420430183411,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "pavement",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.127485752105713,
+            "pair_logit": -0.4491361379623413,
+            "fused_logit": 0.6783496141433716,
+            "score": 0.6633702516555786,
+            "rank": 7
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "pavement",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.9398150444030762,
+            "pair_logit": -0.4491361379623413,
+            "fused_logit": -1.3889511823654175,
+            "score": 0.1995752453804016,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.0959529876708984,
+            "pair_logit": -0.5835683941841125,
+            "fused_logit": 0.5123845934867859,
+            "score": 0.6253653168678284,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "tree",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.8152279853820801,
+            "pair_logit": -0.5835683941841125,
+            "fused_logit": 0.23165959119796753,
+            "score": 0.5576572418212891,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.9506516456604004,
+            "pair_logit": -0.6157993078231812,
+            "fused_logit": 0.33485233783721924,
+            "score": 0.5829395651817322,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 4,
+            "object_label": "dirt",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.9114103317260742,
+            "pair_logit": -0.6157993078231812,
+            "fused_logit": 0.29561102390289307,
+            "score": 0.5733692646026611,
+            "rank": 10
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 8,
+    "expected_human_pairs": 8,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.13586390001000836
+}

@@ -1,0 +1,2717 @@
+{
+  "index": 1950,
+  "sample_position": 367,
+  "file_name": "2408290.jpg",
+  "image_sha256": "bcba74c342f0fa997cd0e58ff8fd780a7e4f9ad8d64f040962bc760e103cedba",
+  "image_size": [
+    640,
+    427
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        136.00000381469727,
+        77.9999997317791,
+        493.0000114440918,
+        201.9999973475933
+      ]
+    },
+    {
+      "id": 1,
+      "label": "motorcycle",
+      "category_id": 3,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        178.99999618530273,
+        120.99999664723873,
+        591.0000038146973,
+        326.00000132620335
+      ]
+    },
+    {
+      "id": 2,
+      "label": "road",
+      "category_id": 100,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        640.0,
+        427.0
+      ]
+    },
+    {
+      "id": 3,
+      "label": "grass",
+      "category_id": 125,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        114.99999471008778,
+        640.0,
+        288.99999998509884
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 3,
+      "predicate": "on"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 7,
+      "predicate": "on back of"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 46,
+      "predicate": "riding"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "motorcycle",
+        "category_id": 4,
+        "is_person": false,
+        "box_xyxy": [
+          169.6829376220703,
+          101.88555908203125,
+          596.1727294921875,
+          323.8391418457031
+        ],
+        "detection_score": 0.9986131191253662,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          146.81336975097656,
+          80.60767364501953,
+          486.18084716796875,
+          242.8871307373047
+        ],
+        "detection_score": 0.9818806648254395,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          320.92962646484375,
+          89.40835571289062,
+          490.01788330078125,
+          213.9574737548828
+        ],
+        "detection_score": 0.6603131294250488,
+        "source": "detector"
+      },
+      {
+        "id": 3,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          144.1955108642578,
+          81.2995834350586,
+          323.6099548339844,
+          220.344482421875
+        ],
+        "detection_score": 0.37147969007492065,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      1,
+      2,
+      3
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.068784236907959,
+        "pair_logit": -0.2827511131763458,
+        "fused_logit": 3.786033123731613,
+        "score": 0.9778177738189697,
+        "rank": 1
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          3
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.4087319374084473,
+        "pair_logit": -0.10351544618606567,
+        "fused_logit": 3.3052164912223816,
+        "score": 0.964607298374176,
+        "rank": 2
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.109530448913574,
+        "pair_logit": -0.15067768096923828,
+        "fused_logit": 2.958852767944336,
+        "score": 0.9506801962852478,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.520900249481201,
+        "pair_logit": -0.7121363282203674,
+        "fused_logit": 1.8087639212608337,
+        "score": 0.8592124581336975,
+        "rank": 4
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          3,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.4563193321228027,
+        "pair_logit": -0.7138599753379822,
+        "fused_logit": 1.7424593567848206,
+        "score": 0.8509991765022278,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.0291175842285156,
+        "pair_logit": -0.620455801486969,
+        "fused_logit": 1.4086617827415466,
+        "score": 0.8035547733306885,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.6298623085021973,
+        "pair_logit": -0.2827511131763458,
+        "fused_logit": 1.3471111953258514,
+        "score": 0.7936569452285767,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.8485517501831055,
+        "pair_logit": -0.7121363282203674,
+        "fused_logit": 1.136415421962738,
+        "score": 0.7570209503173828,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          3
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.9762334823608398,
+        "pair_logit": -0.8953555226325989,
+        "fused_logit": 1.080877959728241,
+        "score": 0.746660053730011,
+        "rank": 9
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          3,
+          2
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.7862052917480469,
+        "pair_logit": -0.9608855247497559,
+        "fused_logit": 0.825319766998291,
+        "score": 0.6953644156455994,
+        "rank": 10
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          3
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.7887263298034668,
+        "pair_logit": -0.10351544618606567,
+        "fused_logit": 0.6852108836174011,
+        "score": 0.6649007201194763,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.7503232955932617,
+        "pair_logit": -0.15067768096923828,
+        "fused_logit": 0.5996456146240234,
+        "score": 0.645575225353241,
+        "rank": 12
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          3,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.1853861808776855,
+        "pair_logit": -0.7138599753379822,
+        "fused_logit": 0.47152620553970337,
+        "score": 0.6157448887825012,
+        "rank": 13
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          3
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.1927318572998047,
+        "pair_logit": -1.045699954032898,
+        "fused_logit": 0.14703190326690674,
+        "score": 0.5366919040679932,
+        "rank": 14
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          3
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.05898332595825195,
+        "pair_logit": -1.045699954032898,
+        "fused_logit": -1.10468327999115,
+        "score": 0.24886339902877808,
+        "rank": 15
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.8750355243682861,
+        "pair_logit": -0.620455801486969,
+        "fused_logit": -1.4954913258552551,
+        "score": 0.1830989420413971,
+        "rank": 16
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          3
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.6508994102478027,
+        "pair_logit": -0.8953555226325989,
+        "fused_logit": -1.5462549328804016,
+        "score": 0.17562784254550934,
+        "rank": 17
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          3,
+          2
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -1.5618369579315186,
+        "pair_logit": -0.9608855247497559,
+        "fused_logit": -2.5227224826812744,
+        "score": 0.0742805227637291,
+        "rank": 18
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -3.328676223754883,
+        "pair_logit": -0.8857532739639282,
+        "fused_logit": -4.214429497718811,
+        "score": 0.014565465040504932,
+        "rank": 19
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          3
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -3.661890983581543,
+        "pair_logit": -0.7885796427726746,
+        "fused_logit": -4.4504706263542175,
+        "score": 0.011538385413587093,
+        "rank": 20
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.7811481952667236,
+        "pair_logit": -0.8857532739639282,
+        "fused_logit": -4.666901469230652,
+        "score": 0.009313791058957577,
+        "rank": 21
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -3.747297763824463,
+        "pair_logit": -0.9406492710113525,
+        "fused_logit": -4.687947034835815,
+        "score": 0.00912159401923418,
+        "rank": 22
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          3
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.770526885986328,
+        "pair_logit": -0.7885796427726746,
+        "fused_logit": -5.559106528759003,
+        "score": 0.0038374345749616623,
+        "rank": 23
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.925662994384766,
+        "pair_logit": -0.9406492710113525,
+        "fused_logit": -5.866312265396118,
+        "score": 0.002825298346579075,
+        "rank": 24
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.068784236907959,
+        "pair_logit": -0.2827511131763458,
+        "fused_logit": 3.786033123731613,
+        "score": 0.9778177738189697
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          3
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.4087319374084473,
+        "pair_logit": -0.10351544618606567,
+        "fused_logit": 3.3052164912223816,
+        "score": 0.964607298374176
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "motorcycle",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.109530448913574,
+        "pair_logit": -0.15067768096923828,
+        "fused_logit": 2.958852767944336,
+        "score": 0.9506801962852478
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.520900249481201,
+        "pair_logit": -0.7121363282203674,
+        "fused_logit": 1.8087639212608337,
+        "score": 0.8592124581336975
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          3,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.4563193321228027,
+        "pair_logit": -0.7138599753379822,
+        "fused_logit": 1.7424593567848206,
+        "score": 0.8509991765022278
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.0291175842285156,
+        "pair_logit": -0.620455801486969,
+        "fused_logit": 1.4086617827415466,
+        "score": 0.8035547733306885
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          3
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.9762334823608398,
+        "pair_logit": -0.8953555226325989,
+        "fused_logit": 1.080877959728241,
+        "score": 0.746660053730011
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          3,
+          2
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.7862052917480469,
+        "pair_logit": -0.9608855247497559,
+        "fused_logit": 0.825319766998291,
+        "score": 0.6953644156455994
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          2,
+          3
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.1927318572998047,
+        "pair_logit": -1.045699954032898,
+        "fused_logit": 0.14703190326690674,
+        "score": 0.5366919040679932
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -3.328676223754883,
+        "pair_logit": -0.8857532739639282,
+        "fused_logit": -4.214429497718811,
+        "score": 0.014565465040504932
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 3,
+        "object_label": "person",
+        "person_ids": [
+          3
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -3.661890983581543,
+        "pair_logit": -0.7885796427726746,
+        "fused_logit": -4.4504706263542175,
+        "score": 0.011538385413587093
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "motorcycle",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "person",
+        "person_ids": [
+          2
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -3.747297763824463,
+        "pair_logit": -0.9406492710113525,
+        "fused_logit": -4.687947034835815,
+        "score": 0.00912159401923418
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "motorcycle",
+            "person_ids": [
+              3
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.7887263298034668,
+            "pair_logit": -0.10351544618606567,
+            "fused_logit": 0.6852108836174011,
+            "score": 0.6649007201194763,
+            "rank": 11
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 0,
+            "object_label": "motorcycle",
+            "person_ids": [
+              3
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.4087319374084473,
+            "pair_logit": -0.10351544618606567,
+            "fused_logit": 3.3052164912223816,
+            "score": 0.964607298374176,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "motorcycle",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.7503232955932617,
+            "pair_logit": -0.15067768096923828,
+            "fused_logit": 0.5996456146240234,
+            "score": 0.645575225353241,
+            "rank": 12
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 0,
+            "object_label": "motorcycle",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.109530448913574,
+            "pair_logit": -0.15067768096923828,
+            "fused_logit": 2.958852767944336,
+            "score": 0.9506801962852478,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "motorcycle",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.6298623085021973,
+            "pair_logit": -0.2827511131763458,
+            "fused_logit": 1.3471111953258514,
+            "score": 0.7936569452285767,
+            "rank": 7
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 0,
+            "object_label": "motorcycle",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.068784236907959,
+            "pair_logit": -0.2827511131763458,
+            "fused_logit": 3.786033123731613,
+            "score": 0.9778177738189697,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.8750355243682861,
+            "pair_logit": -0.620455801486969,
+            "fused_logit": -1.4954913258552551,
+            "score": 0.1830989420413971,
+            "rank": 16
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.0291175842285156,
+            "pair_logit": -0.620455801486969,
+            "fused_logit": 1.4086617827415466,
+            "score": 0.8035547733306885,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.8485517501831055,
+            "pair_logit": -0.7121363282203674,
+            "fused_logit": 1.136415421962738,
+            "score": 0.7570209503173828,
+            "rank": 8
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.520900249481201,
+            "pair_logit": -0.7121363282203674,
+            "fused_logit": 1.8087639212608337,
+            "score": 0.8592124581336975,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              3,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.1853861808776855,
+            "pair_logit": -0.7138599753379822,
+            "fused_logit": 0.47152620553970337,
+            "score": 0.6157448887825012,
+            "rank": 13
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              3,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.4563193321228027,
+            "pair_logit": -0.7138599753379822,
+            "fused_logit": 1.7424593567848206,
+            "score": 0.8509991765022278,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "motorcycle",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "person",
+            "person_ids": [
+              3
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -3.661890983581543,
+            "pair_logit": -0.7885796427726746,
+            "fused_logit": -4.4504706263542175,
+            "score": 0.011538385413587093,
+            "rank": 20
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "motorcycle",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 3,
+            "object_label": "person",
+            "person_ids": [
+              3
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.770526885986328,
+            "pair_logit": -0.7885796427726746,
+            "fused_logit": -5.559106528759003,
+            "score": 0.0038374345749616623,
+            "rank": 23
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "motorcycle",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -3.328676223754883,
+            "pair_logit": -0.8857532739639282,
+            "fused_logit": -4.214429497718811,
+            "score": 0.014565465040504932,
+            "rank": 19
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "motorcycle",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.7811481952667236,
+            "pair_logit": -0.8857532739639282,
+            "fused_logit": -4.666901469230652,
+            "score": 0.009313791058957577,
+            "rank": 21
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 3,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              3
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.6508994102478027,
+            "pair_logit": -0.8953555226325989,
+            "fused_logit": -1.5462549328804016,
+            "score": 0.17562784254550934,
+            "rank": 17
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 3,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              3
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.9762334823608398,
+            "pair_logit": -0.8953555226325989,
+            "fused_logit": 1.080877959728241,
+            "score": 0.746660053730011,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "motorcycle",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -3.747297763824463,
+            "pair_logit": -0.9406492710113525,
+            "fused_logit": -4.687947034835815,
+            "score": 0.00912159401923418,
+            "rank": 22
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "motorcycle",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              2
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.925662994384766,
+            "pair_logit": -0.9406492710113525,
+            "fused_logit": -5.866312265396118,
+            "score": 0.002825298346579075,
+            "rank": 24
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              3,
+              2
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -1.5618369579315186,
+            "pair_logit": -0.9608855247497559,
+            "fused_logit": -2.5227224826812744,
+            "score": 0.0742805227637291,
+            "rank": 18
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "person",
+            "person_ids": [
+              3,
+              2
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.7862052917480469,
+            "pair_logit": -0.9608855247497559,
+            "fused_logit": 0.825319766998291,
+            "score": 0.6953644156455994,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              3
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.05898332595825195,
+            "pair_logit": -1.045699954032898,
+            "fused_logit": -1.10468327999115,
+            "score": 0.24886339902877808,
+            "rank": 15
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 3,
+            "object_label": "person",
+            "person_ids": [
+              2,
+              3
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.1927318572998047,
+            "pair_logit": -1.045699954032898,
+            "fused_logit": 0.14703190326690674,
+            "score": 0.5366919040679932,
+            "rank": 14
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 12,
+    "expected_human_pairs": 12,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06725480000022799
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          136.00000381469727,
+          77.9999997317791,
+          493.0000114440918,
+          201.9999973475933
+        ]
+      },
+      {
+        "id": 1,
+        "label": "motorcycle",
+        "category_id": 3,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          178.99999618530273,
+          120.99999664723873,
+          591.0000038146973,
+          326.00000132620335
+        ]
+      },
+      {
+        "id": 2,
+        "label": "road",
+        "category_id": 100,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          427.0
+        ]
+      },
+      {
+        "id": 3,
+        "label": "grass",
+        "category_id": 125,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          114.99999471008778,
+          640.0,
+          288.99999998509884
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "motorcycle",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.606517314910889,
+        "pair_logit": -0.08116257190704346,
+        "fused_logit": 4.525354743003845,
+        "score": 0.9892851710319519,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "motorcycle",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.287776470184326,
+        "pair_logit": -0.08116257190704346,
+        "fused_logit": 3.2066138982772827,
+        "score": 0.961082398891449,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "road",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.8966922760009766,
+        "pair_logit": -0.4317362308502197,
+        "fused_logit": 2.464956045150757,
+        "score": 0.9216483235359192,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "road",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.767334461212158,
+        "pair_logit": -0.4317362308502197,
+        "fused_logit": 2.3355982303619385,
+        "score": 0.9117826223373413,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.8210387229919434,
+        "pair_logit": -1.3225136995315552,
+        "fused_logit": 0.4985250234603882,
+        "score": 0.6221126317977905,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 3,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.7969999313354492,
+        "pair_logit": -1.3225136995315552,
+        "fused_logit": 0.47448623180389404,
+        "score": 0.616445004940033,
+        "rank": 6
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.37589120864868164,
+        "pair_logit": -1.1119153499603271,
+        "fused_logit": -1.4878065586090088,
+        "score": 0.18425117433071136,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "motorcycle",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.9641687870025635,
+        "pair_logit": -0.8562822937965393,
+        "fused_logit": -1.8204510807991028,
+        "score": 0.13937976956367493,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "motorcycle",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.3050651550292969,
+        "pair_logit": -0.8562822937965393,
+        "fused_logit": -2.161347448825836,
+        "score": 0.1032756045460701,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "road",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.998016119003296,
+        "pair_logit": -1.3081581592559814,
+        "fused_logit": -3.3061742782592773,
+        "score": 0.035359982401132584,
+        "rank": 10
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "grass",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.669198989868164,
+        "pair_logit": -1.1119153499603271,
+        "fused_logit": -3.781114339828491,
+        "score": 0.02228914201259613,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "road",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.704298973083496,
+        "pair_logit": -1.3081581592559814,
+        "fused_logit": -4.0124571323394775,
+        "score": 0.01776750385761261,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "motorcycle",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.606517314910889,
+        "pair_logit": -0.08116257190704346,
+        "fused_logit": 4.525354743003845,
+        "score": 0.9892851710319519
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "road",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.8966922760009766,
+        "pair_logit": -0.4317362308502197,
+        "fused_logit": 2.464956045150757,
+        "score": 0.9216483235359192
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.8210387229919434,
+        "pair_logit": -1.3225136995315552,
+        "fused_logit": 0.4985250234603882,
+        "score": 0.6221126317977905
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.37589120864868164,
+        "pair_logit": -1.1119153499603271,
+        "fused_logit": -1.4878065586090088,
+        "score": 0.18425117433071136
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "motorcycle",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.9641687870025635,
+        "pair_logit": -0.8562822937965393,
+        "fused_logit": -1.8204510807991028,
+        "score": 0.13937976956367493
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "road",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.998016119003296,
+        "pair_logit": -1.3081581592559814,
+        "fused_logit": -3.3061742782592773,
+        "score": 0.035359982401132584
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "motorcycle",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.287776470184326,
+            "pair_logit": -0.08116257190704346,
+            "fused_logit": 3.2066138982772827,
+            "score": 0.961082398891449,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "motorcycle",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.606517314910889,
+            "pair_logit": -0.08116257190704346,
+            "fused_logit": 4.525354743003845,
+            "score": 0.9892851710319519,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "road",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.767334461212158,
+            "pair_logit": -0.4317362308502197,
+            "fused_logit": 2.3355982303619385,
+            "score": 0.9117826223373413,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 2,
+            "object_label": "road",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.8966922760009766,
+            "pair_logit": -0.4317362308502197,
+            "fused_logit": 2.464956045150757,
+            "score": 0.9216483235359192,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "motorcycle",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.3050651550292969,
+            "pair_logit": -0.8562822937965393,
+            "fused_logit": -2.161347448825836,
+            "score": 0.1032756045460701,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "motorcycle",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.9641687870025635,
+            "pair_logit": -0.8562822937965393,
+            "fused_logit": -1.8204510807991028,
+            "score": 0.13937976956367493,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "grass",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.37589120864868164,
+            "pair_logit": -1.1119153499603271,
+            "fused_logit": -1.4878065586090088,
+            "score": 0.18425117433071136,
+            "rank": 7
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "grass",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.669198989868164,
+            "pair_logit": -1.1119153499603271,
+            "fused_logit": -3.781114339828491,
+            "score": 0.02228914201259613,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "road",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.998016119003296,
+            "pair_logit": -1.3081581592559814,
+            "fused_logit": -3.3061742782592773,
+            "score": 0.035359982401132584,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "road",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.704298973083496,
+            "pair_logit": -1.3081581592559814,
+            "fused_logit": -4.0124571323394775,
+            "score": 0.01776750385761261,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "grass",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.8210387229919434,
+            "pair_logit": -1.3225136995315552,
+            "fused_logit": 0.4985250234603882,
+            "score": 0.6221126317977905,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 3,
+            "object_label": "grass",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.7969999313354492,
+            "pair_logit": -1.3225136995315552,
+            "fused_logit": 0.47448623180389404,
+            "score": 0.616445004940033,
+            "rank": 6
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          136.00000381469727,
+          77.9999997317791,
+          493.0000114440918,
+          201.9999973475933
+        ]
+      },
+      {
+        "id": 1,
+        "label": "motorcycle",
+        "category_id": 3,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          178.99999618530273,
+          120.99999664723873,
+          591.0000038146973,
+          326.00000132620335
+        ]
+      },
+      {
+        "id": 2,
+        "label": "road",
+        "category_id": 100,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          427.0
+        ]
+      },
+      {
+        "id": 3,
+        "label": "grass",
+        "category_id": 125,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          114.99999471008778,
+          640.0,
+          288.99999998509884
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "motorcycle",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.606517314910889,
+        "pair_logit": -0.08116257190704346,
+        "fused_logit": 4.525354743003845,
+        "score": 0.9892851710319519,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "motorcycle",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.287776470184326,
+        "pair_logit": -0.08116257190704346,
+        "fused_logit": 3.2066138982772827,
+        "score": 0.961082398891449,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "road",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.8966922760009766,
+        "pair_logit": -0.4317362308502197,
+        "fused_logit": 2.464956045150757,
+        "score": 0.9216483235359192,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "road",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.767334461212158,
+        "pair_logit": -0.4317362308502197,
+        "fused_logit": 2.3355982303619385,
+        "score": 0.9117826223373413,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.8155937194824219,
+        "pair_logit": -1.3225136995315552,
+        "fused_logit": 0.4930800199508667,
+        "score": 0.6208317875862122,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 3,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.7671527862548828,
+        "pair_logit": -1.3225136995315552,
+        "fused_logit": 0.44463908672332764,
+        "score": 0.609363853931427,
+        "rank": 6
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3759779930114746,
+        "pair_logit": -1.1119153499603271,
+        "fused_logit": -1.4878933429718018,
+        "score": 0.18423813581466675,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "motorcycle",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.9640464782714844,
+        "pair_logit": -0.8562822937965393,
+        "fused_logit": -1.8203287720680237,
+        "score": 0.13939443230628967,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "motorcycle",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.3021612167358398,
+        "pair_logit": -0.8562822937965393,
+        "fused_logit": -2.158443510532379,
+        "score": 0.10354484617710114,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "road",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.972688913345337,
+        "pair_logit": -1.3081581592559814,
+        "fused_logit": -3.2808470726013184,
+        "score": 0.03623412549495697,
+        "rank": 10
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "grass",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.6585845947265625,
+        "pair_logit": -1.1119153499603271,
+        "fused_logit": -3.7704999446868896,
+        "score": 0.02252163179218769,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "road",
+        "predicate_id": 36,
+        "predicate": "playing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.7120730876922607,
+        "pair_logit": -1.3081581592559814,
+        "fused_logit": -4.020231246948242,
+        "score": 0.01763233356177807,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 1,
+        "object_label": "motorcycle",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.606517314910889,
+        "pair_logit": -0.08116257190704346,
+        "fused_logit": 4.525354743003845,
+        "score": 0.9892851710319519
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 2,
+        "object_label": "road",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.8966922760009766,
+        "pair_logit": -0.4317362308502197,
+        "fused_logit": 2.464956045150757,
+        "score": 0.9216483235359192
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "grass",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.8155937194824219,
+        "pair_logit": -1.3225136995315552,
+        "fused_logit": 0.4930800199508667,
+        "score": 0.6208317875862122
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "grass",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.3759779930114746,
+        "pair_logit": -1.1119153499603271,
+        "fused_logit": -1.4878933429718018,
+        "score": 0.18423813581466675
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "motorcycle",
+        "predicate_id": 46,
+        "predicate": "riding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.9640464782714844,
+        "pair_logit": -0.8562822937965393,
+        "fused_logit": -1.8203287720680237,
+        "score": 0.13939443230628967
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "road",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.972688913345337,
+        "pair_logit": -1.3081581592559814,
+        "fused_logit": -3.2808470726013184,
+        "score": 0.03623412549495697
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "motorcycle",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.287776470184326,
+            "pair_logit": -0.08116257190704346,
+            "fused_logit": 3.2066138982772827,
+            "score": 0.961082398891449,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 1,
+            "object_label": "motorcycle",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.606517314910889,
+            "pair_logit": -0.08116257190704346,
+            "fused_logit": 4.525354743003845,
+            "score": 0.9892851710319519,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "road",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.767334461212158,
+            "pair_logit": -0.4317362308502197,
+            "fused_logit": 2.3355982303619385,
+            "score": 0.9117826223373413,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 2,
+            "object_label": "road",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.8966922760009766,
+            "pair_logit": -0.4317362308502197,
+            "fused_logit": 2.464956045150757,
+            "score": 0.9216483235359192,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "motorcycle",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.3021612167358398,
+            "pair_logit": -0.8562822937965393,
+            "fused_logit": -2.158443510532379,
+            "score": 0.10354484617710114,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "motorcycle",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.9640464782714844,
+            "pair_logit": -0.8562822937965393,
+            "fused_logit": -1.8203287720680237,
+            "score": 0.13939443230628967,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "grass",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3759779930114746,
+            "pair_logit": -1.1119153499603271,
+            "fused_logit": -1.4878933429718018,
+            "score": 0.18423813581466675,
+            "rank": 7
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "grass",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.6585845947265625,
+            "pair_logit": -1.1119153499603271,
+            "fused_logit": -3.7704999446868896,
+            "score": 0.02252163179218769,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "road",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.972688913345337,
+            "pair_logit": -1.3081581592559814,
+            "fused_logit": -3.2808470726013184,
+            "score": 0.03623412549495697,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "road",
+            "predicate_id": 36,
+            "predicate": "playing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.7120730876922607,
+            "pair_logit": -1.3081581592559814,
+            "fused_logit": -4.020231246948242,
+            "score": 0.01763233356177807,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "grass",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.8155937194824219,
+            "pair_logit": -1.3225136995315552,
+            "fused_logit": 0.4930800199508667,
+            "score": 0.6208317875862122,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 46,
+            "predicate": "riding",
+            "object_id": 3,
+            "object_label": "grass",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.7671527862548828,
+            "pair_logit": -1.3225136995315552,
+            "fused_logit": 0.44463908672332764,
+            "score": 0.609363853931427,
+            "rank": 6
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.13819720002356917
+}

@@ -4,6 +4,8 @@ RelateAnything 官方权重的 PSG 评测、控制实验、失败案例分析和
 
 阅读入口：
 
+- [HOR 人相关关系抽取与500张测试](HOR/reports/HOR_500张实验报告.md)
+- [HOR 完整成果与交付核验](HOR/reports/成果检查与交付说明.md)
 - [完整实验报告](reproduction/reports/完整实验报告.md)
 - [附术语解释版](reproduction/reports/完整实验报告_附术语解释版.md)
 - [汇报材料](reproduction/reports/PPT汇报材料_精华总结.md)

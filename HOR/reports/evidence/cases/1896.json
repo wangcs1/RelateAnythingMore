@@ -1,0 +1,2098 @@
+{
+  "index": 1896,
+  "sample_position": 33,
+  "file_name": "2405341.jpg",
+  "image_sha256": "bb34286f1ee05d8451cdd991c6f5647c1f8a7fbc744267b5d3c5a3f4d544647e",
+  "image_size": [
+    640,
+    640
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        250.0,
+        0.0,
+        639.0000152587891,
+        635.9999847412109
+      ]
+    },
+    {
+      "id": 1,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        1.0000038146972656,
+        3.9999961853027344,
+        305.0,
+        633.9999961853027
+      ]
+    },
+    {
+      "id": 2,
+      "label": "tie",
+      "category_id": 27,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        494.0000057220459,
+        446.9999885559082,
+        630.0000095367432,
+        628.9999961853027
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 2,
+      "predicate": "beside"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 21,
+      "predicate": "holding"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate_id": 20,
+      "predicate": "wearing"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 0,
+      "predicate_id": 2,
+      "predicate": "beside"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          4.53173828125,
+          0.0,
+          314.8318786621094,
+          639.401123046875
+        ],
+        "detection_score": 0.9988517761230469,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          180.94651794433594,
+          0.0,
+          638.7628784179688,
+          635.3104858398438
+        ],
+        "detection_score": 0.9970597624778748,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "tie",
+        "category_id": 32,
+        "is_person": false,
+        "box_xyxy": [
+          489.3958435058594,
+          450.76641845703125,
+          629.384521484375,
+          634.7990112304688
+        ],
+        "detection_score": 0.9884697198867798,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.6523919105529785,
+        "pair_logit": 0.5571204423904419,
+        "fused_logit": 5.20951235294342,
+        "score": 0.9945653676986694,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.8931632041931152,
+        "pair_logit": 0.4815056622028351,
+        "fused_logit": 4.37466886639595,
+        "score": 0.9875642657279968,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.892122745513916,
+        "pair_logit": 0.2816849946975708,
+        "fused_logit": 4.173807740211487,
+        "score": 0.9848398566246033,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.4291090965270996,
+        "pair_logit": 0.2669476270675659,
+        "fused_logit": 3.6960567235946655,
+        "score": 0.9757800102233887,
+        "rank": 4
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.1989221572875977,
+        "pair_logit": 0.2669476270675659,
+        "fused_logit": 2.4658697843551636,
+        "score": 0.9217142462730408,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.9000835418701172,
+        "pair_logit": 0.2816849946975708,
+        "fused_logit": 2.181768536567688,
+        "score": 0.8986002802848816,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.2981500625610352,
+        "pair_logit": 0.4815056622028351,
+        "fused_logit": 1.7796557247638702,
+        "score": 0.8556543588638306,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 0,
+        "predicate": "over",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.27933645248413086,
+        "pair_logit": 0.5571204423904419,
+        "fused_logit": 0.8364568948745728,
+        "score": 0.6977185010910034,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.695380687713623,
+        "pair_logit": -0.4115203619003296,
+        "fused_logit": 0.28386032581329346,
+        "score": 0.5704923868179321,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8436250686645508,
+        "pair_logit": -0.8518102169036865,
+        "fused_logit": -0.008185148239135742,
+        "score": 0.49795371294021606,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5441694259643555,
+        "pair_logit": -0.8518102169036865,
+        "fused_logit": -1.395979642868042,
+        "score": 0.1984548568725586,
+        "rank": 11
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.478363275527954,
+        "pair_logit": -0.4115203619003296,
+        "fused_logit": -1.8898836374282837,
+        "score": 0.13125774264335632,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.6523919105529785,
+        "pair_logit": 0.5571204423904419,
+        "fused_logit": 5.20951235294342,
+        "score": 0.9945653676986694
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.8931632041931152,
+        "pair_logit": 0.4815056622028351,
+        "fused_logit": 4.37466886639595,
+        "score": 0.9875642657279968
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.892122745513916,
+        "pair_logit": 0.2816849946975708,
+        "fused_logit": 4.173807740211487,
+        "score": 0.9848398566246033
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.4291090965270996,
+        "pair_logit": 0.2669476270675659,
+        "fused_logit": 3.6960567235946655,
+        "score": 0.9757800102233887
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.695380687713623,
+        "pair_logit": -0.4115203619003296,
+        "fused_logit": 0.28386032581329346,
+        "score": 0.5704923868179321
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.8436250686645508,
+        "pair_logit": -0.8518102169036865,
+        "fused_logit": -0.008185148239135742,
+        "score": 0.49795371294021606
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 0,
+            "predicate": "over",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.27933645248413086,
+            "pair_logit": 0.5571204423904419,
+            "fused_logit": 0.8364568948745728,
+            "score": 0.6977185010910034,
+            "rank": 8
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.6523919105529785,
+            "pair_logit": 0.5571204423904419,
+            "fused_logit": 5.20951235294342,
+            "score": 0.9945653676986694,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.8931632041931152,
+            "pair_logit": 0.4815056622028351,
+            "fused_logit": 4.37466886639595,
+            "score": 0.9875642657279968,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.2981500625610352,
+            "pair_logit": 0.4815056622028351,
+            "fused_logit": 1.7796557247638702,
+            "score": 0.8556543588638306,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.892122745513916,
+            "pair_logit": 0.2816849946975708,
+            "fused_logit": 4.173807740211487,
+            "score": 0.9848398566246033,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.9000835418701172,
+            "pair_logit": 0.2816849946975708,
+            "fused_logit": 2.181768536567688,
+            "score": 0.8986002802848816,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.4291090965270996,
+            "pair_logit": 0.2669476270675659,
+            "fused_logit": 3.6960567235946655,
+            "score": 0.9757800102233887,
+            "rank": 4
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.1989221572875977,
+            "pair_logit": 0.2669476270675659,
+            "fused_logit": 2.4658697843551636,
+            "score": 0.9217142462730408,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.695380687713623,
+            "pair_logit": -0.4115203619003296,
+            "fused_logit": 0.28386032581329346,
+            "score": 0.5704923868179321,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.478363275527954,
+            "pair_logit": -0.4115203619003296,
+            "fused_logit": -1.8898836374282837,
+            "score": 0.13125774264335632,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8436250686645508,
+            "pair_logit": -0.8518102169036865,
+            "fused_logit": -0.008185148239135742,
+            "score": 0.49795371294021606,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5441694259643555,
+            "pair_logit": -0.8518102169036865,
+            "fused_logit": -1.395979642868042,
+            "score": 0.1984548568725586,
+            "rank": 11
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.07189189997734502
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          250.0,
+          0.0,
+          639.0000152587891,
+          635.9999847412109
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          1.0000038146972656,
+          3.9999961853027344,
+          305.0,
+          633.9999961853027
+        ]
+      },
+      {
+        "id": 2,
+        "label": "tie",
+        "category_id": 27,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          494.0000057220459,
+          446.9999885559082,
+          630.0000095367432,
+          628.9999961853027
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.664126873016357,
+        "pair_logit": 0.5564684867858887,
+        "fused_logit": 5.220595359802246,
+        "score": 0.9946249127388,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.9523043632507324,
+        "pair_logit": 0.22202491760253906,
+        "fused_logit": 4.1743292808532715,
+        "score": 0.9848476052284241,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.7137722969055176,
+        "pair_logit": 0.45815393328666687,
+        "fused_logit": 4.1719262301921844,
+        "score": 0.9848116636276245,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.401885509490967,
+        "pair_logit": 0.2720072269439697,
+        "fused_logit": 3.6738927364349365,
+        "score": 0.9752505421638489,
+        "rank": 4
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2348814010620117,
+        "pair_logit": 0.2720072269439697,
+        "fused_logit": 2.5068886280059814,
+        "score": 0.9246233105659485,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.8146905899047852,
+        "pair_logit": 0.22202491760253906,
+        "fused_logit": 2.036715507507324,
+        "score": 0.884598433971405,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.268059253692627,
+        "pair_logit": 0.45815393328666687,
+        "fused_logit": 1.7262131869792938,
+        "score": 0.84892737865448,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 0,
+        "predicate": "over",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.2234354019165039,
+        "pair_logit": 0.5564684867858887,
+        "fused_logit": 0.7799038887023926,
+        "score": 0.6856594085693359,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.7568497657775879,
+        "pair_logit": -0.45846396684646606,
+        "fused_logit": 0.2983857989311218,
+        "score": 0.574047863483429,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.9334650039672852,
+        "pair_logit": -0.9077219367027283,
+        "fused_logit": 0.025743067264556885,
+        "score": 0.5064353942871094,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5551896095275879,
+        "pair_logit": -0.9077219367027283,
+        "fused_logit": -1.4629115462303162,
+        "score": 0.1880224198102951,
+        "rank": 11
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.4680235385894775,
+        "pair_logit": -0.45846396684646606,
+        "fused_logit": -1.9264875054359436,
+        "score": 0.1271398663520813,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.664126873016357,
+        "pair_logit": 0.5564684867858887,
+        "fused_logit": 5.220595359802246,
+        "score": 0.9946249127388
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.9523043632507324,
+        "pair_logit": 0.22202491760253906,
+        "fused_logit": 4.1743292808532715,
+        "score": 0.9848476052284241
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.7137722969055176,
+        "pair_logit": 0.45815393328666687,
+        "fused_logit": 4.1719262301921844,
+        "score": 0.9848116636276245
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.401885509490967,
+        "pair_logit": 0.2720072269439697,
+        "fused_logit": 3.6738927364349365,
+        "score": 0.9752505421638489
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.7568497657775879,
+        "pair_logit": -0.45846396684646606,
+        "fused_logit": 0.2983857989311218,
+        "score": 0.574047863483429
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.9334650039672852,
+        "pair_logit": -0.9077219367027283,
+        "fused_logit": 0.025743067264556885,
+        "score": 0.5064353942871094
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 0,
+            "predicate": "over",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.2234354019165039,
+            "pair_logit": 0.5564684867858887,
+            "fused_logit": 0.7799038887023926,
+            "score": 0.6856594085693359,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.664126873016357,
+            "pair_logit": 0.5564684867858887,
+            "fused_logit": 5.220595359802246,
+            "score": 0.9946249127388,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.7137722969055176,
+            "pair_logit": 0.45815393328666687,
+            "fused_logit": 4.1719262301921844,
+            "score": 0.9848116636276245,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.268059253692627,
+            "pair_logit": 0.45815393328666687,
+            "fused_logit": 1.7262131869792938,
+            "score": 0.84892737865448,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.401885509490967,
+            "pair_logit": 0.2720072269439697,
+            "fused_logit": 3.6738927364349365,
+            "score": 0.9752505421638489,
+            "rank": 4
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2348814010620117,
+            "pair_logit": 0.2720072269439697,
+            "fused_logit": 2.5068886280059814,
+            "score": 0.9246233105659485,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.9523043632507324,
+            "pair_logit": 0.22202491760253906,
+            "fused_logit": 4.1743292808532715,
+            "score": 0.9848476052284241,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.8146905899047852,
+            "pair_logit": 0.22202491760253906,
+            "fused_logit": 2.036715507507324,
+            "score": 0.884598433971405,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.7568497657775879,
+            "pair_logit": -0.45846396684646606,
+            "fused_logit": 0.2983857989311218,
+            "score": 0.574047863483429,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.4680235385894775,
+            "pair_logit": -0.45846396684646606,
+            "fused_logit": -1.9264875054359436,
+            "score": 0.1271398663520813,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.9334650039672852,
+            "pair_logit": -0.9077219367027283,
+            "fused_logit": 0.025743067264556885,
+            "score": 0.5064353942871094,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5551896095275879,
+            "pair_logit": -0.9077219367027283,
+            "fused_logit": -1.4629115462303162,
+            "score": 0.1880224198102951,
+            "rank": 11
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          250.0,
+          0.0,
+          639.0000152587891,
+          635.9999847412109
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          1.0000038146972656,
+          3.9999961853027344,
+          305.0,
+          633.9999961853027
+        ]
+      },
+      {
+        "id": 2,
+        "label": "tie",
+        "category_id": 27,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          494.0000057220459,
+          446.9999885559082,
+          630.0000095367432,
+          628.9999961853027
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.664126873016357,
+        "pair_logit": 0.5564684867858887,
+        "fused_logit": 5.220595359802246,
+        "score": 0.9946249127388,
+        "rank": 1
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.7738394737243652,
+        "pair_logit": 0.45815393328666687,
+        "fused_logit": 4.231993407011032,
+        "score": 0.9856845140457153,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.9523043632507324,
+        "pair_logit": 0.22202491760253906,
+        "fused_logit": 4.1743292808532715,
+        "score": 0.9848476052284241,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.40733003616333,
+        "pair_logit": 0.2720072269439697,
+        "fused_logit": 3.6793372631073,
+        "score": 0.9753816723823547,
+        "rank": 4
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2591047286987305,
+        "pair_logit": 0.2720072269439697,
+        "fused_logit": 2.5311119556427,
+        "score": 0.9262942671775818,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.8146905899047852,
+        "pair_logit": 0.22202491760253906,
+        "fused_logit": 2.036715507507324,
+        "score": 0.884598433971405,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.2386646270751953,
+        "pair_logit": 0.45815393328666687,
+        "fused_logit": 1.6968185603618622,
+        "score": 0.8451187610626221,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 0,
+        "predicate": "over",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.19664907455444336,
+        "pair_logit": 0.5564684867858887,
+        "fused_logit": 0.753117561340332,
+        "score": 0.679857611656189,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.7868900299072266,
+        "pair_logit": -0.45846396684646606,
+        "fused_logit": 0.3284260630607605,
+        "score": 0.5813763737678528,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.9335231781005859,
+        "pair_logit": -0.9077219367027283,
+        "fused_logit": 0.025801241397857666,
+        "score": 0.5064499378204346,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5551896095275879,
+        "pair_logit": -0.9077219367027283,
+        "fused_logit": -1.4629115462303162,
+        "score": 0.1880224198102951,
+        "rank": 11
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.462484359741211,
+        "pair_logit": -0.45846396684646606,
+        "fused_logit": -1.920948326587677,
+        "score": 0.12775585055351257,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.664126873016357,
+        "pair_logit": 0.5564684867858887,
+        "fused_logit": 5.220595359802246,
+        "score": 0.9946249127388
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.7738394737243652,
+        "pair_logit": 0.45815393328666687,
+        "fused_logit": 4.231993407011032,
+        "score": 0.9856845140457153
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.9523043632507324,
+        "pair_logit": 0.22202491760253906,
+        "fused_logit": 4.1743292808532715,
+        "score": 0.9848476052284241
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.40733003616333,
+        "pair_logit": 0.2720072269439697,
+        "fused_logit": 3.6793372631073,
+        "score": 0.9753816723823547
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "tie",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.7868900299072266,
+        "pair_logit": -0.45846396684646606,
+        "fused_logit": 0.3284260630607605,
+        "score": 0.5813763737678528
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "tie",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.9335231781005859,
+        "pair_logit": -0.9077219367027283,
+        "fused_logit": 0.025801241397857666,
+        "score": 0.5064499378204346
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 0,
+            "predicate": "over",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.19664907455444336,
+            "pair_logit": 0.5564684867858887,
+            "fused_logit": 0.753117561340332,
+            "score": 0.679857611656189,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.664126873016357,
+            "pair_logit": 0.5564684867858887,
+            "fused_logit": 5.220595359802246,
+            "score": 0.9946249127388,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.7738394737243652,
+            "pair_logit": 0.45815393328666687,
+            "fused_logit": 4.231993407011032,
+            "score": 0.9856845140457153,
+            "rank": 2
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.2386646270751953,
+            "pair_logit": 0.45815393328666687,
+            "fused_logit": 1.6968185603618622,
+            "score": 0.8451187610626221,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.40733003616333,
+            "pair_logit": 0.2720072269439697,
+            "fused_logit": 3.6793372631073,
+            "score": 0.9753816723823547,
+            "rank": 4
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2591047286987305,
+            "pair_logit": 0.2720072269439697,
+            "fused_logit": 2.5311119556427,
+            "score": 0.9262942671775818,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.9523043632507324,
+            "pair_logit": 0.22202491760253906,
+            "fused_logit": 4.1743292808532715,
+            "score": 0.9848476052284241,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.8146905899047852,
+            "pair_logit": 0.22202491760253906,
+            "fused_logit": 2.036715507507324,
+            "score": 0.884598433971405,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.7868900299072266,
+            "pair_logit": -0.45846396684646606,
+            "fused_logit": 0.3284260630607605,
+            "score": 0.5813763737678528,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "tie",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.462484359741211,
+            "pair_logit": -0.45846396684646606,
+            "fused_logit": -1.920948326587677,
+            "score": 0.12775585055351257,
+            "rank": 12
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.9335231781005859,
+            "pair_logit": -0.9077219367027283,
+            "fused_logit": 0.025801241397857666,
+            "score": 0.5064499378204346,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "tie",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5551896095275879,
+            "pair_logit": -0.9077219367027283,
+            "fused_logit": -1.4629115462303162,
+            "score": 0.1880224198102951,
+            "rank": 11
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.14152239996474236
+}

@@ -1,0 +1,1681 @@
+{
+  "index": 970,
+  "sample_position": 201,
+  "file_name": "2359437.jpg",
+  "image_sha256": "07c970316625f141017caa1385ee6c8ba59576b50c78f675940dc09ddc62f1c4",
+  "image_size": [
+    640,
+    480
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.9999847412109375,
+        88.00000190734863,
+        335.0,
+        474.0000057220459
+      ]
+    },
+    {
+      "id": 1,
+      "label": "pizza",
+      "category_id": 53,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        208.99999618530273,
+        61.99999809265137,
+        591.0000038146973,
+        391.99999809265137
+      ]
+    },
+    {
+      "id": 2,
+      "label": "cardboard",
+      "category_id": 83,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        640.0,
+        480.0
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 31,
+      "predicate": "picking"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "pizza",
+        "category_id": 59,
+        "is_person": false,
+        "box_xyxy": [
+          212.7919921875,
+          66.49744415283203,
+          584.618408203125,
+          385.3063049316406
+        ],
+        "detection_score": 0.9970980882644653,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          0.0,
+          72.8743896484375,
+          338.3759765625,
+          480.0000305175781
+        ],
+        "detection_score": 0.9671568870544434,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "dining table",
+        "category_id": 67,
+        "is_person": false,
+        "box_xyxy": [
+          6.435510158538818,
+          0.0,
+          609.6463012695312,
+          478.9597473144531
+        ],
+        "detection_score": 0.4931219518184662,
+        "source": "detector"
+      },
+      {
+        "id": 3,
+        "label": "pizza",
+        "category_id": 59,
+        "is_person": false,
+        "box_xyxy": [
+          245.61880493164062,
+          171.6416778564453,
+          458.41033935546875,
+          349.32965087890625
+        ],
+        "detection_score": 0.393866628408432,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 2,
+        "object_label": "dining table",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.680619716644287,
+        "pair_logit": -0.25470465421676636,
+        "fused_logit": 4.425915062427521,
+        "score": 0.9881781935691833,
+        "rank": 1
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 0,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.077690601348877,
+        "pair_logit": -0.029624879360198975,
+        "fused_logit": 4.048065721988678,
+        "score": 0.9828434586524963,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "dining table",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.125011444091797,
+        "pair_logit": -0.25470465421676636,
+        "fused_logit": 2.8703067898750305,
+        "score": 0.9463589191436768,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 31,
+        "predicate": "picking",
+        "object_id": 3,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.304908275604248,
+        "pair_logit": -0.7726028561592102,
+        "fused_logit": 2.532305419445038,
+        "score": 0.926375687122345,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.4506254196166992,
+        "pair_logit": -0.029624879360198975,
+        "fused_logit": 1.4210005402565002,
+        "score": 0.8054952621459961,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.576958179473877,
+        "pair_logit": -0.7726028561592102,
+        "fused_logit": -0.19564467668533325,
+        "score": 0.4512442350387573,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "pizza",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.40407514572143555,
+        "pair_logit": -1.0070444345474243,
+        "fused_logit": -0.6029692888259888,
+        "score": 0.35366469621658325,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "pizza",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5607852935791016,
+        "pair_logit": -1.0070444345474243,
+        "fused_logit": -1.5678297281265259,
+        "score": 0.17252600193023682,
+        "rank": 8
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "dining table",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5796880722045898,
+        "pair_logit": -1.0470116138458252,
+        "fused_logit": -1.626699686050415,
+        "score": 0.16428297758102417,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "dining table",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.6466903686523438,
+        "pair_logit": -1.0470116138458252,
+        "fused_logit": -1.693701982498169,
+        "score": 0.15528960525989532,
+        "rank": 10
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pizza",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.1669330596923828,
+        "pair_logit": -1.3799716234207153,
+        "fused_logit": -2.546904683113098,
+        "score": 0.07263471186161041,
+        "rank": 11
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pizza",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.419740915298462,
+        "pair_logit": -1.3799716234207153,
+        "fused_logit": -3.7997125387191772,
+        "score": 0.02188742160797119,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 2,
+        "object_label": "dining table",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.680619716644287,
+        "pair_logit": -0.25470465421676636,
+        "fused_logit": 4.425915062427521,
+        "score": 0.9881781935691833
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 0,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.077690601348877,
+        "pair_logit": -0.029624879360198975,
+        "fused_logit": 4.048065721988678,
+        "score": 0.9828434586524963
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 31,
+        "predicate": "picking",
+        "object_id": 3,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.304908275604248,
+        "pair_logit": -0.7726028561592102,
+        "fused_logit": 2.532305419445038,
+        "score": 0.926375687122345
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "pizza",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.40407514572143555,
+        "pair_logit": -1.0070444345474243,
+        "fused_logit": -0.6029692888259888,
+        "score": 0.35366469621658325
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "dining table",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.5796880722045898,
+        "pair_logit": -1.0470116138458252,
+        "fused_logit": -1.626699686050415,
+        "score": 0.16428297758102417
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "pizza",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.1669330596923828,
+        "pair_logit": -1.3799716234207153,
+        "fused_logit": -2.546904683113098,
+        "score": 0.07263471186161041
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "pizza",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.4506254196166992,
+            "pair_logit": -0.029624879360198975,
+            "fused_logit": 1.4210005402565002,
+            "score": 0.8054952621459961,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 0,
+            "object_label": "pizza",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.077690601348877,
+            "pair_logit": -0.029624879360198975,
+            "fused_logit": 4.048065721988678,
+            "score": 0.9828434586524963,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "dining table",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.125011444091797,
+            "pair_logit": -0.25470465421676636,
+            "fused_logit": 2.8703067898750305,
+            "score": 0.9463589191436768,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 2,
+            "object_label": "dining table",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.680619716644287,
+            "pair_logit": -0.25470465421676636,
+            "fused_logit": 4.425915062427521,
+            "score": 0.9881781935691833,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "pizza",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.576958179473877,
+            "pair_logit": -0.7726028561592102,
+            "fused_logit": -0.19564467668533325,
+            "score": 0.4512442350387573,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 31,
+            "predicate": "picking",
+            "object_id": 3,
+            "object_label": "pizza",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.304908275604248,
+            "pair_logit": -0.7726028561592102,
+            "fused_logit": 2.532305419445038,
+            "score": 0.926375687122345,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "pizza",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.40407514572143555,
+            "pair_logit": -1.0070444345474243,
+            "fused_logit": -0.6029692888259888,
+            "score": 0.35366469621658325,
+            "rank": 7
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "pizza",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5607852935791016,
+            "pair_logit": -1.0070444345474243,
+            "fused_logit": -1.5678297281265259,
+            "score": 0.17252600193023682,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "dining table",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.6466903686523438,
+            "pair_logit": -1.0470116138458252,
+            "fused_logit": -1.693701982498169,
+            "score": 0.15528960525989532,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "dining table",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5796880722045898,
+            "pair_logit": -1.0470116138458252,
+            "fused_logit": -1.626699686050415,
+            "score": 0.16428297758102417,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "pizza",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.1669330596923828,
+            "pair_logit": -1.3799716234207153,
+            "fused_logit": -2.546904683113098,
+            "score": 0.07263471186161041,
+            "rank": 11
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "pizza",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.419740915298462,
+            "pair_logit": -1.3799716234207153,
+            "fused_logit": -3.7997125387191772,
+            "score": 0.02188742160797119,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06330780003918335
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.9999847412109375,
+          88.00000190734863,
+          335.0,
+          474.0000057220459
+        ]
+      },
+      {
+        "id": 1,
+        "label": "pizza",
+        "category_id": 53,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          208.99999618530273,
+          61.99999809265137,
+          591.0000038146973,
+          391.99999809265137
+        ]
+      },
+      {
+        "id": 2,
+        "label": "cardboard",
+        "category_id": 83,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          480.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 1,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 5.217344760894775,
+        "pair_logit": -0.07555793225765228,
+        "fused_logit": 5.141786828637123,
+        "score": 0.9941867589950562,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 2,
+        "object_label": "cardboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 5.341060161590576,
+        "pair_logit": -0.305198073387146,
+        "fused_logit": 5.03586208820343,
+        "score": 0.9935413599014282,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "cardboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.682244300842285,
+        "pair_logit": -0.305198073387146,
+        "fused_logit": 2.377046227455139,
+        "score": 0.9150601625442505,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.076484203338623,
+        "pair_logit": -0.07555793225765228,
+        "fused_logit": 2.0009262710809708,
+        "score": 0.8808942437171936,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "pizza",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.788337230682373,
+        "pair_logit": -0.9373521208763123,
+        "fused_logit": 0.8509851098060608,
+        "score": 0.7007737755775452,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "pizza",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.48363590240478516,
+        "pair_logit": -0.9373521208763123,
+        "fused_logit": -1.4209880232810974,
+        "score": 0.19450673460960388,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "cardboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.4335951805114746,
+        "pair_logit": -0.804731011390686,
+        "fused_logit": -2.2383261919021606,
+        "score": 0.0963612049818039,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "cardboard",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.0841357707977295,
+        "pair_logit": -0.804731011390686,
+        "fused_logit": -2.8888667821884155,
+        "score": 0.05270666256546974,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 1,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 5.217344760894775,
+        "pair_logit": -0.07555793225765228,
+        "fused_logit": 5.141786828637123,
+        "score": 0.9941867589950562
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 2,
+        "object_label": "cardboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 5.341060161590576,
+        "pair_logit": -0.305198073387146,
+        "fused_logit": 5.03586208820343,
+        "score": 0.9935413599014282
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "pizza",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.788337230682373,
+        "pair_logit": -0.9373521208763123,
+        "fused_logit": 0.8509851098060608,
+        "score": 0.7007737755775452
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "cardboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.4335951805114746,
+        "pair_logit": -0.804731011390686,
+        "fused_logit": -2.2383261919021606,
+        "score": 0.0963612049818039
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "pizza",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.076484203338623,
+            "pair_logit": -0.07555793225765228,
+            "fused_logit": 2.0009262710809708,
+            "score": 0.8808942437171936,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 1,
+            "object_label": "pizza",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 5.217344760894775,
+            "pair_logit": -0.07555793225765228,
+            "fused_logit": 5.141786828637123,
+            "score": 0.9941867589950562,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "cardboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.682244300842285,
+            "pair_logit": -0.305198073387146,
+            "fused_logit": 2.377046227455139,
+            "score": 0.9150601625442505,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 2,
+            "object_label": "cardboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 5.341060161590576,
+            "pair_logit": -0.305198073387146,
+            "fused_logit": 5.03586208820343,
+            "score": 0.9935413599014282,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "cardboard",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.4335951805114746,
+            "pair_logit": -0.804731011390686,
+            "fused_logit": -2.2383261919021606,
+            "score": 0.0963612049818039,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "cardboard",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.0841357707977295,
+            "pair_logit": -0.804731011390686,
+            "fused_logit": -2.8888667821884155,
+            "score": 0.05270666256546974,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "pizza",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.788337230682373,
+            "pair_logit": -0.9373521208763123,
+            "fused_logit": 0.8509851098060608,
+            "score": 0.7007737755775452,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "pizza",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.48363590240478516,
+            "pair_logit": -0.9373521208763123,
+            "fused_logit": -1.4209880232810974,
+            "score": 0.19450673460960388,
+            "rank": 6
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.9999847412109375,
+          88.00000190734863,
+          335.0,
+          474.0000057220459
+        ]
+      },
+      {
+        "id": 1,
+        "label": "pizza",
+        "category_id": 53,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          208.99999618530273,
+          61.99999809265137,
+          591.0000038146973,
+          391.99999809265137
+        ]
+      },
+      {
+        "id": 2,
+        "label": "cardboard",
+        "category_id": 83,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          480.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 1,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 5.217381000518799,
+        "pair_logit": -0.07555793225765228,
+        "fused_logit": 5.1418230682611465,
+        "score": 0.9941869974136353,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 2,
+        "object_label": "cardboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 5.341060161590576,
+        "pair_logit": -0.305198073387146,
+        "fused_logit": 5.03586208820343,
+        "score": 0.9935413599014282,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "cardboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.682244300842285,
+        "pair_logit": -0.305198073387146,
+        "fused_logit": 2.377046227455139,
+        "score": 0.9150601625442505,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.0465197563171387,
+        "pair_logit": -0.07555793225765228,
+        "fused_logit": 1.9709618240594864,
+        "score": 0.8777143955230713,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "pizza",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.788163661956787,
+        "pair_logit": -0.9373521208763123,
+        "fused_logit": 0.8508115410804749,
+        "score": 0.7007373571395874,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "pizza",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5166811943054199,
+        "pair_logit": -0.9373521208763123,
+        "fused_logit": -1.4540333151817322,
+        "score": 0.18938159942626953,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "cardboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.418607234954834,
+        "pair_logit": -0.804731011390686,
+        "fused_logit": -2.22333824634552,
+        "score": 0.09767420589923859,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "cardboard",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.084874391555786,
+        "pair_logit": -0.804731011390686,
+        "fused_logit": -2.889605402946472,
+        "score": 0.05266979709267616,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 1,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 5.217381000518799,
+        "pair_logit": -0.07555793225765228,
+        "fused_logit": 5.1418230682611465,
+        "score": 0.9941869974136353
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 2,
+        "object_label": "cardboard",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 5.341060161590576,
+        "pair_logit": -0.305198073387146,
+        "fused_logit": 5.03586208820343,
+        "score": 0.9935413599014282
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "pizza",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.788163661956787,
+        "pair_logit": -0.9373521208763123,
+        "fused_logit": 0.8508115410804749,
+        "score": 0.7007373571395874
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "cardboard",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.418607234954834,
+        "pair_logit": -0.804731011390686,
+        "fused_logit": -2.22333824634552,
+        "score": 0.09767420589923859
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "pizza",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.0465197563171387,
+            "pair_logit": -0.07555793225765228,
+            "fused_logit": 1.9709618240594864,
+            "score": 0.8777143955230713,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 1,
+            "object_label": "pizza",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 5.217381000518799,
+            "pair_logit": -0.07555793225765228,
+            "fused_logit": 5.1418230682611465,
+            "score": 0.9941869974136353,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "cardboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.682244300842285,
+            "pair_logit": -0.305198073387146,
+            "fused_logit": 2.377046227455139,
+            "score": 0.9150601625442505,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 2,
+            "object_label": "cardboard",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 5.341060161590576,
+            "pair_logit": -0.305198073387146,
+            "fused_logit": 5.03586208820343,
+            "score": 0.9935413599014282,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "cardboard",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.418607234954834,
+            "pair_logit": -0.804731011390686,
+            "fused_logit": -2.22333824634552,
+            "score": 0.09767420589923859,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "cardboard",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.084874391555786,
+            "pair_logit": -0.804731011390686,
+            "fused_logit": -2.889605402946472,
+            "score": 0.05266979709267616,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "pizza",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.788163661956787,
+            "pair_logit": -0.9373521208763123,
+            "fused_logit": 0.8508115410804749,
+            "score": 0.7007373571395874,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "pizza",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5166811943054199,
+            "pair_logit": -0.9373521208763123,
+            "fused_logit": -1.4540333151817322,
+            "score": 0.18938159942626953,
+            "rank": 6
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.12987629999406636
+}

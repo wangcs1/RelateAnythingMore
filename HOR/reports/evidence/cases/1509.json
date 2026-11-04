@@ -1,0 +1,2892 @@
+{
+  "index": 1509,
+  "sample_position": 251,
+  "file_name": "2386257.jpg",
+  "image_sha256": "9c8eabf8fffdaa70aac997b49e6b571671a34098581069edaba4c19da0d98fe0",
+  "image_size": [
+    640,
+    397
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        57.99999237060547,
+        17.000004053115845,
+        352.99999237060547,
+        388.99999809265137
+      ]
+    },
+    {
+      "id": 1,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        338.00000190734863,
+        55.00000128149986,
+        631.9999980926514,
+        393.00001087784767
+      ]
+    },
+    {
+      "id": 2,
+      "label": "teddy bear",
+      "category_id": 77,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        139.0000057220459,
+        197.9999998807907,
+        368.00000190734863,
+        391.9999988079071
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate_id": 32,
+      "predicate": "playing with"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 0,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    },
+    {
+      "subject_id": 2,
+      "object_id": 1,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          325.6190490722656,
+          46.61286544799805,
+          630.1535034179688,
+          391.6048583984375
+        ],
+        "detection_score": 0.9933472871780396,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          51.98994445800781,
+          19.99494743347168,
+          434.5482482910156,
+          394.5823669433594
+        ],
+        "detection_score": 0.9398214817047119,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "teddy bear",
+        "category_id": 88,
+        "is_person": false,
+        "box_xyxy": [
+          98.6950454711914,
+          200.58102416992188,
+          327.33453369140625,
+          392.69427490234375
+        ],
+        "detection_score": 0.9281405806541443,
+        "source": "detector"
+      },
+      {
+        "id": 3,
+        "label": "cell phone",
+        "category_id": 77,
+        "is_person": false,
+        "box_xyxy": [
+          517.9483032226562,
+          287.8447570800781,
+          594.2025756835938,
+          353.63702392578125
+        ],
+        "detection_score": 0.4831532835960388,
+        "source": "detector"
+      },
+      {
+        "id": 4,
+        "label": "bed",
+        "category_id": 65,
+        "is_person": false,
+        "box_xyxy": [
+          17.50615119934082,
+          12.38630485534668,
+          640.0,
+          389.5025329589844
+        ],
+        "detection_score": 0.39935222268104553,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.971114635467529,
+        "pair_logit": 0.25897693634033203,
+        "fused_logit": 5.230091571807861,
+        "score": 0.9946753978729248,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 4.898696422576904,
+        "pair_logit": 0.31330978870391846,
+        "fused_logit": 5.212006211280823,
+        "score": 0.9945788383483887,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 4,
+        "object_label": "bed",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.6052823066711426,
+        "pair_logit": 0.14420700073242188,
+        "fused_logit": 3.7494893074035645,
+        "score": 0.9770111441612244,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 4,
+        "object_label": "bed",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.821782112121582,
+        "pair_logit": 0.14420700073242188,
+        "fused_logit": 2.965989112854004,
+        "score": 0.9510137438774109,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 4,
+        "object_label": "bed",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.120786190032959,
+        "pair_logit": -0.16193842887878418,
+        "fused_logit": 2.958847761154175,
+        "score": 0.9506799578666687,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.4262900352478027,
+        "pair_logit": -0.7091271877288818,
+        "fused_logit": 2.717162847518921,
+        "score": 0.938031792640686,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 4,
+        "object_label": "bed",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.371298313140869,
+        "pair_logit": -0.16193842887878418,
+        "fused_logit": 2.209359884262085,
+        "score": 0.9010868668556213,
+        "rank": 7
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.4822449684143066,
+        "pair_logit": 0.31330978870391846,
+        "fused_logit": 1.795554757118225,
+        "score": 0.8576069474220276,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.0860671997070312,
+        "pair_logit": -0.49636024236679077,
+        "fused_logit": 1.5897069573402405,
+        "score": 0.8305748105049133,
+        "rank": 9
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.7415122985839844,
+        "pair_logit": -0.49636024236679077,
+        "fused_logit": 1.2451520562171936,
+        "score": 0.7764595150947571,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.5943984985351562,
+        "pair_logit": -0.4645717144012451,
+        "fused_logit": 1.1298267841339111,
+        "score": 0.7558069229125977,
+        "rank": 11
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.8333053588867188,
+        "pair_logit": 0.25897693634033203,
+        "fused_logit": 1.0922822952270508,
+        "score": 0.7488112449645996,
+        "rank": 12
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.4975438117980957,
+        "pair_logit": -0.4645717144012451,
+        "fused_logit": 1.0329720973968506,
+        "score": 0.7374916672706604,
+        "rank": 13
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "cell phone",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.5936393737792969,
+        "pair_logit": -0.7265419960021973,
+        "fused_logit": 0.8670973777770996,
+        "score": 0.70414137840271,
+        "rank": 14
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.5776801109313965,
+        "pair_logit": -0.9015418887138367,
+        "fused_logit": 0.6761382222175598,
+        "score": 0.6628762483596802,
+        "rank": 15
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cell phone",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.4030404090881348,
+        "pair_logit": -0.7966818809509277,
+        "fused_logit": 0.606358528137207,
+        "score": 0.6471096277236938,
+        "rank": 16
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cell phone",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.0038971900939941,
+        "pair_logit": -0.7966818809509277,
+        "fused_logit": 0.2072153091430664,
+        "score": 0.5516192317008972,
+        "rank": 17
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "bed",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.37896299362182617,
+        "pair_logit": -0.23039168119430542,
+        "fused_logit": 0.14857131242752075,
+        "score": 0.5370746850967407,
+        "rank": 18
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "bed",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.14937829971313477,
+        "pair_logit": -0.23039168119430542,
+        "fused_logit": -0.08101338148117065,
+        "score": 0.47975772619247437,
+        "rank": 19
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.5049524307250977,
+        "pair_logit": -0.7091271877288818,
+        "fused_logit": -0.20417475700378418,
+        "score": 0.44913291931152344,
+        "rank": 20
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "bed",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.1799783706665039,
+        "pair_logit": -0.40551912784576416,
+        "fused_logit": -0.5854974985122681,
+        "score": 0.35766860842704773,
+        "rank": 21
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "bed",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.2522010803222656,
+        "pair_logit": -0.40551912784576416,
+        "fused_logit": -0.6577202081680298,
+        "score": 0.3412519097328186,
+        "rank": 22
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.24188232421875,
+        "pair_logit": -0.9015418887138367,
+        "fused_logit": -0.6596595644950867,
+        "score": 0.34081608057022095,
+        "rank": 23
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.5622224807739258,
+        "pair_logit": -1.5261033773422241,
+        "fused_logit": -2.08832585811615,
+        "score": 0.11023666709661484,
+        "rank": 24
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.7297255992889404,
+        "pair_logit": -1.5261033773422241,
+        "fused_logit": -2.2558289766311646,
+        "score": 0.09484786540269852,
+        "rank": 25
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "cell phone",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.0044734477996826,
+        "pair_logit": -0.7265419960021973,
+        "fused_logit": -2.73101544380188,
+        "score": 0.061167821288108826,
+        "rank": 26
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cell phone",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.5285792350769043,
+        "pair_logit": -1.5000394582748413,
+        "fused_logit": -3.0286186933517456,
+        "score": 0.046149589121341705,
+        "rank": 27
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cell phone",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.57814359664917,
+        "pair_logit": -1.5000394582748413,
+        "fused_logit": -3.0781830549240112,
+        "score": 0.04401620477437973,
+        "rank": 28
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.971114635467529,
+        "pair_logit": 0.25897693634033203,
+        "fused_logit": 5.230091571807861,
+        "score": 0.9946753978729248
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "cell phone",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.898696422576904,
+        "pair_logit": 0.31330978870391846,
+        "fused_logit": 5.212006211280823,
+        "score": 0.9945788383483887
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 4,
+        "object_label": "bed",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.6052823066711426,
+        "pair_logit": 0.14420700073242188,
+        "fused_logit": 3.7494893074035645,
+        "score": 0.9770111441612244
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 16,
+        "predicate": "sitting on",
+        "object_id": 4,
+        "object_label": "bed",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.120786190032959,
+        "pair_logit": -0.16193842887878418,
+        "fused_logit": 2.958847761154175,
+        "score": 0.9506799578666687
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.4262900352478027,
+        "pair_logit": -0.7091271877288818,
+        "fused_logit": 2.717162847518921,
+        "score": 0.938031792640686
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.0860671997070312,
+        "pair_logit": -0.49636024236679077,
+        "fused_logit": 1.5897069573402405,
+        "score": 0.8305748105049133
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.5943984985351562,
+        "pair_logit": -0.4645717144012451,
+        "fused_logit": 1.1298267841339111,
+        "score": 0.7558069229125977
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "cell phone",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.5936393737792969,
+        "pair_logit": -0.7265419960021973,
+        "fused_logit": 0.8670973777770996,
+        "score": 0.70414137840271
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.5776801109313965,
+        "pair_logit": -0.9015418887138367,
+        "fused_logit": 0.6761382222175598,
+        "score": 0.6628762483596802
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cell phone",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.4030404090881348,
+        "pair_logit": -0.7966818809509277,
+        "fused_logit": 0.606358528137207,
+        "score": 0.6471096277236938
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "bed",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.37896299362182617,
+        "pair_logit": -0.23039168119430542,
+        "fused_logit": 0.14857131242752075,
+        "score": 0.5370746850967407
+      },
+      {
+        "subject_id": 4,
+        "subject_label": "bed",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.1799783706665039,
+        "pair_logit": -0.40551912784576416,
+        "fused_logit": -0.5854974985122681,
+        "score": 0.35766860842704773
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.5622224807739258,
+        "pair_logit": -1.5261033773422241,
+        "fused_logit": -2.08832585811615,
+        "score": 0.11023666709661484
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "cell phone",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.5285792350769043,
+        "pair_logit": -1.5000394582748413,
+        "fused_logit": -3.0286186933517456,
+        "score": 0.046149589121341705
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "cell phone",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.4822449684143066,
+            "pair_logit": 0.31330978870391846,
+            "fused_logit": 1.795554757118225,
+            "score": 0.8576069474220276,
+            "rank": 8
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "cell phone",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.898696422576904,
+            "pair_logit": 0.31330978870391846,
+            "fused_logit": 5.212006211280823,
+            "score": 0.9945788383483887,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.8333053588867188,
+            "pair_logit": 0.25897693634033203,
+            "fused_logit": 1.0922822952270508,
+            "score": 0.7488112449645996,
+            "rank": 12
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 4.971114635467529,
+            "pair_logit": 0.25897693634033203,
+            "fused_logit": 5.230091571807861,
+            "score": 0.9946753978729248,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 4,
+            "object_label": "bed",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.821782112121582,
+            "pair_logit": 0.14420700073242188,
+            "fused_logit": 2.965989112854004,
+            "score": 0.9510137438774109,
+            "rank": 4
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 4,
+            "object_label": "bed",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.6052823066711426,
+            "pair_logit": 0.14420700073242188,
+            "fused_logit": 3.7494893074035645,
+            "score": 0.9770111441612244,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 4,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 4,
+            "object_label": "bed",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.371298313140869,
+            "pair_logit": -0.16193842887878418,
+            "fused_logit": 2.209359884262085,
+            "score": 0.9010868668556213,
+            "rank": 7
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 16,
+            "predicate": "sitting on",
+            "object_id": 4,
+            "object_label": "bed",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.120786190032959,
+            "pair_logit": -0.16193842887878418,
+            "fused_logit": 2.958847761154175,
+            "score": 0.9506799578666687,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "bed",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.37896299362182617,
+            "pair_logit": -0.23039168119430542,
+            "fused_logit": 0.14857131242752075,
+            "score": 0.5370746850967407,
+            "rank": 18
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "bed",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.14937829971313477,
+            "pair_logit": -0.23039168119430542,
+            "fused_logit": -0.08101338148117065,
+            "score": 0.47975772619247437,
+            "rank": 19
+          }
+        ]
+      },
+      {
+        "subject_id": 4,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 4,
+            "subject_label": "bed",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.2522010803222656,
+            "pair_logit": -0.40551912784576416,
+            "fused_logit": -0.6577202081680298,
+            "score": 0.3412519097328186,
+            "rank": 22
+          },
+          {
+            "subject_id": 4,
+            "subject_label": "bed",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.1799783706665039,
+            "pair_logit": -0.40551912784576416,
+            "fused_logit": -0.5854974985122681,
+            "score": 0.35766860842704773,
+            "rank": 21
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.4975438117980957,
+            "pair_logit": -0.4645717144012451,
+            "fused_logit": 1.0329720973968506,
+            "score": 0.7374916672706604,
+            "rank": 13
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.5943984985351562,
+            "pair_logit": -0.4645717144012451,
+            "fused_logit": 1.1298267841339111,
+            "score": 0.7558069229125977,
+            "rank": 11
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.7415122985839844,
+            "pair_logit": -0.49636024236679077,
+            "fused_logit": 1.2451520562171936,
+            "score": 0.7764595150947571,
+            "rank": 10
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.0860671997070312,
+            "pair_logit": -0.49636024236679077,
+            "fused_logit": 1.5897069573402405,
+            "score": 0.8305748105049133,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.5049524307250977,
+            "pair_logit": -0.7091271877288818,
+            "fused_logit": -0.20417475700378418,
+            "score": 0.44913291931152344,
+            "rank": 20
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.4262900352478027,
+            "pair_logit": -0.7091271877288818,
+            "fused_logit": 2.717162847518921,
+            "score": 0.938031792640686,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "cell phone",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.0044734477996826,
+            "pair_logit": -0.7265419960021973,
+            "fused_logit": -2.73101544380188,
+            "score": 0.061167821288108826,
+            "rank": 26
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "cell phone",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.5936393737792969,
+            "pair_logit": -0.7265419960021973,
+            "fused_logit": 0.8670973777770996,
+            "score": 0.70414137840271,
+            "rank": 14
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "cell phone",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.0038971900939941,
+            "pair_logit": -0.7966818809509277,
+            "fused_logit": 0.2072153091430664,
+            "score": 0.5516192317008972,
+            "rank": 17
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "cell phone",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.4030404090881348,
+            "pair_logit": -0.7966818809509277,
+            "fused_logit": 0.606358528137207,
+            "score": 0.6471096277236938,
+            "rank": 16
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.24188232421875,
+            "pair_logit": -0.9015418887138367,
+            "fused_logit": -0.6596595644950867,
+            "score": 0.34081608057022095,
+            "rank": 23
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.5776801109313965,
+            "pair_logit": -0.9015418887138367,
+            "fused_logit": 0.6761382222175598,
+            "score": 0.6628762483596802,
+            "rank": 15
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "cell phone",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.5285792350769043,
+            "pair_logit": -1.5000394582748413,
+            "fused_logit": -3.0286186933517456,
+            "score": 0.046149589121341705,
+            "rank": 27
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "cell phone",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.57814359664917,
+            "pair_logit": -1.5000394582748413,
+            "fused_logit": -3.0781830549240112,
+            "score": 0.04401620477437973,
+            "rank": 28
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.5622224807739258,
+            "pair_logit": -1.5261033773422241,
+            "fused_logit": -2.08832585811615,
+            "score": 0.11023666709661484,
+            "rank": 24
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.7297255992889404,
+            "pair_logit": -1.5261033773422241,
+            "fused_logit": -2.2558289766311646,
+            "score": 0.09484786540269852,
+            "rank": 25
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 20,
+    "human_pairs_scored": 14,
+    "expected_human_pairs": 14,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06944079999811947
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          57.99999237060547,
+          17.000004053115845,
+          352.99999237060547,
+          388.99999809265137
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          338.00000190734863,
+          55.00000128149986,
+          631.9999980926514,
+          393.00001087784767
+        ]
+      },
+      {
+        "id": 2,
+        "label": "teddy bear",
+        "category_id": 77,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          139.0000057220459,
+          197.9999998807907,
+          368.00000190734863,
+          391.9999988079071
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.806209087371826,
+        "pair_logit": 0.28568610548973083,
+        "fused_logit": 4.091895192861557,
+        "score": 0.9835669994354248,
+        "rank": 1
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.840562343597412,
+        "pair_logit": -0.6938573718070984,
+        "fused_logit": 3.1467049717903137,
+        "score": 0.9587786793708801,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.3716421127319336,
+        "pair_logit": -0.6686484813690186,
+        "fused_logit": 0.702993631362915,
+        "score": 0.6688511371612549,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.1059703826904297,
+        "pair_logit": -0.5211150050163269,
+        "fused_logit": 0.5848553776741028,
+        "score": 0.6421838998794556,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3137035369873047,
+        "pair_logit": 0.28568610548973083,
+        "fused_logit": -0.028017431497573853,
+        "score": 0.49299606680870056,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -7.915496826171875e-05,
+        "pair_logit": -0.6686484813690186,
+        "fused_logit": -0.6687276363372803,
+        "score": 0.33878180384635925,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.5108442306518555,
+        "pair_logit": -0.5211150050163269,
+        "fused_logit": -1.0319592356681824,
+        "score": 0.26270443201065063,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.45244264602661133,
+        "pair_logit": -0.6938573718070984,
+        "fused_logit": -1.1463000178337097,
+        "score": 0.24116554856300354,
+        "rank": 8
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.347771167755127,
+        "pair_logit": -0.9065982699394226,
+        "fused_logit": -3.2543694376945496,
+        "score": 0.03717019408941269,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.4079530239105225,
+        "pair_logit": -0.9065982699394226,
+        "fused_logit": -3.314551293849945,
+        "score": 0.0350753515958786,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.2059032917022705,
+        "pair_logit": -1.452329397201538,
+        "fused_logit": -3.6582326889038086,
+        "score": 0.025130221620202065,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.2657811641693115,
+        "pair_logit": -1.452329397201538,
+        "fused_logit": -3.7181105613708496,
+        "score": 0.02370426617562771,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.806209087371826,
+        "pair_logit": 0.28568610548973083,
+        "fused_logit": 4.091895192861557,
+        "score": 0.9835669994354248
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.840562343597412,
+        "pair_logit": -0.6938573718070984,
+        "fused_logit": 3.1467049717903137,
+        "score": 0.9587786793708801
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.3716421127319336,
+        "pair_logit": -0.6686484813690186,
+        "fused_logit": 0.702993631362915,
+        "score": 0.6688511371612549
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.1059703826904297,
+        "pair_logit": -0.5211150050163269,
+        "fused_logit": 0.5848553776741028,
+        "score": 0.6421838998794556
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.347771167755127,
+        "pair_logit": -0.9065982699394226,
+        "fused_logit": -3.2543694376945496,
+        "score": 0.03717019408941269
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.2059032917022705,
+        "pair_logit": -1.452329397201538,
+        "fused_logit": -3.6582326889038086,
+        "score": 0.025130221620202065
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3137035369873047,
+            "pair_logit": 0.28568610548973083,
+            "fused_logit": -0.028017431497573853,
+            "score": 0.49299606680870056,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.806209087371826,
+            "pair_logit": 0.28568610548973083,
+            "fused_logit": 4.091895192861557,
+            "score": 0.9835669994354248,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.5108442306518555,
+            "pair_logit": -0.5211150050163269,
+            "fused_logit": -1.0319592356681824,
+            "score": 0.26270443201065063,
+            "rank": 7
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.1059703826904297,
+            "pair_logit": -0.5211150050163269,
+            "fused_logit": 0.5848553776741028,
+            "score": 0.6421838998794556,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -7.915496826171875e-05,
+            "pair_logit": -0.6686484813690186,
+            "fused_logit": -0.6687276363372803,
+            "score": 0.33878180384635925,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.3716421127319336,
+            "pair_logit": -0.6686484813690186,
+            "fused_logit": 0.702993631362915,
+            "score": 0.6688511371612549,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.45244264602661133,
+            "pair_logit": -0.6938573718070984,
+            "fused_logit": -1.1463000178337097,
+            "score": 0.24116554856300354,
+            "rank": 8
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.840562343597412,
+            "pair_logit": -0.6938573718070984,
+            "fused_logit": 3.1467049717903137,
+            "score": 0.9587786793708801,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.4079530239105225,
+            "pair_logit": -0.9065982699394226,
+            "fused_logit": -3.314551293849945,
+            "score": 0.0350753515958786,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.347771167755127,
+            "pair_logit": -0.9065982699394226,
+            "fused_logit": -3.2543694376945496,
+            "score": 0.03717019408941269,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.2059032917022705,
+            "pair_logit": -1.452329397201538,
+            "fused_logit": -3.6582326889038086,
+            "score": 0.025130221620202065,
+            "rank": 11
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.2657811641693115,
+            "pair_logit": -1.452329397201538,
+            "fused_logit": -3.7181105613708496,
+            "score": 0.02370426617562771,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          57.99999237060547,
+          17.000004053115845,
+          352.99999237060547,
+          388.99999809265137
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          338.00000190734863,
+          55.00000128149986,
+          631.9999980926514,
+          393.00001087784767
+        ]
+      },
+      {
+        "id": 2,
+        "label": "teddy bear",
+        "category_id": 77,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          139.0000057220459,
+          197.9999998807907,
+          368.00000190734863,
+          391.9999988079071
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.806209087371826,
+        "pair_logit": 0.28568610548973083,
+        "fused_logit": 4.091895192861557,
+        "score": 0.9835669994354248,
+        "rank": 1
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.840562343597412,
+        "pair_logit": -0.6938573718070984,
+        "fused_logit": 3.1467049717903137,
+        "score": 0.9587786793708801,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.3928704261779785,
+        "pair_logit": -0.6686484813690186,
+        "fused_logit": 0.72422194480896,
+        "score": 0.6735360622406006,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.1059703826904297,
+        "pair_logit": -0.5211150050163269,
+        "fused_logit": 0.5848553776741028,
+        "score": 0.6421838998794556,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3137035369873047,
+        "pair_logit": 0.28568610548973083,
+        "fused_logit": -0.028017431497573853,
+        "score": 0.49299606680870056,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -7.915496826171875e-05,
+        "pair_logit": -0.6686484813690186,
+        "fused_logit": -0.6687276363372803,
+        "score": 0.33878180384635925,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.5342979431152344,
+        "pair_logit": -0.5211150050163269,
+        "fused_logit": -1.0554129481315613,
+        "score": 0.2581869959831238,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.4557614326477051,
+        "pair_logit": -0.6938573718070984,
+        "fused_logit": -1.1496188044548035,
+        "score": 0.24055872857570648,
+        "rank": 8
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.3550617694854736,
+        "pair_logit": -0.9065982699394226,
+        "fused_logit": -3.2616600394248962,
+        "score": 0.036910150200128555,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.4050605297088623,
+        "pair_logit": -0.9065982699394226,
+        "fused_logit": -3.311658799648285,
+        "score": 0.03517337888479233,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.2393975257873535,
+        "pair_logit": -1.452329397201538,
+        "fused_logit": -3.6917269229888916,
+        "score": 0.02432258054614067,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.3127644062042236,
+        "pair_logit": -1.452329397201538,
+        "fused_logit": -3.7650938034057617,
+        "score": 0.022640950977802277,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.806209087371826,
+        "pair_logit": 0.28568610548973083,
+        "fused_logit": 4.091895192861557,
+        "score": 0.9835669994354248
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "teddy bear",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.840562343597412,
+        "pair_logit": -0.6938573718070984,
+        "fused_logit": 3.1467049717903137,
+        "score": 0.9587786793708801
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.3928704261779785,
+        "pair_logit": -0.6686484813690186,
+        "fused_logit": 0.72422194480896,
+        "score": 0.6735360622406006
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.1059703826904297,
+        "pair_logit": -0.5211150050163269,
+        "fused_logit": 0.5848553776741028,
+        "score": 0.6421838998794556
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.3550617694854736,
+        "pair_logit": -0.9065982699394226,
+        "fused_logit": -3.2616600394248962,
+        "score": 0.036910150200128555
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "teddy bear",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -2.2393975257873535,
+        "pair_logit": -1.452329397201538,
+        "fused_logit": -3.6917269229888916,
+        "score": 0.02432258054614067
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3137035369873047,
+            "pair_logit": 0.28568610548973083,
+            "fused_logit": -0.028017431497573853,
+            "score": 0.49299606680870056,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.806209087371826,
+            "pair_logit": 0.28568610548973083,
+            "fused_logit": 4.091895192861557,
+            "score": 0.9835669994354248,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.5342979431152344,
+            "pair_logit": -0.5211150050163269,
+            "fused_logit": -1.0554129481315613,
+            "score": 0.2581869959831238,
+            "rank": 7
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.1059703826904297,
+            "pair_logit": -0.5211150050163269,
+            "fused_logit": 0.5848553776741028,
+            "score": 0.6421838998794556,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -7.915496826171875e-05,
+            "pair_logit": -0.6686484813690186,
+            "fused_logit": -0.6687276363372803,
+            "score": 0.33878180384635925,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.3928704261779785,
+            "pair_logit": -0.6686484813690186,
+            "fused_logit": 0.72422194480896,
+            "score": 0.6735360622406006,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.4557614326477051,
+            "pair_logit": -0.6938573718070984,
+            "fused_logit": -1.1496188044548035,
+            "score": 0.24055872857570648,
+            "rank": 8
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "teddy bear",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.840562343597412,
+            "pair_logit": -0.6938573718070984,
+            "fused_logit": 3.1467049717903137,
+            "score": 0.9587786793708801,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.4050605297088623,
+            "pair_logit": -0.9065982699394226,
+            "fused_logit": -3.311658799648285,
+            "score": 0.03517337888479233,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.3550617694854736,
+            "pair_logit": -0.9065982699394226,
+            "fused_logit": -3.2616600394248962,
+            "score": 0.036910150200128555,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.2393975257873535,
+            "pair_logit": -1.452329397201538,
+            "fused_logit": -3.6917269229888916,
+            "score": 0.02432258054614067,
+            "rank": 11
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "teddy bear",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.3127644062042236,
+            "pair_logit": -1.452329397201538,
+            "fused_logit": -3.7650938034057617,
+            "score": 0.022640950977802277,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.13614890002645552
+}

@@ -1,0 +1,19 @@
+{
+  "seed": 20261025,
+  "sample_size": 500,
+  "sampling": "uniform_without_replacement_from_all_2179_PSG_test_images",
+  "resolution": 448,
+  "max_detections": 40,
+  "detection_score_threshold": 0.35,
+  "detector": "torchvision_fasterrcnn_resnet50_fpn_v2_coco",
+  "detector_min_size": 800,
+  "detector_max_size": 1333,
+  "relation_topk": 50,
+  "relation_score_floor": 0.0,
+  "pair_policy": "all_ordered_nonself_pairs_before_human_filter",
+  "output_policy": "one_best_spatial_and_one_best_semantic_predicate_per_directed_pair",
+  "spatial_predicates": ["over", "in front of", "beside", "on", "in", "attached to", "hanging from", "painted on", "on back of", "leaning on", "enclosing"],
+  "iou_threshold": 0.5,
+  "human_categories": ["person"],
+  "detector_weights_url": "https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_v2_coco-dd69338a.pth"
+}

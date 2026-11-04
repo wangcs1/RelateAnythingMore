@@ -1,0 +1,1489 @@
+{
+  "index": 2118,
+  "sample_position": 441,
+  "file_name": "2416492.jpg",
+  "image_sha256": "c09150263ab0bae804e489b1e36a62aeaceb3a46671543db3e2af3e2de056f9f",
+  "image_size": [
+    320,
+    240
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        30.0,
+        193.99999618530273,
+        236.00000381469727
+      ]
+    },
+    {
+      "id": 1,
+      "label": "toilet",
+      "category_id": 61,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        1.0000038146972656,
+        8.000006675720215,
+        230.0,
+        237.00000286102295
+      ]
+    },
+    {
+      "id": 2,
+      "label": "wall-tile",
+      "category_id": 111,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        320.0,
+        135.99999904632568
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 2,
+      "predicate": "beside"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 35,
+      "predicate": "cleaning"
+    },
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 37,
+      "predicate": "touching"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "spoon",
+        "category_id": 50,
+        "is_person": false,
+        "box_xyxy": [
+          239.2723846435547,
+          51.78086471557617,
+          269.1572570800781,
+          126.22087860107422
+        ],
+        "detection_score": 0.7919935584068298,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          24.712417602539062,
+          6.906436443328857,
+          310.510009765625,
+          240.00001525878906
+        ],
+        "detection_score": 0.746817946434021,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "toilet",
+        "category_id": 70,
+        "is_person": false,
+        "box_xyxy": [
+          43.01156997680664,
+          7.888138294219971,
+          237.9820556640625,
+          240.00001525878906
+        ],
+        "detection_score": 0.35532644391059875,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "spoon",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 4.50200891494751,
+        "pair_logit": -0.07636121660470963,
+        "fused_logit": 4.4256476983428,
+        "score": 0.9881750345230103,
+        "rank": 1
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "toilet",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.7200818061828613,
+        "pair_logit": -0.28205740451812744,
+        "fused_logit": 3.438024401664734,
+        "score": 0.9688720107078552,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "toilet",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.335357189178467,
+        "pair_logit": -0.868513286113739,
+        "fused_logit": 1.4668439030647278,
+        "score": 0.8125771880149841,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "toilet",
+        "predicate_id": 15,
+        "predicate": "lying on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.07704496383667,
+        "pair_logit": -0.28205740451812744,
+        "fused_logit": 0.7949875593185425,
+        "score": 0.6889012455940247,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "toilet",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.8632545471191406,
+        "pair_logit": -0.868513286113739,
+        "fused_logit": -0.005258738994598389,
+        "score": 0.4986853003501892,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "spoon",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.6509976387023926,
+        "pair_logit": -0.9269893169403076,
+        "fused_logit": -0.27599167823791504,
+        "score": 0.43143677711486816,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "spoon",
+        "predicate_id": 14,
+        "predicate": "standing on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.34822988510131836,
+        "pair_logit": -0.07636121660470963,
+        "fused_logit": -0.424591101706028,
+        "score": 0.3954186737537384,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "spoon",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.6168055534362793,
+        "pair_logit": -0.9269893169403076,
+        "fused_logit": -1.543794870376587,
+        "score": 0.17598429322242737,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "spoon",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 4.50200891494751,
+        "pair_logit": -0.07636121660470963,
+        "fused_logit": 4.4256476983428,
+        "score": 0.9881750345230103
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "toilet",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.7200818061828613,
+        "pair_logit": -0.28205740451812744,
+        "fused_logit": 3.438024401664734,
+        "score": 0.9688720107078552
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "toilet",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.335357189178467,
+        "pair_logit": -0.868513286113739,
+        "fused_logit": 1.4668439030647278,
+        "score": 0.8125771880149841
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 0,
+        "object_label": "spoon",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.6509976387023926,
+        "pair_logit": -0.9269893169403076,
+        "fused_logit": -0.27599167823791504,
+        "score": 0.43143677711486816
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "spoon",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 4.50200891494751,
+            "pair_logit": -0.07636121660470963,
+            "fused_logit": 4.4256476983428,
+            "score": 0.9881750345230103,
+            "rank": 1
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "spoon",
+            "predicate_id": 14,
+            "predicate": "standing on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.34822988510131836,
+            "pair_logit": -0.07636121660470963,
+            "fused_logit": -0.424591101706028,
+            "score": 0.3954186737537384,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "toilet",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.7200818061828613,
+            "pair_logit": -0.28205740451812744,
+            "fused_logit": 3.438024401664734,
+            "score": 0.9688720107078552,
+            "rank": 2
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "toilet",
+            "predicate_id": 15,
+            "predicate": "lying on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.07704496383667,
+            "pair_logit": -0.28205740451812744,
+            "fused_logit": 0.7949875593185425,
+            "score": 0.6889012455940247,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "toilet",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.335357189178467,
+            "pair_logit": -0.868513286113739,
+            "fused_logit": 1.4668439030647278,
+            "score": 0.8125771880149841,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "toilet",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.8632545471191406,
+            "pair_logit": -0.868513286113739,
+            "fused_logit": -0.005258738994598389,
+            "score": 0.4986853003501892,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 0,
+            "object_label": "spoon",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.6509976387023926,
+            "pair_logit": -0.9269893169403076,
+            "fused_logit": -0.27599167823791504,
+            "score": 0.43143677711486816,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "spoon",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.6168055534362793,
+            "pair_logit": -0.9269893169403076,
+            "fused_logit": -1.543794870376587,
+            "score": 0.17598429322242737,
+            "rank": 8
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06601239996962249
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          30.0,
+          193.99999618530273,
+          236.00000381469727
+        ]
+      },
+      {
+        "id": 1,
+        "label": "toilet",
+        "category_id": 61,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          1.0000038146972656,
+          8.000006675720215,
+          230.0,
+          237.00000286102295
+        ]
+      },
+      {
+        "id": 2,
+        "label": "wall-tile",
+        "category_id": 111,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          320.0,
+          135.99999904632568
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "toilet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.7170071601867676,
+        "pair_logit": 0.2662019729614258,
+        "fused_logit": 3.9832091331481934,
+        "score": 0.9817148447036743,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 1,
+        "object_label": "toilet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.9068751335144043,
+        "pair_logit": 0.2662019729614258,
+        "fused_logit": 3.17307710647583,
+        "score": 0.9598084688186646,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 2,
+        "object_label": "wall-tile",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.299196720123291,
+        "pair_logit": -0.9522916078567505,
+        "fused_logit": 2.3469051122665405,
+        "score": 0.9126879572868347,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 2,
+        "object_label": "wall-tile",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2978591918945312,
+        "pair_logit": -0.9522916078567505,
+        "fused_logit": 1.3455675840377808,
+        "score": 0.7934040427207947,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "toilet",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.3121967315673828,
+        "pair_logit": -0.9627296924591064,
+        "fused_logit": 0.34946703910827637,
+        "score": 0.5864883065223694,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "toilet",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.687098503112793,
+        "pair_logit": -0.9627296924591064,
+        "fused_logit": -0.2756311893463135,
+        "score": 0.43152520060539246,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "wall-tile",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.0264956951141357,
+        "pair_logit": -1.1284211874008179,
+        "fused_logit": -2.1549168825149536,
+        "score": 0.10387265682220459,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "wall-tile",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.753147602081299,
+        "pair_logit": -1.1284211874008179,
+        "fused_logit": -3.8815687894821167,
+        "score": 0.020201919600367546,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "toilet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.7170071601867676,
+        "pair_logit": 0.2662019729614258,
+        "fused_logit": 3.9832091331481934,
+        "score": 0.9817148447036743
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 2,
+        "object_label": "wall-tile",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.299196720123291,
+        "pair_logit": -0.9522916078567505,
+        "fused_logit": 2.3469051122665405,
+        "score": 0.9126879572868347
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "toilet",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.3121967315673828,
+        "pair_logit": -0.9627296924591064,
+        "fused_logit": 0.34946703910827637,
+        "score": 0.5864883065223694
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "wall-tile",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.0264956951141357,
+        "pair_logit": -1.1284211874008179,
+        "fused_logit": -2.1549168825149536,
+        "score": 0.10387265682220459
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "toilet",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.7170071601867676,
+            "pair_logit": 0.2662019729614258,
+            "fused_logit": 3.9832091331481934,
+            "score": 0.9817148447036743,
+            "rank": 1
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 1,
+            "object_label": "toilet",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.9068751335144043,
+            "pair_logit": 0.2662019729614258,
+            "fused_logit": 3.17307710647583,
+            "score": 0.9598084688186646,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 2,
+            "object_label": "wall-tile",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.299196720123291,
+            "pair_logit": -0.9522916078567505,
+            "fused_logit": 2.3469051122665405,
+            "score": 0.9126879572868347,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 2,
+            "object_label": "wall-tile",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2978591918945312,
+            "pair_logit": -0.9522916078567505,
+            "fused_logit": 1.3455675840377808,
+            "score": 0.7934040427207947,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "toilet",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.3121967315673828,
+            "pair_logit": -0.9627296924591064,
+            "fused_logit": 0.34946703910827637,
+            "score": 0.5864883065223694,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "toilet",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.687098503112793,
+            "pair_logit": -0.9627296924591064,
+            "fused_logit": -0.2756311893463135,
+            "score": 0.43152520060539246,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "wall-tile",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.0264956951141357,
+            "pair_logit": -1.1284211874008179,
+            "fused_logit": -2.1549168825149536,
+            "score": 0.10387265682220459,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "wall-tile",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.753147602081299,
+            "pair_logit": -1.1284211874008179,
+            "fused_logit": -3.8815687894821167,
+            "score": 0.020201919600367546,
+            "rank": 8
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          30.0,
+          193.99999618530273,
+          236.00000381469727
+        ]
+      },
+      {
+        "id": 1,
+        "label": "toilet",
+        "category_id": 61,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          1.0000038146972656,
+          8.000006675720215,
+          230.0,
+          237.00000286102295
+        ]
+      },
+      {
+        "id": 2,
+        "label": "wall-tile",
+        "category_id": 111,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          320.0,
+          135.99999904632568
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "toilet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.7170071601867676,
+        "pair_logit": 0.2662019729614258,
+        "fused_logit": 3.9832091331481934,
+        "score": 0.9817148447036743,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 1,
+        "object_label": "toilet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.9068751335144043,
+        "pair_logit": 0.2662019729614258,
+        "fused_logit": 3.17307710647583,
+        "score": 0.9598084688186646,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 2,
+        "object_label": "wall-tile",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.299349308013916,
+        "pair_logit": -0.9522916078567505,
+        "fused_logit": 2.3470577001571655,
+        "score": 0.9127000570297241,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 37,
+        "predicate": "touching",
+        "object_id": 2,
+        "object_label": "wall-tile",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2978315353393555,
+        "pair_logit": -0.9522916078567505,
+        "fused_logit": 1.345539927482605,
+        "score": 0.7933995127677917,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "toilet",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.3121967315673828,
+        "pair_logit": -0.9627296924591064,
+        "fused_logit": 0.34946703910827637,
+        "score": 0.5864883065223694,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "toilet",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.6900529861450195,
+        "pair_logit": -0.9627296924591064,
+        "fused_logit": -0.2726767063140869,
+        "score": 0.43225008249282837,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "wall-tile",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.0565438270568848,
+        "pair_logit": -1.1284211874008179,
+        "fused_logit": -2.1849650144577026,
+        "score": 0.10110876709222794,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "wall-tile",
+        "predicate_id": 23,
+        "predicate": "looking at",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.7604963779449463,
+        "pair_logit": -1.1284211874008179,
+        "fused_logit": -3.888917565345764,
+        "score": 0.02005697414278984,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "toilet",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.7170071601867676,
+        "pair_logit": 0.2662019729614258,
+        "fused_logit": 3.9832091331481934,
+        "score": 0.9817148447036743
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 2,
+        "object_label": "wall-tile",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.299349308013916,
+        "pair_logit": -0.9522916078567505,
+        "fused_logit": 2.3470577001571655,
+        "score": 0.9127000570297241
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "toilet",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.3121967315673828,
+        "pair_logit": -0.9627296924591064,
+        "fused_logit": 0.34946703910827637,
+        "score": 0.5864883065223694
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "wall-tile",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.0565438270568848,
+        "pair_logit": -1.1284211874008179,
+        "fused_logit": -2.1849650144577026,
+        "score": 0.10110876709222794
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "toilet",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.7170071601867676,
+            "pair_logit": 0.2662019729614258,
+            "fused_logit": 3.9832091331481934,
+            "score": 0.9817148447036743,
+            "rank": 1
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 1,
+            "object_label": "toilet",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.9068751335144043,
+            "pair_logit": 0.2662019729614258,
+            "fused_logit": 3.17307710647583,
+            "score": 0.9598084688186646,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 2,
+            "object_label": "wall-tile",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.299349308013916,
+            "pair_logit": -0.9522916078567505,
+            "fused_logit": 2.3470577001571655,
+            "score": 0.9127000570297241,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 37,
+            "predicate": "touching",
+            "object_id": 2,
+            "object_label": "wall-tile",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2978315353393555,
+            "pair_logit": -0.9522916078567505,
+            "fused_logit": 1.345539927482605,
+            "score": 0.7933995127677917,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "toilet",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.3121967315673828,
+            "pair_logit": -0.9627296924591064,
+            "fused_logit": 0.34946703910827637,
+            "score": 0.5864883065223694,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "toilet",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.6900529861450195,
+            "pair_logit": -0.9627296924591064,
+            "fused_logit": -0.2726767063140869,
+            "score": 0.43225008249282837,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "wall-tile",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.0565438270568848,
+            "pair_logit": -1.1284211874008179,
+            "fused_logit": -2.1849650144577026,
+            "score": 0.10110876709222794,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "wall-tile",
+            "predicate_id": 23,
+            "predicate": "looking at",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.7604963779449463,
+            "pair_logit": -1.1284211874008179,
+            "fused_logit": -3.888917565345764,
+            "score": 0.02005697414278984,
+            "rank": 8
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.12503349996404722
+}

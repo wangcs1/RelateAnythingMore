@@ -1,0 +1,1279 @@
+{
+  "index": 1693,
+  "sample_position": 276,
+  "file_name": "2394673.jpg",
+  "image_sha256": "487977ae8e06409c8ce630bf56340f5816de6b0da878714b7f8d49f91f69d742",
+  "image_size": [
+    640,
+    426
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        224.0000057220459,
+        89.99999356269836,
+        338.00000190734863,
+        272.9999957084656
+      ]
+    },
+    {
+      "id": 1,
+      "label": "skis",
+      "category_id": 30,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        176.99999809265137,
+        243.99998804926872,
+        385.9999942779541,
+        291.99998715519905
+      ]
+    },
+    {
+      "id": 2,
+      "label": "snow",
+      "category_id": 105,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        640.0,
+        426.0
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 36,
+      "predicate": "playing"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 0,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          231.35020446777344,
+          90.75608825683594,
+          337.82794189453125,
+          274.4826965332031
+        ],
+        "detection_score": 0.9995083808898926,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "skis",
+        "category_id": 35,
+        "is_person": false,
+        "box_xyxy": [
+          156.00192260742188,
+          241.6863555908203,
+          383.7287292480469,
+          295.024169921875
+        ],
+        "detection_score": 0.9842900633811951,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.6789469718933105,
+        "pair_logit": 0.31785106658935547,
+        "fused_logit": 3.996798038482666,
+        "score": 0.981957197189331,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.1570720672607422,
+        "pair_logit": 0.31785106658935547,
+        "fused_logit": 0.47492313385009766,
+        "score": 0.6165483593940735,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -3.919497489929199,
+        "pair_logit": -0.9097598791122437,
+        "fused_logit": -4.829257369041443,
+        "score": 0.007929080165922642,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -5.347610950469971,
+        "pair_logit": -0.9097598791122437,
+        "fused_logit": -6.257370829582214,
+        "score": 0.0019126121187582612,
+        "rank": 4
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.6789469718933105,
+        "pair_logit": 0.31785106658935547,
+        "fused_logit": 3.996798038482666,
+        "score": 0.981957197189331
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -3.919497489929199,
+        "pair_logit": -0.9097598791122437,
+        "fused_logit": -4.829257369041443,
+        "score": 0.007929080165922642
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "skis",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.1570720672607422,
+            "pair_logit": 0.31785106658935547,
+            "fused_logit": 0.47492313385009766,
+            "score": 0.6165483593940735,
+            "rank": 2
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 1,
+            "object_label": "skis",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.6789469718933105,
+            "pair_logit": 0.31785106658935547,
+            "fused_logit": 3.996798038482666,
+            "score": 0.981957197189331,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "skis",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -3.919497489929199,
+            "pair_logit": -0.9097598791122437,
+            "fused_logit": -4.829257369041443,
+            "score": 0.007929080165922642,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "skis",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -5.347610950469971,
+            "pair_logit": -0.9097598791122437,
+            "fused_logit": -6.257370829582214,
+            "score": 0.0019126121187582612,
+            "rank": 4
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 2,
+    "human_pairs_scored": 2,
+    "expected_human_pairs": 2,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.0644787999917753
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          224.0000057220459,
+          89.99999356269836,
+          338.00000190734863,
+          272.9999957084656
+        ]
+      },
+      {
+        "id": 1,
+        "label": "skis",
+        "category_id": 30,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          176.99999809265137,
+          243.99998804926872,
+          385.9999942779541,
+          291.99998715519905
+        ]
+      },
+      {
+        "id": 2,
+        "label": "snow",
+        "category_id": 105,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          426.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.9320015907287598,
+        "pair_logit": 0.3258984088897705,
+        "fused_logit": 4.25789999961853,
+        "score": 0.9860455393791199,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.7051339149475098,
+        "pair_logit": 0.3258984088897705,
+        "fused_logit": 4.03103232383728,
+        "score": 0.9825537800788879,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "snow",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.56117582321167,
+        "pair_logit": 0.13324779272079468,
+        "fused_logit": 3.6944236159324646,
+        "score": 0.9757413268089294,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 9,
+        "predicate": "going down",
+        "object_id": 2,
+        "object_label": "snow",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.5991425514221191,
+        "pair_logit": 0.13324779272079468,
+        "fused_logit": 1.7323903441429138,
+        "score": 0.849717915058136,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.5860424041748047,
+        "pair_logit": -0.8824366927146912,
+        "fused_logit": 0.7036057114601135,
+        "score": 0.6689867377281189,
+        "rank": 5
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "snow",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.4960322380065918,
+        "pair_logit": -0.8291466236114502,
+        "fused_logit": -0.3331143856048584,
+        "score": 0.41748300194740295,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.636197566986084,
+        "pair_logit": -0.8824366927146912,
+        "fused_logit": -1.5186342597007751,
+        "score": 0.17966271936893463,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "snow",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.8815364837646484,
+        "pair_logit": -0.8291466236114502,
+        "fused_logit": -2.7106831073760986,
+        "score": 0.062345899641513824,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.9320015907287598,
+        "pair_logit": 0.3258984088897705,
+        "fused_logit": 4.25789999961853,
+        "score": 0.9860455393791199
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "snow",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.56117582321167,
+        "pair_logit": 0.13324779272079468,
+        "fused_logit": 3.6944236159324646,
+        "score": 0.9757413268089294
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.5860424041748047,
+        "pair_logit": -0.8824366927146912,
+        "fused_logit": 0.7036057114601135,
+        "score": 0.6689867377281189
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "snow",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.4960322380065918,
+        "pair_logit": -0.8291466236114502,
+        "fused_logit": -0.3331143856048584,
+        "score": 0.41748300194740295
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "skis",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.9320015907287598,
+            "pair_logit": 0.3258984088897705,
+            "fused_logit": 4.25789999961853,
+            "score": 0.9860455393791199,
+            "rank": 1
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 1,
+            "object_label": "skis",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.7051339149475098,
+            "pair_logit": 0.3258984088897705,
+            "fused_logit": 4.03103232383728,
+            "score": 0.9825537800788879,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "snow",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.56117582321167,
+            "pair_logit": 0.13324779272079468,
+            "fused_logit": 3.6944236159324646,
+            "score": 0.9757413268089294,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 9,
+            "predicate": "going down",
+            "object_id": 2,
+            "object_label": "snow",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.5991425514221191,
+            "pair_logit": 0.13324779272079468,
+            "fused_logit": 1.7323903441429138,
+            "score": 0.849717915058136,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "snow",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.4960322380065918,
+            "pair_logit": -0.8291466236114502,
+            "fused_logit": -0.3331143856048584,
+            "score": 0.41748300194740295,
+            "rank": 6
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "snow",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.8815364837646484,
+            "pair_logit": -0.8291466236114502,
+            "fused_logit": -2.7106831073760986,
+            "score": 0.062345899641513824,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "skis",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.5860424041748047,
+            "pair_logit": -0.8824366927146912,
+            "fused_logit": 0.7036057114601135,
+            "score": 0.6689867377281189,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "skis",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.636197566986084,
+            "pair_logit": -0.8824366927146912,
+            "fused_logit": -1.5186342597007751,
+            "score": 0.17966271936893463,
+            "rank": 7
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          224.0000057220459,
+          89.99999356269836,
+          338.00000190734863,
+          272.9999957084656
+        ]
+      },
+      {
+        "id": 1,
+        "label": "skis",
+        "category_id": 30,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          176.99999809265137,
+          243.99998804926872,
+          385.9999942779541,
+          291.99998715519905
+        ]
+      },
+      {
+        "id": 2,
+        "label": "snow",
+        "category_id": 105,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          426.0
+        ]
+      }
+    ],
+    "human_ids": [
+      0
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.9320015907287598,
+        "pair_logit": 0.3258984088897705,
+        "fused_logit": 4.25789999961853,
+        "score": 0.9860455393791199,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.7051339149475098,
+        "pair_logit": 0.3258984088897705,
+        "fused_logit": 4.03103232383728,
+        "score": 0.9825537800788879,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "snow",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 3.56117582321167,
+        "pair_logit": 0.13324779272079468,
+        "fused_logit": 3.6944236159324646,
+        "score": 0.9757413268089294,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 9,
+        "predicate": "going down",
+        "object_id": 2,
+        "object_label": "snow",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.5991425514221191,
+        "pair_logit": 0.13324779272079468,
+        "fused_logit": 1.7323903441429138,
+        "score": 0.849717915058136,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.5860424041748047,
+        "pair_logit": -0.8824366927146912,
+        "fused_logit": 0.7036057114601135,
+        "score": 0.6689867377281189,
+        "rank": 5
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "snow",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.4960322380065918,
+        "pair_logit": -0.8291466236114502,
+        "fused_logit": -0.3331143856048584,
+        "score": 0.41748300194740295,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.6384129524230957,
+        "pair_logit": -0.8824366927146912,
+        "fused_logit": -1.5208496451377869,
+        "score": 0.17933642864227295,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "snow",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.8811671733856201,
+        "pair_logit": -0.8291466236114502,
+        "fused_logit": -2.7103137969970703,
+        "score": 0.06236749887466431,
+        "rank": 8
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 1,
+        "object_label": "skis",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.9320015907287598,
+        "pair_logit": 0.3258984088897705,
+        "fused_logit": 4.25789999961853,
+        "score": 0.9860455393791199
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 2,
+        "object_label": "snow",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.56117582321167,
+        "pair_logit": 0.13324779272079468,
+        "fused_logit": 3.6944236159324646,
+        "score": 0.9757413268089294
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "skis",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.5860424041748047,
+        "pair_logit": -0.8824366927146912,
+        "fused_logit": 0.7036057114601135,
+        "score": 0.6689867377281189
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "snow",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.4960322380065918,
+        "pair_logit": -0.8291466236114502,
+        "fused_logit": -0.3331143856048584,
+        "score": 0.41748300194740295
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 1,
+            "object_label": "skis",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.9320015907287598,
+            "pair_logit": 0.3258984088897705,
+            "fused_logit": 4.25789999961853,
+            "score": 0.9860455393791199,
+            "rank": 1
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 1,
+            "object_label": "skis",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.7051339149475098,
+            "pair_logit": 0.3258984088897705,
+            "fused_logit": 4.03103232383728,
+            "score": 0.9825537800788879,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 2,
+            "object_label": "snow",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 3.56117582321167,
+            "pair_logit": 0.13324779272079468,
+            "fused_logit": 3.6944236159324646,
+            "score": 0.9757413268089294,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 9,
+            "predicate": "going down",
+            "object_id": 2,
+            "object_label": "snow",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.5991425514221191,
+            "pair_logit": 0.13324779272079468,
+            "fused_logit": 1.7323903441429138,
+            "score": 0.849717915058136,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "snow",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.4960322380065918,
+            "pair_logit": -0.8291466236114502,
+            "fused_logit": -0.3331143856048584,
+            "score": 0.41748300194740295,
+            "rank": 6
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "snow",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.8811671733856201,
+            "pair_logit": -0.8291466236114502,
+            "fused_logit": -2.7103137969970703,
+            "score": 0.06236749887466431,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "skis",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.5860424041748047,
+            "pair_logit": -0.8824366927146912,
+            "fused_logit": 0.7036057114601135,
+            "score": 0.6689867377281189,
+            "rank": 5
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "skis",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.6384129524230957,
+            "pair_logit": -0.8824366927146912,
+            "fused_logit": -1.5208496451377869,
+            "score": 0.17933642864227295,
+            "rank": 7
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 4,
+    "expected_human_pairs": 4,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.12784909998299554
+}

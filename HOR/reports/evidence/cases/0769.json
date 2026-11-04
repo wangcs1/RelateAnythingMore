@@ -1,0 +1,2906 @@
+{
+  "index": 769,
+  "sample_position": 496,
+  "file_name": "2350508.jpg",
+  "image_sha256": "b08173e02dc865e7f13fecbcbed574b70271c07fef6023236d0dea8d6bf77619",
+  "image_size": [
+    640,
+    480
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        261.00000381469727,
+        0.9999990463256836,
+        638.0000114440918,
+        475.0000047683716
+      ]
+    },
+    {
+      "id": 1,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        52.99999237060547,
+        402.99999237060547,
+        480.0
+      ]
+    },
+    {
+      "id": 2,
+      "label": "pizza",
+      "category_id": 53,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        4.000005722045898,
+        303.99999618530273,
+        236.99999809265137,
+        472.99999237060547
+      ]
+    },
+    {
+      "id": 3,
+      "label": "wall",
+      "category_id": 131,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        0.0,
+        0.0,
+        640.0,
+        399.99999046325684
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate_id": 23,
+      "predicate": "looking at"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate_id": 26,
+      "predicate": "eating"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 3,
+      "predicate_id": 1,
+      "predicate": "in front of"
+    },
+    {
+      "subject_id": 2,
+      "object_id": 1,
+      "predicate_id": 5,
+      "predicate": "attached to"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          155.14109802246094,
+          3.406054735183716,
+          632.797607421875,
+          479.4485168457031
+        ],
+        "detection_score": 0.9929640293121338,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          4.003411769866943,
+          45.46051025390625,
+          429.981689453125,
+          478.1354064941406
+        ],
+        "detection_score": 0.9516838788986206,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "couch",
+        "category_id": 63,
+        "is_person": false,
+        "box_xyxy": [
+          29.839828491210938,
+          218.79598999023438,
+          632.497802734375,
+          471.2247009277344
+        ],
+        "detection_score": 0.3870958983898163,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "couch",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.5998034477233887,
+        "pair_logit": 0.4103749990463257,
+        "fused_logit": 4.010178446769714,
+        "score": 0.9821926951408386,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.406900405883789,
+        "pair_logit": 0.2956275939941406,
+        "fused_logit": 2.7025279998779297,
+        "score": 0.9371756911277771,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "couch",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.1192431449890137,
+        "pair_logit": 0.06178358197212219,
+        "fused_logit": 2.181026726961136,
+        "score": 0.8985326886177063,
+        "rank": 3
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "couch",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 2.4254698753356934,
+        "pair_logit": -0.3820626139640808,
+        "fused_logit": 2.0434072613716125,
+        "score": 0.8852797150611877,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "couch",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.5807809829711914,
+        "pair_logit": 0.4103749990463257,
+        "fused_logit": -0.17040598392486572,
+        "score": 0.45750126242637634,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 28,
+        "predicate": "feeding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -0.0036973953247070312,
+        "pair_logit": -0.18554911017417908,
+        "fused_logit": -0.1892465054988861,
+        "score": 0.4528290927410126,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.6398601531982422,
+        "pair_logit": 0.2956275939941406,
+        "fused_logit": -0.34423255920410156,
+        "score": 0.41478168964385986,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.49739789962768555,
+        "pair_logit": -0.18554911017417908,
+        "fused_logit": -0.6829470098018646,
+        "score": 0.33560386300086975,
+        "rank": 8
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "couch",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.44127607345581055,
+        "pair_logit": -0.3820626139640808,
+        "fused_logit": -0.8233386874198914,
+        "score": 0.3050554096698761,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "couch",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.3762950897216797,
+        "pair_logit": -0.6898793578147888,
+        "fused_logit": -1.0661744475364685,
+        "score": 0.25613126158714294,
+        "rank": 10
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 2,
+        "object_label": "couch",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.2377502918243408,
+        "pair_logit": 0.06178358197212219,
+        "fused_logit": -1.1759667098522186,
+        "score": 0.23577816784381866,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "couch",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -0.5230288505554199,
+        "pair_logit": -0.6898793578147888,
+        "fused_logit": -1.2129082083702087,
+        "score": 0.22918687760829926,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 20,
+        "predicate": "wearing",
+        "object_id": 2,
+        "object_label": "couch",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.5998034477233887,
+        "pair_logit": 0.4103749990463257,
+        "fused_logit": 4.010178446769714,
+        "score": 0.9821926951408386
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.406900405883789,
+        "pair_logit": 0.2956275939941406,
+        "fused_logit": 2.7025279998779297,
+        "score": 0.9371756911277771
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "couch",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.1192431449890137,
+        "pair_logit": 0.06178358197212219,
+        "fused_logit": 2.181026726961136,
+        "score": 0.8985326886177063
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "couch",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.4254698753356934,
+        "pair_logit": -0.3820626139640808,
+        "fused_logit": 2.0434072613716125,
+        "score": 0.8852797150611877
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 28,
+        "predicate": "feeding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": -0.0036973953247070312,
+        "pair_logit": -0.18554911017417908,
+        "fused_logit": -0.1892465054988861,
+        "score": 0.4528290927410126
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "couch",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.3762950897216797,
+        "pair_logit": -0.6898793578147888,
+        "fused_logit": -1.0661744475364685,
+        "score": 0.25613126158714294
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "couch",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.5807809829711914,
+            "pair_logit": 0.4103749990463257,
+            "fused_logit": -0.17040598392486572,
+            "score": 0.45750126242637634,
+            "rank": 5
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 2,
+            "object_label": "couch",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.5998034477233887,
+            "pair_logit": 0.4103749990463257,
+            "fused_logit": 4.010178446769714,
+            "score": 0.9821926951408386,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.6398601531982422,
+            "pair_logit": 0.2956275939941406,
+            "fused_logit": -0.34423255920410156,
+            "score": 0.41478168964385986,
+            "rank": 7
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.406900405883789,
+            "pair_logit": 0.2956275939941406,
+            "fused_logit": 2.7025279998779297,
+            "score": 0.9371756911277771,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 2,
+            "object_label": "couch",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.2377502918243408,
+            "pair_logit": 0.06178358197212219,
+            "fused_logit": -1.1759667098522186,
+            "score": 0.23577816784381866,
+            "rank": 11
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "couch",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.1192431449890137,
+            "pair_logit": 0.06178358197212219,
+            "fused_logit": 2.181026726961136,
+            "score": 0.8985326886177063,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.49739789962768555,
+            "pair_logit": -0.18554911017417908,
+            "fused_logit": -0.6829470098018646,
+            "score": 0.33560386300086975,
+            "rank": 8
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 28,
+            "predicate": "feeding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -0.0036973953247070312,
+            "pair_logit": -0.18554911017417908,
+            "fused_logit": -0.1892465054988861,
+            "score": 0.4528290927410126,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "couch",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 2.4254698753356934,
+            "pair_logit": -0.3820626139640808,
+            "fused_logit": 2.0434072613716125,
+            "score": 0.8852797150611877,
+            "rank": 4
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "couch",
+            "predicate_id": 20,
+            "predicate": "wearing",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.44127607345581055,
+            "pair_logit": -0.3820626139640808,
+            "fused_logit": -0.8233386874198914,
+            "score": 0.3050554096698761,
+            "rank": 9
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "couch",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.3762950897216797,
+            "pair_logit": -0.6898793578147888,
+            "fused_logit": -1.0661744475364685,
+            "score": 0.25613126158714294,
+            "rank": 10
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "couch",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -0.5230288505554199,
+            "pair_logit": -0.6898793578147888,
+            "fused_logit": -1.2129082083702087,
+            "score": 0.22918687760829926,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.06550039997091517
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          261.00000381469727,
+          0.9999990463256836,
+          638.0000114440918,
+          475.0000047683716
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          52.99999237060547,
+          402.99999237060547,
+          480.0
+        ]
+      },
+      {
+        "id": 2,
+        "label": "pizza",
+        "category_id": 53,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          4.000005722045898,
+          303.99999618530273,
+          236.99999809265137,
+          472.99999237060547
+        ]
+      },
+      {
+        "id": 3,
+        "label": "wall",
+        "category_id": 131,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          399.99999046325684
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.727242946624756,
+        "pair_logit": 0.41058364510536194,
+        "fused_logit": 3.137826591730118,
+        "score": 0.9584264159202576,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2277512550354004,
+        "pair_logit": 0.1839807629585266,
+        "fused_logit": 2.411732017993927,
+        "score": 0.9177175164222717,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2610459327697754,
+        "pair_logit": -0.021330900490283966,
+        "fused_logit": 2.2397150322794914,
+        "score": 0.9037597179412842,
+        "rank": 3
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.413148880004883,
+        "pair_logit": -0.3006064295768738,
+        "fused_logit": 2.112542450428009,
+        "score": 0.8921163082122803,
+        "rank": 4
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.901388168334961,
+        "pair_logit": -0.1648103892803192,
+        "fused_logit": 1.7365777790546417,
+        "score": 0.8502518534660339,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.5146732330322266,
+        "pair_logit": 0.17665040493011475,
+        "fused_logit": 1.6913236379623413,
+        "score": 0.8443982005119324,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.12563037872314453,
+        "pair_logit": -0.2154145985841751,
+        "fused_logit": -0.08978421986103058,
+        "score": 0.47756898403167725,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.8025462627410889,
+        "pair_logit": -0.14492285251617432,
+        "fused_logit": -0.9474691152572632,
+        "score": 0.27939409017562866,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.64921236038208,
+        "pair_logit": 0.41058364510536194,
+        "fused_logit": -1.2386287152767181,
+        "score": 0.2246747612953186,
+        "rank": 9
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -1.2413661479949951,
+        "pair_logit": -0.14492285251617432,
+        "fused_logit": -1.3862890005111694,
+        "score": 0.2000008523464203,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.451521396636963,
+        "pair_logit": -0.021330900490283966,
+        "fused_logit": -1.4728522971272469,
+        "score": 0.18650944530963898,
+        "rank": 11
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -1.7680790424346924,
+        "pair_logit": 0.17665040493011475,
+        "fused_logit": -1.5914286375045776,
+        "score": 0.16918300092220306,
+        "rank": 12
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.31266450881958,
+        "pair_logit": -0.3006064295768738,
+        "fused_logit": -1.6132709383964539,
+        "score": 0.16613496840000153,
+        "rank": 13
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.8887889385223389,
+        "pair_logit": 0.1839807629585266,
+        "fused_logit": -1.7048081755638123,
+        "score": 0.15383832156658173,
+        "rank": 14
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.976024866104126,
+        "pair_logit": -0.2154145985841751,
+        "fused_logit": -2.191439464688301,
+        "score": 0.10052186995744705,
+        "rank": 15
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.227421760559082,
+        "pair_logit": -0.1648103892803192,
+        "fused_logit": -2.3922321498394012,
+        "score": 0.08376695215702057,
+        "rank": 16
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.571521282196045,
+        "pair_logit": -1.1487852334976196,
+        "fused_logit": -2.7203065156936646,
+        "score": 0.06178570166230202,
+        "rank": 17
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.9401214122772217,
+        "pair_logit": -1.4828773736953735,
+        "fused_logit": -3.422998785972595,
+        "score": 0.031584370881319046,
+        "rank": 18
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.416579246520996,
+        "pair_logit": -1.1487852334976196,
+        "fused_logit": -4.565364480018616,
+        "score": 0.010298915207386017,
+        "rank": 19
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.619543075561523,
+        "pair_logit": -1.4828773736953735,
+        "fused_logit": -6.102420449256897,
+        "score": 0.002232450759038329,
+        "rank": 20
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.727242946624756,
+        "pair_logit": 0.41058364510536194,
+        "fused_logit": 3.137826591730118,
+        "score": 0.9584264159202576
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.2277512550354004,
+        "pair_logit": 0.1839807629585266,
+        "fused_logit": 2.411732017993927,
+        "score": 0.9177175164222717
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.2610459327697754,
+        "pair_logit": -0.021330900490283966,
+        "fused_logit": 2.2397150322794914,
+        "score": 0.9037597179412842
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.413148880004883,
+        "pair_logit": -0.3006064295768738,
+        "fused_logit": 2.112542450428009,
+        "score": 0.8921163082122803
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.901388168334961,
+        "pair_logit": -0.1648103892803192,
+        "fused_logit": 1.7365777790546417,
+        "score": 0.8502518534660339
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.5146732330322266,
+        "pair_logit": 0.17665040493011475,
+        "fused_logit": 1.6913236379623413,
+        "score": 0.8443982005119324
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.12563037872314453,
+        "pair_logit": -0.2154145985841751,
+        "fused_logit": -0.08978421986103058,
+        "score": 0.47756898403167725
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": -0.8025462627410889,
+        "pair_logit": -0.14492285251617432,
+        "fused_logit": -0.9474691152572632,
+        "score": 0.27939409017562866
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.571521282196045,
+        "pair_logit": -1.1487852334976196,
+        "fused_logit": -2.7203065156936646,
+        "score": 0.06178570166230202
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.9401214122772217,
+        "pair_logit": -1.4828773736953735,
+        "fused_logit": -3.422998785972595,
+        "score": 0.031584370881319046
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "pizza",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.64921236038208,
+            "pair_logit": 0.41058364510536194,
+            "fused_logit": -1.2386287152767181,
+            "score": 0.2246747612953186,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 26,
+            "predicate": "eating",
+            "object_id": 2,
+            "object_label": "pizza",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.727242946624756,
+            "pair_logit": 0.41058364510536194,
+            "fused_logit": 3.137826591730118,
+            "score": 0.9584264159202576,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "pizza",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.8887889385223389,
+            "pair_logit": 0.1839807629585266,
+            "fused_logit": -1.7048081755638123,
+            "score": 0.15383832156658173,
+            "rank": 14
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "pizza",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2277512550354004,
+            "pair_logit": 0.1839807629585266,
+            "fused_logit": 2.411732017993927,
+            "score": 0.9177175164222717,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -1.7680790424346924,
+            "pair_logit": 0.17665040493011475,
+            "fused_logit": -1.5914286375045776,
+            "score": 0.16918300092220306,
+            "rank": 12
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.5146732330322266,
+            "pair_logit": 0.17665040493011475,
+            "fused_logit": 1.6913236379623413,
+            "score": 0.8443982005119324,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "wall",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.451521396636963,
+            "pair_logit": -0.021330900490283966,
+            "fused_logit": -1.4728522971272469,
+            "score": 0.18650944530963898,
+            "rank": 11
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "wall",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2610459327697754,
+            "pair_logit": -0.021330900490283966,
+            "fused_logit": 2.2397150322794914,
+            "score": 0.9037597179412842,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.8025462627410889,
+            "pair_logit": -0.14492285251617432,
+            "fused_logit": -0.9474691152572632,
+            "score": 0.27939409017562866,
+            "rank": 8
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -1.2413661479949951,
+            "pair_logit": -0.14492285251617432,
+            "fused_logit": -1.3862890005111694,
+            "score": 0.2000008523464203,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "wall",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.227421760559082,
+            "pair_logit": -0.1648103892803192,
+            "fused_logit": -2.3922321498394012,
+            "score": 0.08376695215702057,
+            "rank": 16
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "wall",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.901388168334961,
+            "pair_logit": -0.1648103892803192,
+            "fused_logit": 1.7365777790546417,
+            "score": 0.8502518534660339,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 3,
+            "object_label": "wall",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.976024866104126,
+            "pair_logit": -0.2154145985841751,
+            "fused_logit": -2.191439464688301,
+            "score": 0.10052186995744705,
+            "rank": 15
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "wall",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.12563037872314453,
+            "pair_logit": -0.2154145985841751,
+            "fused_logit": -0.08978421986103058,
+            "score": 0.47756898403167725,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "wall",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.31266450881958,
+            "pair_logit": -0.3006064295768738,
+            "fused_logit": -1.6132709383964539,
+            "score": 0.16613496840000153,
+            "rank": 13
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "wall",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.413148880004883,
+            "pair_logit": -0.3006064295768738,
+            "fused_logit": 2.112542450428009,
+            "score": 0.8921163082122803,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "pizza",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.571521282196045,
+            "pair_logit": -1.1487852334976196,
+            "fused_logit": -2.7203065156936646,
+            "score": 0.06178570166230202,
+            "rank": 17
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "pizza",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.416579246520996,
+            "pair_logit": -1.1487852334976196,
+            "fused_logit": -4.565364480018616,
+            "score": 0.010298915207386017,
+            "rank": 19
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "pizza",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.9401214122772217,
+            "pair_logit": -1.4828773736953735,
+            "fused_logit": -3.422998785972595,
+            "score": 0.031584370881319046,
+            "rank": 18
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "pizza",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.619543075561523,
+            "pair_logit": -1.4828773736953735,
+            "fused_logit": -6.102420449256897,
+            "score": 0.002232450759038329,
+            "rank": 20
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 10,
+    "expected_human_pairs": 10,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          261.00000381469727,
+          0.9999990463256836,
+          638.0000114440918,
+          475.0000047683716
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          52.99999237060547,
+          402.99999237060547,
+          480.0
+        ]
+      },
+      {
+        "id": 2,
+        "label": "pizza",
+        "category_id": 53,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          4.000005722045898,
+          303.99999618530273,
+          236.99999809265137,
+          472.99999237060547
+        ]
+      },
+      {
+        "id": 3,
+        "label": "wall",
+        "category_id": 131,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          0.0,
+          0.0,
+          640.0,
+          399.99999046325684
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.727242946624756,
+        "pair_logit": 0.41058364510536194,
+        "fused_logit": 3.137826591730118,
+        "score": 0.9584264159202576,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.226274013519287,
+        "pair_logit": 0.1839807629585266,
+        "fused_logit": 2.4102547764778137,
+        "score": 0.917605996131897,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.2639999389648438,
+        "pair_logit": -0.021330900490283966,
+        "fused_logit": 2.24266903847456,
+        "score": 0.9040163159370422,
+        "rank": 3
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 2.416102886199951,
+        "pair_logit": -0.3006064295768738,
+        "fused_logit": 2.1154964566230774,
+        "score": 0.8924002647399902,
+        "rank": 4
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 1.9043421745300293,
+        "pair_logit": -0.1648103892803192,
+        "fused_logit": 1.73953178524971,
+        "score": 0.850627601146698,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.51171875,
+        "pair_logit": 0.17665040493011475,
+        "fused_logit": 1.6883691549301147,
+        "score": 0.8440095782279968,
+        "rank": 6
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.12249135971069336,
+        "pair_logit": -0.2154145985841751,
+        "fused_logit": -0.09292323887348175,
+        "score": 0.4767858684062958,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -0.7725417613983154,
+        "pair_logit": -0.14492285251617432,
+        "fused_logit": -0.9174646139144897,
+        "score": 0.2854747772216797,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.6500420570373535,
+        "pair_logit": 0.41058364510536194,
+        "fused_logit": -1.2394584119319916,
+        "score": 0.22453026473522186,
+        "rank": 9
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": -1.2123825550079346,
+        "pair_logit": -0.14492285251617432,
+        "fused_logit": -1.3573054075241089,
+        "score": 0.20467859506607056,
+        "rank": 10
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.451521396636963,
+        "pair_logit": -0.021330900490283966,
+        "fused_logit": -1.4728522971272469,
+        "score": 0.18650944530963898,
+        "rank": 11
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": -1.7680790424346924,
+        "pair_logit": 0.17665040493011475,
+        "fused_logit": -1.5914286375045776,
+        "score": 0.16918300092220306,
+        "rank": 12
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 3,
+        "predicate": "on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.2921741008758545,
+        "pair_logit": -0.3006064295768738,
+        "fused_logit": -1.5927805304527283,
+        "score": 0.1689930409193039,
+        "rank": 13
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.8912780284881592,
+        "pair_logit": 0.1839807629585266,
+        "fused_logit": -1.7072972655296326,
+        "score": 0.15351459383964539,
+        "rank": 14
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.9759867191314697,
+        "pair_logit": -0.2154145985841751,
+        "fused_logit": -2.191401317715645,
+        "score": 0.10052531957626343,
+        "rank": 15
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -2.2249326705932617,
+        "pair_logit": -0.1648103892803192,
+        "fused_logit": -2.389743059873581,
+        "score": 0.08395819365978241,
+        "rank": 16
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.5417366027832031,
+        "pair_logit": -1.1487852334976196,
+        "fused_logit": -2.6905218362808228,
+        "score": 0.06353496760129929,
+        "rank": 17
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.9253818988800049,
+        "pair_logit": -1.4828773736953735,
+        "fused_logit": -3.4082592725753784,
+        "score": 0.032038334757089615,
+        "rank": 18
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.4000563621520996,
+        "pair_logit": -1.1487852334976196,
+        "fused_logit": -4.548841595649719,
+        "score": 0.010468700900673866,
+        "rank": 19
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.610543251037598,
+        "pair_logit": -1.4828773736953735,
+        "fused_logit": -6.093420624732971,
+        "score": 0.002252587815746665,
+        "rank": 20
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 26,
+        "predicate": "eating",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.727242946624756,
+        "pair_logit": 0.41058364510536194,
+        "fused_logit": 3.137826591730118,
+        "score": 0.9584264159202576
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 2,
+        "object_label": "pizza",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.226274013519287,
+        "pair_logit": 0.1839807629585266,
+        "fused_logit": 2.4102547764778137,
+        "score": 0.917605996131897
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.2639999389648438,
+        "pair_logit": -0.021330900490283966,
+        "fused_logit": 2.24266903847456,
+        "score": 0.9040163159370422
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 2.416102886199951,
+        "pair_logit": -0.3006064295768738,
+        "fused_logit": 2.1154964566230774,
+        "score": 0.8924002647399902
+      },
+      {
+        "subject_id": 3,
+        "subject_label": "wall",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.9043421745300293,
+        "pair_logit": -0.1648103892803192,
+        "fused_logit": 1.73953178524971,
+        "score": 0.850627601146698
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 1.51171875,
+        "pair_logit": 0.17665040493011475,
+        "fused_logit": 1.6883691549301147,
+        "score": 0.8440095782279968
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 3,
+        "object_label": "wall",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.12249135971069336,
+        "pair_logit": -0.2154145985841751,
+        "fused_logit": -0.09292323887348175,
+        "score": 0.4767858684062958
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": -0.7725417613983154,
+        "pair_logit": -0.14492285251617432,
+        "fused_logit": -0.9174646139144897,
+        "score": 0.2854747772216797
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.5417366027832031,
+        "pair_logit": -1.1487852334976196,
+        "fused_logit": -2.6905218362808228,
+        "score": 0.06353496760129929
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "pizza",
+        "predicate_id": 1,
+        "predicate": "in front of",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.9253818988800049,
+        "pair_logit": -1.4828773736953735,
+        "fused_logit": -3.4082592725753784,
+        "score": 0.032038334757089615
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "pizza",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.6500420570373535,
+            "pair_logit": 0.41058364510536194,
+            "fused_logit": -1.2394584119319916,
+            "score": 0.22453026473522186,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 26,
+            "predicate": "eating",
+            "object_id": 2,
+            "object_label": "pizza",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.727242946624756,
+            "pair_logit": 0.41058364510536194,
+            "fused_logit": 3.137826591730118,
+            "score": 0.9584264159202576,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "pizza",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.8912780284881592,
+            "pair_logit": 0.1839807629585266,
+            "fused_logit": -1.7072972655296326,
+            "score": 0.15351459383964539,
+            "rank": 14
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 2,
+            "object_label": "pizza",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.226274013519287,
+            "pair_logit": 0.1839807629585266,
+            "fused_logit": 2.4102547764778137,
+            "score": 0.917605996131897,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -1.7680790424346924,
+            "pair_logit": 0.17665040493011475,
+            "fused_logit": -1.5914286375045776,
+            "score": 0.16918300092220306,
+            "rank": 12
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.51171875,
+            "pair_logit": 0.17665040493011475,
+            "fused_logit": 1.6883691549301147,
+            "score": 0.8440095782279968,
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 3,
+            "object_label": "wall",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.451521396636963,
+            "pair_logit": -0.021330900490283966,
+            "fused_logit": -1.4728522971272469,
+            "score": 0.18650944530963898,
+            "rank": 11
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "wall",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.2639999389648438,
+            "pair_logit": -0.021330900490283966,
+            "fused_logit": 2.24266903847456,
+            "score": 0.9040163159370422,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": -0.7725417613983154,
+            "pair_logit": -0.14492285251617432,
+            "fused_logit": -0.9174646139144897,
+            "score": 0.2854747772216797,
+            "rank": 8
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": -1.2123825550079346,
+            "pair_logit": -0.14492285251617432,
+            "fused_logit": -1.3573054075241089,
+            "score": 0.20467859506607056,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "wall",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -2.2249326705932617,
+            "pair_logit": -0.1648103892803192,
+            "fused_logit": -2.389743059873581,
+            "score": 0.08395819365978241,
+            "rank": 16
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "wall",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 1.9043421745300293,
+            "pair_logit": -0.1648103892803192,
+            "fused_logit": 1.73953178524971,
+            "score": 0.850627601146698,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 3,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 3,
+            "object_label": "wall",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.9759867191314697,
+            "pair_logit": -0.2154145985841751,
+            "fused_logit": -2.191401317715645,
+            "score": 0.10052531957626343,
+            "rank": 15
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 3,
+            "object_label": "wall",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.12249135971069336,
+            "pair_logit": -0.2154145985841751,
+            "fused_logit": -0.09292323887348175,
+            "score": 0.4767858684062958,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 3,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 3,
+            "subject_label": "wall",
+            "predicate_id": 3,
+            "predicate": "on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.2921741008758545,
+            "pair_logit": -0.3006064295768738,
+            "fused_logit": -1.5927805304527283,
+            "score": 0.1689930409193039,
+            "rank": 13
+          },
+          {
+            "subject_id": 3,
+            "subject_label": "wall",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 2.416102886199951,
+            "pair_logit": -0.3006064295768738,
+            "fused_logit": 2.1154964566230774,
+            "score": 0.8924002647399902,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "pizza",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.5417366027832031,
+            "pair_logit": -1.1487852334976196,
+            "fused_logit": -2.6905218362808228,
+            "score": 0.06353496760129929,
+            "rank": 17
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "pizza",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.4000563621520996,
+            "pair_logit": -1.1487852334976196,
+            "fused_logit": -4.548841595649719,
+            "score": 0.010468700900673866,
+            "rank": 19
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "pizza",
+            "predicate_id": 1,
+            "predicate": "in front of",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.9253818988800049,
+            "pair_logit": -1.4828773736953735,
+            "fused_logit": -3.4082592725753784,
+            "score": 0.032038334757089615,
+            "rank": 18
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "pizza",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.610543251037598,
+            "pair_logit": -1.4828773736953735,
+            "fused_logit": -6.093420624732971,
+            "score": 0.002252587815746665,
+            "rank": 20
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 12,
+    "human_pairs_scored": 10,
+    "expected_human_pairs": 10,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.13854200002970174
+}

@@ -1,0 +1,2104 @@
+{
+  "index": 227,
+  "sample_position": 93,
+  "file_name": "2322480.jpg",
+  "image_sha256": "90fad7bfc9fab88492d9722ea1aa14ee77514d8c10dbda86086bd37d8a05acf0",
+  "image_size": [
+    640,
+    480
+  ],
+  "ground_truth_objects": [
+    {
+      "id": 0,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        422.9999828338623,
+        26.00001811981201,
+        633.9999866485596,
+        475.0000047683716
+      ]
+    },
+    {
+      "id": 1,
+      "label": "person",
+      "category_id": 0,
+      "is_person": true,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        21.000003814697266,
+        17.99999713897705,
+        456.00000381469727,
+        473.99999141693115
+      ]
+    },
+    {
+      "id": 2,
+      "label": "sports ball",
+      "category_id": 32,
+      "is_person": false,
+      "detection_score": null,
+      "source": "PSG_ground_truth",
+      "box_xyxy": [
+        49.0000057220459,
+        195.0,
+        188.00000190734863,
+        333.99999618530273
+      ]
+    }
+  ],
+  "ground_truth_relations": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate_id": 23,
+      "predicate": "looking at"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate_id": 33,
+      "predicate": "chasing"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate_id": 36,
+      "predicate": "playing"
+    },
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate_id": 50,
+      "predicate": "kicking"
+    },
+    {
+      "subject_id": 2,
+      "object_id": 1,
+      "predicate_id": 1,
+      "predicate": "in front of"
+    }
+  ],
+  "detector_categories": [
+    "__background__",
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "N/A",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "N/A",
+    "backpack",
+    "umbrella",
+    "N/A",
+    "N/A",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "N/A",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "N/A",
+    "dining table",
+    "N/A",
+    "N/A",
+    "toilet",
+    "N/A",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "N/A",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "detected": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          124.96024322509766,
+          20.021997451782227,
+          458.48126220703125,
+          480.0000305175781
+        ],
+        "detection_score": 0.9994663596153259,
+        "source": "detector"
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 1,
+        "is_person": true,
+        "box_xyxy": [
+          418.36236572265625,
+          22.772022247314453,
+          625.969482421875,
+          477.5435485839844
+        ],
+        "detection_score": 0.9993891716003418,
+        "source": "detector"
+      },
+      {
+        "id": 2,
+        "label": "sports ball",
+        "category_id": 37,
+        "is_person": false,
+        "box_xyxy": [
+          46.1114616394043,
+          194.09512329101562,
+          188.21176147460938,
+          333.5933532714844
+        ],
+        "detection_score": 0.9993222951889038,
+        "source": "detector"
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.6129231452941895,
+        "pair_logit": 0.7171298265457153,
+        "fused_logit": 4.330052971839905,
+        "score": 0.9870042204856873,
+        "rank": 1
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 3.106100559234619,
+        "pair_logit": -0.0997815728187561,
+        "fused_logit": 3.006318986415863,
+        "score": 0.9528588056564331,
+        "rank": 2
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.5320687294006348,
+        "pair_logit": -0.641036868095398,
+        "fused_logit": 2.891031861305237,
+        "score": 0.9474013447761536,
+        "rank": 3
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.8520469665527344,
+        "pair_logit": -0.0997815728187561,
+        "fused_logit": 1.7522653937339783,
+        "score": 0.8522382974624634,
+        "rank": 4
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.197755813598633,
+        "pair_logit": -0.641036868095398,
+        "fused_logit": 1.5567189455032349,
+        "score": 0.825882077217102,
+        "rank": 5
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.3466172218322754,
+        "pair_logit": 0.7171298265457153,
+        "fused_logit": 1.0637470483779907,
+        "score": 0.7434059977531433,
+        "rank": 6
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 1.3010077476501465,
+        "pair_logit": -0.31807994842529297,
+        "fused_logit": 0.9829277992248535,
+        "score": 0.727688729763031,
+        "rank": 7
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.4514636993408203,
+        "pair_logit": -0.17676080763339996,
+        "fused_logit": 0.27470289170742035,
+        "score": 0.5682470798492432,
+        "rank": 8
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.0183711051940918,
+        "pair_logit": -0.17676080763339996,
+        "fused_logit": -1.1951319128274918,
+        "score": 0.23234237730503082,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 17,
+        "predicate": "flying over",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -1.0618462562561035,
+        "pair_logit": -0.31807994842529297,
+        "fused_logit": -1.3799262046813965,
+        "score": 0.20102085173130035,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.057859182357788,
+        "pair_logit": -1.1391795873641968,
+        "fused_logit": -2.197038769721985,
+        "score": 0.10001672804355621,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -3.563951015472412,
+        "pair_logit": -1.1391795873641968,
+        "fused_logit": -4.703130602836609,
+        "score": 0.008985377848148346,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.6129231452941895,
+        "pair_logit": 0.7171298265457153,
+        "fused_logit": 4.330052971839905,
+        "score": 0.9870042204856873
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.106100559234619,
+        "pair_logit": -0.0997815728187561,
+        "fused_logit": 3.006318986415863,
+        "score": 0.9528588056564331
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.5320687294006348,
+        "pair_logit": -0.641036868095398,
+        "fused_logit": 2.891031861305237,
+        "score": 0.9474013447761536
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 1.3010077476501465,
+        "pair_logit": -0.31807994842529297,
+        "fused_logit": 0.9829277992248535,
+        "score": 0.727688729763031
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.4514636993408203,
+        "pair_logit": -0.17676080763339996,
+        "fused_logit": 0.27470289170742035,
+        "score": 0.5682470798492432
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.057859182357788,
+        "pair_logit": -1.1391795873641968,
+        "fused_logit": -2.197038769721985,
+        "score": 0.10001672804355621
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.3466172218322754,
+            "pair_logit": 0.7171298265457153,
+            "fused_logit": 1.0637470483779907,
+            "score": 0.7434059977531433,
+            "rank": 6
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 50,
+            "predicate": "kicking",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.6129231452941895,
+            "pair_logit": 0.7171298265457153,
+            "fused_logit": 4.330052971839905,
+            "score": 0.9870042204856873,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.8520469665527344,
+            "pair_logit": -0.0997815728187561,
+            "fused_logit": 1.7522653937339783,
+            "score": 0.8522382974624634,
+            "rank": 4
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 12,
+            "predicate": "running on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 3.106100559234619,
+            "pair_logit": -0.0997815728187561,
+            "fused_logit": 3.006318986415863,
+            "score": 0.9528588056564331,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.0183711051940918,
+            "pair_logit": -0.17676080763339996,
+            "fused_logit": -1.1951319128274918,
+            "score": 0.23234237730503082,
+            "rank": 9
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 50,
+            "predicate": "kicking",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.4514636993408203,
+            "pair_logit": -0.17676080763339996,
+            "fused_logit": 0.27470289170742035,
+            "score": 0.5682470798492432,
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 1.3010077476501465,
+            "pair_logit": -0.31807994842529297,
+            "fused_logit": 0.9829277992248535,
+            "score": 0.727688729763031,
+            "rank": 7
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 17,
+            "predicate": "flying over",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -1.0618462562561035,
+            "pair_logit": -0.31807994842529297,
+            "fused_logit": -1.3799262046813965,
+            "score": 0.20102085173130035,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.5320687294006348,
+            "pair_logit": -0.641036868095398,
+            "fused_logit": 2.891031861305237,
+            "score": 0.9474013447761536,
+            "rank": 3
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 12,
+            "predicate": "running on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.197755813598633,
+            "pair_logit": -0.641036868095398,
+            "fused_logit": 1.5567189455032349,
+            "score": 0.825882077217102,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.057859182357788,
+            "pair_logit": -1.1391795873641968,
+            "fused_logit": -2.197038769721985,
+            "score": 0.10001672804355621,
+            "rank": 11
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -3.563951015472412,
+            "pair_logit": -1.1391795873641968,
+            "fused_logit": -4.703130602836609,
+            "score": 0.008985377848148346,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs",
+    "elapsed_seconds": 0.065944199974183
+  },
+  "gt_boxes": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          422.9999828338623,
+          26.00001811981201,
+          633.9999866485596,
+          475.0000047683716
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          21.000003814697266,
+          17.99999713897705,
+          456.00000381469727,
+          473.99999141693115
+        ]
+      },
+      {
+        "id": 2,
+        "label": "sports ball",
+        "category_id": 32,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          49.0000057220459,
+          195.0,
+          188.00000190734863,
+          333.99999618530273
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.497915744781494,
+        "pair_logit": 0.6661533117294312,
+        "fused_logit": 4.164069056510925,
+        "score": 0.9846937656402588,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.8822364807128906,
+        "pair_logit": -0.028014421463012695,
+        "fused_logit": 2.854222059249878,
+        "score": 0.9455364942550659,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.0510706901550293,
+        "pair_logit": -0.7519824504852295,
+        "fused_logit": 2.2990882396698,
+        "score": 0.9088015556335449,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.4013724327087402,
+        "pair_logit": -0.028014421463012695,
+        "fused_logit": 1.3733580112457275,
+        "score": 0.7979221343994141,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.9844779968261719,
+        "pair_logit": -0.7519824504852295,
+        "fused_logit": 1.2324955463409424,
+        "score": 0.774255096912384,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.2679862976074219,
+        "pair_logit": 0.6661533117294312,
+        "fused_logit": 0.934139609336853,
+        "score": 0.717914342880249,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.4238729476928711,
+        "pair_logit": -0.19098901748657227,
+        "fused_logit": 0.23288393020629883,
+        "score": 0.557959258556366,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.6218400001525879,
+        "pair_logit": -0.31474798917770386,
+        "fused_logit": -0.9365879893302917,
+        "score": 0.281590074300766,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.2886433601379395,
+        "pair_logit": -0.19098901748657227,
+        "fused_logit": -1.4796323776245117,
+        "score": 0.1854829490184784,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 17,
+        "predicate": "flying over",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.1444547176361084,
+        "pair_logit": -0.31474798917770386,
+        "fused_logit": -2.4592027068138123,
+        "score": 0.07876816391944885,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.6437711715698242,
+        "pair_logit": -1.1351758241653442,
+        "fused_logit": -2.7789469957351685,
+        "score": 0.05847250670194626,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.064783573150635,
+        "pair_logit": -1.1351758241653442,
+        "fused_logit": -5.199959397315979,
+        "score": 0.005486520938575268,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.497915744781494,
+        "pair_logit": 0.6661533117294312,
+        "fused_logit": 4.164069056510925,
+        "score": 0.9846937656402588
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.8822364807128906,
+        "pair_logit": -0.028014421463012695,
+        "fused_logit": 2.854222059249878,
+        "score": 0.9455364942550659
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.0510706901550293,
+        "pair_logit": -0.7519824504852295,
+        "fused_logit": 2.2990882396698,
+        "score": 0.9088015556335449
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.4238729476928711,
+        "pair_logit": -0.19098901748657227,
+        "fused_logit": 0.23288393020629883,
+        "score": 0.557959258556366
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.6218400001525879,
+        "pair_logit": -0.31474798917770386,
+        "fused_logit": -0.9365879893302917,
+        "score": 0.281590074300766
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.6437711715698242,
+        "pair_logit": -1.1351758241653442,
+        "fused_logit": -2.7789469957351685,
+        "score": 0.05847250670194626
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.2679862976074219,
+            "pair_logit": 0.6661533117294312,
+            "fused_logit": 0.934139609336853,
+            "score": 0.717914342880249,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 50,
+            "predicate": "kicking",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.497915744781494,
+            "pair_logit": 0.6661533117294312,
+            "fused_logit": 4.164069056510925,
+            "score": 0.9846937656402588,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.4013724327087402,
+            "pair_logit": -0.028014421463012695,
+            "fused_logit": 1.3733580112457275,
+            "score": 0.7979221343994141,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 12,
+            "predicate": "running on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.8822364807128906,
+            "pair_logit": -0.028014421463012695,
+            "fused_logit": 2.854222059249878,
+            "score": 0.9455364942550659,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.2886433601379395,
+            "pair_logit": -0.19098901748657227,
+            "fused_logit": -1.4796323776245117,
+            "score": 0.1854829490184784,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 50,
+            "predicate": "kicking",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.4238729476928711,
+            "pair_logit": -0.19098901748657227,
+            "fused_logit": 0.23288393020629883,
+            "score": 0.557959258556366,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.6218400001525879,
+            "pair_logit": -0.31474798917770386,
+            "fused_logit": -0.9365879893302917,
+            "score": 0.281590074300766,
+            "rank": 8
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 17,
+            "predicate": "flying over",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.1444547176361084,
+            "pair_logit": -0.31474798917770386,
+            "fused_logit": -2.4592027068138123,
+            "score": 0.07876816391944885,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.0510706901550293,
+            "pair_logit": -0.7519824504852295,
+            "fused_logit": 2.2990882396698,
+            "score": 0.9088015556335449,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 12,
+            "predicate": "running on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.9844779968261719,
+            "pair_logit": -0.7519824504852295,
+            "fused_logit": 1.2324955463409424,
+            "score": 0.774255096912384,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.6437711715698242,
+            "pair_logit": -1.1351758241653442,
+            "fused_logit": -2.7789469957351685,
+            "score": 0.05847250670194626,
+            "rank": 11
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.064783573150635,
+            "pair_logit": -1.1351758241653442,
+            "fused_logit": -5.199959397315979,
+            "score": 0.005486520938575268,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "all_pairs"
+  },
+  "official400": {
+    "objects": [
+      {
+        "id": 0,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          422.9999828338623,
+          26.00001811981201,
+          633.9999866485596,
+          475.0000047683716
+        ]
+      },
+      {
+        "id": 1,
+        "label": "person",
+        "category_id": 0,
+        "is_person": true,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          21.000003814697266,
+          17.99999713897705,
+          456.00000381469727,
+          473.99999141693115
+        ]
+      },
+      {
+        "id": 2,
+        "label": "sports ball",
+        "category_id": 32,
+        "is_person": false,
+        "detection_score": null,
+        "source": "PSG_ground_truth",
+        "box_xyxy": [
+          49.0000057220459,
+          195.0,
+          188.00000190734863,
+          333.99999618530273
+        ]
+      }
+    ],
+    "human_ids": [
+      0,
+      1
+    ],
+    "relations": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 3.497915744781494,
+        "pair_logit": 0.6661533117294312,
+        "fused_logit": 4.164069056510925,
+        "score": 0.9846937656402588,
+        "rank": 1
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 2.8822364807128906,
+        "pair_logit": -0.028014421463012695,
+        "fused_logit": 2.854222059249878,
+        "score": 0.9455364942550659,
+        "rank": 2
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 3.051128387451172,
+        "pair_logit": -0.7519824504852295,
+        "fused_logit": 2.2991459369659424,
+        "score": 0.9088062644004822,
+        "rank": 3
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "spatial",
+        "predicate_logit": 1.3713960647583008,
+        "pair_logit": -0.028014421463012695,
+        "fused_logit": 1.343381643295288,
+        "score": 0.7930455207824707,
+        "rank": 4
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "semantic",
+        "predicate_logit": 1.9563708305358887,
+        "pair_logit": -0.7519824504852295,
+        "fused_logit": 1.2043883800506592,
+        "score": 0.7693045139312744,
+        "rank": 5
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 4,
+        "predicate": "in",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": 0.2713050842285156,
+        "pair_logit": 0.6661533117294312,
+        "fused_logit": 0.9374583959579468,
+        "score": 0.7185859680175781,
+        "rank": 6
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": 0.42405128479003906,
+        "pair_logit": -0.19098901748657227,
+        "fused_logit": 0.2330622673034668,
+        "score": 0.5580032467842102,
+        "rank": 7
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -0.5917844772338867,
+        "pair_logit": -0.31474798917770386,
+        "fused_logit": -0.9065324664115906,
+        "score": 0.28770992159843445,
+        "rank": 8
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.288701057434082,
+        "pair_logit": -0.19098901748657227,
+        "fused_logit": -1.4796900749206543,
+        "score": 0.18547423183918,
+        "rank": 9
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 17,
+        "predicate": "flying over",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -2.1444339752197266,
+        "pair_logit": -0.31474798917770386,
+        "fused_logit": -2.4591819643974304,
+        "score": 0.07876967638731003,
+        "rank": 10
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "spatial",
+        "predicate_logit": -1.6587297916412354,
+        "pair_logit": -1.1351758241653442,
+        "fused_logit": -2.7939056158065796,
+        "score": 0.05765438452363014,
+        "rank": 11
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 21,
+        "predicate": "holding",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "semantic",
+        "predicate_logit": -4.0737833976745605,
+        "pair_logit": -1.1351758241653442,
+        "fused_logit": -5.208959221839905,
+        "score": 0.005437632091343403,
+        "rank": 12
+      }
+    ],
+    "single_predicate_top50": [
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 3.497915744781494,
+        "pair_logit": 0.6661533117294312,
+        "fused_logit": 4.164069056510925,
+        "score": 0.9846937656402588
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 12,
+        "predicate": "running on",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          0,
+          1
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 2.8822364807128906,
+        "pair_logit": -0.028014421463012695,
+        "fused_logit": 2.854222059249878,
+        "score": 0.9455364942550659
+      },
+      {
+        "subject_id": 1,
+        "subject_label": "person",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          1,
+          0
+        ],
+        "human_human": true,
+        "stream": "single",
+        "predicate_logit": 3.051128387451172,
+        "pair_logit": -0.7519824504852295,
+        "fused_logit": 2.2991459369659424,
+        "score": 0.9088062644004822
+      },
+      {
+        "subject_id": 0,
+        "subject_label": "person",
+        "predicate_id": 50,
+        "predicate": "kicking",
+        "object_id": 2,
+        "object_label": "sports ball",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": 0.42405128479003906,
+        "pair_logit": -0.19098901748657227,
+        "fused_logit": 0.2330622673034668,
+        "score": 0.5580032467842102
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 1,
+        "object_label": "person",
+        "person_ids": [
+          1
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -0.5917844772338867,
+        "pair_logit": -0.31474798917770386,
+        "fused_logit": -0.9065324664115906,
+        "score": 0.28770992159843445
+      },
+      {
+        "subject_id": 2,
+        "subject_label": "sports ball",
+        "predicate_id": 2,
+        "predicate": "beside",
+        "object_id": 0,
+        "object_label": "person",
+        "person_ids": [
+          0
+        ],
+        "human_human": false,
+        "stream": "single",
+        "predicate_logit": -1.6587297916412354,
+        "pair_logit": -1.1351758241653442,
+        "fused_logit": -2.7939056158065796,
+        "score": 0.05765438452363014
+      }
+    ],
+    "all_human_pairs": [
+      {
+        "subject_id": 1,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 4,
+            "predicate": "in",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": 0.2713050842285156,
+            "pair_logit": 0.6661533117294312,
+            "fused_logit": 0.9374583959579468,
+            "score": 0.7185859680175781,
+            "rank": 6
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 50,
+            "predicate": "kicking",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 3.497915744781494,
+            "pair_logit": 0.6661533117294312,
+            "fused_logit": 4.164069056510925,
+            "score": 0.9846937656402588,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 1.3713960647583008,
+            "pair_logit": -0.028014421463012695,
+            "fused_logit": 1.343381643295288,
+            "score": 0.7930455207824707,
+            "rank": 4
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 12,
+            "predicate": "running on",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              0,
+              1
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 2.8822364807128906,
+            "pair_logit": -0.028014421463012695,
+            "fused_logit": 2.854222059249878,
+            "score": 0.9455364942550659,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "subject_id": 0,
+        "object_id": 2,
+        "predictions": [
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.288701057434082,
+            "pair_logit": -0.19098901748657227,
+            "fused_logit": -1.4796900749206543,
+            "score": 0.18547423183918,
+            "rank": 9
+          },
+          {
+            "subject_id": 0,
+            "subject_label": "person",
+            "predicate_id": 50,
+            "predicate": "kicking",
+            "object_id": 2,
+            "object_label": "sports ball",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": 0.42405128479003906,
+            "pair_logit": -0.19098901748657227,
+            "fused_logit": 0.2330622673034668,
+            "score": 0.5580032467842102,
+            "rank": 7
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 1,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -0.5917844772338867,
+            "pair_logit": -0.31474798917770386,
+            "fused_logit": -0.9065324664115906,
+            "score": 0.28770992159843445,
+            "rank": 8
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 17,
+            "predicate": "flying over",
+            "object_id": 1,
+            "object_label": "person",
+            "person_ids": [
+              1
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -2.1444339752197266,
+            "pair_logit": -0.31474798917770386,
+            "fused_logit": -2.4591819643974304,
+            "score": 0.07876967638731003,
+            "rank": 10
+          }
+        ]
+      },
+      {
+        "subject_id": 1,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "spatial",
+            "predicate_logit": 3.051128387451172,
+            "pair_logit": -0.7519824504852295,
+            "fused_logit": 2.2991459369659424,
+            "score": 0.9088062644004822,
+            "rank": 3
+          },
+          {
+            "subject_id": 1,
+            "subject_label": "person",
+            "predicate_id": 12,
+            "predicate": "running on",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              1,
+              0
+            ],
+            "human_human": true,
+            "stream": "semantic",
+            "predicate_logit": 1.9563708305358887,
+            "pair_logit": -0.7519824504852295,
+            "fused_logit": 1.2043883800506592,
+            "score": 0.7693045139312744,
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "object_id": 0,
+        "predictions": [
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 2,
+            "predicate": "beside",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "spatial",
+            "predicate_logit": -1.6587297916412354,
+            "pair_logit": -1.1351758241653442,
+            "fused_logit": -2.7939056158065796,
+            "score": 0.05765438452363014,
+            "rank": 11
+          },
+          {
+            "subject_id": 2,
+            "subject_label": "sports ball",
+            "predicate_id": 21,
+            "predicate": "holding",
+            "object_id": 0,
+            "object_label": "person",
+            "person_ids": [
+              0
+            ],
+            "human_human": false,
+            "stream": "semantic",
+            "predicate_logit": -4.0737833976745605,
+            "pair_logit": -1.1351758241653442,
+            "fused_logit": -5.208959221839905,
+            "score": 0.005437632091343403,
+            "rank": 12
+          }
+        ]
+      }
+    ],
+    "status": "ok",
+    "candidate_pairs": 6,
+    "human_pairs_scored": 6,
+    "expected_human_pairs": 6,
+    "pair_policy": "official_400"
+  },
+  "elapsed_seconds": 0.12840759998653084
+}
