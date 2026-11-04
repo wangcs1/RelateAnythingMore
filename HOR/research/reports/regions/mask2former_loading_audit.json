@@ -1,0 +1,1974 @@
+{
+  "environment": {
+    "transformers": "5.14.1",
+    "torch": "2.13.0+cu130",
+    "processor_class": "Mask2FormerImageProcessor",
+    "processor_module": "transformers.models.mask2former.image_processing_mask2former"
+  },
+  "checkpoint": {
+    "repository": "facebook/mask2former-swin-tiny-coco-panoptic",
+    "revision": "df6b1142ff50c3276559d9d78f35f6a579c75a77",
+    "weights": {
+      "path": "HOR/research/models/mask2former-swin-tiny-coco-panoptic/model.safetensors",
+      "bytes": 190052872,
+      "sha256": "8e154c4f946f4fad9aa511a7d706c89c4254cc6eee28fd932e52c32394c5a29f"
+    },
+    "config": {
+      "path": "HOR/research/models/mask2former-swin-tiny-coco-panoptic/config.json",
+      "bytes": 82185,
+      "sha256": "c638e5e4aeada33f37287509785306277cb6b60998cdd9dd13e9df7f0aa90055"
+    },
+    "preprocessor_config": {
+      "path": "HOR/research/models/mask2former-swin-tiny-coco-panoptic/preprocessor_config.json",
+      "bytes": 538,
+      "sha256": "c25764d27c09d4cd2dcb0100f54221c00c7169446425cc70b2b40481157c3e5c"
+    },
+    "tensor_key_count": 566,
+    "window_size": 7
+  },
+  "actual_cpu_loading": {
+    "parameter_device_types": [
+      "cpu"
+    ],
+    "missing_keys": [
+      "model.pixel_level_module.encoder.swin.layernorm.bias",
+      "model.pixel_level_module.encoder.swin.layernorm.weight"
+    ],
+    "unexpected_keys": [
+      "model.pixel_level_module.encoder.swin.encoder.layers.0.blocks.0.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.0.blocks.1.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.1.blocks.0.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.1.blocks.1.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.0.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.1.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.2.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.3.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.4.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.5.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.3.blocks.0.attention.self.relative_position_index",
+      "model.pixel_level_module.encoder.swin.encoder.layers.3.blocks.1.attention.self.relative_position_index"
+    ],
+    "mismatched_keys": [],
+    "error_msgs": [],
+    "final_layernorm_weight_unique": [
+      1.0
+    ],
+    "final_layernorm_bias_unique": [
+      0.0
+    ]
+  },
+  "checkpoint_checks": {
+    "relative_position_indices": [
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.0.blocks.0.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.0.blocks.0.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.0.blocks.1.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.0.blocks.1.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.1.blocks.0.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.1.blocks.0.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.1.blocks.1.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.1.blocks.1.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.0.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.0.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.1.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.1.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.2.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.2.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.3.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.3.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.4.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.4.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.5.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.5.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.3.blocks.0.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.3.blocks.0.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.3.blocks.1.attention.self.relative_position_index",
+        "current_buffer_key": "model.pixel_level_module.encoder.swin.encoder.layers.3.blocks.1.attention.relative_position_bias.relative_position_index",
+        "checkpoint_shape": [
+          49,
+          49
+        ],
+        "current_shape": [
+          2401
+        ],
+        "equal_after_flatten": true,
+        "persistent_in_state_dict": false
+      }
+    ],
+    "learned_relative_bias_tables": [
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.0.blocks.0.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.0.blocks.0.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          3
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.0.blocks.1.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.0.blocks.1.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          3
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.1.blocks.0.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.1.blocks.0.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          6
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.1.blocks.1.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.1.blocks.1.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          6
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.0.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.0.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          12
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.1.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.1.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          12
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.2.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.2.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          12
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.3.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.3.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          12
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.4.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.4.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          12
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.2.blocks.5.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.2.blocks.5.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          12
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.3.blocks.0.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.3.blocks.0.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          24
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.encoder.layers.3.blocks.1.attention.self.relative_position_bias_table",
+        "current_parameter_key": "model.pixel_level_module.encoder.swin.encoder.layers.3.blocks.1.attention.relative_position_bias.relative_position_bias_table",
+        "shape": [
+          169,
+          24
+        ],
+        "equal": true
+      }
+    ],
+    "stage_output_normalizations": [
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.hidden_states_norms.stage1.bias",
+        "current_parameter_key": "model.pixel_level_module.encoder.hidden_states_norms.stage1.bias",
+        "shape": [
+          96
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.hidden_states_norms.stage1.weight",
+        "current_parameter_key": "model.pixel_level_module.encoder.hidden_states_norms.stage1.weight",
+        "shape": [
+          96
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.hidden_states_norms.stage2.bias",
+        "current_parameter_key": "model.pixel_level_module.encoder.hidden_states_norms.stage2.bias",
+        "shape": [
+          192
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.hidden_states_norms.stage2.weight",
+        "current_parameter_key": "model.pixel_level_module.encoder.hidden_states_norms.stage2.weight",
+        "shape": [
+          192
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.hidden_states_norms.stage3.bias",
+        "current_parameter_key": "model.pixel_level_module.encoder.hidden_states_norms.stage3.bias",
+        "shape": [
+          384
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.hidden_states_norms.stage3.weight",
+        "current_parameter_key": "model.pixel_level_module.encoder.hidden_states_norms.stage3.weight",
+        "shape": [
+          384
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.hidden_states_norms.stage4.bias",
+        "current_parameter_key": "model.pixel_level_module.encoder.hidden_states_norms.stage4.bias",
+        "shape": [
+          768
+        ],
+        "equal": true
+      },
+      {
+        "checkpoint_key": "model.pixel_level_module.encoder.hidden_states_norms.stage4.weight",
+        "current_parameter_key": "model.pixel_level_module.encoder.hidden_states_norms.stage4.weight",
+        "shape": [
+          768
+        ],
+        "equal": true
+      }
+    ]
+  },
+  "feature_path": {
+    "pixel_decoder_uses_backbone_feature_maps": true,
+    "backbone_uses_reshaped_hidden_states_and_loaded_stage_norms": true,
+    "final_swin_layernorm_output_consumed_by_feature_maps": false
+  },
+  "postprocessing_protocol": {
+    "label_ids_to_fuse_argument_provided": false,
+    "effective_fusion_label_ids": [],
+    "definition": "unfused query regions; multiple regions of one stuff class are retained",
+    "configuration_source": {
+      "path": "HOR/research/configs/region_study.json",
+      "bytes": 2709,
+      "sha256": "f0856a721053cef802672f2628f0f4038abaa6284342013a4ebd79e7f012fcf1"
+    },
+    "thing_class_ids": [
+      0,
+      79
+    ],
+    "stuff_class_ids": [
+      80,
+      132
+    ],
+    "thresholds": {
+      "score_threshold": 0.35,
+      "mask_threshold": 0.5,
+      "overlap_mask_area_threshold": 0.8
+    },
+    "region_call_source": {
+      "path": "HOR/research/scripts/region_study.py",
+      "bytes": 31159,
+      "sha256": "230f7ae621226ddd9c5f4a12c76ad99cec0441959b3b5c5c1e53150dbe68088b"
+    },
+    "call_line": 86
+  },
+  "fusion_source_analysis": {
+    "scope": "static installed-source control flow; fusion branch was not executed",
+    "repeated_segments_info_entries_possible": true,
+    "segment_id_reuse_possible_after_revisited_stuff_then_new_class": true
+  },
+  "unfused_candidate_inventory": {
+    "source": {
+      "path": "HOR/research/output/regions/mask2former_candidates.jsonl",
+      "bytes": 1457005,
+      "sha256": "f39993392b34899d46eb452d0be0f1dc6922f85ca196da2267f489659b43ce07"
+    },
+    "images": 500,
+    "stuff_candidates": 1721,
+    "images_with_repeated_stuff_class": 23,
+    "extra_regions_beyond_one_per_class": 27,
+    "extra_regions_by_class": [
+      {
+        "category_id": 80,
+        "label": "banner",
+        "extra": 1
+      },
+      {
+        "category_id": 83,
+        "label": "cardboard",
+        "extra": 1
+      },
+      {
+        "category_id": 85,
+        "label": "curtain",
+        "extra": 1
+      },
+      {
+        "category_id": 93,
+        "label": "mirror-stuff",
+        "extra": 1
+      },
+      {
+        "category_id": 96,
+        "label": "platform",
+        "extra": 1
+      },
+      {
+        "category_id": 100,
+        "label": "road",
+        "extra": 2
+      },
+      {
+        "category_id": 104,
+        "label": "shelf",
+        "extra": 1
+      },
+      {
+        "category_id": 108,
+        "label": "towel",
+        "extra": 1
+      },
+      {
+        "category_id": 112,
+        "label": "wall-wood",
+        "extra": 1
+      },
+      {
+        "category_id": 115,
+        "label": "window-other",
+        "extra": 1
+      },
+      {
+        "category_id": 116,
+        "label": "tree-merged",
+        "extra": 1
+      },
+      {
+        "category_id": 120,
+        "label": "cabinet-merged",
+        "extra": 2
+      },
+      {
+        "category_id": 121,
+        "label": "table-merged",
+        "extra": 5
+      },
+      {
+        "category_id": 122,
+        "label": "floor-other-merged",
+        "extra": 5
+      },
+      {
+        "category_id": 125,
+        "label": "grass-merged",
+        "extra": 1
+      },
+      {
+        "category_id": 129,
+        "label": "building-other-merged",
+        "extra": 1
+      },
+      {
+        "category_id": 131,
+        "label": "wall-other-merged",
+        "extra": 1
+      }
+    ],
+    "repeated_images": [
+      {
+        "index": 1594,
+        "file_name": "2390073.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 122,
+            "label": "floor-other-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  334,
+                  141,
+                  479,
+                  265
+                ],
+                "detection_score": 0.984375,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:122:000001",
+                "mask_area_pixels": 7670
+              },
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  44,
+                  271,
+                  500,
+                  375
+                ],
+                "detection_score": 0.890625,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 8,
+                "source_object_key": "mask2former:122:000008",
+                "mask_area_pixels": 23285
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 339,
+        "file_name": "2328737.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 85,
+            "label": "curtain",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "curtain",
+                "model_label": "curtain",
+                "category_id": 85,
+                "is_person": false,
+                "box_xyxy": [
+                  125,
+                  46,
+                  459,
+                  287
+                ],
+                "detection_score": 0.929688,
+                "source": "mask2former_stuff",
+                "source_category_id": 85,
+                "source_segment_id": 4,
+                "source_object_key": "mask2former:085:000004",
+                "mask_area_pixels": 9897
+              },
+              {
+                "id": -1,
+                "label": "curtain",
+                "model_label": "curtain",
+                "category_id": 85,
+                "is_person": false,
+                "box_xyxy": [
+                  153,
+                  47,
+                  467,
+                  316
+                ],
+                "detection_score": 0.925781,
+                "source": "mask2former_stuff",
+                "source_category_id": 85,
+                "source_segment_id": 11,
+                "source_object_key": "mask2former:085:000011",
+                "mask_area_pixels": 56375
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "file_name": "1159449.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 80,
+            "label": "banner",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "banner",
+                "model_label": "banner",
+                "category_id": 80,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  129,
+                  640,
+                  217
+                ],
+                "detection_score": 0.539062,
+                "source": "mask2former_stuff",
+                "source_category_id": 80,
+                "source_segment_id": 7,
+                "source_object_key": "mask2former:080:000007",
+                "mask_area_pixels": 16481
+              },
+              {
+                "id": -1,
+                "label": "banner",
+                "model_label": "banner",
+                "category_id": 80,
+                "is_person": false,
+                "box_xyxy": [
+                  75,
+                  150,
+                  229,
+                  195
+                ],
+                "detection_score": 0.640625,
+                "source": "mask2former_stuff",
+                "source_category_id": 80,
+                "source_segment_id": 9,
+                "source_object_key": "mask2former:080:000009",
+                "mask_area_pixels": 3476
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1001,
+        "file_name": "2360816.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 100,
+            "label": "road",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "road",
+                "model_label": "road",
+                "category_id": 100,
+                "is_person": false,
+                "box_xyxy": [
+                  305,
+                  178,
+                  522,
+                  305
+                ],
+                "detection_score": 0.824219,
+                "source": "mask2former_stuff",
+                "source_category_id": 100,
+                "source_segment_id": 14,
+                "source_object_key": "mask2former:100:000014",
+                "mask_area_pixels": 11038
+              },
+              {
+                "id": -1,
+                "label": "road",
+                "model_label": "road",
+                "category_id": 100,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  222,
+                  426,
+                  480
+                ],
+                "detection_score": 0.582031,
+                "source": "mask2former_stuff",
+                "source_category_id": 100,
+                "source_segment_id": 19,
+                "source_object_key": "mask2former:100:000019",
+                "mask_area_pixels": 16836
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 811,
+        "file_name": "2352031.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 121,
+            "label": "table-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  136,
+                  0,
+                  480,
+                  172
+                ],
+                "detection_score": 0.851562,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:121:000001",
+                "mask_area_pixels": 9694
+              },
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  0,
+                  480,
+                  640
+                ],
+                "detection_score": 0.554688,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 4,
+                "source_object_key": "mask2former:121:000004",
+                "mask_area_pixels": 29686
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1529,
+        "file_name": "2387080.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 104,
+            "label": "shelf",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "shelf",
+                "model_label": "shelf",
+                "category_id": 104,
+                "is_person": false,
+                "box_xyxy": [
+                  279,
+                  133,
+                  327,
+                  230
+                ],
+                "detection_score": 0.503906,
+                "source": "mask2former_stuff",
+                "source_category_id": 104,
+                "source_segment_id": 16,
+                "source_object_key": "mask2former:104:000016",
+                "mask_area_pixels": 2495
+              },
+              {
+                "id": -1,
+                "label": "shelf",
+                "model_label": "shelf",
+                "category_id": 104,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  76,
+                  288,
+                  265
+                ],
+                "detection_score": 0.78125,
+                "source": "mask2former_stuff",
+                "source_category_id": 104,
+                "source_segment_id": 17,
+                "source_object_key": "mask2former:104:000017",
+                "mask_area_pixels": 14759
+              }
+            ]
+          },
+          {
+            "category_id": 112,
+            "label": "wall-wood",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "wall-wood",
+                "model_label": "wall-wood",
+                "category_id": 112,
+                "is_person": false,
+                "box_xyxy": [
+                  517,
+                  0,
+                  640,
+                  394
+                ],
+                "detection_score": 0.582031,
+                "source": "mask2former_stuff",
+                "source_category_id": 112,
+                "source_segment_id": 6,
+                "source_object_key": "mask2former:112:000006",
+                "mask_area_pixels": 32960
+              },
+              {
+                "id": -1,
+                "label": "wall-wood",
+                "model_label": "wall-wood",
+                "category_id": 112,
+                "is_person": false,
+                "box_xyxy": [
+                  499,
+                  127,
+                  640,
+                  480
+                ],
+                "detection_score": 0.875,
+                "source": "mask2former_stuff",
+                "source_category_id": 112,
+                "source_segment_id": 12,
+                "source_object_key": "mask2former:112:000012",
+                "mask_area_pixels": 17377
+              }
+            ]
+          },
+          {
+            "category_id": 121,
+            "label": "table-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  279,
+                  224,
+                  358,
+                  295
+                ],
+                "detection_score": 0.582031,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 14,
+                "source_object_key": "mask2former:121:000014",
+                "mask_area_pixels": 3412
+              },
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  246,
+                  132,
+                  404
+                ],
+                "detection_score": 0.945312,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 15,
+                "source_object_key": "mask2former:121:000015",
+                "mask_area_pixels": 13120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 198,
+        "file_name": "2321459.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 93,
+            "label": "mirror-stuff",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "mirror",
+                "model_label": "mirror-stuff",
+                "category_id": 93,
+                "is_person": false,
+                "box_xyxy": [
+                  381,
+                  135,
+                  430,
+                  587
+                ],
+                "detection_score": 0.710938,
+                "source": "mask2former_stuff",
+                "source_category_id": 93,
+                "source_segment_id": 3,
+                "source_object_key": "mask2former:093:000003",
+                "mask_area_pixels": 15742
+              },
+              {
+                "id": -1,
+                "label": "mirror",
+                "model_label": "mirror-stuff",
+                "category_id": 93,
+                "is_person": false,
+                "box_xyxy": [
+                  163,
+                  165,
+                  242,
+                  320
+                ],
+                "detection_score": 0.875,
+                "source": "mask2former_stuff",
+                "source_category_id": 93,
+                "source_segment_id": 4,
+                "source_object_key": "mask2former:093:000004",
+                "mask_area_pixels": 11183
+              }
+            ]
+          },
+          {
+            "category_id": 120,
+            "label": "cabinet-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "cabinet",
+                "model_label": "cabinet-merged",
+                "category_id": 120,
+                "is_person": false,
+                "box_xyxy": [
+                  293,
+                  164,
+                  378,
+                  326
+                ],
+                "detection_score": 0.804688,
+                "source": "mask2former_stuff",
+                "source_category_id": 120,
+                "source_segment_id": 7,
+                "source_object_key": "mask2former:120:000007",
+                "mask_area_pixels": 12868
+              },
+              {
+                "id": -1,
+                "label": "cabinet",
+                "model_label": "cabinet-merged",
+                "category_id": 120,
+                "is_person": false,
+                "box_xyxy": [
+                  166,
+                  400,
+                  255,
+                  608
+                ],
+                "detection_score": 0.949219,
+                "source": "mask2former_stuff",
+                "source_category_id": 120,
+                "source_segment_id": 8,
+                "source_object_key": "mask2former:120:000008",
+                "mask_area_pixels": 15689
+              }
+            ]
+          },
+          {
+            "category_id": 122,
+            "label": "floor-other-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  370,
+                  535,
+                  424,
+                  608
+                ],
+                "detection_score": 0.652344,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:122:000001",
+                "mask_area_pixels": 2328
+              },
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  180,
+                  567,
+                  320,
+                  612
+                ],
+                "detection_score": 0.945312,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 6,
+                "source_object_key": "mask2former:122:000006",
+                "mask_area_pixels": 3195
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 47,
+        "file_name": "1592228.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 125,
+            "label": "grass-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "grass",
+                "model_label": "grass-merged",
+                "category_id": 125,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  268,
+                  73,
+                  302
+                ],
+                "detection_score": 0.882812,
+                "source": "mask2former_stuff",
+                "source_category_id": 125,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:125:000001",
+                "mask_area_pixels": 1759
+              },
+              {
+                "id": -1,
+                "label": "grass",
+                "model_label": "grass-merged",
+                "category_id": 125,
+                "is_person": false,
+                "box_xyxy": [
+                  303,
+                  86,
+                  640,
+                  202
+                ],
+                "detection_score": 0.859375,
+                "source": "mask2former_stuff",
+                "source_category_id": 125,
+                "source_segment_id": 9,
+                "source_object_key": "mask2former:125:000009",
+                "mask_area_pixels": 31939
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 316,
+        "file_name": "2327752.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 100,
+            "label": "road",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "road",
+                "model_label": "road",
+                "category_id": 100,
+                "is_person": false,
+                "box_xyxy": [
+                  416,
+                  220,
+                  640,
+                  422
+                ],
+                "detection_score": 0.949219,
+                "source": "mask2former_stuff",
+                "source_category_id": 100,
+                "source_segment_id": 8,
+                "source_object_key": "mask2former:100:000008",
+                "mask_area_pixels": 6395
+              },
+              {
+                "id": -1,
+                "label": "road",
+                "model_label": "road",
+                "category_id": 100,
+                "is_person": false,
+                "box_xyxy": [
+                  235,
+                  155,
+                  423,
+                  230
+                ],
+                "detection_score": 0.667969,
+                "source": "mask2former_stuff",
+                "source_category_id": 100,
+                "source_segment_id": 14,
+                "source_object_key": "mask2former:100:000014",
+                "mask_area_pixels": 2433
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1468,
+        "file_name": "2384438.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 96,
+            "label": "platform",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "platform",
+                "model_label": "platform",
+                "category_id": 96,
+                "is_person": false,
+                "box_xyxy": [
+                  7,
+                  184,
+                  500,
+                  380
+                ],
+                "detection_score": 0.96875,
+                "source": "mask2former_stuff",
+                "source_category_id": 96,
+                "source_segment_id": 2,
+                "source_object_key": "mask2former:096:000002",
+                "mask_area_pixels": 33687
+              },
+              {
+                "id": -1,
+                "label": "platform",
+                "model_label": "platform",
+                "category_id": 96,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  180,
+                  42,
+                  318
+                ],
+                "detection_score": 0.75,
+                "source": "mask2former_stuff",
+                "source_category_id": 96,
+                "source_segment_id": 7,
+                "source_object_key": "mask2former:096:000007",
+                "mask_area_pixels": 3180
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1372,
+        "file_name": "2379685.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 121,
+            "label": "table-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  26,
+                  350,
+                  161,
+                  438
+                ],
+                "detection_score": 0.773438,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 2,
+                "source_object_key": "mask2former:121:000002",
+                "mask_area_pixels": 6861
+              },
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  192,
+                  389,
+                  257,
+                  429
+                ],
+                "detection_score": 0.675781,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 5,
+                "source_object_key": "mask2former:121:000005",
+                "mask_area_pixels": 1999
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1633,
+        "file_name": "2391614.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 122,
+            "label": "floor-other-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  212,
+                  478,
+                  229,
+                  618
+                ],
+                "detection_score": 0.539062,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:122:000001",
+                "mask_area_pixels": 1560
+              },
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  212,
+                  449,
+                  407,
+                  640
+                ],
+                "detection_score": 0.894531,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 9,
+                "source_object_key": "mask2former:122:000009",
+                "mask_area_pixels": 12117
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 840,
+        "file_name": "2353564.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 115,
+            "label": "window-other",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "window",
+                "model_label": "window-other",
+                "category_id": 115,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  0,
+                  31,
+                  337
+                ],
+                "detection_score": 0.707031,
+                "source": "mask2former_stuff",
+                "source_category_id": 115,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:115:000001",
+                "mask_area_pixels": 9963
+              },
+              {
+                "id": -1,
+                "label": "window",
+                "model_label": "window-other",
+                "category_id": 115,
+                "is_person": false,
+                "box_xyxy": [
+                  191,
+                  0,
+                  500,
+                  375
+                ],
+                "detection_score": 0.863281,
+                "source": "mask2former_stuff",
+                "source_category_id": 115,
+                "source_segment_id": 2,
+                "source_object_key": "mask2former:115:000002",
+                "mask_area_pixels": 113699
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 703,
+        "file_name": "2347159.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 116,
+            "label": "tree-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "tree",
+                "model_label": "tree-merged",
+                "category_id": 116,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  288,
+                  640,
+                  427
+                ],
+                "detection_score": 0.730469,
+                "source": "mask2former_stuff",
+                "source_category_id": 116,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:116:000001",
+                "mask_area_pixels": 23770
+              },
+              {
+                "id": -1,
+                "label": "tree",
+                "model_label": "tree-merged",
+                "category_id": 116,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  0,
+                  640,
+                  337
+                ],
+                "detection_score": 0.949219,
+                "source": "mask2former_stuff",
+                "source_category_id": 116,
+                "source_segment_id": 2,
+                "source_object_key": "mask2former:116:000002",
+                "mask_area_pixels": 17264
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 574,
+        "file_name": "2340907.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 121,
+            "label": "table-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  400,
+                  506,
+                  480,
+                  640
+                ],
+                "detection_score": 0.59375,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 8,
+                "source_object_key": "mask2former:121:000008",
+                "mask_area_pixels": 9643
+              },
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  398,
+                  102,
+                  617
+                ],
+                "detection_score": 0.542969,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 10,
+                "source_object_key": "mask2former:121:000010",
+                "mask_area_pixels": 15378
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2111,
+        "file_name": "2416290.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 122,
+            "label": "floor-other-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  292,
+                  79,
+                  400
+                ],
+                "detection_score": 0.53125,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:122:000001",
+                "mask_area_pixels": 3843
+              },
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  613,
+                  425,
+                  640,
+                  480
+                ],
+                "detection_score": 0.851562,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 7,
+                "source_object_key": "mask2former:122:000007",
+                "mask_area_pixels": 961
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 180,
+        "file_name": "2320239.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 83,
+            "label": "cardboard",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "cardboard",
+                "model_label": "cardboard",
+                "category_id": 83,
+                "is_person": false,
+                "box_xyxy": [
+                  24,
+                  237,
+                  390,
+                  364
+                ],
+                "detection_score": 0.789062,
+                "source": "mask2former_stuff",
+                "source_category_id": 83,
+                "source_segment_id": 3,
+                "source_object_key": "mask2former:083:000003",
+                "mask_area_pixels": 25088
+              },
+              {
+                "id": -1,
+                "label": "cardboard",
+                "model_label": "cardboard",
+                "category_id": 83,
+                "is_person": false,
+                "box_xyxy": [
+                  31,
+                  52,
+                  373,
+                  366
+                ],
+                "detection_score": 0.523438,
+                "source": "mask2former_stuff",
+                "source_category_id": 83,
+                "source_segment_id": 4,
+                "source_object_key": "mask2former:083:000004",
+                "mask_area_pixels": 19448
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 304,
+        "file_name": "2327041.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 108,
+            "label": "towel",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "towel",
+                "model_label": "towel",
+                "category_id": 108,
+                "is_person": false,
+                "box_xyxy": [
+                  176,
+                  0,
+                  351,
+                  136
+                ],
+                "detection_score": 0.761719,
+                "source": "mask2former_stuff",
+                "source_category_id": 108,
+                "source_segment_id": 2,
+                "source_object_key": "mask2former:108:000002",
+                "mask_area_pixels": 5996
+              },
+              {
+                "id": -1,
+                "label": "towel",
+                "model_label": "towel",
+                "category_id": 108,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  0,
+                  74,
+                  500
+                ],
+                "detection_score": 0.824219,
+                "source": "mask2former_stuff",
+                "source_category_id": 108,
+                "source_segment_id": 5,
+                "source_object_key": "mask2former:108:000005",
+                "mask_area_pixels": 22208
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 731,
+        "file_name": "2348722.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 129,
+            "label": "building-other-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "building",
+                "model_label": "building-other-merged",
+                "category_id": 129,
+                "is_person": false,
+                "box_xyxy": [
+                  424,
+                  91,
+                  500,
+                  134
+                ],
+                "detection_score": 0.53125,
+                "source": "mask2former_stuff",
+                "source_category_id": 129,
+                "source_segment_id": 22,
+                "source_object_key": "mask2former:129:000022",
+                "mask_area_pixels": 1127
+              },
+              {
+                "id": -1,
+                "label": "building",
+                "model_label": "building-other-merged",
+                "category_id": 129,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  118,
+                  477,
+                  190
+                ],
+                "detection_score": 0.511719,
+                "source": "mask2former_stuff",
+                "source_category_id": 129,
+                "source_segment_id": 25,
+                "source_object_key": "mask2former:129:000025",
+                "mask_area_pixels": 11137
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 69,
+        "file_name": "1593263.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 120,
+            "label": "cabinet-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "cabinet",
+                "model_label": "cabinet-merged",
+                "category_id": 120,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  216,
+                  19,
+                  310
+                ],
+                "detection_score": 0.503906,
+                "source": "mask2former_stuff",
+                "source_category_id": 120,
+                "source_segment_id": 3,
+                "source_object_key": "mask2former:120:000003",
+                "mask_area_pixels": 1172
+              },
+              {
+                "id": -1,
+                "label": "cabinet",
+                "model_label": "cabinet-merged",
+                "category_id": 120,
+                "is_person": false,
+                "box_xyxy": [
+                  189,
+                  195,
+                  216,
+                  235
+                ],
+                "detection_score": 0.699219,
+                "source": "mask2former_stuff",
+                "source_category_id": 120,
+                "source_segment_id": 14,
+                "source_object_key": "mask2former:120:000014",
+                "mask_area_pixels": 796
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 822,
+        "file_name": "2352548.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 122,
+            "label": "floor-other-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  423,
+                  142,
+                  500,
+                  186
+                ],
+                "detection_score": 0.570312,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 1,
+                "source_object_key": "mask2former:122:000001",
+                "mask_area_pixels": 2599
+              },
+              {
+                "id": -1,
+                "label": "floor",
+                "model_label": "floor-other-merged",
+                "category_id": 122,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  312,
+                  429,
+                  375
+                ],
+                "detection_score": 0.824219,
+                "source": "mask2former_stuff",
+                "source_category_id": 122,
+                "source_segment_id": 5,
+                "source_object_key": "mask2former:122:000005",
+                "mask_area_pixels": 18900
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1642,
+        "file_name": "2392244.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 131,
+            "label": "wall-other-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "wall",
+                "model_label": "wall-other-merged",
+                "category_id": 131,
+                "is_person": false,
+                "box_xyxy": [
+                  400,
+                  0,
+                  480,
+                  114
+                ],
+                "detection_score": 0.878906,
+                "source": "mask2former_stuff",
+                "source_category_id": 131,
+                "source_segment_id": 4,
+                "source_object_key": "mask2former:131:000004",
+                "mask_area_pixels": 7614
+              },
+              {
+                "id": -1,
+                "label": "wall",
+                "model_label": "wall-other-merged",
+                "category_id": 131,
+                "is_person": false,
+                "box_xyxy": [
+                  0,
+                  0,
+                  480,
+                  152
+                ],
+                "detection_score": 0.832031,
+                "source": "mask2former_stuff",
+                "source_category_id": 131,
+                "source_segment_id": 15,
+                "source_object_key": "mask2former:131:000015",
+                "mask_area_pixels": 15452
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 555,
+        "file_name": "2339725.jpg",
+        "repeated_classes": [
+          {
+            "category_id": 121,
+            "label": "table-merged",
+            "region_count": 2,
+            "regions": [
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  181,
+                  217,
+                  336,
+                  327
+                ],
+                "detection_score": 0.511719,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 6,
+                "source_object_key": "mask2former:121:000006",
+                "mask_area_pixels": 5392
+              },
+              {
+                "id": -1,
+                "label": "table",
+                "model_label": "table-merged",
+                "category_id": 121,
+                "is_person": false,
+                "box_xyxy": [
+                  386,
+                  298,
+                  640,
+                  480
+                ],
+                "detection_score": 0.605469,
+                "source": "mask2former_stuff",
+                "source_category_id": 121,
+                "source_segment_id": 11,
+                "source_object_key": "mask2former:121:000011",
+                "mask_area_pixels": 29638
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "source_files": [
+    {
+      "path": ".venv-eval/Lib/site-packages/transformers/backbone_utils.py",
+      "bytes": 17044,
+      "sha256": "9c73b85ceeaeb1e4b088c01b8f9dc74ed28b7a28becfc0711677cc22389f8165"
+    },
+    {
+      "path": ".venv-eval/Lib/site-packages/transformers/conversion_mapping.py",
+      "bytes": 105002,
+      "sha256": "cb40dd3862fd187a95948e40945f66a661cc4d64466b6544fc4111fd1bb312a3"
+    },
+    {
+      "path": ".venv-eval/Lib/site-packages/transformers/modeling_utils.py",
+      "bytes": 274811,
+      "sha256": "d8bf1879d6f582888b6cf47b4d63070260285a3bd1dc94ce7e1373304f74168a"
+    },
+    {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/mask2former/image_processing_mask2former.py",
+      "bytes": 39457,
+      "sha256": "1f3895d029cb1ad740e0f823d6ffcf01b982924f3db039ec56bd9327c98e0d43"
+    },
+    {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/mask2former/modeling_mask2former.py",
+      "bytes": 118265,
+      "sha256": "c3ccebf3c222c8164b1602044111eec111394055b656b637d9d5f6665f049ba7"
+    },
+    {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/swin/modeling_swin.py",
+      "bytes": 50373,
+      "sha256": "341b43d6fdd6846ff166a7472ab03a444191b0dee6b387f77d9395d9a925d7e5"
+    },
+    {
+      "path": "HOR/research/scripts/audit_mask2former.py",
+      "bytes": 22618,
+      "sha256": "acd845d6bf1d6c0ffc647740d9eed1c1b53e4fbd8bdac28feb4f8634b1e7de6a"
+    }
+  ],
+  "function_sources": {
+    "pixel_level_forward": {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/mask2former/modeling_mask2former.py",
+      "first_line": 1438,
+      "source": "    def forward(self, pixel_values: Tensor, output_hidden_states: bool = False) -> Mask2FormerPixelLevelModuleOutput:\n        backbone_features = self.encoder(pixel_values).feature_maps\n        decoder_output = self.decoder(backbone_features, output_hidden_states=output_hidden_states)\n\n        return Mask2FormerPixelLevelModuleOutput(\n            encoder_last_hidden_state=backbone_features[-1],\n            encoder_hidden_states=tuple(backbone_features) if output_hidden_states else None,\n            decoder_last_hidden_state=decoder_output.mask_features,\n            decoder_hidden_states=decoder_output.multi_scale_features,\n        )\n"
+    },
+    "swin_model_forward": {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/swin/modeling_swin.py",
+      "first_line": 851,
+      "source": "    @can_return_tuple\n    @auto_docstring\n    def forward(\n        self,\n        pixel_values: torch.FloatTensor | None = None,\n        bool_masked_pos: torch.BoolTensor | None = None,\n        interpolate_pos_encoding: bool = False,\n        **kwargs: Unpack[TransformersKwargs],\n    ) -> SwinModelOutput:\n        r\"\"\"\n        bool_masked_pos (`torch.BoolTensor` of shape `(batch_size, num_patches)`, *optional*):\n            Boolean masked positions. Indicates which patches are masked (1) and which aren't (0).\n        \"\"\"\n        # FIXME: output_hidden_states must be popped manually here because SwinEncoder takes it as an\n        # explicit argument (not via **kwargs), so it is not captured by the @capture_outputs decorator.\n        output_hidden_states = kwargs.pop(\"output_hidden_states\", self.config.output_hidden_states)\n\n        embedding_output, input_dimensions = self.embeddings(\n            pixel_values, bool_masked_pos=bool_masked_pos, interpolate_pos_encoding=interpolate_pos_encoding\n        )\n\n        encoder_outputs = self.encoder(\n            embedding_output,\n            input_dimensions,\n            output_hidden_states=output_hidden_states,\n            **kwargs,\n        )\n\n        sequence_output = encoder_outputs.last_hidden_state\n        sequence_output = self.layernorm(sequence_output)\n\n        pooled_output = None\n        if self.pooler is not None:\n            pooled_output = self.pooler(sequence_output.transpose(1, 2))\n            pooled_output = torch.flatten(pooled_output, 1)\n\n        return SwinModelOutput(\n            last_hidden_state=sequence_output,\n            pooler_output=pooled_output,\n            hidden_states=encoder_outputs.hidden_states,\n            attentions=encoder_outputs.attentions,\n            reshaped_hidden_states=encoder_outputs.reshaped_hidden_states,\n        )\n"
+    },
+    "swin_backbone_forward": {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/swin/modeling_swin.py",
+      "first_line": 1092,
+      "source": "    @can_return_tuple\n    @filter_output_hidden_states\n    @auto_docstring\n    def forward(\n        self,\n        pixel_values: torch.Tensor,\n        **kwargs: Unpack[TransformersKwargs],\n    ) -> BackboneOutput:\n        r\"\"\"\n        Examples:\n\n        ```python\n        >>> from transformers import AutoImageProcessor, AutoBackbone\n        >>> import torch\n        >>> from PIL import Image\n        >>> import httpx\n        >>> from io import BytesIO\n\n        >>> url = \"http://images.cocodataset.org/val2017/000000039769.jpg\"\n        >>> with httpx.stream(\"GET\", url) as response:\n        ...     image = Image.open(BytesIO(response.read()))\n\n        >>> processor = AutoImageProcessor.from_pretrained(\"shi-labs/nat-mini-in1k-224\")\n        >>> model = AutoBackbone.from_pretrained(\n        ...     \"microsoft/swin-tiny-patch4-window7-224\", out_features=[\"stage1\", \"stage2\", \"stage3\", \"stage4\"]\n        ... )\n\n        >>> inputs = processor(image, return_tensors=\"pt\")\n        >>> outputs = model(**inputs)\n        >>> feature_maps = outputs.feature_maps\n        >>> list(feature_maps[-1].shape)\n        [1, 768, 7, 7]\n        ```\n        \"\"\"\n        # always_partition=True preserves shifted-window attention at all resolutions.\n        # output_hidden_states_before_downsampling=True captures pre-downsampling feature maps per stage.\n        outputs = self.swin(\n            pixel_values,\n            always_partition=True,\n            output_hidden_states_before_downsampling=True,\n            **kwargs,\n        )\n\n        feature_maps = ()\n        for stage, hidden_state in zip(self.stage_names, outputs.reshaped_hidden_states):\n            if stage in self.out_features:\n                batch_size, num_channels, height, width = hidden_state.shape\n                hidden_state = hidden_state.permute(0, 2, 3, 1).contiguous()\n                hidden_state = hidden_state.view(batch_size, height * width, num_channels)\n                hidden_state = self.hidden_states_norms[stage](hidden_state)\n                hidden_state = hidden_state.view(batch_size, height, width, num_channels)\n                hidden_state = hidden_state.permute(0, 3, 1, 2).contiguous()\n                feature_maps += (hidden_state,)\n\n        return BackboneOutput(\n            feature_maps=feature_maps,\n            hidden_states=outputs.reshaped_hidden_states,\n            attentions=outputs.attentions,\n        )\n"
+    },
+    "swin_relative_position_init": {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/swin/modeling_swin.py",
+      "first_line": 339,
+      "source": "    def __init__(self, num_heads: int, window_size: tuple[int, int]):\n        super().__init__()\n        self.window_size = window_size\n        self.window_area = window_size[0] * window_size[1]\n        self.relative_position_bias_table = nn.Parameter(\n            torch.zeros((2 * window_size[0] - 1) * (2 * window_size[1] - 1), num_heads)\n        )\n        # Non-persistent: fully determined by window_size, no need to serialise.\n        # Stored flat so forward avoids an extra .view() call.\n        self.register_buffer(\n            \"relative_position_index\",\n            self._create_relative_position_index().view(-1),\n            persistent=False,\n        )\n"
+    },
+    "swin_relative_position_builder": {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/swin/modeling_swin.py",
+      "first_line": 354,
+      "source": "    def _create_relative_position_index(self) -> torch.Tensor:\n        coords_h = torch.arange(self.window_size[0])\n        coords_w = torch.arange(self.window_size[1])\n\n        coords = torch.stack(torch.meshgrid([coords_h, coords_w], indexing=\"ij\"))  # 2, Wh, Ww\n        coords_flatten = torch.flatten(coords, 1)  # 2, Wh*Ww\n\n        relative_coords = coords_flatten[:, :, None] - coords_flatten[:, None, :]  # 2, Wh*Ww, Wh*Ww\n        relative_coords = relative_coords.permute(1, 2, 0).contiguous()  # Wh*Ww, Wh*Ww, 2\n\n        # shift to start from 0 and compute a unique flat index for each (dh, dw) pair\n        relative_coords[:, :, 0] += self.window_size[0] - 1\n        relative_coords[:, :, 1] += self.window_size[1] - 1\n        relative_coords[:, :, 0] *= 2 * self.window_size[1] - 1\n\n        return relative_coords.sum(-1)  # Wh*Ww, Wh*Ww\n"
+    },
+    "base_weight_initializer": {
+      "path": ".venv-eval/Lib/site-packages/transformers/modeling_utils.py",
+      "first_line": 2508,
+      "source": "    @torch.no_grad()\n    def _init_weights(self, module):\n        \"\"\"\n        Initialize the weights. This is quite general on purpose, in the spirit of what we usually do. For more complex\n        initialization scheme, it should be overridden by the derived `PreTrainedModel` class. In case a model adds an explicit\n        `nn.Parameter`, this method should also be overridden in order to initialize it correctly.\n        \"\"\"\n        if hasattr(self.config, \"initializer_range\"):\n            std = self.config.initializer_range or 0.02\n        elif hasattr(self.config, \"init_std\"):\n            std = self.config.init_std\n        elif hasattr(self.config, \"initializer_factor\"):\n            std = self.config.initializer_factor\n        else:\n            # 0.02 is the standard default value across the library\n            std = getattr(self.config.get_text_config(), \"initializer_range\", 0.02)\n\n        if isinstance(module, (nn.Linear, nn.Conv1d, nn.Conv2d, nn.Conv3d, nn.ConvTranspose1d, nn.ConvTranspose2d)):\n            if getattr(module, \"weight\", None) is not None:\n                init.normal_(module.weight, mean=0.0, std=std)\n            if module.bias is not None:\n                init.zeros_(module.bias)\n        elif isinstance(module, nn.LSTM):\n            for name, param in module.named_parameters():\n                if \"weight\" in name:\n                    init.xavier_uniform_(param)\n                elif \"bias\" in name:\n                    init.constant_(param, 0.0)\n        elif isinstance(module, nn.Embedding):\n            init.normal_(module.weight, mean=0.0, std=std)\n            # Here we need the check explicitly, as we slice the weight in the `zeros_` call, so it looses the flag\n            if module.padding_idx is not None and not getattr(module.weight, \"_is_hf_initialized\", False):\n                init.zeros_(module.weight[module.padding_idx])\n        elif isinstance(module, nn.MultiheadAttention):\n            # This uses torch's original init\n            module._reset_parameters()\n        # We cannot use `isinstance` on the RMSNorms or LayerNorms, as they usually are custom modules which change names\n        # between modelings (because they are prefixed with the model name)\n        elif (\n            isinstance(module, (nn.GroupNorm, nn.BatchNorm1d, nn.BatchNorm2d, nn.BatchNorm3d))\n            or \"LayerNorm\" in module.__class__.__name__\n            or \"RMSNorm\" in module.__class__.__name__\n        ):\n            # Norms can exist without weights (in which case they are None from torch primitives)\n            if getattr(module, \"weight\", None) is not None:\n                init.ones_(module.weight)\n            if getattr(module, \"bias\", None) is not None:\n                init.zeros_(module.bias)\n            # And the potential buffers for the BatchNorms\n            if getattr(module, \"running_mean\", None) is not None:\n                init.zeros_(module.running_mean)\n                init.ones_(module.running_var)\n                init.zeros_(module.num_batches_tracked)\n        # This matches all the usual RotaryEmbeddings modules\n        elif \"RotaryEmbedding\" in module.__class__.__name__ and hasattr(module, \"original_inv_freq\"):\n            rope_fn = (\n                ROPE_INIT_FUNCTIONS[module.rope_type]\n                if module.rope_type != \"default\"\n                else module.compute_default_rope_parameters\n            )\n            buffer_value, _ = rope_fn(module.config)\n            init.copy_(module.inv_freq, buffer_value)\n            init.copy_(module.original_inv_freq, buffer_value)\n"
+    },
+    "panoptic_postprocess": {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/mask2former/image_processing_mask2former.py",
+      "first_line": 748,
+      "source": "    def post_process_panoptic_segmentation(\n        self,\n        outputs,\n        threshold: float = 0.5,\n        mask_threshold: float = 0.5,\n        overlap_mask_area_threshold: float = 0.8,\n        label_ids_to_fuse: set[int] | None = None,\n        target_sizes: list[tuple[int, int]] | None = None,\n    ) -> list[dict]:\n        \"\"\"\n        Converts the output of [`Mask2FormerForUniversalSegmentationOutput`] into image panoptic segmentation\n        predictions. Only supports PyTorch.\n\n        Args:\n            outputs ([`Mask2FormerForUniversalSegmentationOutput`]):\n                The outputs from [`Mask2FormerForUniversalSegmentation`].\n            threshold (`float`, *optional*, defaults to 0.5):\n                The probability score threshold to keep predicted instance masks.\n            mask_threshold (`float`, *optional*, defaults to 0.5):\n                Threshold to use when turning the predicted masks into binary values.\n            overlap_mask_area_threshold (`float`, *optional*, defaults to 0.8):\n                The overlap mask area threshold to merge or discard small disconnected parts within each binary\n                instance mask.\n            label_ids_to_fuse (`Set[int]`, *optional*):\n                The labels in this state will have all their instances be fused together. For instance we could say\n                there can only be one sky in an image, but several persons, so the label ID for sky would be in that\n                set, but not the one for person.\n            target_sizes (`List[Tuple]`, *optional*):\n                List of length (batch_size), where each list item (`Tuple[int, int]]`) corresponds to the requested\n                final size (height, width) of each prediction in batch. If left to None, predictions will not be\n                resized.\n\n        Returns:\n            `List[Dict]`: A list of dictionaries, one per image, each dictionary containing two keys:\n            - **segmentation** -- a tensor of shape `(height, width)` where each pixel represents a `segment_id`, set\n              to `None` if no mask if found above `threshold`. If `target_sizes` is specified, segmentation is resized\n              to the corresponding `target_sizes` entry.\n            - **segments_info** -- A dictionary that contains additional information on each segment.\n                - **id** -- an integer representing the `segment_id`.\n                - **label_id** -- An integer representing the label / semantic class id corresponding to `segment_id`.\n                - **was_fused** -- a boolean, `True` if `label_id` was in `label_ids_to_fuse`, `False` otherwise.\n                  Multiple instances of the same class / label were fused and assigned a single `segment_id`.\n                - **score** -- Prediction score of segment with `segment_id`.\n        \"\"\"\n\n        if label_ids_to_fuse is None:\n            logger.warning(\"`label_ids_to_fuse` unset. No instance will be fused.\")\n            label_ids_to_fuse = set()\n\n        class_queries_logits = outputs.class_queries_logits  # [batch_size, num_queries, num_classes+1]\n        masks_queries_logits = outputs.masks_queries_logits  # [batch_size, num_queries, height, width]\n\n        # Scale back to preprocessed image size - (384, 384) for all models\n        masks_queries_logits = torch.nn.functional.interpolate(\n            masks_queries_logits, size=(384, 384), mode=\"bilinear\", align_corners=False\n        )\n\n        batch_size = class_queries_logits.shape[0]\n        num_labels = class_queries_logits.shape[-1] - 1\n\n        mask_probs = masks_queries_logits.sigmoid()  # [batch_size, num_queries, height, width]\n\n        # Predicted label and score of each query (batch_size, num_queries)\n        pred_scores, pred_labels = nn.functional.softmax(class_queries_logits, dim=-1).max(-1)\n\n        # Loop over items in batch size\n        results: list[dict[str, TensorType]] = []\n\n        for i in range(batch_size):\n            mask_probs_item, pred_scores_item, pred_labels_item = remove_low_and_no_objects(\n                mask_probs[i], pred_scores[i], pred_labels[i], threshold, num_labels\n            )\n\n            # No mask found\n            if mask_probs_item.shape[0] <= 0:\n                height, width = target_sizes[i] if target_sizes is not None else mask_probs_item.shape[1:]\n                segmentation = torch.zeros((height, width)) - 1\n                results.append({\"segmentation\": segmentation, \"segments_info\": []})\n                continue\n\n            # Get segmentation map and segment information of batch item\n            target_size = target_sizes[i] if target_sizes is not None else None\n            segmentation, segments = compute_segments(\n                mask_probs=mask_probs_item,\n                pred_scores=pred_scores_item,\n                pred_labels=pred_labels_item,\n                mask_threshold=mask_threshold,\n                overlap_mask_area_threshold=overlap_mask_area_threshold,\n                label_ids_to_fuse=label_ids_to_fuse,\n                target_size=target_size,\n            )\n\n            results.append({\"segmentation\": segmentation, \"segments_info\": segments})\n        return results\n"
+    },
+    "compute_segments": {
+      "path": ".venv-eval/Lib/site-packages/transformers/models/mask2former/image_processing_mask2former.py",
+      "first_line": 167,
+      "source": "def compute_segments(\n    mask_probs,\n    pred_scores,\n    pred_labels,\n    mask_threshold: float = 0.5,\n    overlap_mask_area_threshold: float = 0.8,\n    label_ids_to_fuse: set[int] | None = None,\n    target_size: tuple[int, int] | None = None,\n):\n    height = mask_probs.shape[1] if target_size is None else target_size[0]\n    width = mask_probs.shape[2] if target_size is None else target_size[1]\n\n    segmentation = torch.zeros((height, width), dtype=torch.int32, device=mask_probs.device)\n    segments: list[dict] = []\n\n    if target_size is not None:\n        mask_probs = nn.functional.interpolate(\n            mask_probs.unsqueeze(0), size=target_size, mode=\"bilinear\", align_corners=False\n        )[0]\n\n    current_segment_id = 0\n\n    # Weigh each mask by its prediction score\n    mask_probs *= pred_scores.view(-1, 1, 1)\n    mask_labels = mask_probs.argmax(0)  # [height, width]\n\n    # Keep track of instances of each class\n    stuff_memory_list: dict[str, int] = {}\n    for k in range(pred_labels.shape[0]):\n        pred_class = pred_labels[k].item()\n        should_fuse = pred_class in label_ids_to_fuse\n\n        # Check if mask exists and large enough to be a segment\n        mask_exists, mask_k = check_segment_validity(\n            mask_labels, mask_probs, k, mask_threshold, overlap_mask_area_threshold\n        )\n\n        if mask_exists:\n            if pred_class in stuff_memory_list:\n                current_segment_id = stuff_memory_list[pred_class]\n            else:\n                current_segment_id += 1\n\n            # Add current object segment to final segmentation map\n            segmentation[mask_k] = current_segment_id\n            segment_score = round(pred_scores[k].item(), 6)\n            segments.append(\n                {\n                    \"id\": current_segment_id,\n                    \"label_id\": pred_class,\n                    \"was_fused\": should_fuse,\n                    \"score\": segment_score,\n                }\n            )\n            if should_fuse:\n                stuff_memory_list[pred_class] = current_segment_id\n\n    return segmentation, segments\n"
+    }
+  },
+  "execution_scope": {
+    "device": "cpu",
+    "image_forward_passes": 0,
+    "pixel_images_opened": 0,
+    "gpu_inference_passes": 0,
+    "fusion_branch_executed": false
+  }
+}

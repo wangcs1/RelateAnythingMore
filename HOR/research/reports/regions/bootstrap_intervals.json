@@ -1,0 +1,119 @@
+{
+  "seed": 20261104,
+  "repetitions": 20000,
+  "confidence_level": 0.95,
+  "unit": "paired source-image identity resampling; all PSG records from one COCO/image-file-SHA256 identity travel together",
+  "point_estimate": "original PSG-record-weighted image macro recall and pooled relation recall; annotations are retained",
+  "identity_metadata": "HOR/research/reports/decoder/evidence/calibration_image_splits.json",
+  "comparisons": {
+    "all_gt": {
+      "B_mask2former_thing": {
+        "images": 252,
+        "unique_source_identities": 251,
+        "duplicate_identity_groups": {
+          "coco:404484": [
+            57,
+            1745
+          ]
+        },
+        "observed_macro_R@50_difference": -0.06688421807469425,
+        "macro_R@50_difference_95pct_CI": [
+          -0.09117417800453516,
+          -0.04418451415734036
+        ],
+        "observed_pooled_R@50_difference": -0.049586776859504134,
+        "pooled_R@50_difference_95pct_CI": [
+          -0.0719578708676453,
+          -0.027411167512690356
+        ]
+      },
+      "C_fasterrcnn_thing_plus_stuff": {
+        "images": 252,
+        "unique_source_identities": 251,
+        "duplicate_identity_groups": {
+          "coco:404484": [
+            57,
+            1745
+          ]
+        },
+        "observed_macro_R@50_difference": 0.08432467003895577,
+        "macro_R@50_difference_95pct_CI": [
+          0.05507084099068523,
+          0.11506974239792961
+        ],
+        "observed_pooled_R@50_difference": 0.08367768595041322,
+        "pooled_R@50_difference_95pct_CI": [
+          0.06097560975609756,
+          0.10721453522756764
+        ]
+      },
+      "D_mask2former_thing_plus_stuff": {
+        "images": 252,
+        "unique_source_identities": 251,
+        "duplicate_identity_groups": {
+          "coco:404484": [
+            57,
+            1745
+          ]
+        },
+        "observed_macro_R@50_difference": 0.018067426400759756,
+        "macro_R@50_difference_95pct_CI": [
+          -0.018050926743922616,
+          0.05412528820750097
+        ],
+        "observed_pooled_R@50_difference": 0.030991735537190063,
+        "pooled_R@50_difference_95pct_CI": [
+          0.0,
+          0.06147574141864287
+        ]
+      }
+    },
+    "fixed_baseline_endpoint_valid": {
+      "B_mask2former_thing": {
+        "images": 214,
+        "unique_source_identities": 214,
+        "duplicate_identity_groups": {},
+        "observed_macro_R@50_difference": -0.13194208439535543,
+        "macro_R@50_difference_95pct_CI": [
+          -0.17244123477768336,
+          -0.09408055437553105
+        ],
+        "observed_pooled_R@50_difference": -0.10188679245283022,
+        "pooled_R@50_difference_95pct_CI": [
+          -0.1417004048582996,
+          -0.06340579710144928
+        ]
+      },
+      "C_fasterrcnn_thing_plus_stuff": {
+        "images": 214,
+        "unique_source_identities": 214,
+        "duplicate_identity_groups": {},
+        "observed_macro_R@50_difference": -0.02409879839786383,
+        "macro_R@50_difference_95pct_CI": [
+          -0.053149477080551843,
+          0.0038943591455273493
+        ],
+        "observed_pooled_R@50_difference": -0.015094339622641506,
+        "pooled_R@50_difference_95pct_CI": [
+          -0.03780718336483932,
+          0.005681818181818182
+        ]
+      },
+      "D_mask2former_thing_plus_stuff": {
+        "images": 214,
+        "unique_source_identities": 214,
+        "duplicate_identity_groups": {},
+        "observed_macro_R@50_difference": -0.13130487114131978,
+        "macro_R@50_difference_95pct_CI": [
+          -0.17336545950155763,
+          -0.0922861795525347
+        ],
+        "observed_pooled_R@50_difference": -0.10754716981132079,
+        "pooled_R@50_difference_95pct_CI": [
+          -0.14722753346080306,
+          -0.06976637508000863
+        ]
+      }
+    }
+  }
+}

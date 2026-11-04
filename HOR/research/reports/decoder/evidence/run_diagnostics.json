@@ -1,0 +1,108 @@
+{
+  "images": 500,
+  "human_involving_GT": 968,
+  "valid_detected_endpoint_GT": 530,
+  "endpoint_missing_or_wrong_class_GT": 437,
+  "collapsed_same_detection_GT": 1,
+  "methods": [
+    "top1",
+    "top2",
+    "top3",
+    "top5",
+    "dual",
+    "single"
+  ],
+  "per_image_budget": 50,
+  "output_counts": {
+    "top1": 9184,
+    "top2": 10824,
+    "top3": 11634,
+    "top5": 12530,
+    "dual": 10824,
+    "single": 9184
+  },
+  "gt_box_output_counts": {
+    "top1": 8462,
+    "top2": 10154,
+    "top3": 11034,
+    "top5": 12120,
+    "dual": 10154,
+    "single": 8462
+  },
+  "calibration_split_sizes": {
+    "train": 300,
+    "validation": 100,
+    "test": 100
+  },
+  "calibration_unique_identity_sizes": {
+    "train": 299,
+    "validation": 100,
+    "test": 100
+  },
+  "calibration_identity_audit": {
+    "record_counts": {
+      "train": 300,
+      "validation": 100,
+      "test": 100
+    },
+    "unique_identity_counts": {
+      "train": 299,
+      "validation": 100,
+      "test": 100
+    },
+    "unique_coco_id_counts": {
+      "train": 299,
+      "validation": 100,
+      "test": 100
+    },
+    "unique_pixel_sha256_counts": {
+      "train": 299,
+      "validation": 100,
+      "test": 100
+    },
+    "cross_split_overlaps": {
+      "train_validation": {
+        "identity_keys": [],
+        "coco_image_ids": [],
+        "sha256": []
+      },
+      "train_test": {
+        "identity_keys": [],
+        "coco_image_ids": [],
+        "sha256": []
+      },
+      "validation_test": {
+        "identity_keys": [],
+        "coco_image_ids": [],
+        "sha256": []
+      }
+    },
+    "all_identity_keys_disjoint": true,
+    "all_coco_ids_disjoint": true,
+    "all_pixel_hashes_disjoint": true,
+    "duplicate_identity_groups": {
+      "coco:404484": [
+        {
+          "index": 1745,
+          "file_name": "2397343.jpg",
+          "coco_image_id": 404484,
+          "image_sha256": "3e1fd76af6b82f92fb57bcc74b4e84064574ef59148b7c09f00642e5a9138c81",
+          "split": "train"
+        },
+        {
+          "index": 57,
+          "file_name": "1592560.jpg",
+          "coco_image_id": 404484,
+          "image_sha256": "3e1fd76af6b82f92fb57bcc74b4e84064574ef59148b7c09f00642e5a9138c81",
+          "split": "train"
+        }
+      ]
+    }
+  },
+  "split_overlap": false,
+  "all_candidates_are_original_pair_logits": true,
+  "dual_decoding_reconstructed_exactly": true,
+  "single_decoding_reconstructed_exactly": true,
+  "fixed530_subset_requires_detector_vocabulary": true,
+  "annotation_label_warning": "An unmatched PSG relation candidate is not proven visually false; all match rates, ECE and risks are annotation-match proxies."
+}

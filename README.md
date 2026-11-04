@@ -4,6 +4,8 @@ RelateAnything 官方权重的 PSG 评测、控制实验、失败案例分析和
 
 阅读入口：
 
+- [HOR研究方向：实验迭代与逐项验收](HOR/research/reports/研究方向评估_全量迭代与验收报告.md)
+- [HOR研究实验与统一复跑](HOR/research/README.md)
 - [HOR 人相关关系抽取与500张测试](HOR/reports/HOR_500张实验报告.md)
 - [HOR 完整成果与交付核验](HOR/reports/成果检查与交付说明.md)
 - [完整实验报告](reproduction/reports/完整实验报告.md)

@@ -14,6 +14,7 @@ REPORTS = HOR_DIR / "reports"
 OUTPUT = HOR_DIR / "output"
 EXPERIMENT = OUTPUT / "random500"
 MARKER = "<!-- HOR_COMPLETE_RESULTS -->"
+LOCAL_ONLY_ASSETS = {"0295_detected.jpg", "0295_gt.jpg"}
 
 
 def load(path):
@@ -51,6 +52,7 @@ def copy_result(source, destination):
 def verify_links():
     parser = MarkdownIt("commonmark")
     references = 0
+    local_only_references = 0
     documents = list(REPORTS.rglob("*.md"))
     for path in documents:
         pending = list(parser.parse(path.read_text(encoding="utf-8")))
@@ -67,10 +69,13 @@ def verify_links():
                 target = (path.parent / unquote(parsed.path)).resolve()
                 if not target.is_relative_to(REPORTS.resolve()):
                     raise ValueError(f"Report reference outside reports: {path}: {reference}")
-                if not target.is_file():
+                local_only = target.parent == REPORTS / "assets" and target.name in LOCAL_ONLY_ASSETS
+                if not target.is_file() and not local_only:
                     raise FileNotFoundError(f"Broken report reference: {path}: {reference}")
+                local_only_references += int(local_only)
                 references += 1
-    return {"markdown_documents": len(documents), "local_references_checked": references}
+    return {"markdown_documents": len(documents), "local_references_checked": references,
+            "local_only_image_references": local_only_references}
 
 
 def verify_bundle():
@@ -85,7 +90,8 @@ def verify_bundle():
 
 
 def write_inventory():
-    files = [path for path in sorted(REPORTS.rglob("*")) if path.is_file() and path.name != "report_inventory.json"]
+    files = [path for path in sorted(REPORTS.rglob("*")) if path.is_file() and path.name != "report_inventory.json"
+             and not (path.parent == REPORTS / "assets" and path.name in LOCAL_ONLY_ASSETS)]
     save(REPORTS / "evidence/report_inventory.json", {
         "files": [{"path": path.relative_to(REPORTS).as_posix(), "bytes": path.stat().st_size,
                    "sha256": digest(path)} for path in files],
@@ -118,6 +124,12 @@ def export():
         save(REPORTS / "evidence/cases" / f"{index:04d}.json", record)
         path = REPORTS / "cases" / f"{index:04d}.md"
         content = path.read_text(encoding="utf-8").partition(MARKER)[0]
+        if index == 295 and "配图在本机保留" not in content:
+            notice = ("配图在本机保留，由Git忽略。原图为Visual Genome 2326503 / COCO 549055 / Flickr 6307658471，"
+                      "作者NomadicStateOfMind，许可为CC BY-NC-ND 2.0。"
+                      "带框版本没有单独传播授权记录；取得原数据后可通过HOR报告脚本重新生成。"
+                      "来源核验见HOR/research/reports/regions/rights_metadata.json。")
+            content = content.replace("## 自动检测框与输出", notice + "\n\n## 自动检测框与输出", 1)
         content = content.replace("../../output/random500/images/", "../assets/")
         content = content.replace("原始分数和全部人相关物体对的两类预测见 `output/random500/predictions.jsonl`；所有参与前向的物体对与56个谓词 logits 见 `output/random500/logits/`。",
                                   f"原始记录、全部人相关物体对的两项预测与分项分数见 [逐图证据 JSON](../evidence/cases/{index:04d}.json)。全部56类 logits 保留于本机 HOR/output/random500/logits/。")
@@ -145,7 +157,7 @@ def export():
     content = main_report.read_text(encoding="utf-8").partition(MARKER)[0]
     content = content.replace("../output/random500/images/", "assets/")
     content += "\n\n" + MARKER + "\n\n## 完整成果与核验附件\n\n"
-    content += "[成果检查与交付说明](成果检查与交付说明.md)提供全部19组评测、500份逐图完整对照、单张图片实例和核验记录。报告配图位于 reports/assets，可随仓库直接查阅。\n"
+    content += "[成果检查与交付说明](成果检查与交付说明.md)提供全部19组评测、500份图像完整对照、单张图片实例和核验记录。报告配图位于reports/assets；图片0295的两张带框版本仅保留本机，取得原数据后可重新生成。\n"
     main_report.write_text(content, encoding="utf-8")
     single_source = OUTPUT / "single_example"
     single = load(single_source / "relations.json")
@@ -174,6 +186,7 @@ def export():
              "## 核验范围", "",
              "本次整理不执行新的模型推理。已有结果重新通过 HOR/verify.py 核验；新增的整理脚本检查成果副本与原文件的对应关系、全部报告的本地链接、图片数量和逐图数量。", "",
              "模型、缓存、完整56类logit张量和批次预测JSONL保留在本机忽略目录 HOR/output 与 HOR/models。报告目录已包含可读成果、原始逐图记录、抽样清单和核验材料。HTML文件继续由根目录规则忽略。", "",
+             "图片0295的两个编号JPEG由Git忽略并保留在本机。原图许可为CC BY-NC-ND 2.0，当前缺少带框版本单独传播授权；这两份本机配图不进入公开文件清单。其余已有图片的许可未在本轮逐张核验。", "",
              "查看报告和图片无需GPU。重新计算原始logit一致性需要恢复本机模型及实验张量；报告文件摘要核验只需要 Python 和 markdown-it-py。", "",
              "```powershell", ".\\.venv-eval\\Scripts\\python.exe HOR/export_reports.py --verify-only", "```", "",
              "报告文件摘要见 [文件清单](evidence/report_inventory.json)。重新生成命令为 HOR/run.ps1 -SkipInference；完整推理为 HOR/run.ps1。", ""]
@@ -194,6 +207,8 @@ def export():
     checked = {"passed": True, "checked_at": datetime.now(timezone.utc).isoformat(),
                "experiment_created": load(EXPERIMENT / "runtime.json")["created"],
                "numbered_images": len(pictures), "case_reports": len(cases),
+               "numbered_images_in_inventory": len(pictures) - len(LOCAL_ONLY_ASSETS),
+               "local_only_numbered_images": sorted(LOCAL_ONLY_ASSETS),
                "raw_case_records": len(records), "evaluation_conditions_and_groups": len(evaluations),
                "complete_rankings_per_case": len(modes) * len(rankings),
                "single_example_relations": len(single["relations"]), **links,

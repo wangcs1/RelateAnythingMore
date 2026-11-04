@@ -1,0 +1,1720 @@
+{
+  "data_and_method_summary": {
+    "sample_images": 500,
+    "sample_images_with_coco_mapping": 500,
+    "unique_coco_source_images_analyzed": 499,
+    "duplicate_coco_source_images_excluded": 1,
+    "geometry_compatible_images": 499,
+    "images_with_coco_person_keypoint_annotations": 220,
+    "psg_person_boxes": 1155,
+    "psg_person_boxes_matched_iou_threshold": 0.5,
+    "matched_psg_person_boxes": 611,
+    "predicted_keypoint_model_matched_psg_person_boxes": 1023,
+    "coco_keypoint_person_annotations_on_compatible_images": 611,
+    "routed_human_object_relations": 297,
+    "routed_relations_with_matched_predicted_person": 293,
+    "unmatched_or_incompatible_human_object_relations": 157,
+    "part_proxy_predicates": [
+      "carrying",
+      "holding",
+      "kicking",
+      "leaning on",
+      "riding",
+      "running on",
+      "sitting on",
+      "standing on",
+      "walking on"
+    ],
+    "aspect_ratio_error_limit": 0.02,
+    "minimum_person_box_iou": 0.5,
+    "keypoint_score_field": "keypoints_scores (raw heatmap peak score)",
+    "keypoint_score_threshold": 0.5,
+    "keypoint_score_is_calibrated_probability": false,
+    "mapped_images_by_keypoint_split": {
+      "train": 0,
+      "val": 500
+    }
+  },
+  "ground_truth_keypoint_proxy_statistics": {
+    "carrying": {
+      "relation_count": 20,
+      "relations_with_any_available_joint_group": 19,
+      "relations_with_routed_joint_available": 18,
+      "relations_with_visible_routed_joint": 18,
+      "routed_joint_visibility_rate": 0.9,
+      "routed_joint_visibility_rate_ci95": [
+        0.7619047619047619,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.1087719298245614,
+      "routed_part_group_fractional_score_sum": 2.0666666666666664,
+      "routed_part_group_nearest_inclusive_count": 6,
+      "routed_part_group_nearest_inclusive_rate": 0.3157894736842105,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 13,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.03859649122807018,
+        0.18888888888888888
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 5,
+          "rate": 0.25,
+          "ci95": [
+            0.058823529411764705,
+            0.4090909090909091
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 6,
+          "rate": 0.3,
+          "ci95": [
+            0.1111111111111111,
+            0.47368421052631576
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 9,
+          "rate": 0.45,
+          "ci95": [
+            0.2222222222222222,
+            0.6521739130434783
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 13,
+          "rate": 0.65,
+          "ci95": [
+            0.42105263157894735,
+            0.85
+          ]
+        }
+      }
+    },
+    "holding": {
+      "relation_count": 85,
+      "relations_with_any_available_joint_group": 84,
+      "relations_with_routed_joint_available": 77,
+      "relations_with_visible_routed_joint": 77,
+      "routed_joint_visibility_rate": 0.9058823529411765,
+      "routed_joint_visibility_rate_ci95": [
+        0.8408740179573513,
+        0.9642857142857143
+      ],
+      "routed_part_group_nearest_among_available": 0.26626984126984127,
+      "routed_part_group_fractional_score_sum": 22.366666666666667,
+      "routed_part_group_nearest_inclusive_count": 49,
+      "routed_part_group_nearest_inclusive_rate": 0.5833333333333334,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 52,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.2144818722943723,
+        0.3176982918992051
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 19,
+          "rate": 0.2235294117647059,
+          "ci95": [
+            0.12657864105921723,
+            0.3258426966292135
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 25,
+          "rate": 0.29411764705882354,
+          "ci95": [
+            0.19047619047619047,
+            0.4069767441860465
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 34,
+          "rate": 0.4,
+          "ci95": [
+            0.29411764705882354,
+            0.5057505070993915
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 52,
+          "rate": 0.611764705882353,
+          "ci95": [
+            0.5054775280898877,
+            0.7142857142857143
+          ]
+        }
+      }
+    },
+    "kicking": {
+      "relation_count": 2,
+      "relations_with_any_available_joint_group": 2,
+      "relations_with_routed_joint_available": 1,
+      "relations_with_visible_routed_joint": 1,
+      "routed_joint_visibility_rate": 0.5,
+      "routed_joint_visibility_rate_ci95": [
+        0.0,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.5,
+      "routed_part_group_fractional_score_sum": 1.0,
+      "routed_part_group_nearest_inclusive_count": 1,
+      "routed_part_group_nearest_inclusive_rate": 0.5,
+      "routed_part_group_unique_nearest_count": 1,
+      "routed_part_group_unique_nearest_rate": 0.5,
+      "relations_with_tied_nearest_groups": 1,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.0,
+        1.0
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "leaning on": {
+      "relation_count": 4,
+      "relations_with_any_available_joint_group": 4,
+      "relations_with_routed_joint_available": 4,
+      "relations_with_visible_routed_joint": 4,
+      "routed_joint_visibility_rate": 1.0,
+      "routed_joint_visibility_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.1,
+      "routed_part_group_fractional_score_sum": 0.4,
+      "routed_part_group_nearest_inclusive_count": 2,
+      "routed_part_group_nearest_inclusive_rate": 0.5,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 2,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.0,
+        0.2
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 2,
+          "rate": 0.5,
+          "ci95": [
+            0.0,
+            1.0
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 3,
+          "rate": 0.75,
+          "ci95": [
+            0.25,
+            1.0
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 4,
+          "rate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 4,
+          "rate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "riding": {
+      "relation_count": 33,
+      "relations_with_any_available_joint_group": 33,
+      "relations_with_routed_joint_available": 28,
+      "relations_with_visible_routed_joint": 28,
+      "routed_joint_visibility_rate": 0.8484848484848485,
+      "routed_joint_visibility_rate_ci95": [
+        0.6944444444444444,
+        0.9705882352941176
+      ],
+      "routed_part_group_nearest_among_available": 0.10202020202020202,
+      "routed_part_group_fractional_score_sum": 3.3666666666666667,
+      "routed_part_group_nearest_inclusive_count": 12,
+      "routed_part_group_nearest_inclusive_rate": 0.36363636363636365,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 21,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.04714136904761904,
+        0.1625
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 11,
+          "rate": 0.3333333333333333,
+          "ci95": [
+            0.14695378151260505,
+            0.5294117647058824
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 13,
+          "rate": 0.3939393939393939,
+          "ci95": [
+            0.2222222222222222,
+            0.5610137195121949
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 15,
+          "rate": 0.45454545454545453,
+          "ci95": [
+            0.26666666666666666,
+            0.6207129543336439
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 17,
+          "rate": 0.5151515151515151,
+          "ci95": [
+            0.32142857142857145,
+            0.6842105263157895
+          ]
+        }
+      }
+    },
+    "running on": {
+      "relation_count": 14,
+      "relations_with_any_available_joint_group": 14,
+      "relations_with_routed_joint_available": 12,
+      "relations_with_visible_routed_joint": 12,
+      "routed_joint_visibility_rate": 0.8571428571428571,
+      "routed_joint_visibility_rate_ci95": [
+        0.6666666666666666,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.3833333333333333,
+      "routed_part_group_fractional_score_sum": 5.366666666666666,
+      "routed_part_group_nearest_inclusive_count": 12,
+      "routed_part_group_nearest_inclusive_rate": 0.8571428571428571,
+      "routed_part_group_unique_nearest_count": 1,
+      "routed_part_group_unique_nearest_rate": 0.07142857142857142,
+      "relations_with_tied_nearest_groups": 11,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.2638825757575758,
+        0.46251157407407406
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 12,
+          "rate": 0.8571428571428571,
+          "ci95": [
+            0.6666666666666666,
+            1.0
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 12,
+          "rate": 0.8571428571428571,
+          "ci95": [
+            0.6666666666666666,
+            1.0
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 12,
+          "rate": 0.8571428571428571,
+          "ci95": [
+            0.6666666666666666,
+            1.0
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 12,
+          "rate": 0.8571428571428571,
+          "ci95": [
+            0.6666666666666666,
+            1.0
+          ]
+        }
+      }
+    },
+    "sitting on": {
+      "relation_count": 28,
+      "relations_with_any_available_joint_group": 28,
+      "relations_with_routed_joint_available": 21,
+      "relations_with_visible_routed_joint": 21,
+      "routed_joint_visibility_rate": 0.75,
+      "routed_joint_visibility_rate_ci95": [
+        0.5862068965517241,
+        0.8928571428571429
+      ],
+      "routed_part_group_nearest_among_available": 0.18511904761904763,
+      "routed_part_group_fractional_score_sum": 5.183333333333334,
+      "routed_part_group_nearest_inclusive_count": 17,
+      "routed_part_group_nearest_inclusive_rate": 0.6071428571428571,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 21,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.12083333333333333,
+        0.2547663139329806
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 14,
+          "rate": 0.5,
+          "ci95": [
+            0.32142857142857145,
+            0.6785714285714286
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 15,
+          "rate": 0.5357142857142857,
+          "ci95": [
+            0.35714285714285715,
+            0.7142857142857143
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 17,
+          "rate": 0.6071428571428571,
+          "ci95": [
+            0.42857142857142855,
+            0.7777777777777778
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 18,
+          "rate": 0.6428571428571429,
+          "ci95": [
+            0.4642857142857143,
+            0.8148148148148148
+          ]
+        }
+      }
+    },
+    "standing on": {
+      "relation_count": 80,
+      "relations_with_any_available_joint_group": 80,
+      "relations_with_routed_joint_available": 62,
+      "relations_with_visible_routed_joint": 62,
+      "routed_joint_visibility_rate": 0.775,
+      "routed_joint_visibility_rate_ci95": [
+        0.6823529411764706,
+        0.868421052631579
+      ],
+      "routed_part_group_nearest_among_available": 0.4166666666666667,
+      "routed_part_group_fractional_score_sum": 33.333333333333336,
+      "routed_part_group_nearest_inclusive_count": 62,
+      "routed_part_group_nearest_inclusive_rate": 0.775,
+      "routed_part_group_unique_nearest_count": 23,
+      "routed_part_group_unique_nearest_rate": 0.2875,
+      "relations_with_tied_nearest_groups": 53,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.3327192132950741,
+        0.5107582236842104
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 58,
+          "rate": 0.725,
+          "ci95": [
+            0.6234899569583932,
+            0.8205128205128205
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 60,
+          "rate": 0.75,
+          "ci95": [
+            0.65,
+            0.8461538461538461
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 62,
+          "rate": 0.775,
+          "ci95": [
+            0.6823529411764706,
+            0.868421052631579
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 62,
+          "rate": 0.775,
+          "ci95": [
+            0.6823529411764706,
+            0.868421052631579
+          ]
+        }
+      }
+    },
+    "walking on": {
+      "relation_count": 31,
+      "relations_with_any_available_joint_group": 31,
+      "relations_with_routed_joint_available": 26,
+      "relations_with_visible_routed_joint": 26,
+      "routed_joint_visibility_rate": 0.8387096774193549,
+      "routed_joint_visibility_rate_ci95": [
+        0.6873125,
+        0.9666666666666667
+      ],
+      "routed_part_group_nearest_among_available": 0.28118279569892474,
+      "routed_part_group_fractional_score_sum": 8.716666666666667,
+      "routed_part_group_nearest_inclusive_count": 26,
+      "routed_part_group_nearest_inclusive_rate": 0.8387096774193549,
+      "routed_part_group_unique_nearest_count": 2,
+      "routed_part_group_unique_nearest_rate": 0.06451612903225806,
+      "relations_with_tied_nearest_groups": 28,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.19790561868686868,
+        0.3724509803921568
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 25,
+          "rate": 0.8064516129032258,
+          "ci95": [
+            0.6428571428571429,
+            0.9394385026737966
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 26,
+          "rate": 0.8387096774193549,
+          "ci95": [
+            0.6873125,
+            0.9666666666666667
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 26,
+          "rate": 0.8387096774193549,
+          "ci95": [
+            0.6873125,
+            0.9666666666666667
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 26,
+          "rate": 0.8387096774193549,
+          "ci95": [
+            0.6873125,
+            0.9666666666666667
+          ]
+        }
+      }
+    }
+  },
+  "predicted_keypoint_proxy_statistics": {
+    "carrying": {
+      "relation_count": 20,
+      "relations_with_any_available_joint_group": 20,
+      "relations_with_routed_joint_available": 20,
+      "relations_with_visible_routed_joint": 20,
+      "routed_joint_visibility_rate": 1.0,
+      "routed_joint_visibility_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.1575,
+      "routed_part_group_fractional_score_sum": 3.15,
+      "routed_part_group_nearest_inclusive_count": 9,
+      "routed_part_group_nearest_inclusive_rate": 0.45,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 16,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.08703216374269006,
+        0.23651190476190473
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 8,
+          "rate": 0.4,
+          "ci95": [
+            0.21052631578947367,
+            0.5789473684210527
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 9,
+          "rate": 0.45,
+          "ci95": [
+            0.2222222222222222,
+            0.6521739130434783
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 12,
+          "rate": 0.6,
+          "ci95": [
+            0.3684210526315789,
+            0.800238095238094
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 16,
+          "rate": 0.8,
+          "ci95": [
+            0.6111111111111112,
+            0.9523809523809523
+          ]
+        }
+      }
+    },
+    "holding": {
+      "relation_count": 85,
+      "relations_with_any_available_joint_group": 84,
+      "relations_with_routed_joint_available": 83,
+      "relations_with_visible_routed_joint": 83,
+      "routed_joint_visibility_rate": 0.9764705882352941,
+      "routed_joint_visibility_rate_ci95": [
+        0.9404761904761905,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.2724206349206349,
+      "routed_part_group_fractional_score_sum": 22.883333333333333,
+      "routed_part_group_nearest_inclusive_count": 52,
+      "routed_part_group_nearest_inclusive_rate": 0.6190476190476191,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 55,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.2224462915601023,
+        0.32448898709315377
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 23,
+          "rate": 0.27058823529411763,
+          "ci95": [
+            0.1744186046511628,
+            0.37209302325581395
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 27,
+          "rate": 0.3176470588235294,
+          "ci95": [
+            0.2168435104052574,
+            0.4268326938887366
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 41,
+          "rate": 0.4823529411764706,
+          "ci95": [
+            0.36904761904761907,
+            0.5903751369112814
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 54,
+          "rate": 0.6352941176470588,
+          "ci95": [
+            0.5316455696202531,
+            0.7326176800224149
+          ]
+        }
+      }
+    },
+    "kicking": {
+      "relation_count": 2,
+      "relations_with_any_available_joint_group": 2,
+      "relations_with_routed_joint_available": 1,
+      "relations_with_visible_routed_joint": 1,
+      "routed_joint_visibility_rate": 0.5,
+      "routed_joint_visibility_rate_ci95": [
+        0.0,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.5,
+      "routed_part_group_fractional_score_sum": 1.0,
+      "routed_part_group_nearest_inclusive_count": 1,
+      "routed_part_group_nearest_inclusive_rate": 0.5,
+      "routed_part_group_unique_nearest_count": 1,
+      "routed_part_group_unique_nearest_rate": 0.5,
+      "relations_with_tied_nearest_groups": 1,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.0,
+        1.0
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "leaning on": {
+      "relation_count": 4,
+      "relations_with_any_available_joint_group": 4,
+      "relations_with_routed_joint_available": 4,
+      "relations_with_visible_routed_joint": 4,
+      "routed_joint_visibility_rate": 1.0,
+      "routed_joint_visibility_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.16666666666666666,
+      "routed_part_group_fractional_score_sum": 0.6666666666666666,
+      "routed_part_group_nearest_inclusive_count": 3,
+      "routed_part_group_nearest_inclusive_rate": 0.75,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 4,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.041666666666666664,
+        0.29166666666666663
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 3,
+          "rate": 0.75,
+          "ci95": [
+            0.25,
+            1.0
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 3,
+          "rate": 0.75,
+          "ci95": [
+            0.25,
+            1.0
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 4,
+          "rate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 4,
+          "rate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "riding": {
+      "relation_count": 33,
+      "relations_with_any_available_joint_group": 33,
+      "relations_with_routed_joint_available": 33,
+      "relations_with_visible_routed_joint": 33,
+      "routed_joint_visibility_rate": 1.0,
+      "routed_joint_visibility_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.12424242424242424,
+      "routed_part_group_fractional_score_sum": 4.1,
+      "routed_part_group_nearest_inclusive_count": 16,
+      "routed_part_group_nearest_inclusive_rate": 0.48484848484848486,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 22,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.07713632872503841,
+        0.1732172619047619
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 15,
+          "rate": 0.45454545454545453,
+          "ci95": [
+            0.27586206896551724,
+            0.6207129543336439
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 15,
+          "rate": 0.45454545454545453,
+          "ci95": [
+            0.27586206896551724,
+            0.6207129543336439
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 18,
+          "rate": 0.5454545454545454,
+          "ci95": [
+            0.3548387096774194,
+            0.6970454545454542
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 22,
+          "rate": 0.6666666666666666,
+          "ci95": [
+            0.5142857142857142,
+            0.8055779569892472
+          ]
+        }
+      }
+    },
+    "running on": {
+      "relation_count": 14,
+      "relations_with_any_available_joint_group": 14,
+      "relations_with_routed_joint_available": 13,
+      "relations_with_visible_routed_joint": 13,
+      "routed_joint_visibility_rate": 0.9285714285714286,
+      "routed_joint_visibility_rate_ci95": [
+        0.7857142857142857,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.3833333333333333,
+      "routed_part_group_fractional_score_sum": 5.366666666666666,
+      "routed_part_group_nearest_inclusive_count": 13,
+      "routed_part_group_nearest_inclusive_rate": 0.9285714285714286,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 13,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.2904365079365079,
+        0.46155303030303024
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 13,
+          "rate": 0.9285714285714286,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 13,
+          "rate": 0.9285714285714286,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 13,
+          "rate": 0.9285714285714286,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 13,
+          "rate": 0.9285714285714286,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        }
+      }
+    },
+    "sitting on": {
+      "relation_count": 28,
+      "relations_with_any_available_joint_group": 28,
+      "relations_with_routed_joint_available": 25,
+      "relations_with_visible_routed_joint": 25,
+      "routed_joint_visibility_rate": 0.8928571428571429,
+      "routed_joint_visibility_rate_ci95": [
+        0.7666666666666667,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.1880952380952381,
+      "routed_part_group_fractional_score_sum": 5.266666666666667,
+      "routed_part_group_nearest_inclusive_count": 19,
+      "routed_part_group_nearest_inclusive_rate": 0.6785714285714286,
+      "routed_part_group_unique_nearest_count": 0,
+      "routed_part_group_unique_nearest_rate": 0.0,
+      "relations_with_tied_nearest_groups": 23,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.13,
+        0.2518827160493825
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 17,
+          "rate": 0.6071428571428571,
+          "ci95": [
+            0.42857142857142855,
+            0.7777777777777778
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 17,
+          "rate": 0.6071428571428571,
+          "ci95": [
+            0.42857142857142855,
+            0.7777777777777778
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 19,
+          "rate": 0.6785714285714286,
+          "ci95": [
+            0.5161290322580645,
+            0.8518518518518519
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 20,
+          "rate": 0.7142857142857143,
+          "ci95": [
+            0.5517241379310345,
+            0.8571428571428571
+          ]
+        }
+      }
+    },
+    "standing on": {
+      "relation_count": 80,
+      "relations_with_any_available_joint_group": 78,
+      "relations_with_routed_joint_available": 70,
+      "relations_with_visible_routed_joint": 70,
+      "routed_joint_visibility_rate": 0.875,
+      "routed_joint_visibility_rate_ci95": [
+        0.7906976744186046,
+        0.9473684210526315
+      ],
+      "routed_part_group_nearest_among_available": 0.48034188034188036,
+      "routed_part_group_fractional_score_sum": 37.46666666666667,
+      "routed_part_group_nearest_inclusive_count": 70,
+      "routed_part_group_nearest_inclusive_rate": 0.8974358974358975,
+      "routed_part_group_unique_nearest_count": 27,
+      "routed_part_group_unique_nearest_rate": 0.34615384615384615,
+      "relations_with_tied_nearest_groups": 49,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.3938771002710027,
+        0.575528129395218
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 62,
+          "rate": 0.775,
+          "ci95": [
+            0.6823395721925134,
+            0.8658739837398373
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 69,
+          "rate": 0.8625,
+          "ci95": [
+            0.7804811042615921,
+            0.9367088607594937
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 70,
+          "rate": 0.875,
+          "ci95": [
+            0.7906976744186046,
+            0.9473684210526315
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 70,
+          "rate": 0.875,
+          "ci95": [
+            0.7906976744186046,
+            0.9473684210526315
+          ]
+        }
+      }
+    },
+    "walking on": {
+      "relation_count": 31,
+      "relations_with_any_available_joint_group": 30,
+      "relations_with_routed_joint_available": 28,
+      "relations_with_visible_routed_joint": 28,
+      "routed_joint_visibility_rate": 0.9032258064516129,
+      "routed_joint_visibility_rate_ci95": [
+        0.7857142857142857,
+        1.0
+      ],
+      "routed_part_group_nearest_among_available": 0.30833333333333335,
+      "routed_part_group_fractional_score_sum": 9.25,
+      "routed_part_group_nearest_inclusive_count": 28,
+      "routed_part_group_nearest_inclusive_rate": 0.9333333333333333,
+      "routed_part_group_unique_nearest_count": 3,
+      "routed_part_group_unique_nearest_rate": 0.1,
+      "relations_with_tied_nearest_groups": 27,
+      "nearest_metric": "fractional credit 1 / number of tied nearest groups; missing routed group scores zero",
+      "routed_part_group_nearest_ci95": [
+        0.21499537037037036,
+        0.4160012345679013
+      ],
+      "routed_joint_proximity_thresholds_object_diagonals": {
+        "0.0": {
+          "relation_count_within_distance": 27,
+          "rate": 0.8709677419354839,
+          "ci95": [
+            0.7406045751633986,
+            0.9714285714285714
+          ]
+        },
+        "0.05": {
+          "relation_count_within_distance": 28,
+          "rate": 0.9032258064516129,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "0.1": {
+          "relation_count_within_distance": 28,
+          "rate": 0.9032258064516129,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "0.2": {
+          "relation_count_within_distance": 28,
+          "rate": 0.9032258064516129,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "paired_ground_truth_vs_prediction_nearest_comparison": {
+    "eligible_images": 167,
+    "eligible_relations": 291,
+    "metric": "fractional credit among tied nearest groups",
+    "metrics": {
+      "fractional": {
+        "ground_truth_score_sum": 81.8,
+        "predicted_score_sum": 89.15,
+        "ground_truth_rate": 0.2810996563573883,
+        "predicted_rate": 0.3063573883161512,
+        "predicted_minus_ground_truth_rate": 0.025257731958762915,
+        "paired_difference_ci95": [
+          0.006091723298934472,
+          0.04535431184668989
+        ],
+        "ground_truth_only_positive_count": 7,
+        "predicted_only_positive_count": 31
+      },
+      "inclusive": {
+        "ground_truth_score_sum": 187.0,
+        "predicted_score_sum": 211.0,
+        "ground_truth_rate": 0.6426116838487973,
+        "predicted_rate": 0.7250859106529209,
+        "predicted_minus_ground_truth_rate": 0.08247422680412371,
+        "paired_difference_ci95": [
+          0.04452054794520548,
+          0.12131440281030444
+        ],
+        "ground_truth_only_positive_count": 7,
+        "predicted_only_positive_count": 31
+      },
+      "unique": {
+        "ground_truth_score_sum": 27.0,
+        "predicted_score_sum": 31.0,
+        "ground_truth_rate": 0.09278350515463918,
+        "predicted_rate": 0.10652920962199312,
+        "predicted_minus_ground_truth_rate": 0.013745704467353952,
+        "paired_difference_ci95": [
+          -0.006102850657844118,
+          0.03308823529411765
+        ],
+        "ground_truth_only_positive_count": 2,
+        "predicted_only_positive_count": 6
+      }
+    },
+    "ground_truth_keypoint_nearest_score_sum": 81.8,
+    "ground_truth_keypoint_nearest_rate": 0.2810996563573883,
+    "ground_truth_routed_group_available_count": 248,
+    "ground_truth_routed_group_available_rate": 0.852233676975945,
+    "predicted_keypoint_nearest_score_sum": 89.15,
+    "predicted_keypoint_nearest_rate": 0.3063573883161512,
+    "predicted_routed_group_available_count": 275,
+    "predicted_routed_group_available_rate": 0.9450171821305842,
+    "predicted_minus_ground_truth_rate": 0.025257731958762915,
+    "paired_difference_ci95": [
+      0.006091723298934472,
+      0.04535431184668989
+    ],
+    "bootstrap_unit": "source image",
+    "bootstrap_repetitions": 2000
+  },
+  "shuffled_predicate_to_part_baseline": {
+    "eligible_relations": 295,
+    "observed_predicate_routed_group_nearest_rate": 0.2772881355932205,
+    "shuffled_route_mean": 0.1679161016949153,
+    "shuffled_route_ci95": [
+      0.08197457627118641,
+      0.27757627118644085
+    ],
+    "upper_tail_probability": 0.028985507246376812,
+    "metric": "fractional credit over all groups tied at the shortest distance",
+    "metrics": {
+      "fractional": {
+        "observed": 0.2772881355932205,
+        "uniform_predicate_route_mean": 0.1679161016949153,
+        "uniform_predicate_route_ci95": [
+          0.08197457627118641,
+          0.27757627118644085
+        ],
+        "uniform_route_upper_tail_probability": 0.028985507246376812,
+        "route_marginal_preserving_mean": 0.17598225988700575,
+        "route_marginal_preserving_ci95": [
+          0.08355790960451975,
+          0.29108333333333347
+        ],
+        "marginal_preserving_upper_tail_probability": 0.06846576711644178
+      },
+      "inclusive": {
+        "observed": 0.6338983050847458,
+        "uniform_predicate_route_mean": 0.45050338983050847,
+        "uniform_predicate_route_ci95": [
+          0.2983050847457627,
+          0.6237288135593221
+        ],
+        "uniform_route_upper_tail_probability": 0.017491254372813594,
+        "route_marginal_preserving_mean": 0.45509322033898303,
+        "route_marginal_preserving_ci95": [
+          0.31186440677966104,
+          0.6406779661016949
+        ],
+        "marginal_preserving_upper_tail_probability": 0.03398300849575212
+      },
+      "unique": {
+        "observed": 0.09152542372881356,
+        "uniform_predicate_route_mean": 0.05352542372881357,
+        "uniform_predicate_route_ci95": [
+          0.006779661016949152,
+          0.15940677966101646
+        ],
+        "uniform_route_upper_tail_probability": 0.280359820089955,
+        "route_marginal_preserving_mean": 0.0618135593220339,
+        "route_marginal_preserving_ci95": [
+          0.010169491525423728,
+          0.12203389830508475
+        ],
+        "marginal_preserving_upper_tail_probability": 0.34382808595702147
+      }
+    },
+    "permutation_repetitions": 2000,
+    "null_definition": "One random keypoint-group assignment per predicate, shared by all its relations; groups sampled uniformly.",
+    "interpretation_limit": "Both nulls are descriptive only. The second preserves route-group counts across predicate mappings, not relation-frequency weighted counts. Group point counts and visibility are controlled only in the complete two-point-group comparison."
+  },
+  "common_joint_support_control": {
+    "definition": "identical visible joint ID support in ground truth and prediction; original overlapping groups",
+    "eligible_relations": 291,
+    "eligible_source_images": 167,
+    "paired_comparison": {
+      "eligible_images": 167,
+      "eligible_relations": 291,
+      "metric": "fractional credit among tied nearest groups",
+      "metrics": {
+        "fractional": {
+          "ground_truth_score_sum": 82.18333333333334,
+          "predicted_score_sum": 83.53333333333333,
+          "ground_truth_rate": 0.28241695303550973,
+          "predicted_rate": 0.2870561282932417,
+          "predicted_minus_ground_truth_rate": 0.004639175257731939,
+          "paired_difference_ci95": [
+            -0.004571934142246629,
+            0.014280073384291617
+          ],
+          "ground_truth_only_positive_count": 2,
+          "predicted_only_positive_count": 4
+        },
+        "inclusive": {
+          "ground_truth_score_sum": 186.0,
+          "predicted_score_sum": 188.0,
+          "ground_truth_rate": 0.6391752577319587,
+          "predicted_rate": 0.6460481099656358,
+          "predicted_minus_ground_truth_rate": 0.006872852233676976,
+          "paired_difference_ci95": [
+            -0.010102722136620442,
+            0.02422145328719723
+          ],
+          "ground_truth_only_positive_count": 2,
+          "predicted_only_positive_count": 4
+        },
+        "unique": {
+          "ground_truth_score_sum": 28.0,
+          "predicted_score_sum": 29.0,
+          "ground_truth_rate": 0.09621993127147767,
+          "predicted_rate": 0.09965635738831616,
+          "predicted_minus_ground_truth_rate": 0.003436426116838488,
+          "paired_difference_ci95": [
+            -0.007272727272727273,
+            0.015163352272727209
+          ],
+          "ground_truth_only_positive_count": 1,
+          "predicted_only_positive_count": 2
+        }
+      },
+      "ground_truth_keypoint_nearest_score_sum": 82.18333333333334,
+      "ground_truth_keypoint_nearest_rate": 0.28241695303550973,
+      "ground_truth_routed_group_available_count": 246,
+      "ground_truth_routed_group_available_rate": 0.845360824742268,
+      "predicted_keypoint_nearest_score_sum": 83.53333333333333,
+      "predicted_keypoint_nearest_rate": 0.2870561282932417,
+      "predicted_routed_group_available_count": 246,
+      "predicted_routed_group_available_rate": 0.845360824742268,
+      "predicted_minus_ground_truth_rate": 0.004639175257731939,
+      "paired_difference_ci95": [
+        -0.004571934142246629,
+        0.014280073384291617
+      ],
+      "bootstrap_unit": "source image",
+      "bootstrap_repetitions": 2000
+    },
+    "shuffled_route_baseline": {
+      "eligible_relations": 291,
+      "observed_predicate_routed_group_nearest_rate": 0.2824169530355099,
+      "shuffled_route_mean": 0.16787236540664377,
+      "shuffled_route_ci95": [
+        0.08131586483390606,
+        0.28420389461626583
+      ],
+      "upper_tail_probability": 0.027486256871564217,
+      "metric": "fractional credit over all groups tied at the shortest distance",
+      "metrics": {
+        "fractional": {
+          "observed": 0.2824169530355099,
+          "uniform_predicate_route_mean": 0.16787236540664377,
+          "uniform_predicate_route_ci95": [
+            0.08131586483390606,
+            0.28420389461626583
+          ],
+          "uniform_route_upper_tail_probability": 0.027486256871564217,
+          "route_marginal_preserving_mean": 0.17767016036655217,
+          "route_marginal_preserving_ci95": [
+            0.08235824742268039,
+            0.2958777205040094
+          ],
+          "marginal_preserving_upper_tail_probability": 0.06646676661669165
+        },
+        "inclusive": {
+          "observed": 0.6391752577319587,
+          "uniform_predicate_route_mean": 0.44915807560137455,
+          "uniform_predicate_route_ci95": [
+            0.29553264604810997,
+            0.6288659793814433
+          ],
+          "uniform_route_upper_tail_probability": 0.015992003998001,
+          "route_marginal_preserving_mean": 0.455254295532646,
+          "route_marginal_preserving_ci95": [
+            0.30927835051546393,
+            0.6426116838487973
+          ],
+          "marginal_preserving_upper_tail_probability": 0.030484757621189407
+        },
+        "unique": {
+          "observed": 0.09621993127147767,
+          "uniform_predicate_route_mean": 0.054214776632302404,
+          "uniform_predicate_route_ci95": [
+            0.006872852233676976,
+            0.1650343642611679
+          ],
+          "uniform_route_upper_tail_probability": 0.24737631184407796,
+          "route_marginal_preserving_mean": 0.0642405498281787,
+          "route_marginal_preserving_ci95": [
+            0.010309278350515464,
+            0.12714776632302405
+          ],
+          "marginal_preserving_upper_tail_probability": 0.34382808595702147
+        }
+      },
+      "permutation_repetitions": 2000,
+      "null_definition": "One random keypoint-group assignment per predicate, shared by all its relations; groups sampled uniformly.",
+      "interpretation_limit": "Both nulls are descriptive only. The second preserves route-group counts across predicate mappings, not relation-frequency weighted counts. Group point counts and visibility are controlled only in the complete two-point-group comparison."
+    },
+    "availability": {
+      "routed": {
+        "relations_with_any_group": 291,
+        "nearest_tie_count": 198,
+        "mean_available_groups": 5.13745704467354,
+        "per_group": {
+          "hands": {
+            "available_relations": 250,
+            "minimum_available_points": 0,
+            "maximum_available_points": 2,
+            "mean_available_points": 1.402061855670103
+          },
+          "forearms": {
+            "available_relations": 274,
+            "minimum_available_points": 0,
+            "maximum_available_points": 4,
+            "mean_available_points": 2.9037800687285222
+          },
+          "shoulders": {
+            "available_relations": 273,
+            "minimum_available_points": 0,
+            "maximum_available_points": 2,
+            "mean_available_points": 1.7731958762886597
+          },
+          "hips": {
+            "available_relations": 250,
+            "minimum_available_points": 0,
+            "maximum_available_points": 2,
+            "mean_available_points": 1.6082474226804124
+          },
+          "legs": {
+            "available_relations": 258,
+            "minimum_available_points": 0,
+            "maximum_available_points": 4,
+            "mean_available_points": 2.9896907216494846
+          },
+          "feet": {
+            "available_relations": 190,
+            "minimum_available_points": 0,
+            "maximum_available_points": 2,
+            "mean_available_points": 1.1546391752577319
+          }
+        }
+      },
+      "predicted_routed": {
+        "relations_with_any_group": 291,
+        "nearest_tie_count": 198,
+        "mean_available_groups": 5.13745704467354,
+        "per_group": {
+          "hands": {
+            "available_relations": 250,
+            "minimum_available_points": 0,
+            "maximum_available_points": 2,
+            "mean_available_points": 1.402061855670103
+          },
+          "forearms": {
+            "available_relations": 274,
+            "minimum_available_points": 0,
+            "maximum_available_points": 4,
+            "mean_available_points": 2.9037800687285222
+          },
+          "shoulders": {
+            "available_relations": 273,
+            "minimum_available_points": 0,
+            "maximum_available_points": 2,
+            "mean_available_points": 1.7731958762886597
+          },
+          "hips": {
+            "available_relations": 250,
+            "minimum_available_points": 0,
+            "maximum_available_points": 2,
+            "mean_available_points": 1.6082474226804124
+          },
+          "legs": {
+            "available_relations": 258,
+            "minimum_available_points": 0,
+            "maximum_available_points": 4,
+            "mean_available_points": 2.9896907216494846
+          },
+          "feet": {
+            "available_relations": 190,
+            "minimum_available_points": 0,
+            "maximum_available_points": 2,
+            "mean_available_points": 1.1546391752577319
+          }
+        }
+      }
+    }
+  },
+  "complete_balanced_two_point_group_control": {
+    "definition": "six disjoint groups with exactly two identical visible joint IDs per side",
+    "eligible_relations": 81,
+    "eligible_source_images": 57,
+    "paired_comparison": {
+      "eligible_images": 57,
+      "eligible_relations": 81,
+      "metric": "fractional credit among tied nearest groups",
+      "metrics": {
+        "fractional": {
+          "ground_truth_score_sum": 38.7,
+          "predicted_score_sum": 38.516666666666666,
+          "ground_truth_rate": 0.4777777777777778,
+          "predicted_rate": 0.47551440329218103,
+          "predicted_minus_ground_truth_rate": -0.0022633744855967545,
+          "paired_difference_ci95": [
+            -0.02207818286131543,
+            0.01646096808190307
+          ],
+          "ground_truth_only_positive_count": 1,
+          "predicted_only_positive_count": 0
+        },
+        "inclusive": {
+          "ground_truth_score_sum": 67.0,
+          "predicted_score_sum": 66.0,
+          "ground_truth_rate": 0.8271604938271605,
+          "predicted_rate": 0.8148148148148148,
+          "predicted_minus_ground_truth_rate": -0.012345679012345678,
+          "paired_difference_ci95": [
+            -0.0410958904109589,
+            0.0
+          ],
+          "ground_truth_only_positive_count": 1,
+          "predicted_only_positive_count": 0
+        },
+        "unique": {
+          "ground_truth_score_sum": 28.0,
+          "predicted_score_sum": 28.0,
+          "ground_truth_rate": 0.345679012345679,
+          "predicted_rate": 0.345679012345679,
+          "predicted_minus_ground_truth_rate": 0.0,
+          "paired_difference_ci95": [
+            -0.03751186708860759,
+            0.037037037037037035
+          ],
+          "ground_truth_only_positive_count": 1,
+          "predicted_only_positive_count": 1
+        }
+      },
+      "ground_truth_keypoint_nearest_score_sum": 38.7,
+      "ground_truth_keypoint_nearest_rate": 0.4777777777777778,
+      "ground_truth_routed_group_available_count": 81,
+      "ground_truth_routed_group_available_rate": 1.0,
+      "predicted_keypoint_nearest_score_sum": 38.516666666666666,
+      "predicted_keypoint_nearest_rate": 0.47551440329218103,
+      "predicted_routed_group_available_count": 81,
+      "predicted_routed_group_available_rate": 1.0,
+      "predicted_minus_ground_truth_rate": -0.0022633744855967545,
+      "paired_difference_ci95": [
+        -0.02207818286131543,
+        0.01646096808190307
+      ],
+      "bootstrap_unit": "source image",
+      "bootstrap_repetitions": 2000
+    },
+    "shuffled_route_baseline": {
+      "eligible_relations": 81,
+      "observed_predicate_routed_group_nearest_rate": 0.47777777777777775,
+      "shuffled_route_mean": 0.1656388888888889,
+      "shuffled_route_ci95": [
+        0.05616769547325104,
+        0.37409465020576127
+      ],
+      "upper_tail_probability": 0.0009995002498750624,
+      "metric": "fractional credit over all groups tied at the shortest distance",
+      "metrics": {
+        "fractional": {
+          "observed": 0.47777777777777775,
+          "uniform_predicate_route_mean": 0.1656388888888889,
+          "uniform_predicate_route_ci95": [
+            0.05616769547325104,
+            0.37409465020576127
+          ],
+          "uniform_route_upper_tail_probability": 0.0009995002498750624,
+          "route_marginal_preserving_mean": 0.2397206790123457,
+          "route_marginal_preserving_ci95": [
+            0.07037037037037039,
+            0.48395061728395056
+          ],
+          "marginal_preserving_upper_tail_probability": 0.04097951024487756
+        },
+        "inclusive": {
+          "observed": 0.8271604938271605,
+          "uniform_predicate_route_mean": 0.44892592592592584,
+          "uniform_predicate_route_ci95": [
+            0.2839506172839506,
+            0.691666666666665
+          ],
+          "uniform_route_upper_tail_probability": 0.0009995002498750624,
+          "route_marginal_preserving_mean": 0.5443518518518519,
+          "route_marginal_preserving_ci95": [
+            0.345679012345679,
+            0.8271604938271605
+          ],
+          "marginal_preserving_upper_tail_probability": 0.02798600699650175
+        },
+        "unique": {
+          "observed": 0.345679012345679,
+          "uniform_predicate_route_mean": 0.07956172839506172,
+          "uniform_predicate_route_ci95": [
+            0.0,
+            0.25925925925925924
+          ],
+          "uniform_route_upper_tail_probability": 0.004997501249375313,
+          "route_marginal_preserving_mean": 0.14360493827160492,
+          "route_marginal_preserving_ci95": [
+            0.0,
+            0.35802469135802467
+          ],
+          "marginal_preserving_upper_tail_probability": 0.07096451774112944
+        }
+      },
+      "permutation_repetitions": 2000,
+      "null_definition": "One random keypoint-group assignment per predicate, shared by all its relations; groups sampled uniformly.",
+      "interpretation_limit": "Both nulls are descriptive only. The second preserves route-group counts across predicate mappings, not relation-frequency weighted counts. Group point counts and visibility are controlled only in the complete two-point-group comparison."
+    },
+    "availability": {
+      "routed": {
+        "relations_with_any_group": 81,
+        "nearest_tie_count": 42,
+        "mean_available_groups": 6.0,
+        "per_group": {
+          "hands": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "forearms": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "shoulders": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "hips": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "legs": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "feet": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          }
+        }
+      },
+      "predicted_routed": {
+        "relations_with_any_group": 81,
+        "nearest_tie_count": 41,
+        "mean_available_groups": 6.0,
+        "per_group": {
+          "hands": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "forearms": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "shoulders": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "hips": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "legs": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          },
+          "feet": {
+            "available_relations": 81,
+            "minimum_available_points": 2,
+            "maximum_available_points": 2,
+            "mean_available_points": 2.0
+          }
+        }
+      }
+    }
+  },
+  "availability_and_ties": {
+    "routed": {
+      "relations_with_any_group": 295,
+      "nearest_tie_count": 202,
+      "mean_available_groups": 5.149152542372882,
+      "per_group": {
+        "hands": {
+          "available_relations": 254,
+          "minimum_available_points": 0,
+          "maximum_available_points": 2,
+          "mean_available_points": 1.404040404040404
+        },
+        "forearms": {
+          "available_relations": 280,
+          "minimum_available_points": 0,
+          "maximum_available_points": 4,
+          "mean_available_points": 2.909090909090909
+        },
+        "shoulders": {
+          "available_relations": 279,
+          "minimum_available_points": 0,
+          "maximum_available_points": 2,
+          "mean_available_points": 1.7777777777777777
+        },
+        "hips": {
+          "available_relations": 252,
+          "minimum_available_points": 0,
+          "maximum_available_points": 2,
+          "mean_available_points": 1.5925925925925926
+        },
+        "legs": {
+          "available_relations": 260,
+          "minimum_available_points": 0,
+          "maximum_available_points": 4,
+          "mean_available_points": 2.9764309764309766
+        },
+        "feet": {
+          "available_relations": 194,
+          "minimum_available_points": 0,
+          "maximum_available_points": 2,
+          "mean_available_points": 1.1582491582491583
+        }
+      }
+    },
+    "predicted_routed": {
+      "relations_with_any_group": 293,
+      "nearest_tie_count": 210,
+      "mean_available_groups": 5.631399317406143,
+      "per_group": {
+        "hands": {
+          "available_relations": 287,
+          "minimum_available_points": 0,
+          "maximum_available_points": 2,
+          "mean_available_points": 1.8148148148148149
+        },
+        "forearms": {
+          "available_relations": 289,
+          "minimum_available_points": 0,
+          "maximum_available_points": 4,
+          "mean_available_points": 3.653198653198653
+        },
+        "shoulders": {
+          "available_relations": 285,
+          "minimum_available_points": 0,
+          "maximum_available_points": 2,
+          "mean_available_points": 1.898989898989899
+        },
+        "hips": {
+          "available_relations": 277,
+          "minimum_available_points": 0,
+          "maximum_available_points": 2,
+          "mean_available_points": 1.8417508417508417
+        },
+        "legs": {
+          "available_relations": 283,
+          "minimum_available_points": 0,
+          "maximum_available_points": 4,
+          "mean_available_points": 3.505050505050505
+        },
+        "feet": {
+          "available_relations": 229,
+          "minimum_available_points": 0,
+          "maximum_available_points": 2,
+          "mean_available_points": 1.4545454545454546
+        }
+      }
+    }
+  },
+  "metric_protocol": {
+    "primary": "fractional credit: 1/k when the routed group is in k tied nearest groups; 0 otherwise",
+    "secondary_inclusive": "binary credit if routed group is among all tied minima",
+    "secondary_unique": "binary credit only if routed group is the unique nearest group",
+    "rank": "competition rank 1 + number of strictly closer available groups; tied minima all rank one",
+    "tie_absolute_tolerance_object_diagonals": 1e-10,
+    "ground_truth_visibility": "COCO keypoint v=2",
+    "prediction_availability": "keypoints_scores >= fixed threshold; keypoints third dimension retains visibility",
+    "random_null": "same fractional/inclusive/unique definitions and same eligible relations as observed",
+    "verified_on_actual_relations": "group order invariant; score bounds; nearest credits sum to one; rank-one equals inclusive minimum; aggregate/per-predicate scores agree"
+  },
+  "interpretation": "Descriptive keypoint-to-box proximity proxies only; COCO labels are an oracle-like geometry reference and model outputs are predictions. Neither is contact truth, an independent human audit, or a validated relation verifier."
+}

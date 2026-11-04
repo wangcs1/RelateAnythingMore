@@ -1,0 +1,94 @@
+{
+  "fit": {
+    "a": 0.8564049823965689,
+    "b": -5.60572147646638,
+    "train_candidate_rows": 6662,
+    "train_positive_rows": 132,
+    "train_proxy_prevalence": 0.01981386970879616,
+    "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "train_unique_source_identities": 299,
+    "train_record_images": 300,
+    "duplicate_identity_candidate_rows_removed": 50,
+    "duplicate_identity_match_labels_merged": true
+  },
+  "official": {
+    "a": 0.5651,
+    "b": -1.9623,
+    "score": "sigmoid(a*(pred_logit+pair_logit)+b)",
+    "fit_on": "runs/packed/haystack test, 23,160 ADJUDICATED cells (2,857 pos / 20,303 explicit neg), 2-fold CV reported",
+    "means": "P(a human adjudicator calls this relation true). This is the deployment question and the analog of how a detector is calibrated against exhaustively-labelled COCO negatives.",
+    "ece_raw": 0.158,
+    "ece_out_of_fold": [
+      0.0096,
+      0.0138
+    ],
+    "auc_out_of_fold": [
+      0.9041,
+      0.9091
+    ],
+    "provenance": {
+      "checkpoint": "runs/train/relsgg-vits16plus/checkpoint_last.pth",
+      "weights": "ema",
+      "eval_budget": 992,
+      "produced_by": "deploy/fit_calibration.py",
+      "git": "e9ea42a",
+      "utc": "2026-08-27T01:26:52+00:00"
+    }
+  },
+  "split_metrics": {
+    "train": {
+      "record_images": 300,
+      "unique_source_images": 299,
+      "images": 299,
+      "record_candidate_rows": 6712,
+      "candidate_rows": 6662,
+      "positive_annotation_match_proxy_rows": 132,
+      "proxy_prevalence": 0.01981386970879616
+    },
+    "validation": {
+      "record_images": 100,
+      "unique_source_images": 100,
+      "images": 100,
+      "record_candidate_rows": 2376,
+      "candidate_rows": 2376,
+      "positive_annotation_match_proxy_rows": 41,
+      "proxy_prevalence": 0.017255892255892257
+    },
+    "test": {
+      "record_images": 100,
+      "unique_source_images": 100,
+      "images": 100,
+      "record_candidate_rows": 1736,
+      "candidate_rows": 1736,
+      "positive_annotation_match_proxy_rows": 52,
+      "proxy_prevalence": 0.029953917050691243,
+      "raw_sigmoid": {
+        "ECE_annotation_match_proxy": 0.6082169180088602,
+        "Brier_annotation_match_proxy": 0.49033155354582214,
+        "calibration_slope": 1.0,
+        "calibration_intercept": 0.0
+      },
+      "official": {
+        "ECE_annotation_match_proxy": 0.2146116282077413,
+        "Brier_annotation_match_proxy": 0.08976531498445803,
+        "calibration_slope": 0.5651,
+        "calibration_intercept": -1.9623
+      },
+      "local_platt": {
+        "ECE_annotation_match_proxy": 0.005203194572047176,
+        "Brier_annotation_match_proxy": 0.025200831014246708,
+        "calibration_slope": 0.8564049823965689,
+        "calibration_intercept": -5.60572147646638
+      },
+      "train_prevalence": {
+        "ECE_annotation_match_proxy": 0.010140047341895077,
+        "Brier_annotation_match_proxy": 0.029159500464107427,
+        "calibration_slope": 0.0,
+        "calibration_intercept": -3.901360299684106
+      },
+      "official_vs_local_ranking_identical": true,
+      "official_calibration_provenance": "runs/packed/haystack test, 23,160 ADJUDICATED cells (2,857 pos / 20,303 explicit neg), 2-fold CV reported",
+      "target_interpretation": "PSG annotation-match proxy; unmatched predictions are unknown with respect to visual truth."
+    }
+  }
+}

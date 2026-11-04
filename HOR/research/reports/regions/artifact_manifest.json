@@ -1,0 +1,316 @@
+{
+  "study": "A_thing_stuff_region_comparison",
+  "created_utc_or_local": "2026-11-04T22:27:50.642511+08:00",
+  "500_image_run_seconds": 131.42163560003974,
+  "panoptic_region_protocol": {
+    "definition": "unfused query regions; multiple regions of one stuff class are retained",
+    "label_ids_to_fuse_argument_provided": false,
+    "effective_fusion_label_ids": [],
+    "audit_report": "mask2former_loading_and_postprocessing_audit.md"
+  },
+  "runtime_evidence": {
+    "main_seconds": 131.42163560003974,
+    "profile_seconds": 120.38134790002368,
+    "detection_seconds": 49.679930298822,
+    "relation_pipeline_seconds": 68.76383219170384,
+    "generated_report": "runtime_evidence.md"
+  },
+  "artifacts": {
+    "HOR\\research\\configs\\region_study.json": {
+      "bytes": 2709,
+      "sha256": "f0856a721053cef802672f2628f0f4038abaa6284342013a4ebd79e7f012fcf1"
+    },
+    "HOR\\research\\scripts\\region_study.py": {
+      "bytes": 31159,
+      "sha256": "230f7ae621226ddd9c5f4a12c76ad99cec0441959b3b5c5c1e53150dbe68088b"
+    },
+    "HOR\\research\\scripts\\analyze_region_study.py": {
+      "bytes": 62687,
+      "sha256": "8917264330630f0ad233f5983ed10e55c98a1a0c07c4be78a85758aec012c301"
+    },
+    "HOR\\research\\scripts\\profile_region_study.py": {
+      "bytes": 8632,
+      "sha256": "73fbd4eae89ab77c879de96bcfa492b0be66c2541735dfbd17ea33c945dcd2a7"
+    },
+    "HOR\\research\\scripts\\audit_mask2former.py": {
+      "bytes": 22618,
+      "sha256": "acd845d6bf1d6c0ffc647740d9eed1c1b53e4fbd8bdac28feb4f8634b1e7de6a"
+    },
+    "HOR\\pipeline.py": {
+      "bytes": 12053,
+      "sha256": "d24cec3bc7259ec0b98a82fb66e20a42015b6e07d11b0a5de02d7f986c7d9f90"
+    },
+    "HOR\\config.json": {
+      "bytes": 854,
+      "sha256": "ada85c1f10e7c040fd9e643fbc6fede5e6b352ae48e1198cce709520bdf369b5"
+    },
+    "HOR\\evaluation.py": {
+      "bytes": 8763,
+      "sha256": "a07cc97bc1d29b098376abc06387689c92317f7ed1ef22abc98789ec8d206961"
+    },
+    "HOR\\run_500.py": {
+      "bytes": 7625,
+      "sha256": "114b8b32ed390cdb3d97ebeb1a89fe79f95432b279ac6d3b355b9ed92e5dd086"
+    },
+    "RelateAnything\\relsgg\\checkpoint.py": {
+      "bytes": 4301,
+      "sha256": "ba8a7428028a7ab848bc8cbfa9149ea67af331e8f93a8200386b8b2e56125363"
+    },
+    "RelateAnything\\relsgg\\config.py": {
+      "bytes": 4009,
+      "sha256": "262e4e5adc9cdbdf4ec8975a062073267618a8624cc764613857464e8f1bad2c"
+    },
+    "RelateAnything\\relsgg\\scoring.py": {
+      "bytes": 4518,
+      "sha256": "2d45e3564deb4ee394eee66c6cf77b774d252a8c1fb98d6ca7b568da7d7838dd"
+    },
+    "RelateAnything\\relsgg\\model\\relsgg.py": {
+      "bytes": 24350,
+      "sha256": "6058674791628bc78e58d65cddd52bb49c42ceddd2d61e2aa060d267711a89b1"
+    },
+    "RelateAnything\\relsgg\\model\\backbone.py": {
+      "bytes": 5895,
+      "sha256": "6d4d2b7283522838a85f40847db288978efe1aae6d6b9fd4bd3e6e1daa17c6e6"
+    },
+    "RelateAnything\\relsgg\\model\\deformable.py": {
+      "bytes": 5696,
+      "sha256": "5cbf8112ec56b4771bbe6448f73552b6d90cd03cb59a56ed8993797c19b5f78b"
+    },
+    "RelateAnything\\relsgg\\model\\geometry.py": {
+      "bytes": 9006,
+      "sha256": "b4b2e8bda3bb2a67537f17a016c28f5593ad1366a181b61f7dd99713eeca2d3c"
+    },
+    "RelateAnything\\relsgg\\model\\pooling.py": {
+      "bytes": 3729,
+      "sha256": "77b0ca7f83255acb3be8e36da17a87921e4ad5f205f7fe18299140a31db52ed1"
+    },
+    "RelateAnything\\relsgg\\model\\sampler.py": {
+      "bytes": 9048,
+      "sha256": "1499b6edaed0ff46e898694978b4a3377b632e47820b3a31ca7e04e83bc0060b"
+    },
+    "RelateAnything\\relsgg\\model\\transformer.py": {
+      "bytes": 6150,
+      "sha256": "560db7506854aa9f8decdb691379b5b05ac9e8e07b4b9908a4906bbef9bb1de4"
+    },
+    "RelateAnything\\relsgg\\model\\vocab_head.py": {
+      "bytes": 5787,
+      "sha256": "a3c8f87cf1f03c4803f7fbaa40418a007e6757f7fd573081b678a1071686f0b2"
+    },
+    "RelateAnything\\relsgg\\text\\student.py": {
+      "bytes": 8648,
+      "sha256": "2f4a3be5a986207a3e36b789a991c2fc5e3afa000de78fd994e6ddc62baf3e16"
+    },
+    "RelateAnything\\relsgg\\vocabulary.py": {
+      "bytes": 1224,
+      "sha256": "c36ebf5e9fb5919fa09ceb7dc93f78754d635f67696af1033f983cad46d71e57"
+    },
+    "HOR\\output\\random500\\sample_manifest.json": {
+      "bytes": 16527,
+      "sha256": "51e9fb8abef887bd1fed06f55fbd350b92072320eb971e87bb456c3e2dfb6356"
+    },
+    "HOR\\output\\random500\\predictions.jsonl": {
+      "bytes": 109693385,
+      "sha256": "3075b6e6b48170573425805cabbeef9297ebaf25b5ce893e9cdf4121fcdb0274"
+    },
+    "HOR\\output\\random500\\evaluation.json": {
+      "bytes": 4955032,
+      "sha256": "d6c2b7910f364aba78c026e88aeef69cfe54849c8167ffff2a959bea9380f72a"
+    },
+    "HOR\\output\\random500\\runtime.json": {
+      "bytes": 1901,
+      "sha256": "1440d22e22a4701187e325bc5942fdeadb5c85e95747ae57869efb9b6cb11da8"
+    },
+    "data\\PSG\\packed\\psg\\test\\meta.json": {
+      "bytes": 6169,
+      "sha256": "49549888829e6d4ea7ea0b1151f9e281ee8f2b254c5f404b78479265bcb6d216"
+    },
+    "HOR\\research\\reports\\decoder\\evidence\\calibration_image_splits.json": {
+      "bytes": 177476,
+      "sha256": "bdf6c24782703c035661e792cb993c2df301bcb09f2d7d00f7e274028603b4de"
+    },
+    "HOR\\research\\data\\visual_genome_metadata\\image_data.json": {
+      "bytes": 17612822,
+      "sha256": "93d0053d7e8f451497646fa513e8fb9b1a889df6e757010b88e51e2e21803487"
+    },
+    "HOR\\research\\data\\coco_annotations\\annotations\\person_keypoints_val2017.json": {
+      "bytes": 10020657,
+      "sha256": "788e2dae83c86bd547be7fab269d6399df5671063d29a61360cdb2cc370d2b14"
+    },
+    "models\\relsgg-vits16plus\\model.pth": {
+      "bytes": 257111219,
+      "sha256": "5d281bf0d89f2bbfd72ff5a14f9a40ce12534e790b0402e2ca970539c7bcc294"
+    },
+    "models\\relsgg-vits16plus\\text_student.pt": {
+      "bytes": 44968057,
+      "sha256": "e0317830b68ea51e6711fc90d4a35954d0528e5bd78a8d5afd966601ce4ed119"
+    },
+    "HOR\\research\\models\\mask2former-swin-tiny-coco-panoptic\\config.json": {
+      "bytes": 82185,
+      "sha256": "c638e5e4aeada33f37287509785306277cb6b60998cdd9dd13e9df7f0aa90055"
+    },
+    "HOR\\research\\models\\mask2former-swin-tiny-coco-panoptic\\preprocessor_config.json": {
+      "bytes": 538,
+      "sha256": "c25764d27c09d4cd2dcb0100f54221c00c7169446425cc70b2b40481157c3e5c"
+    },
+    "HOR\\research\\models\\mask2former-swin-tiny-coco-panoptic\\model.safetensors": {
+      "bytes": 190052872,
+      "sha256": "8e154c4f946f4fad9aa511a7d706c89c4254cc6eee28fd932e52c32394c5a29f"
+    },
+    "HOR\\research\\output\\regions\\run_config.json": {
+      "bytes": 4011,
+      "sha256": "f28a749d748bce03cc33e01ce32f590c832d24d85715ad7ca64070a15c4131ea"
+    },
+    "HOR\\research\\output\\regions\\run_summary.json": {
+      "bytes": 2921,
+      "sha256": "76532c1831aa9a97fd7da14255ba4caa701d52b4ea05185cd5bd2760a50e7322"
+    },
+    "HOR\\research\\output\\regions\\runtime.json": {
+      "bytes": 4997,
+      "sha256": "8fac246a06d5c7c627201ef562b0c9b7bc71e56a41e1259d5cd3530d3fffb28a"
+    },
+    "HOR\\research\\output\\regions\\compute_profile.json": {
+      "bytes": 5057,
+      "sha256": "a600c711b9ddebf28011bfa7d22177ee7941a3584ea902d4f2f5a7c2c83ed006"
+    },
+    "HOR\\research\\output\\regions\\visualization_manifest.json": {
+      "bytes": 443,
+      "sha256": "ec726b4696e409a5a56e01b7dcb36b780ad5aaa4c911cee652bc69dd5c01a294"
+    },
+    "HOR\\research\\output\\regions\\region_predictions.jsonl": {
+      "bytes": 112850202,
+      "sha256": "b2833c91f7d0314a944f843ed9cff25417e1f0c387122c90e427200cac10483e"
+    },
+    "HOR\\research\\output\\regions\\mask2former_candidates.jsonl": {
+      "bytes": 1457005,
+      "sha256": "f39993392b34899d46eb452d0be0f1dc6922f85ca196da2267f489659b43ce07"
+    },
+    "HOR\\research\\output\\regions\\evaluation.json": {
+      "bytes": 5682802,
+      "sha256": "41d04b2ce8bf96628bc24770c32d4e23aa4f33774f5ccd84c8cabc3fd4799215"
+    },
+    "HOR\\research\\output\\regions\\recovery_loss.json": {
+      "bytes": 174474,
+      "sha256": "c8ea17a95c90feaa0aa162831c6b75f13dc918c25200289716969f3fdb300371"
+    },
+    "HOR\\research\\reports\\regions\\endpoint_audit.json": {
+      "bytes": 6888,
+      "sha256": "64f27773dd40b1ce3b3cc8100663d05119bcd59e058f88dfac264bd28a321f00"
+    },
+    "HOR\\research\\reports\\regions\\bootstrap_intervals.json": {
+      "bytes": 3950,
+      "sha256": "76e5f2620b67306c594cb7ff3a619ab3bab4392abcb9b169727680a8ac1d6bc3"
+    },
+    "HOR\\research\\reports\\regions\\source_identity_audit.json": {
+      "bytes": 190580,
+      "sha256": "79904f0cd29d0a32942261db11eeb41d7be9d990db58eb1155e37cc9897dffbe"
+    },
+    "HOR\\research\\reports\\regions\\baseline_difference_audit.json": {
+      "bytes": 592842,
+      "sha256": "05ea368e40025340523de1f4a492ad628cbb91b418b53690a09d69f37e170265"
+    },
+    "HOR\\research\\reports\\regions\\rights_metadata.json": {
+      "bytes": 3261,
+      "sha256": "27c0a201f595b7eabe22b801245d884b17013611fc564da4f53b757e9f4082ce"
+    },
+    "HOR\\research\\reports\\regions\\recovery_loss_cases.json": {
+      "bytes": 2236621,
+      "sha256": "4f5a27e81e3365728159f94f9b181d74e83ef2c40fc5ff3238f085cc53840c8e"
+    },
+    "HOR\\research\\reports\\regions\\recovery_loss_cases.md": {
+      "bytes": 84938,
+      "sha256": "cd57d31c637fc24008698f0cbda2746e09a456f663cd2dd3cb99e4a08d6c335a"
+    },
+    "HOR\\research\\reports\\regions\\recovery_mechanism_counts.json": {
+      "bytes": 1478,
+      "sha256": "d2e02d002d8aa2d8e2c2c1761adb959299cb38b49c95024042656ac1b83ae10b"
+    },
+    "HOR\\research\\reports\\regions\\failure_cases.json": {
+      "bytes": 4088926,
+      "sha256": "48271708cb46a7ce427757948ca7cbc28a22e315b740ea78e70fb37fcbdd11b4"
+    },
+    "HOR\\research\\reports\\regions\\failure_cases.md": {
+      "bytes": 420857,
+      "sha256": "0c7a1640757cfe105e24b9ed509bcb7937591919422f81c39fef271aadce6723"
+    },
+    "HOR\\research\\reports\\regions\\failure_stage_counts.json": {
+      "bytes": 886,
+      "sha256": "813dbeba2a8cafe159fbf7ae308d4bf3ae3172070b806046692600cc8a916122"
+    },
+    "HOR\\research\\reports\\regions\\predicate_comparison.csv": {
+      "bytes": 4947,
+      "sha256": "3da3cc8519657bb6229f50252b15518e48f1eed40cbeb8882d94c0e52fdb463a"
+    },
+    "HOR\\research\\reports\\regions\\predicate_comparison.json": {
+      "bytes": 33801,
+      "sha256": "4165e877dc9beba81cb38bf51a0179948d8a225c18c8e7386403710f856e62d5"
+    },
+    "HOR\\research\\reports\\regions\\r50_mr50_comparison.png": {
+      "bytes": 90972,
+      "sha256": "f5c2f03ba8a71cd2609950f6df9bd135707d95941f2ec399b08fc8067ff0db80"
+    },
+    "HOR\\research\\reports\\regions\\failure_stage_counts.png": {
+      "bytes": 78093,
+      "sha256": "7124b9c3be4054bfc52b2047f93537c86c0e6642d4cf24d148adaa05e68618c1"
+    },
+    "HOR\\research\\reports\\regions\\stuff_endpoint_class_counts.png": {
+      "bytes": 68271,
+      "sha256": "d07a2e8388faaebed1f34a40b3e81b429a64239ee69de3a41b0ca16ece8757cd"
+    },
+    "HOR\\research\\reports\\regions\\mask2former_loading_and_postprocessing_audit.md": {
+      "bytes": 8108,
+      "sha256": "d5fc554430418d53962269b82e98816292d155daa1f1f1eadef1cdaeb13e6b4f"
+    },
+    "HOR\\research\\reports\\regions\\mask2former_loading_audit.json": {
+      "bytes": 83101,
+      "sha256": "ec3da5b083508122095cf3eb1be95d16004821501f6f7046b2def9cd960137de"
+    },
+    "HOR\\research\\reports\\regions\\runtime_evidence.md": {
+      "bytes": 4234,
+      "sha256": "b40731938fdd66f3c0fcfc1442b9e64e0ff6ba2728d213d27ec8f1e0c10c367d"
+    },
+    "HOR\\research\\reports\\regions\\evidence\\runtime.json": {
+      "bytes": 4997,
+      "sha256": "8fac246a06d5c7c627201ef562b0c9b7bc71e56a41e1259d5cd3530d3fffb28a"
+    },
+    "HOR\\research\\reports\\regions\\evidence\\compute_profile.json": {
+      "bytes": 5057,
+      "sha256": "a600c711b9ddebf28011bfa7d22177ee7941a3584ea902d4f2f5a7c2c83ed006"
+    },
+    "HOR\\research\\output\\regions\\visuals\\A_fasterrcnn_thing\\0295_objects.jpg": {
+      "bytes": 71035,
+      "sha256": "e0586273895945d0ad97eb6e62c8492448fa491984a486fcc1b6a61fbb4c39a1"
+    },
+    "HOR\\research\\output\\regions\\visuals\\B_mask2former_thing\\0295_objects.jpg": {
+      "bytes": 70528,
+      "sha256": "d1947c5d24f59f52a00ef09b293c65aec20f2296221939961bb2ef0baf835de1"
+    },
+    "HOR\\research\\output\\regions\\visuals\\C_fasterrcnn_thing_plus_stuff\\0295_objects.jpg": {
+      "bytes": 76044,
+      "sha256": "102cc45a064a1c97e158292369135b67e136d43e73f15d8eb2b0b2aaaa443810"
+    },
+    "HOR\\research\\output\\regions\\visuals\\D_mask2former_thing_plus_stuff\\0295_objects.jpg": {
+      "bytes": 75563,
+      "sha256": "0d3cd87833d560f7af4a6d484422cbe30629808fe62ac78ed2e98de9a50b1f8e"
+    },
+    "HOR\\research\\reports\\regions\\visuals\\A_fasterrcnn_thing\\0295_objects.jpg": {
+      "bytes": 71035,
+      "sha256": "e0586273895945d0ad97eb6e62c8492448fa491984a486fcc1b6a61fbb4c39a1"
+    },
+    "HOR\\research\\reports\\regions\\visuals\\B_mask2former_thing\\0295_objects.jpg": {
+      "bytes": 70528,
+      "sha256": "d1947c5d24f59f52a00ef09b293c65aec20f2296221939961bb2ef0baf835de1"
+    },
+    "HOR\\research\\reports\\regions\\visuals\\C_fasterrcnn_thing_plus_stuff\\0295_objects.jpg": {
+      "bytes": 76044,
+      "sha256": "102cc45a064a1c97e158292369135b67e136d43e73f15d8eb2b0b2aaaa443810"
+    },
+    "HOR\\research\\reports\\regions\\visuals\\D_mask2former_thing_plus_stuff\\0295_objects.jpg": {
+      "bytes": 75563,
+      "sha256": "0d3cd87833d560f7af4a6d484422cbe30629808fe62ac78ed2e98de9a50b1f8e"
+    },
+    "HOR\\research\\reports\\regions\\thing_stuff_region_study.md": {
+      "bytes": 23281,
+      "sha256": "e0ab70ec61d9ff84c68b0173304102b93d4217e82c7a63cfee8260770d167a5a"
+    }
+  }
+}

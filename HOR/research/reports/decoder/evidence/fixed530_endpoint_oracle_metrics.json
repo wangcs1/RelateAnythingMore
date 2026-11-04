@@ -1,0 +1,62 @@
+{
+  "subset_definition": "same 530 GT relations whose subject and object labels both occur in the historical detector vocabulary and whose endpoints both match same-class detections at IoU >= 0.5 with at least one distinct ordered detection pair",
+  "evaluation_role": "GT-box endpoint oracle diagnostic; not end-to-end evaluation",
+  "fixed_subset_GT": 530,
+  "images_with_fixed_subset_GT": 214,
+  "methods": {
+    "top1": {
+      "images_with_GT": 214,
+      "GT": 530,
+      "hits": 179,
+      "R@50_image_macro": 0.3742869280252458,
+      "mR@50_class_macro": 0.32738937396548123,
+      "pooled_R@50": 0.33773584905660375,
+      "predictions_under_budget": 8462
+    },
+    "top2": {
+      "images_with_GT": 214,
+      "GT": 530,
+      "hits": 263,
+      "R@50_image_macro": 0.5376355342476837,
+      "mR@50_class_macro": 0.4318670722459929,
+      "pooled_R@50": 0.4962264150943396,
+      "predictions_under_budget": 10154
+    },
+    "top3": {
+      "images_with_GT": 214,
+      "GT": 530,
+      "hits": 292,
+      "R@50_image_macro": 0.5935155965529798,
+      "mR@50_class_macro": 0.517793417813683,
+      "pooled_R@50": 0.5509433962264151,
+      "predictions_under_budget": 11034
+    },
+    "top5": {
+      "images_with_GT": 214,
+      "GT": 530,
+      "hits": 320,
+      "R@50_image_macro": 0.6438271230327306,
+      "mR@50_class_macro": 0.5835587424979864,
+      "pooled_R@50": 0.6037735849056604,
+      "predictions_under_budget": 12120
+    },
+    "dual": {
+      "images_with_GT": 214,
+      "GT": 530,
+      "hits": 223,
+      "R@50_image_macro": 0.45332311769227657,
+      "mR@50_class_macro": 0.37056661009455655,
+      "pooled_R@50": 0.4207547169811321,
+      "predictions_under_budget": 10154
+    },
+    "single": {
+      "images_with_GT": 214,
+      "GT": 530,
+      "hits": 179,
+      "R@50_image_macro": 0.3742869280252458,
+      "mR@50_class_macro": 0.32738937396548123,
+      "pooled_R@50": 0.33773584905660375,
+      "predictions_under_budget": 8462
+    }
+  }
+}

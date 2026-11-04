@@ -1,0 +1,36 @@
+{
+  "model": "torchvision Keypoint R-CNN ResNet-50 FPN COCO_V1",
+  "checkpoint_url": "https://download.pytorch.org/models/keypointrcnn_resnet50_fpn_coco-fc266e95.pth",
+  "checkpoint_sha256": "fc266e953d2b302cdcbb9ae66f71f6b0d4649928bf02dc573961e361e4918926",
+  "device": "cuda",
+  "images_in_sample": 500,
+  "images_in_coco_keypoint_eval": 499,
+  "duplicate_source_images_excluded_from_coco_eval": [
+    {
+      "vg_image_id": 1592560,
+      "coco_image_id": 404484,
+      "file_name": "1592560.jpg",
+      "excluded": true
+    }
+  ],
+  "gt_person_annotations": 1155,
+  "predicted_person_detections": 5291,
+  "inference_seconds": 31.755549994995818,
+  "elapsed_seconds": 34.87974060000852,
+  "mean_seconds_per_image": 0.06351109998999163,
+  "peak_torch_cuda_memory_bytes": 790910464,
+  "keypoint_confidence_threshold_for_part_proxy": 0.5,
+  "part_proxy_score_field": "keypoints_scores (raw heatmap peak scores; not calibrated probabilities)",
+  "metrics": {
+    "AP": 0.6607283127028053,
+    "AP50": 0.8806940054404916,
+    "AP75": 0.7289539931403889,
+    "AP_medium": 0.6360123220743125,
+    "AP_large": 0.717378903014532,
+    "AR": 0.7270049099836333,
+    "AR50": 0.9214402618657938,
+    "AR75": 0.7855973813420621,
+    "AR_medium": 0.6879032258064515,
+    "AR_large": 0.7878661087866109
+  }
+}

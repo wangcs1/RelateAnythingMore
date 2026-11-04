@@ -1,0 +1,132 @@
+{
+  "created": "2026-11-04T22:20:27.637411+08:00",
+  "images": 500,
+  "GPU": "NVIDIA GeForce RTX 5070 Ti",
+  "python": "3.12.11",
+  "torch": "2.13.0+cu130",
+  "transformers": "5.14.1",
+  "cuda_free_bytes_before_models": 15767437312,
+  "cuda_total_bytes": 17094475776,
+  "peak_GPU_allocated_GiB": 0.5625495910644531,
+  "weights_sha256": "8e154c4f946f4fad9aa511a7d706c89c4254cc6eee28fd932e52c32394c5a29f",
+  "input_sha256": {
+    "region_predictions": "b2833c91f7d0314a944f843ed9cff25417e1f0c387122c90e427200cac10483e",
+    "panoptic_candidates": "f39993392b34899d46eb452d0be0f1dc6922f85ca196da2267f489659b43ce07",
+    "fixed_manifest": "51e9fb8abef887bd1fed06f55fbd350b92072320eb971e87bb456c3e2dfb6356"
+  },
+  "timing_scope": "synchronized CUDA wall time for image preprocessing, model inference, and postprocessing",
+  "mask2former_panoptic_detection": {
+    "count": 500,
+    "total_seconds": 49.679930298822,
+    "mean_seconds": 0.099359860597644,
+    "median_seconds": 0.09551549993921071,
+    "p90_seconds": 0.11714404986705632,
+    "min_seconds": 0.0770935001783073,
+    "max_seconds": 0.53752850019373
+  },
+  "relation_group_times": {
+    "A_fasterrcnn_thing": {
+      "model_forward_images": 288,
+      "candidate_pair_total": 50294,
+      "forward_time": {
+        "count": 288,
+        "total_seconds": 18.80650399881415,
+        "mean_seconds": 0.06530036110699358,
+        "median_seconds": 0.06139589997474104,
+        "p90_seconds": 0.08608095003291966,
+        "min_seconds": 0.04762029997073114,
+        "max_seconds": 0.09872879995964468
+      },
+      "all_image_relation_pipeline_time": {
+        "count": 500,
+        "total_seconds": 18.839276398997754,
+        "mean_seconds": 0.03767855279799551,
+        "median_seconds": 0.05453510012011975,
+        "p90_seconds": 0.07790577006526292,
+        "min_seconds": 3.400002606213093e-05,
+        "max_seconds": 0.09872879995964468
+      },
+      "saved_top50_identity_match_images": 500
+    },
+    "B_mask2former_thing": {
+      "model_forward_images": 241,
+      "candidate_pair_total": 20888,
+      "forward_time": {
+        "count": 241,
+        "total_seconds": 15.215572798391804,
+        "mean_seconds": 0.06313515683980002,
+        "median_seconds": 0.05899549997411668,
+        "p90_seconds": 0.0792826998513192,
+        "min_seconds": 0.04662630008533597,
+        "max_seconds": 0.24615680007264018
+      },
+      "all_image_relation_pipeline_time": {
+        "count": 500,
+        "total_seconds": 15.225406997604296,
+        "mean_seconds": 0.030450813995208593,
+        "median_seconds": 0.00015440001152455807,
+        "p90_seconds": 0.07026546001434326,
+        "min_seconds": 8.09994526207447e-06,
+        "max_seconds": 0.24615680007264018
+      },
+      "saved_top50_identity_match_images": 500
+    },
+    "C_fasterrcnn_thing_plus_stuff": {
+      "model_forward_images": 288,
+      "candidate_pair_total": 63414,
+      "forward_time": {
+        "count": 288,
+        "total_seconds": 19.017414400354028,
+        "mean_seconds": 0.06603268889011815,
+        "median_seconds": 0.06237250007688999,
+        "p90_seconds": 0.08217235000338406,
+        "min_seconds": 0.047505700029432774,
+        "max_seconds": 0.102398999966681
+      },
+      "all_image_relation_pipeline_time": {
+        "count": 500,
+        "total_seconds": 19.02681839861907,
+        "mean_seconds": 0.03805363679723814,
+        "median_seconds": 0.0550941500114277,
+        "p90_seconds": 0.07883266999851914,
+        "min_seconds": 7.999828085303307e-06,
+        "max_seconds": 0.102398999966681
+      },
+      "saved_top50_identity_match_images": 500
+    },
+    "D_mask2former_thing_plus_stuff": {
+      "model_forward_images": 247,
+      "candidate_pair_total": 34176,
+      "forward_time": {
+        "count": 247,
+        "total_seconds": 15.660331896040589,
+        "mean_seconds": 0.06340215342526555,
+        "median_seconds": 0.05958290002308786,
+        "p90_seconds": 0.08158569997176529,
+        "min_seconds": 0.04872379987500608,
+        "max_seconds": 0.09373309998773038
+      },
+      "all_image_relation_pipeline_time": {
+        "count": 500,
+        "total_seconds": 15.672330396482721,
+        "mean_seconds": 0.03134466079296544,
+        "median_seconds": 0.00043114996515214443,
+        "p90_seconds": 0.07134602013975382,
+        "min_seconds": 6.9998204708099365e-06,
+        "max_seconds": 0.09373309998773038
+      },
+      "saved_top50_identity_match_images": 500
+    }
+  },
+  "total_profile_wall_seconds": 120.38134790002368,
+  "detector_topology_match_images": 500,
+  "detector_topology_and_box_match_images": 500,
+  "detector_max_abs_score_difference": 0.0,
+  "relation_top50_identity_match_counts": {
+    "A_fasterrcnn_thing": 500,
+    "B_mask2former_thing": 500,
+    "C_fasterrcnn_thing_plus_stuff": 500,
+    "D_mask2former_thing_plus_stuff": 500
+  },
+  "script_sha256": "73fbd4eae89ab77c879de96bcfa492b0be66c2541735dfbd17ea33c945dcd2a7"
+}

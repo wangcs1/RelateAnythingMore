@@ -1,0 +1,32 @@
+{
+  "input_predictions": "HOR/output/random500/predictions.jsonl",
+  "input_logits": "HOR/output/random500/logits",
+  "predicates_metadata": "data/PSG/packed/psg/test/meta.json",
+  "official_calibration": "models/relsgg-vits16plus/calibration.json",
+  "vg_identity_metadata": "HOR/research/data/visual_genome_metadata/image_data.json",
+  "output_directory": "HOR/research/output/decoder",
+  "report_directory": "HOR/research/reports/decoder",
+  "iou_threshold": 0.5,
+  "per_image_budget": 50,
+  "local_top_m": [1, 2, 3, 5],
+  "spatial_predicates": [
+    "over", "in front of", "beside", "on", "in", "attached to",
+    "hanging from", "painted on", "on back of", "leaning on", "enclosing"
+  ],
+  "split_seed": 20261104,
+  "split_sizes": {
+    "train": 300,
+    "validation": 100,
+    "test": 100
+  },
+  "unique_identity_split_sizes": {
+    "train": 299,
+    "validation": 100,
+    "test": 100
+  },
+  "fixed_train_coco_ids": [404484],
+  "calibration_bins": 15,
+  "selective_coverages": [0.9, 0.75, 0.5, 0.25],
+  "bootstrap_seed": 20261105,
+  "bootstrap_repetitions": 1000
+}

@@ -1,0 +1,81 @@
+{
+  "study": "A_thing_stuff_region_comparison",
+  "schema_version": 1,
+  "dataset": {
+    "name": "PSG test fixed random500",
+    "sample_manifest": "HOR/output/random500/sample_manifest.json",
+    "baseline_predictions": "HOR/output/random500/predictions.jsonl",
+    "image_directory": "data/PSG/images/test",
+    "seed": 20261025,
+    "expected_images": 500,
+    "expected_human_gt_relations": 968,
+    "expected_baseline_endpoint_valid_relations": 530,
+    "iou_threshold": 0.5
+  },
+  "detector": {
+    "repository": "facebook/mask2former-swin-tiny-coco-panoptic",
+    "revision": "df6b1142ff50c3276559d9d78f35f6a579c75a77",
+    "local_directory": "HOR/research/models/mask2former-swin-tiny-coco-panoptic",
+    "weights_file": "model.safetensors",
+    "weights_sha256": "8e154c4f946f4fad9aa511a7d706c89c4254cc6eee28fd932e52c32394c5a29f",
+    "score_threshold": 0.35,
+    "mask_threshold": 0.5,
+    "overlap_mask_area_threshold": 0.8,
+    "max_endpoints": 40,
+    "stuff_endpoint_reserve": 8,
+    "thing_class_count": 80,
+    "panoptic_class_count": 133,
+    "stuff_label_aliases": {
+      "door-stuff": "door",
+      "mirror-stuff": "mirror",
+      "water-other": "water",
+      "window-other": "window",
+      "tree-merged": "tree",
+      "fence-merged": "fence",
+      "ceiling-merged": "ceiling",
+      "sky-other-merged": "sky",
+      "cabinet-merged": "cabinet",
+      "table-merged": "table",
+      "floor-other-merged": "floor",
+      "pavement-merged": "pavement",
+      "mountain-merged": "mountain",
+      "grass-merged": "grass",
+      "dirt-merged": "dirt",
+      "paper-merged": "paper",
+      "food-other-merged": "food",
+      "building-other-merged": "building",
+      "rock-merged": "rock",
+      "wall-other-merged": "wall",
+      "rug-merged": "rug"
+    }
+  },
+  "relation_model": {
+    "candidate_pair_budget": 400,
+    "output_top_k": 50,
+    "ranking": "relations",
+    "inference_dtype": "CUDA autocast BF16"
+  },
+  "groups": {
+    "A_fasterrcnn_thing": {
+      "thing_source": "existing_HOR_FasterRCNN_predictions",
+      "stuff_source": null
+    },
+    "B_mask2former_thing": {
+      "thing_source": "Mask2Former_panoptic_instances",
+      "stuff_source": null
+    },
+    "C_fasterrcnn_thing_plus_stuff": {
+      "thing_source": "existing_HOR_FasterRCNN_predictions",
+      "stuff_source": "Mask2Former_panoptic_segments"
+    },
+    "D_mask2former_thing_plus_stuff": {
+      "thing_source": "Mask2Former_panoptic_instances",
+      "stuff_source": "Mask2Former_panoptic_segments"
+    }
+  },
+  "visualization": {
+    "positive_images": 12,
+    "selection": "first 12 human-relation-positive images in the fixed manifest order",
+    "metrics_use_visualization_selection": false
+  }
+}

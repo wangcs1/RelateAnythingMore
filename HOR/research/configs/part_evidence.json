@@ -1,0 +1,33 @@
+{
+  "input_predictions": "HOR/output/random500/predictions.jsonl",
+  "visual_genome_image_metadata": "HOR/research/data/visual_genome_metadata/image_data.json",
+  "predicted_keypoints": "HOR/research/output/parts/keypoint_predictions.jsonl",
+  "keypoint_confidence_threshold": 0.5,
+  "coco_keypoint_annotations": "HOR/research/data/coco_annotations/annotations",
+  "output_directory": "HOR/research/output/parts",
+  "report_directory": "HOR/research/reports/parts",
+  "iou_threshold": 0.5,
+  "max_aspect_ratio_error": 0.02,
+  "bootstrap_seed": 20261106,
+  "bootstrap_repetitions": 2000,
+  "proximity_thresholds_object_diagonals": [0.0, 0.05, 0.1, 0.2],
+  "keypoint_groups": {
+    "hands": [9, 10],
+    "forearms": [7, 8, 9, 10],
+    "shoulders": [5, 6],
+    "hips": [11, 12],
+    "legs": [11, 12, 13, 14],
+    "feet": [15, 16]
+  },
+  "predicate_part_routes": {
+    "holding": "hands",
+    "carrying": "hands",
+    "sitting on": "hips",
+    "riding": "hips",
+    "standing on": "feet",
+    "walking on": "feet",
+    "running on": "feet",
+    "kicking": "feet",
+    "leaning on": "forearms"
+  }
+}
